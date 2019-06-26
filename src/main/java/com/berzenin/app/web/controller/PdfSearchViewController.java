@@ -32,6 +32,7 @@ public class PdfSearchViewController {
 		if (bindingResult.hasErrors()) {
 			return "error";
 		}
+		service.getResult(requestFoPdfArguments); 
 		requestFoPdfArguments.toString();
 		return "searchFromPdf";		
 	}

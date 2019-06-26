@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.io.Writer;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Files;
@@ -31,26 +32,59 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class PdfParser {
 
-	public Path downloadFileFRomUrl (String path) {
+	public Path downloadFileFRomUrl(String path, String localPath, String pdfFileName) {
 		URL url = null;
 		Path filePdf = null;
+		filePdf = Paths.get(localPath + pdfFileName);
+		if (!this.checkRemoteFileForNewVersion(path, filePdf.toString())) {
+			System.out.println("false");
+			return filePdf;
+		}
 		try {
 			url = new URL(path);
-		} catch (MalformedURLException e1) {
-			e1.printStackTrace();
+		} catch (MalformedURLException e) {
+			log.error(e.getMessage());
+			e.printStackTrace();
 		}
 		try (InputStream in = url.openStream()) {
-			filePdf = Paths.get("..\\websitestillparser\\src\\main\\resources\\pdf_files\\working.pdf");
-		   Files.copy(in, filePdf, StandardCopyOption.REPLACE_EXISTING);
+			Files.copy(in, filePdf, StandardCopyOption.REPLACE_EXISTING);
 		} catch (IOException e) {
-		   e.printStackTrace();
+			log.error(e.getMessage());
+			e.printStackTrace();
 		}
 		return filePdf;
 	}
 
+	public boolean checkRemoteFileForNewVersion(String remotePath, String localPath) {
+		try {
+			if (this.getFileSize(new URL(remotePath))!=Paths.get(localPath).toFile().length()) {
+				return true;
+			}
+		} catch (MalformedURLException e) {
+			log.error(e.getMessage());
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	public long getFileSize(URL url) {
+		  HttpURLConnection conn = null;
+		  try {
+		    conn = (HttpURLConnection) url.openConnection();
+		    conn.setRequestMethod("HEAD");
+		    return conn.getContentLengthLong();
+		  } catch (IOException e) {
+		    throw new RuntimeException(e);
+		  } finally {
+		    if (conn != null) {
+		      conn.disconnect();
+		    }
+		  }
+		}
+
 	public void generateHTMLFromPDF(String htmlFile, String pdfFile) {
-		try  {
-			PDDocument pdf = PDDocument.load(new File(pdfFile)); 
+		try {
+			PDDocument pdf = PDDocument.load(new File(pdfFile));
 			Writer output = new PrintWriter(htmlFile);
 			new PDFDomTree().writeText(pdf, output);
 			output.close();
@@ -63,7 +97,7 @@ public class PdfParser {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public void generateTxtFromPDF(String txtFile, String pdfFile) {
 		try {
 			File f = new File(pdfFile);
@@ -82,8 +116,8 @@ public class PdfParser {
 			e.printStackTrace();
 		}
 	}
-	
-	public List<ResultLine> setListWithSearchWords(String txtFile, String... args) {
+
+	public List<ResultLine> setListWithSearchWords(String host, String txtFile, String... args) {
 		List<String> lines = null;
 		List<ResultLine> result = new ArrayList<>();
 		try {
@@ -96,10 +130,9 @@ public class PdfParser {
 					}
 				}
 				if (amountEquals>0) {
-					result.add(new ResultLine(amountEquals, line));
+					result.add(new ResultLine(host, amountEquals, line));
 				}
 			}
-			result.forEach(System.out::println);
 		} catch (IOException e) {
 			log.error(e.getMessage());
 			e.printStackTrace();

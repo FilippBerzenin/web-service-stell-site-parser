@@ -1,4 +1,4 @@
-package com.berzenin.app.parsers.www.remystahl.de;
+package com.berzenin.app.model;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -9,11 +9,14 @@ import lombok.ToString;
 @ToString
 public class ResultLine {
 	
-	public ResultLine(int countEquals, String line) {
+	private String host;
+	private int countEquals;
+	private String line;
+		
+	public ResultLine(String host, int countEquals, String line) {
+		this.host = host;
 		this.countEquals = countEquals;
 		this.line = line;
 	}
-	private int countEquals;
-	private String line;
 
 }

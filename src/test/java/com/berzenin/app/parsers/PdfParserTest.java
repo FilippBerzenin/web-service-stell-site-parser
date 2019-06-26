@@ -1,54 +1,68 @@
 package com.berzenin.app.parsers;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.file.Paths;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-import com.berzenin.app.parsers.www.remystahl.de.PdfParserRemystahl;
-
 class PdfParserTest {
 	
-	private PdfParserRemystahl pars;
+	private PdfParser pars;
+	private String localPath;
+	private String path;
+	private String pdfFileName;
 	
 	@BeforeEach
 	public void setParametrs () {
-		pars  = new PdfParserRemystahl();
+		pars  = new PdfParser();
+		localPath = "..\\websitestillparser\\src\\main\\resources\\www.remystahl.de\\";
+		pdfFileName = "Lieferprogramm_Remystahl.pdf";
+		path = "https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf";
 	}
 	
-	@Disabled
 	@Test
 	public void downloadFileFRomUrlTest () {
-		PdfParserRemystahl pars  = new PdfParserRemystahl();
-		String path = "https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf";
-		
-		assertEquals(Paths.get("..\\websitestillparser\\src\\main\\resources\\pdf_files\\working.pdf"), pars.downloadFileFRomUrl(path));
+		assertEquals(Paths.get(localPath+pdfFileName), pars.downloadFileFRomUrl(path, localPath, pdfFileName));
 	}
 	
-	@Disabled
 	@Test
 	public void convertPdfForExcelTest () {
-		String pdf = "..\\websitestillparser\\src\\main\\resources\\pdf_files\\working.pdf";
-		String html = "..\\websitestillparser\\src\\main\\resources\\pdf_files\\pdf.html";
+		String pdf = localPath+pdfFileName;
+		String html = localPath+"pdf.html";
 		pars.generateHTMLFromPDF(html, pdf);
 	}
 	
-	@Disabled
 	@Test
 	public void generateTxtFromPDFTest () {
-		String pdf = "..\\websitestillparser\\src\\main\\resources\\pdf_files\\working.pdf";
-		String text = "..\\websitestillparser\\src\\main\\resources\\pdf_files\\text.txt";
+		String pdf = localPath+pdfFileName;
+		String text = localPath+"text.txt";
 		pars.generateTxtFromPDF(text, pdf);
 	}
 	
 	@Test
 	public void setListWithSearchWordsTest() {
-		String text = "..\\websitestillparser\\src\\main\\resources\\pdf_files\\text.txt";
+		String text = localPath+"text.txt";
 		String [] srs = {"1.3401", "rund"};
-		pars.setListWithSearchWords(text, srs);
+		pars.setListWithSearchWords("test", text, srs);
+	}
+	
+	@Test
+	public void checkRemoteFileForNewVersionTest () {
+		assertFalse(pars.checkRemoteFileForNewVersion(path, localPath+pdfFileName));
+
+	}
+	
+	@Disabled
+	@Test
+	public void getFileSizeTest () throws MalformedURLException {
+		URL url = new URL (path);
+		assertEquals(Paths.get(localPath).toFile().length(), pars.getFileSize(url));
 	}
 	
 
