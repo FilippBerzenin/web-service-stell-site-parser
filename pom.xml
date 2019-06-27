@@ -38,7 +38,6 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -79,14 +78,11 @@
 			<artifactId>pdfbox</artifactId>
 			<version>2.0.6</version>
 		</dependency>
-<dependency>
-    <groupId>net.sf.cssbox</groupId>
-    <artifactId>pdf2dom</artifactId>
-    <version>1.6</version>
-</dependency>
-
-
-
+		<dependency>
+			<groupId>net.sf.cssbox</groupId>
+			<artifactId>pdf2dom</artifactId>
+			<version>1.6</version>
+		</dependency>
 	</dependencies>
 
 	<build>

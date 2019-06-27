@@ -1,12 +1,16 @@
 package com.berzenin.app.web.dto;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class RequestFoPdfArguments {
 	
 	private String pathForLink;
 	
 	private String[] args;
+	
+	private String argument;
 
 }

@@ -35,12 +35,12 @@ public class PdfParserService {
 	private PdfParser parser;
 
 	public List<ResultLine> getResult(RequestFoPdfArguments argument) {
-		parser = new PdfParser();
 		this.setPathForFile(argument.getPathForLink());
 		this.setPdfFileName(argument.getPathForLink());
 		this.setTxtFileName(argument.getPathForLink());
-		parser.downloadFileFRomUrl(argument.getPathForLink(), path, pdfFileName);
-		parser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
+		if (parser.downloadFileFRomUrl(argument.getPathForLink(), path, pdfFileName)) {
+			parser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
+		}
 		List<ResultLine> result = parser.setListWithSearchWords(host, path + txtFileName, argument.getArgs());
 		result = result.stream().filter(s -> s.getCountEquals() > 1).collect(Collectors.toList());
 		result.forEach(System.out::println);

@@ -24,21 +24,23 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.fit.pdfdom.PDFDomTree;
+import org.springframework.stereotype.Service;
 
 import com.berzenin.app.model.ResultLine;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@Service
 public class PdfParser {
 
-	public Path downloadFileFRomUrl(String path, String localPath, String pdfFileName) {
+	public boolean downloadFileFRomUrl(String path, String localPath, String pdfFileName) {
 		URL url = null;
 		Path filePdf = null;
 		filePdf = Paths.get(localPath + pdfFileName);
 		if (!this.checkRemoteFileForNewVersion(path, filePdf.toString())) {
 			System.out.println("false");
-			return filePdf;
+			return false;
 		}
 		try {
 			url = new URL(path);
@@ -52,7 +54,7 @@ public class PdfParser {
 			log.error(e.getMessage());
 			e.printStackTrace();
 		}
-		return filePdf;
+		return true;
 	}
 
 	public boolean checkRemoteFileForNewVersion(String remotePath, String localPath) {

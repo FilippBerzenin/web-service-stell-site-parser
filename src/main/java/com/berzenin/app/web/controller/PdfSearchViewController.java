@@ -1,5 +1,7 @@
 package com.berzenin.app.web.controller;
 
+import java.util.List;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,32 +11,41 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.berzenin.app.model.ResultLine;
 import com.berzenin.app.service.PdfParserService;
 import com.berzenin.app.web.dto.RequestFoPdfArguments;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Controller
-@RequestMapping(value = "/searchFromPdf")
 public class PdfSearchViewController {
 	
 	@Autowired
 	private PdfParserService service;
 	
-	@RequestMapping(method = RequestMethod.GET)
+	private List<ResultLine> result;
+	
+	@RequestMapping(value = "/searchPdf", method = RequestMethod.GET)
 	public String add(Model model) {
 		model.addAttribute("atributeForPdf", new RequestFoPdfArguments());
-		return "searchFromPdf";
+		return "searchPdf";
 	}
 	
+	@RequestMapping(value = "/searchPdf", method = RequestMethod.POST)
 	public String searchAdd (
+			Model model,
 			@Valid RequestFoPdfArguments requestFoPdfArguments,
 			BindingResult bindingResult
 			) {
 		if (bindingResult.hasErrors()) {
 			return "error";
 		}
+		requestFoPdfArguments.setArgs(new String[]{"rund", "1.3401"});
 		service.getResult(requestFoPdfArguments); 
-		requestFoPdfArguments.toString();
-		return "searchFromPdf";		
+		result = service.getResult(requestFoPdfArguments);
+		model.addAttribute("result", result);
+		return "result";		
 	}
 
 }

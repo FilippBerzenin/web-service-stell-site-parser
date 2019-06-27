@@ -25,8 +25,11 @@
 			<div class="alert alert-success">${message}</div>
 		</c:if>
 		
-		<div>
+		<div style="width: 128px; ">
 			<a href="/search">New search</a>
+		</div>
+				<div style="width: 128px; ">
+			<a href="/searchPdf">New search from PDF files</a>
 		</div>
 
 
