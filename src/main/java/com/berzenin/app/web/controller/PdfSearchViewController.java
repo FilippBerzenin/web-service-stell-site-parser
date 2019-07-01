@@ -41,7 +41,7 @@ public class PdfSearchViewController {
 		if (bindingResult.hasErrors()) {
 			return "error";
 		}
-		requestFoPdfArguments.setArgs(new String[]{"rund", "1.3401"});
+		requestFoPdfArguments.setArgs(new String[]{"X120Mn12", "1.3401"});
 		service.getResult(requestFoPdfArguments); 
 		result = service.getResult(requestFoPdfArguments);
 		model.addAttribute("result", result);
