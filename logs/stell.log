@@ -1,0 +1,37 @@
+2019-07-02 10:17:42.860  INFO 3332 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 3332 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
+2019-07-02 10:17:42.863  INFO 3332 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
+2019-07-02 10:17:43.711  INFO 3332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-02 10:17:43.814  INFO 3332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 1 repository interfaces.
+2019-07-02 10:17:44.237  INFO 3332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3c5fca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-02 10:17:44.510  INFO 3332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-02 10:17:44.526  INFO 3332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-02 10:17:44.526  INFO 3332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-02 10:17:44.854  INFO 3332 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-02 10:17:44.861  INFO 3332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-02 10:17:44.861 DEBUG 3332 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-02 10:17:44.861  INFO 3332 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1947 ms
+2019-07-02 10:17:45.027  INFO 3332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-02 10:17:45.197  INFO 3332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-02 10:17:45.267  INFO 3332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-02 10:17:45.427  INFO 3332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-02 10:17:45.429  INFO 3332 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-02 10:17:45.582  INFO 3332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-02 10:17:45.767  INFO 3332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-07-02 10:17:46.536  INFO 3332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 10:17:46.935 DEBUG 3332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-02 10:17:47.109  INFO 3332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-02 10:17:47.131 DEBUG 3332 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-02 10:17:47.173  WARN 3332 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-02 10:17:47.211 DEBUG 3332 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2019-07-02 10:17:47.226 DEBUG 3332 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-02 10:17:47.237 DEBUG 3332 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-02 10:17:47.260  INFO 3332 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-02 10:17:47.401  INFO 3332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-02 10:17:47.404  INFO 3332 --- [main] c.b.app.WebsitestillparserApplication    : Started WebsitestillparserApplication in 5.03 seconds (JVM running for 5.979)
+2019-07-02 10:18:15.017  INFO 3332 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-02 10:18:15.021  INFO 3332 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-02 10:18:15.024  INFO 3332 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-02 10:18:15.029  INFO 3332 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-02 10:18:15.274  INFO 3332 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

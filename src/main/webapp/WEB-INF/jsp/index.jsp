@@ -26,7 +26,7 @@
 		</c:if>
 		
 		<div style="width: 128px; ">
-			<a href="/search">New search</a>
+			<a href="/hosts/show/all">Hosts page</a>
 		</div>
 				<div style="width: 128px; ">
 			<a href="/searchPdf">New search from PDF files</a>
