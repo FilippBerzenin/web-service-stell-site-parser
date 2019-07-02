@@ -11,7 +11,4 @@ public class HostWithPdfService extends GenericServiceImpl <HostWithPdf, HostWit
 	public HostWithPdfService(HostWithPdfRepo repository) {
 		super(repository);
 	}
-	
-	
-
 }

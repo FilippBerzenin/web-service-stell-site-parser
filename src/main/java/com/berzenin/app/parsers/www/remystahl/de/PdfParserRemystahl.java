@@ -96,7 +96,7 @@ public class PdfParserRemystahl {
 					}
 				}
 				if (amountEquals>0) {
-					result.add(new ResultLine("host", amountEquals, line));
+					result.add(new ResultLine("host", amountEquals, line, 0));
 				}
 			}
 			result.forEach(System.out::println);

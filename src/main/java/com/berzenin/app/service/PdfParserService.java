@@ -43,6 +43,7 @@ public class PdfParserService {
 		}
 		List<ResultLine> result = parser.setListWithSearchWords(host, path + txtFileName, argument.getArgs());
 		result = result.stream().filter(s -> s.getCountEquals() > 1).collect(Collectors.toList());
+		result.stream().forEach(s -> s.setLink(argument.getPathForLink()));
 		result.forEach(System.out::println);
 		return result;
 	}

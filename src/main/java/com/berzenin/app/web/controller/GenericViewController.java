@@ -12,10 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 public interface GenericViewController<E> {
-	
-	@RequestMapping(value="/searchFromPdf", method=RequestMethod.POST)
-	@ResponseStatus(HttpStatus.OK)
-	String searchFromPdf(Model model);
 
 	@RequestMapping(value="/show/all", method=RequestMethod.GET)
 	@ResponseStatus(HttpStatus.OK)

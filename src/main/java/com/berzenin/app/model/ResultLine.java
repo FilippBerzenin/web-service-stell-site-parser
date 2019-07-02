@@ -12,11 +12,14 @@ public class ResultLine {
 	private String host;
 	private int countEquals;
 	private String line;
+	private String link;
+	private int numberOfLine;
 		
-	public ResultLine(String host, int countEquals, String line) {
+	public ResultLine(String host, int countEquals, String line, int numberOfLine) {
 		this.host = host;
 		this.countEquals = countEquals;
 		this.line = line;
+		this.numberOfLine=numberOfLine;
 	}
 
 }

@@ -123,6 +123,7 @@ public class PdfParser {
 		List<String> lines = null;
 		List<ResultLine> result = new ArrayList<>();
 		try {
+			int numberOfLines = 0;
 			lines = Files.readAllLines(Paths.get(txtFile));
 			for (String line: lines) {
 				int amountEquals = 0;
@@ -132,8 +133,9 @@ public class PdfParser {
 					}
 				}
 				if (amountEquals>0) {
-					result.add(new ResultLine(host, amountEquals, line));
+					result.add(new ResultLine(host, amountEquals, line, numberOfLines));
 				}
+				numberOfLines++;
 			}
 		} catch (IOException e) {
 			log.error(e.getMessage());

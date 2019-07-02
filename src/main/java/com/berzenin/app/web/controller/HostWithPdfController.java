@@ -1,7 +1,6 @@
 package com.berzenin.app.web.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -17,18 +16,7 @@ public class HostWithPdfController extends GenericViewControllerImpl<HostWithPdf
 	}
 	
 	@ModelAttribute("entityFor")
-	public HostWithPdf getCourseForm () {
+	public HostWithPdf getEntityForForm () {
 		return new HostWithPdf();
 	}
-	
-	
-
-	@Override
-	public String searchFromPdf(Model model) {
-		// TODO Auto-generated method stub
-		return page;
-	}
-	
-
-
 }
