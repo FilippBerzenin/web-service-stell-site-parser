@@ -26,7 +26,7 @@ class HostWithPdfServiceTest {
 	@Test
 	void HostWithPdfRepoTest() {
 		//Given
-		HostWithPdf hostWithPdf  = new HostWithPdf("www.test.com", "test.link");
+		HostWithPdf hostWithPdf  = new HostWithPdf("test.link");
 		//Then
 		repo.save(hostWithPdf);
 		HostWithPdf hostWithPdf2 = repo.findByHost("www.test.com");

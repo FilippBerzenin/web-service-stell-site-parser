@@ -1,5 +1,8 @@
 package com.berzenin.app.model;
 
+import java.util.Set;
+
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -7,6 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+@EqualsAndHashCode
 public class ResultLine {
 	
 	private String host;
@@ -14,12 +18,14 @@ public class ResultLine {
 	private String line;
 	private String link;
 	private int numberOfLine;
+	private Set<String> keywords;
 		
-	public ResultLine(String host, int countEquals, String line, int numberOfLine) {
+	public ResultLine(String host, int countEquals, String line, int numberOfLine, Set<String> keywords) {
 		this.host = host;
 		this.countEquals = countEquals;
 		this.line = line;
 		this.numberOfLine=numberOfLine;
+		this.keywords=keywords;
 	}
 
 }

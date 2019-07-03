@@ -1,5 +1,8 @@
 package com.berzenin.app.model;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,13 +21,6 @@ import lombok.ToString;
 @NoArgsConstructor
 public class HostWithPdf {
 	
-	
-	
-	public HostWithPdf(String host, String linkForPdfFile) {
-		this.host = host;
-		this.linkForPdfFile = linkForPdfFile;
-	}
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
@@ -34,5 +30,8 @@ public class HostWithPdf {
 	
 	@Column(name="linkForPdfFile", nullable=false)
 	private String linkForPdfFile;
-
+		
+	public HostWithPdf(String linkForPdfFile) {
+		this.linkForPdfFile = linkForPdfFile;
+	}
 }

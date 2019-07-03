@@ -72,7 +72,7 @@
 					modelAttribute="links">
 					<button type="submit">Search</button>
 					<div class="form-group">
-						<label for="keywords">Enter keywords</label>
+						<label for="keywords">Enter keywords, for example X120Mn12 1.3401 rund</label>
 						<form:textarea path="keywords" rows="2" cols="50" value="X120Mn12 1.3401 rund" placeholder="X120Mn12 1.3401 rund"/>
 						<td><font color="red">
 						<form:errors path="keywords" /></font></td>

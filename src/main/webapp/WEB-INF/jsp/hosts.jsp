@@ -27,10 +27,8 @@
 					modelAttribute="entityFor">
 					<table>
 						<tr>
-							<td><font color="red"><form:errors path="host" /></font></td>
-							<td><form:input path="host" placeholder="${page} name" /></td>
 							<td><font color="red"><form:errors path="linkForPdfFile" /></font></td>
-							<td><form:input path="linkForPdfFile" placeholder="${page} name" /></td>
+							<td><form:input path="linkForPdfFile" placeholder="URL for PDF file" /></td>
 							<td><button type="submit">Add new ${page}</button></td>
 						</tr>
 					</table>
@@ -38,7 +36,7 @@
 			</div>
 		</div>
 		<br />
-		<h1>${page}list</h1>
+		<h1>${page} list</h1>
 		<c:if test="${not empty message}">
 			<div class="alert alert-success">${message}</div>
 		</c:if>
