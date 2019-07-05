@@ -20,7 +20,7 @@ class HtmlParseTest {
 //		String[] args = arg.trim().split(" ");
 //		parser.parserHtml(args);
 		String url = "https://www.bemorail.com/portfolio-item/vignola-rail/";
-		parser.parseTable(parser.getDocumentFormUrl(url));
+//		parser.parseTable(parser.getDocumentFormUrl(url));
 	}
 
 }

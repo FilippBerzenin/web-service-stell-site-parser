@@ -13,7 +13,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.xml.parsers.ParserConfigurationException;
 
@@ -68,21 +70,23 @@ public class PdfParser {
 		}
 		return false;
 	}
-	
+
 	public long getFileSize(URL url) {
-		  HttpURLConnection conn = null;
-		  try {
-		    conn = (HttpURLConnection) url.openConnection();
-		    conn.setRequestMethod("HEAD");
-		    return conn.getContentLengthLong();
-		  } catch (IOException e) {
-		    throw new RuntimeException(e);
-		  } finally {
-		    if (conn != null) {
-		      conn.disconnect();
-		    }
-		  }
+		HttpURLConnection conn = null;
+		try {
+			conn = (HttpURLConnection) url.openConnection();
+			conn.setRequestMethod("HEAD");
+			return conn.getContentLengthLong();
+		} catch (IOException e) {
+			log.error(e.getMessage());
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				conn.disconnect();
+			}
 		}
+		return conn.getContentLengthLong();
+	}
 
 	public void generateHTMLFromPDF(String htmlFile, String pdfFile) {
 		try {
@@ -119,21 +123,23 @@ public class PdfParser {
 		}
 	}
 
-	public List<ResultLine> setListWithSearchWords(String host, String txtFile, String... args) {
+	public List<ResultLine> setListWithSearchWords(String link, String host, String txtFile, String... args) {
 		List<String> lines = null;
 		List<ResultLine> result = new ArrayList<>();
 		try {
 			int numberOfLines = 0;
 			lines = Files.readAllLines(Paths.get(txtFile));
 			for (String line: lines) {
+				Set<String> keywords = new HashSet<>();
 				int amountEquals = 0;
 				for (String arg: args) {
 					if (line.contains(arg)) {
 						amountEquals++;
+						keywords.add(arg);
 					}
 				}
 				if (amountEquals>0) {
-					result.add(new ResultLine(host, amountEquals, line, numberOfLines));
+					result.add(new ResultLine(host, amountEquals, line, numberOfLines, keywords, link));
 				}
 				numberOfLines++;
 			}
@@ -141,8 +147,7 @@ public class PdfParser {
 			log.error(e.getMessage());
 			e.printStackTrace();
 		}		
-		return result;
-		
+		return result;		
 	}
 
 }

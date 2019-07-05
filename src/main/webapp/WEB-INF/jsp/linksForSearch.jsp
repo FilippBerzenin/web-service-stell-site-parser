@@ -29,11 +29,12 @@
 		<table class="table  table-sm">
 			<thead class="table-info">
 				<tr align="center">
-					<th align="center">#</th>
-					<th align="center">Host</th>
-					<th align="center">Number of coincidences</th>
+					<th>#</th>
+					<th>Host</th>
+					<th>Number of coincidences</th>
 					<th>Line</th>
 					<th>Number line</th>
+					<th>Words in line</th>
 					<th>PDF</th>
 				</tr>
 			</thead>
@@ -44,11 +45,12 @@
 						<tr>
 
 							<td>${counter.count}</td>
-							<td><a href="${res.host}"/>${res.host}</td>
+							<td><a href="${res.host}" target="_blank">${res.host}</a></td>
 							<td>${res.countEquals}</td>
 							<td>${res.line}</td>
 							<td>${res.numberOfLine}</td>
-							<td><a href="${res.link}">Go to PDF</a></td>
+							<td>${res.keywords}</td>
+							<td><a href="${res.link}" target="_blank">Go to source</a></td>
 							
 						</tr>
 					</c:forEach>

@@ -19,13 +19,15 @@ public class ResultLine {
 	private String link;
 	private int numberOfLine;
 	private Set<String> keywords;
+
 		
-	public ResultLine(String host, int countEquals, String line, int numberOfLine, Set<String> keywords) {
+	public ResultLine(String host, int countEquals, String line, int numberOfLine, Set<String> keywords, String link) {
 		this.host = host;
 		this.countEquals = countEquals;
 		this.line = line;
 		this.numberOfLine=numberOfLine;
 		this.keywords=keywords;
+		this.link=link;
 	}
 
 }

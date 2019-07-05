@@ -49,7 +49,7 @@ class PdfParserTest {
 	public void setListWithSearchWordsTest() {
 		String text = localPath+"text.txt";
 		String [] srs = {"1.3401", "rund"};
-		pars.setListWithSearchWords("test", text, srs);
+		pars.setListWithSearchWords(path, "test", text, srs);
 	}
 	
 	@Test

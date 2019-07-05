@@ -28,8 +28,7 @@
 				<table>
 					<tr>
 						<td><form:label path="pathForLink">Link for PDF</form:label></td>
-						<td><form:input class="container-fluid" path="pathForLink"
-								value="https://www.bgh.de/files/app-company/media/pdf/Broschueren/Lieferprogramme/Prospekt_Stabstahl_2012.pdf" /></td>
+						<td><form:input class="container-fluid" path="pathForLink"/></td>
 						<td><form:errors path="pathForLink" /></td>
 					</tr>
 					<tr>

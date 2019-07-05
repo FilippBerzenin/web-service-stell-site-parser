@@ -32,16 +32,16 @@ public class PdfParserService {
 	private static String host;
 
 	@Autowired
-	private PdfParser parser;
-
+	private PdfParser pdfParser;
+	
 	public List<ResultLine> getResult(RequestFoPdfArguments argument) {
 		this.setPathForFile(argument.getPathForLink());
 		this.setPdfFileName(argument.getPathForLink());
 		this.setTxtFileName(argument.getPathForLink());
-		if (parser.downloadFileFRomUrl(argument.getPathForLink(), path, pdfFileName)) {
-			parser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
+		if (pdfParser.downloadFileFRomUrl(argument.getPathForLink(), path, pdfFileName)) {
+			pdfParser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
 		}
-		List<ResultLine> result = parser.setListWithSearchWords(host, path + txtFileName, argument.getArgs());
+		List<ResultLine> result = pdfParser.setListWithSearchWords(argument.getPathForLink(), host, path + txtFileName, argument.getArgs());
 		result = result.stream().filter(s -> s.getCountEquals() > 1).collect(Collectors.toList());
 		result.stream().forEach(s -> s.setLink(argument.getPathForLink()));
 		result.forEach(System.out::println);

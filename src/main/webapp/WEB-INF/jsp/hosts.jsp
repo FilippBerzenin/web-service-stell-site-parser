@@ -70,8 +70,6 @@
 								<form:form class="form-inline" method="post"
 									action="${prefix}/${page}/update/" modelAttribute="entityFor">
 									<div class="form-group">
-							<font color="red"><form:errors path="host" /></font>
-							<form:input path="host" placeholder="${page} name" />
 							<font color="red"><form:errors path="linkForPdfFile" /></font>
 							<form:input path="linkForPdfFile" placeholder="${page} name" />
 										<button type="submit">Update</button>

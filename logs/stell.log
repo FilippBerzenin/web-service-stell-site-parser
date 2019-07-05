@@ -1,451 +1,64 @@
-2019-07-03 10:09:17.167  INFO 6728 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 6728 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:09:17.340  INFO 6728 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:09:23.599  INFO 6728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:09:23.806  INFO 6728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 179ms. Found 1 repository interfaces.
-2019-07-03 10:09:26.371  INFO 6728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6adca380] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:09:28.011  INFO 6728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:09:28.094  INFO 6728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:09:28.096  INFO 6728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:09:28.775  INFO 6728 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:09:28.794  INFO 6728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:09:28.794 DEBUG 6728 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:09:28.795  INFO 6728 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8611 ms
-2019-07-03 10:09:28.987 ERROR 6728 --- [main] com.zaxxer.hikari.HikariConfig           : Failed to load driver class org.postgresql.Driver from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@764c12b6
-2019-07-03 10:09:28.991  WARN 6728 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource
-2019-07-03 10:09:28.996  INFO 6728 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-03 10:09:29.018  INFO 6728 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-03 10:09:29.023 ERROR 6728 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
-
-    Property: driverclassname
-    Value: org.postgresql.Driver
-    Origin: "driverClassName" from property source "source"
-    Reason: Failed to load driver class org.postgresql.Driver in either of HikariConfig class loader or Thread context classloader
-
-Action:
-
-Update your application's configuration
-
-2019-07-03 10:11:20.823  INFO 7212 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 7212 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:11:21.167  INFO 7212 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:11:26.227  INFO 7212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:11:27.354  INFO 7212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 738ms. Found 1 repository interfaces.
-2019-07-03 10:11:28.342  INFO 7212 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f4b0dc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:11:29.110  INFO 7212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:11:29.251  INFO 7212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:11:29.252  INFO 7212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:11:31.959  INFO 7212 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:11:32.001  INFO 7212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:11:32.002 DEBUG 7212 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:11:32.002  INFO 7212 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9393 ms
-2019-07-03 10:11:33.004  INFO 7212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-03 10:11:33.036  WARN 7212 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:postgres://obfhtqauizldpc:763c92047df18892f80d621b38d538d9c8145aab07243071815107a323d8f682@ec2-54-246-84-100.eu-west-1.compute.amazonaws.com:5432/de36lu5b53kbhn
-2019-07-03 10:11:33.061  INFO 7212 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-03 10:11:33.144  INFO 7212 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-03 10:11:33.217 ERROR 7212 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:postgres://obfhtqauizldpc:763c92047df18892f80d621b38d538d9c8145aab07243071815107a323d8f682@ec2-54-246-84-100.eu-west-1.compute.amazonaws.com:5432/de36lu5b53kbhn
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at com.berzenin.app.WebsitestillparserApplication.main(WebsitestillparserApplication.java:10) [classes/:na]
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:postgres://obfhtqauizldpc:763c92047df18892f80d621b38d538d9c8145aab07243071815107a323d8f682@ec2-54-246-84-100.eu-west-1.compute.amazonaws.com:5432/de36lu5b53kbhn
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:postgres://obfhtqauizldpc:763c92047df18892f80d621b38d538d9c8145aab07243071815107a323d8f682@ec2-54-246-84-100.eu-west-1.compute.amazonaws.com:5432/de36lu5b53kbhn
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	... 33 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:postgres://obfhtqauizldpc:763c92047df18892f80d621b38d538d9c8145aab07243071815107a323d8f682@ec2-54-246-84-100.eu-west-1.compute.amazonaws.com:5432/de36lu5b53kbhn
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	... 47 common frames omitted
-Caused by: java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, jdbc:postgres://obfhtqauizldpc:763c92047df18892f80d621b38d538d9c8145aab07243071815107a323d8f682@ec2-54-246-84-100.eu-west-1.compute.amazonaws.com:5432/de36lu5b53kbhn
-	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:108) ~[HikariCP-3.2.0.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:336) ~[HikariCP-3.2.0.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:109) ~[HikariCP-3.2.0.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:108) ~[HikariCP-3.2.0.jar:na]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.2.0.jar:na]
-	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157) ~[spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319) ~[spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356) ~[spring-jdbc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:112) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$ae21d036.CGLIB$jpaVendorAdapter$4(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$ae21d036$$FastClassBySpringCGLIB$$11b97541.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$ae21d036.jpaVendorAdapter(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	... 48 common frames omitted
-
-2019-07-03 10:21:43.274  INFO 1460 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 1460 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:21:43.322  INFO 1460 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:22:14.028  INFO 1460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:22:17.396  INFO 1460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2274ms. Found 1 repository interfaces.
-2019-07-03 10:22:27.043  INFO 1460 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7ae6c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:22:33.165  INFO 1460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:22:33.651  INFO 1460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:22:33.653  INFO 1460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:22:38.016  INFO 1460 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:22:38.420  INFO 1460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:22:38.422 DEBUG 1460 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:22:38.423  INFO 1460 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 54671 ms
-2019-07-03 10:22:39.193  WARN 1460 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2019-07-03 10:22:39.287  INFO 1460 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-03 10:22:39.943  INFO 1460 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-03 10:22:39.964 ERROR 1460 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to configure a DataSource: no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
-
-Action:
-
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
-
-2019-07-03 10:25:54.165  INFO 6056 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 6056 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:25:54.180  INFO 6056 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:26:05.898  INFO 6056 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:26:08.109  INFO 6056 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1370ms. Found 1 repository interfaces.
-2019-07-03 10:26:15.780  INFO 6056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3cf2d267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:26:19.418  INFO 6056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:26:19.544  INFO 6056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:26:19.545  INFO 6056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:26:20.788  INFO 6056 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:26:20.794  INFO 6056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:26:20.795 DEBUG 6056 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:26:20.795  INFO 6056 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 26478 ms
-2019-07-03 10:26:22.731  WARN 6056 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2019-07-03 10:26:22.751  INFO 6056 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-03 10:26:22.812  INFO 6056 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-03 10:26:22.826 ERROR 6056 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to configure a DataSource: no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
-
-Action:
-
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
-
-2019-07-03 10:31:06.688  INFO 7092 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 7092 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:31:06.702  INFO 7092 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:31:07.632  INFO 7092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:31:07.747  INFO 7092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105ms. Found 1 repository interfaces.
-2019-07-03 10:31:08.119  INFO 7092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4399979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:31:08.462  INFO 7092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:31:08.490  INFO 7092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:31:08.491  INFO 7092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:31:08.835  INFO 7092 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:31:08.841  INFO 7092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:31:08.841 DEBUG 7092 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:31:08.841  INFO 7092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2074 ms
-2019-07-03 10:31:08.932  WARN 7092 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2019-07-03 10:31:08.936  INFO 7092 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-03 10:31:08.955  INFO 7092 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-03 10:31:08.962 ERROR 7092 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to configure a DataSource: no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
-
-Action:
-
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
-
-2019-07-03 10:49:01.969  INFO 6096 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 6096 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:49:01.975  INFO 6096 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:49:03.686  INFO 6096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:49:03.842  INFO 6096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145ms. Found 1 repository interfaces.
-2019-07-03 10:49:04.399  INFO 6096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cc57cd7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:49:04.939  INFO 6096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:49:05.002  INFO 6096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:49:05.003  INFO 6096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:49:05.508  INFO 6096 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:49:05.531  INFO 6096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:49:05.531 DEBUG 6096 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:49:05.532  INFO 6096 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3436 ms
-2019-07-03 10:49:05.933  INFO 6096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-03 10:49:06.429  INFO 6096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-03 10:49:06.646  INFO 6096 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-07-05 12:13:59.644  INFO 6244 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 6244 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
+2019-07-05 12:13:59.681  INFO 6244 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
+2019-07-05 12:14:02.543  INFO 6244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 12:14:02.744  INFO 6244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188ms. Found 1 repository interfaces.
+2019-07-05 12:14:03.400  INFO 6244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6d1fd7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 12:14:04.185  INFO 6244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-05 12:14:04.253  INFO 6244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-05 12:14:04.253  INFO 6244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-05 12:14:04.920  INFO 6244 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-05 12:14:04.935  INFO 6244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-05 12:14:04.936 DEBUG 6244 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-05 12:14:04.937  INFO 6244 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4709 ms
+2019-07-05 12:14:05.379  INFO 6244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-05 12:14:06.018  INFO 6244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-05 12:14:06.473  INFO 6244 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-07-03 10:49:07.208  INFO 6096 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2019-07-03 10:49:07.211  INFO 6096 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-07-03 10:49:07.698  INFO 6096 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-07-03 10:49:07.995  INFO 6096 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2019-07-03 10:49:08.026  INFO 6096 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
-2019-07-03 10:49:08.042  INFO 6096 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2924f1d8
-2019-07-03 10:49:09.935  INFO 6096 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-03 10:49:10.576 DEBUG 6096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
-2019-07-03 10:49:10.931  INFO 6096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-03 10:49:10.970 DEBUG 6096 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2019-07-03 10:49:11.002  WARN 6096 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-03 10:49:11.055 DEBUG 6096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
-2019-07-03 10:49:11.104 DEBUG 6096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2019-07-03 10:49:11.117 DEBUG 6096 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2019-07-03 10:49:11.213  INFO 6096 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-07-03 10:49:13.215  INFO 6096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-07-03 10:49:13.221  INFO 6096 --- [main] c.b.app.WebsitestillparserApplication    : Started WebsitestillparserApplication in 12.178 seconds (JVM running for 13.628)
-2019-07-03 10:49:29.940  INFO 6096 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-03 10:49:29.941  INFO 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-07-03 10:49:29.942 DEBUG 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2019-07-03 10:49:29.950 DEBUG 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2019-07-03 10:49:29.951  INFO 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-07-03 10:49:29.975 DEBUG 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2019-07-03 10:49:29.987 DEBUG 6096 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.IndexViewController.index(org.springframework.ui.Model)
-2019-07-03 10:49:30.073 DEBUG 6096 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*]
-2019-07-03 10:49:30.074 DEBUG 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.view.JstlView            : View name 'index', model {message=Abandon hope all ye who enter here}
-2019-07-03 10:49:30.079 DEBUG 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/index.jsp]
-2019-07-03 10:49:31.159 DEBUG 6096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2019-07-03 10:49:34.400 DEBUG 6096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/hosts/show/all", parameters={}
-2019-07-03 10:49:34.401 DEBUG 6096 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.GenericViewControllerImpl.findAll(org.springframework.ui.Model)
-2019-07-03 10:49:34.725  INFO 6096 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-07-03 10:49:34.910 DEBUG 6096 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*]
-2019-07-03 10:49:34.910 DEBUG 6096 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : View name 'hosts', model {entityFor=HostWithPdf(id=0, host=null, linkForPdfFile=null), page=hosts, message=All entity, listOfEntites=[], org.springframework.validation.BindingResult.entityFor=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
-2019-07-03 10:49:34.911 DEBUG 6096 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/hosts.jsp]
-2019-07-03 10:49:35.235 DEBUG 6096 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2019-07-03 10:49:57.762 DEBUG 6096 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2019-07-03 10:49:57.764 DEBUG 6096 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.IndexViewController.index(org.springframework.ui.Model)
-2019-07-03 10:49:57.765 DEBUG 6096 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*]
-2019-07-03 10:49:57.765 DEBUG 6096 --- [http-nio-8080-exec-6] o.s.web.servlet.view.JstlView            : View name 'index', model {message=Abandon hope all ye who enter here}
-2019-07-03 10:49:57.766 DEBUG 6096 --- [http-nio-8080-exec-6] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/index.jsp]
-2019-07-03 10:49:57.767 DEBUG 6096 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2019-07-03 10:49:59.896 DEBUG 6096 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/linksForSearch", parameters={}
-2019-07-03 10:49:59.897 DEBUG 6096 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.LinksController.getAllLinks(org.springframework.ui.Model)
-2019-07-03 10:49:59.903 DEBUG 6096 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*]
-2019-07-03 10:49:59.904 DEBUG 6096 --- [http-nio-8080-exec-5] o.s.web.servlet.view.JstlView            : View name 'linksForSearch', model {links=Links(linksFor=null, keywords=null, key=null), message=Get all links, page=linksForSearch, listOfEntites=[], org.springframework.validation.BindingResult.links=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
-2019-07-03 10:49:59.904 DEBUG 6096 --- [http-nio-8080-exec-5] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/linksForSearch.jsp]
-2019-07-03 10:50:00.139 DEBUG 6096 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2019-07-03 10:50:02.203  INFO 6096 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2019-07-03 10:50:02.207  INFO 6096 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-03 10:50:02.208  INFO 6096 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-07-03 10:50:02.212  INFO 6096 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-07-03 10:50:02.229  INFO 6096 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-07-03 10:54:23.945  INFO 3724 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 3724 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:54:23.948  INFO 3724 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:54:24.820  INFO 3724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:54:24.933  INFO 3724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 1 repository interfaces.
-2019-07-03 10:54:25.289  INFO 3724 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0a66bb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:54:25.586  INFO 3724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:54:25.611  INFO 3724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:54:25.612  INFO 3724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:54:25.986  INFO 3724 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:54:25.992  INFO 3724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:54:25.992 DEBUG 3724 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:54:25.992  INFO 3724 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1990 ms
-2019-07-03 10:54:26.066  WARN 3724 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-2019-07-03 10:54:26.070  INFO 3724 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-03 10:54:26.125  INFO 3724 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-03 10:54:26.133 ERROR 3724 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to configure a DataSource: no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
-
-Action:
-
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
-
-2019-07-03 10:55:30.952  INFO 5920 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 5920 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:55:30.957  INFO 5920 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:55:31.791  INFO 5920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:55:31.897  INFO 5920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 1 repository interfaces.
-2019-07-03 10:55:32.260  INFO 5920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc9ea26] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:55:32.559  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:55:32.585  INFO 5920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:55:32.585  INFO 5920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:55:32.968  INFO 5920 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:55:32.973  INFO 5920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:55:32.973 DEBUG 5920 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:55:32.973  INFO 5920 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1958 ms
-2019-07-03 10:55:33.131  INFO 5920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-03 10:55:34.828  INFO 5920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-03 10:55:34.905  INFO 5920 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-07-03 10:55:34.980  INFO 5920 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2019-07-03 10:55:34.983  INFO 5920 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-07-03 10:55:35.150  INFO 5920 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-07-03 10:55:35.331  INFO 5920 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2019-07-03 10:55:35.355  INFO 5920 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
-2019-07-03 10:55:35.363  INFO 5920 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5a8ab2
-2019-07-03 10:55:38.539  INFO 5920 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-03 10:55:38.996 DEBUG 5920 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
-2019-07-03 10:55:39.162  INFO 5920 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-03 10:55:39.186 DEBUG 5920 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2019-07-03 10:55:39.213  WARN 5920 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-03 10:55:39.264 DEBUG 5920 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
-2019-07-03 10:55:39.280 DEBUG 5920 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2019-07-03 10:55:39.292 DEBUG 5920 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2019-07-03 10:55:39.315  INFO 5920 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-07-03 10:55:39.458  INFO 5920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-07-03 10:55:39.460  INFO 5920 --- [main] c.b.app.WebsitestillparserApplication    : Started WebsitestillparserApplication in 8.977 seconds (JVM running for 9.962)
-2019-07-03 10:59:47.652  INFO 5920 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2019-07-03 10:59:47.654  INFO 5920 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-03 10:59:47.656  INFO 5920 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-07-03 10:59:47.660  INFO 5920 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-07-03 10:59:47.675  INFO 5920 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-07-03 10:59:54.592  INFO 4620 --- [main] c.b.app.WebsitestillparserApplication    : Starting WebsitestillparserApplication on Home with PID 4620 (C:\workspace\websitestillparser\target\classes started by Fylyp in C:\workspace\websitestillparser)
-2019-07-03 10:59:54.595  INFO 4620 --- [main] c.b.app.WebsitestillparserApplication    : No active profile set, falling back to default profiles: default
-2019-07-03 10:59:55.455  INFO 4620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-03 10:59:55.560  INFO 4620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 1 repository interfaces.
-2019-07-03 10:59:55.913  INFO 4620 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8ced69b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-03 10:59:56.199  INFO 4620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-03 10:59:56.224  INFO 4620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-03 10:59:56.224  INFO 4620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-03 10:59:56.559  INFO 4620 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-03 10:59:56.564  INFO 4620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-03 10:59:56.564 DEBUG 4620 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-03 10:59:56.564  INFO 4620 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1920 ms
-2019-07-03 10:59:56.720  INFO 4620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-03 10:59:58.731  INFO 4620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-03 10:59:58.816  INFO 4620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-07-03 10:59:58.890  INFO 4620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
-2019-07-03 10:59:58.892  INFO 4620 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-07-03 10:59:59.050  INFO 4620 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-07-03 10:59:59.237  INFO 4620 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
-2019-07-03 10:59:59.258  INFO 4620 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
-2019-07-03 10:59:59.265  INFO 4620 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@40e32762
-2019-07-03 11:00:16.416  INFO 4620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-03 11:00:16.827 DEBUG 4620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
-2019-07-03 11:00:16.980  INFO 4620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-03 11:00:16.997 DEBUG 4620 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2019-07-03 11:00:17.023  WARN 4620 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-03 11:00:17.066 DEBUG 4620 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
-2019-07-03 11:00:17.079 DEBUG 4620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2019-07-03 11:00:17.093 DEBUG 4620 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2019-07-03 11:00:17.115  INFO 4620 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2019-07-03 11:00:17.254  INFO 4620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-07-03 11:00:17.258  INFO 4620 --- [main] c.b.app.WebsitestillparserApplication    : Started WebsitestillparserApplication in 23.162 seconds (JVM running for 24.125)
-2019-07-03 11:00:24.820  INFO 4620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-03 11:00:24.820  INFO 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-07-03 11:00:24.821 DEBUG 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2019-07-03 11:00:24.829 DEBUG 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2019-07-03 11:00:24.829  INFO 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-07-03 11:00:24.839 DEBUG 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2019-07-03 11:00:24.844 DEBUG 4620 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.IndexViewController.index(org.springframework.ui.Model)
-2019-07-03 11:00:24.869 DEBUG 4620 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*]
-2019-07-03 11:00:24.869 DEBUG 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : View name 'index', model {message=Abandon hope all ye who enter here}
-2019-07-03 11:00:24.873 DEBUG 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/index.jsp]
-2019-07-03 11:00:25.668 DEBUG 4620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2019-07-03 11:00:26.817 DEBUG 4620 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/hosts/show/all", parameters={}
-2019-07-03 11:00:26.818 DEBUG 4620 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.GenericViewControllerImpl.findAll(org.springframework.ui.Model)
-2019-07-03 11:00:27.006  INFO 4620 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-07-03 11:00:27.286 DEBUG 4620 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/jpeg, application/x-ms-application, image/gif, application/xaml+xml, image/pjpeg, application/x-ms-xbap, */*]
-2019-07-03 11:00:27.287 DEBUG 4620 --- [http-nio-8080-exec-2] o.s.web.servlet.view.JstlView            : View name 'hosts', model {entityFor=HostWithPdf(id=0, host=null, linkForPdfFile=null), page=hosts, message=All entity, listOfEntites=[], org.springframework.validation.BindingResult.entityFor=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
-2019-07-03 11:00:27.287 DEBUG 4620 --- [http-nio-8080-exec-2] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/hosts.jsp]
-2019-07-03 11:00:27.602 DEBUG 4620 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2019-07-03 11:01:11.039  INFO 4620 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2019-07-03 11:01:11.043  INFO 4620 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-03 11:01:11.045  INFO 4620 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-07-03 11:01:11.049  INFO 4620 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-07-03 11:01:11.070  INFO 4620 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-05 12:14:06.809  INFO 6244 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-05 12:14:06.814  INFO 6244 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-05 12:14:07.496  INFO 6244 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-05 12:14:07.806  INFO 6244 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-07-05 12:14:07.835  INFO 6244 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-07-05 12:14:07.843  INFO 6244 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7ecec90d
+2019-07-05 12:14:09.991  INFO 6244 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 12:14:10.812 DEBUG 6244 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-05 12:14:11.081  INFO 6244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-05 12:14:11.117 DEBUG 6244 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-05 12:14:11.177  WARN 6244 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-05 12:14:11.247 DEBUG 6244 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 19 mappings in 'requestMappingHandlerMapping'
+2019-07-05 12:14:11.266 DEBUG 6244 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-05 12:14:11.284 DEBUG 6244 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-05 12:14:11.322  INFO 6244 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-07-05 12:14:11.580  INFO 6244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-05 12:14:11.582  INFO 6244 --- [main] c.b.app.WebsitestillparserApplication    : Started WebsitestillparserApplication in 12.739 seconds (JVM running for 14.313)
+2019-07-05 12:14:33.514  INFO 6244 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-05 12:14:33.515  INFO 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-05 12:14:33.515 DEBUG 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-05 12:14:33.524 DEBUG 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-05 12:14:33.525  INFO 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-07-05 12:14:33.737 DEBUG 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-07-05 12:14:33.823 DEBUG 6244 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.IndexViewController.index(org.springframework.ui.Model)
+2019-07-05 12:14:34.031 DEBUG 6244 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-07-05 12:14:34.031 DEBUG 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.view.JstlView            : View name 'index', model {message=Abandon hope all ye who enter here}
+2019-07-05 12:14:34.035 DEBUG 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/index.jsp]
+2019-07-05 12:14:35.510 DEBUG 6244 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-05 12:14:43.386 DEBUG 6244 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/linksForSearch", parameters={}
+2019-07-05 12:14:43.387 DEBUG 6244 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.LinksController.getAllLinks(org.springframework.ui.Model)
+2019-07-05 12:14:43.683  INFO 6244 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-05 12:14:44.013 DEBUG 6244 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-07-05 12:14:44.014 DEBUG 6244 --- [http-nio-8080-exec-4] o.s.web.servlet.view.JstlView            : View name 'linksForSearch', model {links=Links(linksFor=null, keywords=null, key=null), message=Get all links, page=linksForSearch, listOfEntites=[HostWithPdf(id=8, host=www.remystahl.de, linkForPdfFile=https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf), HostWithPdf(id=9, host=www.bgh.de, linkForPdfFile=https://www.bgh.de/files/app-company/media/pdf/Broschueren/Lieferprogramme/Prospekt_Stabstahl_2012.pdf), HostWithPdf(id=13, host=www.bemorail.com, linkForPdfFile=https://www.bemorail.com/portfolio-item/vignola-rail/)], org.springframework.validation.BindingResult.links=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+2019-07-05 12:14:44.015 DEBUG 6244 --- [http-nio-8080-exec-4] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/linksForSearch.jsp]
+2019-07-05 12:14:44.440 DEBUG 6244 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-05 12:14:53.921 DEBUG 6244 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/linksForSearch/multiSerching", parameters={masked}
+2019-07-05 12:14:53.922 DEBUG 6244 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.berzenin.app.web.controller.LinksController.searchForManyLinks(com.berzenin.app.model.Links,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+2019-07-05 12:14:54.049  INFO 6244 --- [http-nio-8080-exec-5] c.b.app.web.controller.LinksController   : Links(linksFor=[https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf, https://www.bgh.de/files/app-company/media/pdf/Broschueren/Lieferprogramme/Prospekt_Stabstahl_2012.pdf, https://www.bemorail.com/portfolio-item/vignola-rail/], keywords=X120Mn12 1.3401 rund, key=[X120Mn12, 1.3401, rund])
+2019-07-05 12:14:58.690 DEBUG 6244 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-07-05 12:14:58.691 DEBUG 6244 --- [http-nio-8080-exec-5] o.s.web.servlet.view.JstlView            : View name 'linksForSearch', model {links=Links(linksFor=[https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf, https://www.bgh.de/files/app-company/media/pdf/Broschueren/Lieferprogramme/Prospekt_Stabstahl_2012.pdf, https://www.bemorail.com/portfolio-item/vignola-rail/], keywords=X120Mn12 1.3401 rund, key=[X120Mn12, 1.3401, rund]), org.springframework.validation.BindingResult.links=org.springframework.validation.BeanPropertyBindingResult: 0 errors, message=Get result, page=linksForSearch, result=[ResultLine(host=www.remystahl.de, countEquals=2, line=1.3401 lösungsgeglüht rund     6      –    220, link=https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf, numberOfLine=4, keywords=[1.3401, rund]), ResultLine(host=www.bgh.de, countEquals=2, line=1.3401 X120Mn12 – A 128 (A), (B2 - B4) BW 10 Z 120 M 12, link=https://www.bgh.de/files/app-company/media/pdf/Broschueren/Lieferprogramme/Prospekt_Stabstahl_2012.pdf, numberOfLine=461, keywords=[1.3401, X120Mn12])], listOfEntites=[HostWithPdf(id=8, host=www.remystahl.de, linkForPdfFile=https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf), HostWithPdf(id=9, host=www.bgh.de, linkForPdfFile=https://www.bgh.de/files/app-company/media/pdf/Broschueren/Lieferprogramme/Prospekt_Stabstahl_2012.pdf), HostWithPdf(id=13, host=www.bemorail.com, linkForPdfFile=https://www.bemorail.com/portfolio-item/vignola-rail/)]}
+2019-07-05 12:14:58.691 DEBUG 6244 --- [http-nio-8080-exec-5] o.s.web.servlet.view.JstlView            : Forwarding to [/WEB-INF/jsp/linksForSearch.jsp]
+2019-07-05 12:14:58.699 DEBUG 6244 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-05 12:23:02.539  INFO 6244 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-05 12:23:02.543  INFO 6244 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-05 12:23:02.545  INFO 6244 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 12:23:02.549  INFO 6244 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-05 12:23:02.561  INFO 6244 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
