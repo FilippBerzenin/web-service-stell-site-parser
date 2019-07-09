@@ -21,31 +21,42 @@
 	<div class="container">
 		<a href="${prefix}/">Back</a> <br />
 		<div>
+			<c:if test="${not empty message}">
+				<div class="alert alert-success">${message}</div>
+			</c:if>
 			<h2>Add new ${page}:</h2>
 			<div class="form-group">
 				<form:form method="post" action="${prefix}/${page}/create/"
 					modelAttribute="entityFor">
 					<table>
 						<tr>
-							<td><font color="red"><form:errors path="linkForPdfFile" /></font></td>
-							<td><form:input path="linkForPdfFile" placeholder="URL for PDF file" /></td>
+							<td><font color="red"><form:errors
+										path="linkForPdfFile" /></font></td>
+							<td><form:input path="linkForPdfFile"
+									placeholder="URL for PDF file" /></td>
 							<td><button type="submit">Add new ${page}</button></td>
 						</tr>
 					</table>
 				</form:form>
 			</div>
+			<div>
+				<h3>File Upload:</h3>
+				Select a file to upload: <br />
+				<form action="${prefix}/${page}/addPdfFile" method="post"
+					enctype="multipart/form-data">
+					<input type="file" name="file" size="50" /> <br /> <input
+						type="submit" value="Upload File" />
+				</form>
+			</div>
 		</div>
 		<br />
-		<h1>${page} list</h1>
-		<c:if test="${not empty message}">
-			<div class="alert alert-success">${message}</div>
-		</c:if>
+		<h1>${page}list</h1>
 		<table class="table  table-sm">
 			<thead class="table-info">
 				<tr>
 					<th>#</th>
 					<th>ID</th>
-					<th>${page} name</th>
+					<th>${page}name</th>
 					<th>Link list</th>
 					<th>Delete</th>
 					<th>Update</th>
@@ -59,7 +70,8 @@
 						<td>${entity.host}</td>
 						<td>${entity.linkForPdfFile}</td>
 						<td>
-							<form action="${prefix}/${page}/delete/${entity.id}" method="post">
+							<form action="${prefix}/${page}/delete/${entity.id}"
+								method="post">
 								<button type="submit" name="delete" value="Delete">Delete</button>
 							</form>
 						</td>
@@ -70,8 +82,8 @@
 								<form:form class="form-inline" method="post"
 									action="${prefix}/${page}/update/" modelAttribute="entityFor">
 									<div class="form-group">
-							<font color="red"><form:errors path="linkForPdfFile" /></font>
-							<form:input path="linkForPdfFile" placeholder="${page} name" />
+										<font color="red"><form:errors path="linkForPdfFile" /></font>
+										<form:input path="linkForPdfFile" placeholder="${page} name" />
 										<button type="submit">Update</button>
 									</div>
 								</form:form>
@@ -82,7 +94,7 @@
 			</tbody>
 		</table>
 	</div>
-		<!-- Optional JavaScript -->
+	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

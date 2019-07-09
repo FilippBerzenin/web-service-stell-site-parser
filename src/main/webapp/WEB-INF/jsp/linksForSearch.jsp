@@ -35,7 +35,7 @@
 					<th>Line</th>
 					<th>Number line</th>
 					<th>Words in line</th>
-					<th>PDF</th>
+					<th>Sources</th>
 				</tr>
 			</thead>
 			<tbody>

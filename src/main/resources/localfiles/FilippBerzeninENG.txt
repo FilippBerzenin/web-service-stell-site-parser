@@ -1,0 +1,48 @@
+Person information
+Date of birth: 1982-07-15
+Family status: Married (wife - Berzenina Viktoria), two childrean (tree and five years)
+Language: English - Intermediate, Russian, Ukrainaian - native
+ MOB: +38-066-018-15-01, +38-097-542-65-02
+ Adress: Kyiv, Ukraine
+ E-mail: filipp.berzenin@gmail.com
+ GitHub: https://github.com/FilippBerzenin
+ Linkedin: filipp-berzenin-67722a17a/
+ Facebook: filipp.berzenin
+ Skype: filipp.berzenin
+
+Berzenin Filipp
+Junior JAVA developer
+Education
+ 2017/12-2019/03 Course IT: Foxminded - JAVA Enterprise (https://foxminded.com.ua/)
+ 2016/11-2017/09 Course IT: Kademika (course closed)
+ 1999-2004 National Metallurgical Academy of Ukraine, Economy faculty - bachelor's degree in
+Management of International Economic Activity.
+Achieving
+ Development of Web-service (project of University database) and interaction by graphical
+interface universityfb.herokuapp.com
+ Development of technical assignment/specifications fo banking software, control of
+development, testing and modification
+ Development and implementation standards of accounting for management reporting and
+analysis for agricultural producers.
+ Presentations and promotion of products for existing and potential customers (Fohow LTD).
+Technical skills
+Java (JUnit, Dbunit, Mockito, Lombok, Servlets, JNDI), Apache Tomcat, Hibernate, Logger, JDBC,
+Spring (IoC, SpringBoot, SpringSecurity),Web Services, Socket, JSP, JSON, Git (GitLab, GItHab),
+SQL(PostgreSQL),Maven, UML, HTML/CSS, Bootstrap.
+I am seeking employment with a company where I can use my ability, skills and knowledge. I have an
+experience of Java development. This year I finished a course Foxminded - Java Enterprise.
+My portfolio: Foxminded graduation project universityfb.herokuapp.com (Web-Service, Spring, Hibernate,
+deploy on Heroku, GitHub https://github.com/FilippBerzenin/WEB-Service_University); BackupService
+(Socket, Multithreading, Swing, GitHub https://github.com/FilippBerzenin/backupService).
+I also have experience in the banking sector and banking software a corporate user as well as a developer
+of technical assignment. My experience of child-raising in maternity leave improved my stress resistance,
+time management and ability to focus on result.
+Work experience
+ 2013-still now Maternity leave - I have two chilldren (5 and 3,5 year);
+ 2009-2012 LCC Fohow (meneger) - selling health products;
+ 2006-2008 LCC AMGroup (economist) - menegment accounts and reports, development
+investment project;
+ 2004-2006 JSC CB PRIVATBANK (economist, project manager) - managment reports of bank
+and enterprises;
+Hobby
+In my free time I like traveling, diving, skiing or just watching a movie and reading a book.

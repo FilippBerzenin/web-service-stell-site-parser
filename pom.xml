@@ -99,11 +99,7 @@
 			<scope>runtime</scope>
 		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/net.htmlparser.jericho/jericho-html -->
-<dependency>
-    <groupId>net.htmlparser.jericho</groupId>
-    <artifactId>jericho-html</artifactId>
-    <version>3.4</version>
-</dependency>
+<!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
 		
 	</dependencies>
 

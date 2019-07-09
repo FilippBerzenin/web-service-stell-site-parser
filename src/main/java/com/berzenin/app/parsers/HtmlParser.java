@@ -16,9 +16,6 @@ import org.springframework.stereotype.Service;
 
 import com.berzenin.app.model.ResultLine;
 
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 @Service
 public class HtmlParser {
 

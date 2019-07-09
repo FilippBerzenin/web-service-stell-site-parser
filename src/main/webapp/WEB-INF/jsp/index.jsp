@@ -24,16 +24,11 @@
 		</c:if>
 
 		<div>
-			<a href="/hosts/show/all">Hosts page</a>
+			<a href="/hosts/show/all">Links page</a>
 		</div>
 		<div>
 			<a href="/linksForSearch">Multi searching from links</a>
 		</div>
-<!-- 		<div>
-			<a href="/searchPdf">New search from PDF files</a>
-		</div> -->
-
-
 	</div>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
