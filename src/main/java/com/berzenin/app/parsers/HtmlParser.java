@@ -19,15 +19,15 @@ import com.berzenin.app.model.ResultLine;
 @Service
 public class HtmlParser {
 
-	public Set<ResultLine> parseHtmlTable(String[] args, String url) {
+	public Set<ResultLine> parseHtmlTable(String[] args, String url, String metalType) {
 		Set<ResultLine> lines = new HashSet<>();
 		Document doc = getDocumentFormUrl(url);
 		Elements e = doc.select("table");
-		e.forEach(t -> lines.addAll(this.parseTable(args, url, t)));
+		e.forEach(t -> lines.addAll(this.parseTable(args, url, t, metalType)));
 		return lines;
 	}
-	
-	public Set<ResultLine> parseTable (String[] args, String url, Element table) {
+
+	public Set<ResultLine> parseTable(String[] args, String url, Element table, String metalType) {
 		Elements rows = table.select("tr");
 		String host = this.getHostName(url);
 		Set<ResultLine> lines = new HashSet<>();
@@ -37,23 +37,27 @@ public class HtmlParser {
 			row++;
 			for (String arument : args) {
 				int count = 0;
-				if (e.text().contains(arument)) {
-					for (String a : args) {
-						if (e.text().contains(a)) {
-							count++;
-							keys.add(a);
+				if (e.text().toLowerCase().contains(metalType.toLowerCase())) {
+					count++;
+					keys.add(metalType);
+					if (e.text().toLowerCase().contains(arument.toLowerCase())) {
+						for (String a : args) {
+							if (e.text().contains(a)) {
+								count++;
+								keys.add(a);
+							}
 						}
 					}
-					if (count >= 2) {
-						lines.add(new ResultLine(host, count, e.text(), row, keys, url));
-					}
+				}
+				if (count >= 1) {
+					lines.add(new ResultLine(host, count, e.text(), row, metalType, keys, url));
 				}
 			}
 		}
 		return lines;
 	}
-	
-	public String getHostName (String url) {
+
+	public String getHostName(String url) {
 		URL partOfurl = null;
 		try {
 			partOfurl = new URL(url);

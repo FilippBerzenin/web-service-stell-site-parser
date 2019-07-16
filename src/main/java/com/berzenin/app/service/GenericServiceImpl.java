@@ -1,5 +1,6 @@
 package com.berzenin.app.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,11 @@ public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> i
 	
 	@Override
 	public List<E> findAll() {
-		return (List<E>) repository.findAll();
+		List<E> list = (List<E>) repository.findAll();
+		if (list==null) {
+			return new ArrayList<>();
+		}
+		return list;
 	}
 
 	@Override

@@ -20,7 +20,7 @@ import com.berzenin.app.service.SearchService;
 
 @Controller
 @RequestMapping(value = "/linksForSearch")
-public class LinksController extends GenericViewControllerImpl<HostWithPdf, HostWithPdfService> {
+public class SearchController extends GenericViewControllerImpl<HostWithPdf, HostWithPdfService> {
 
 	@Autowired
 	private HostWithPdfService hostService;
@@ -28,7 +28,7 @@ public class LinksController extends GenericViewControllerImpl<HostWithPdf, Host
 	@Autowired
 	private SearchService mainSearcher;
 
-	public LinksController() {
+	public SearchController() {
 		page = "linksForSearch";
 	}
 
@@ -48,7 +48,7 @@ public class LinksController extends GenericViewControllerImpl<HostWithPdf, Host
 	@RequestMapping(value = "/multiSerching", method = RequestMethod.POST)
 	public String searchForManyLinks(@ModelAttribute(name = "links") @Valid Links links, BindingResult bindingResult,
 			Model model) {
-		if (bindingResult.hasErrors() || links.getKeywords().length() == 0) {
+		if (bindingResult.hasErrors()) {
 			model.addAttribute("message", "Error");
 			model.addAttribute("page", page);
 			model.addAttribute("listOfEntites", hostService.findAll());

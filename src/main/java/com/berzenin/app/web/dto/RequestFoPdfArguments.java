@@ -10,9 +10,10 @@ import lombok.Setter;
 public class RequestFoPdfArguments {
 	
 	
-	public RequestFoPdfArguments(String pathForLink, String[] args) {
+	public RequestFoPdfArguments(String pathForLink, String[] args, String metalType) {
 		this.pathForLink = pathForLink;
 		this.args = args;
+		this.metalType= metalType;
 	}
 
 	private String pathForLink;
@@ -20,5 +21,7 @@ public class RequestFoPdfArguments {
 	private String[] args;
 	
 	private String argument;
+	
+	private String metalType;
 
 }

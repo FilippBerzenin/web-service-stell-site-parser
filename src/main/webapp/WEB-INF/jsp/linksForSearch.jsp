@@ -34,6 +34,7 @@
 					<th>Number of coincidences</th>
 					<th>Line</th>
 					<th>Number line</th>
+					<th>Metal type</th>
 					<th>Words in line</th>
 					<th>Sources</th>
 				</tr>
@@ -49,6 +50,7 @@
 							<td>${res.countEquals}</td>
 							<td>${res.line}</td>
 							<td>${res.numberOfLine}</td>
+							<td>${res.metalType}</td>
 							<td>${res.keywords}</td>
 							<td><a href="${res.link}" target="_blank">Go to source</a></td>
 							
@@ -74,6 +76,9 @@
 					modelAttribute="links">
 					<button type="submit">Search</button>
 					<div class="form-group">
+						<label for="metalType">Enter metal type</label>
+						<form:input path="metalType"/>
+						<td><font color="red"><form:errors path="metalType" /></font></td>
 						<label for="keywords">Enter keywords, for example X120Mn12 1.3401 rund</label>
 						<form:textarea path="keywords" rows="2" cols="50" value="X120Mn12 1.3401 rund" placeholder="X120Mn12 1.3401 rund"/>
 						<td><font color="red">

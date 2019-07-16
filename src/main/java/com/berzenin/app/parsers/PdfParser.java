@@ -51,6 +51,7 @@ public class PdfParser {
 			e.printStackTrace();
 		}
 		try (InputStream in = url.openStream()) {
+			Files.createFile(filePdf);
 			Files.copy(in, filePdf, StandardCopyOption.REPLACE_EXISTING);
 		} catch (IOException e) {
 			log.error(e.getMessage());
@@ -61,7 +62,7 @@ public class PdfParser {
 
 	public boolean checkRemoteFileForNewVersion(String remotePath, String localPath) {
 		try {
-			if (this.getFileSize(new URL(remotePath))!=Paths.get(localPath).toFile().length()) {
+			if (this.getFileSize(new URL(remotePath)) != Paths.get(localPath).toFile().length()) {
 				return true;
 			}
 		} catch (MalformedURLException e) {
@@ -76,6 +77,7 @@ public class PdfParser {
 		try {
 			conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("HEAD");
+			System.out.println(conn.getContentLengthLong());
 			return conn.getContentLengthLong();
 		} catch (IOException e) {
 			log.error(e.getMessage());
@@ -123,7 +125,7 @@ public class PdfParser {
 		}
 	}
 
-	public List<ResultLine> setListWithSearchWords(String link, String host, String txtFile, String... args) {
+	public List<ResultLine> setListWithSearchWords(String link, String host, String txtFile, String metalType, String... args) {
 		List<String> lines = null;
 		List<ResultLine> result = new ArrayList<>();
 		try {
@@ -132,16 +134,19 @@ public class PdfParser {
 			for (String line: lines) {
 				Set<String> keywords = new HashSet<>();
 				int amountEquals = 0;
+				if (line.toLowerCase().contains(metalType.toLowerCase())) {
+					amountEquals++;
 				for (String arg: args) {
-					if (line.contains(arg)) {
+					if (line.toLowerCase().contains(arg.toLowerCase())) {
 						amountEquals++;
 						keywords.add(arg);
 					}
 				}
 				if (amountEquals>0) {
-					result.add(new ResultLine(host, amountEquals, line, numberOfLines, keywords, link));
+					result.add(new ResultLine(host, amountEquals, line, numberOfLines, metalType, keywords, link));
 				}
 				numberOfLines++;
+			}
 			}
 		} catch (IOException e) {
 			log.error(e.getMessage());

@@ -14,5 +14,7 @@ public class Links {
 	private String keywords;
 	
 	private String[] key;
+	
+	private String metalType;
 
 }

@@ -31,6 +31,7 @@ class PdfParserTest {
 		assertEquals(Paths.get(localPath+pdfFileName), pars.downloadFileFRomUrl(path, localPath, pdfFileName));
 	}
 	
+	@Disabled
 	@Test
 	public void convertPdfForExcelTest () {
 		String pdf = localPath+pdfFileName;
@@ -38,6 +39,7 @@ class PdfParserTest {
 		pars.generateHTMLFromPDF(html, pdf);
 	}
 	
+	@Disabled
 	@Test
 	public void generateTxtFromPDFTest () {
 		String pdf = localPath+pdfFileName;
@@ -45,13 +47,15 @@ class PdfParserTest {
 		pars.generateTxtFromPDF(text, pdf);
 	}
 	
+	@Disabled
 	@Test
 	public void setListWithSearchWordsTest() {
 		String text = localPath+"text.txt";
 		String [] srs = {"1.3401", "rund"};
-		pars.setListWithSearchWords(path, "test", text, srs);
+//		pars.setListWithSearchWords(path, "test", text, srs);
 	}
 	
+	@Disabled
 	@Test
 	public void checkRemoteFileForNewVersionTest () {
 		assertFalse(pars.checkRemoteFileForNewVersion(path, localPath+pdfFileName));

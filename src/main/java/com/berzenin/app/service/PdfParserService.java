@@ -50,7 +50,7 @@ public class PdfParserService {
 			pdfParser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
 		}
 		}
-		List<ResultLine> result = pdfParser.setListWithSearchWords(argument.getPathForLink(), host, path + txtFileName, argument.getArgs());
+		List<ResultLine> result = pdfParser.setListWithSearchWords(argument.getPathForLink(), host, path + txtFileName, argument.getMetalType(), argument.getArgs());
 		result = result.stream().filter(s -> s.getCountEquals() > count).collect(Collectors.toList());
 		result.stream().forEach(s -> s.setLink(argument.getPathForLink()));
 		result.forEach(System.out::println);
