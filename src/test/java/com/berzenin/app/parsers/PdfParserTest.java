@@ -3,6 +3,8 @@ package com.berzenin.app.parsers;
 import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Paths;
@@ -27,21 +29,40 @@ class PdfParserTest {
 	}
 	
 	@Test
-	public void downloadFileFRomUrlTest () {
-		assertEquals(Paths.get(localPath+pdfFileName), pars.downloadFileFRomUrl(path, localPath, pdfFileName));
+	public void testGenerateTxtFromPDF () throws IOException {
+		String pdfFile = "C:\\workspace\\web-metal-searcher\\src\\main\\resources\\localfiles\\FilippBerzeninENG.pdf";
+		String txtFile = "C:\\workspace\\web-metal-searcher\\src\\main\\resources\\localfiles\\FilippBerzeninENG.txt";
+		pars.generateTxtFromPDF(txtFile, pdfFile);
 	}
 	
 	@Disabled
 	@Test
-	public void convertPdfForExcelTest () {
-		String pdf = localPath+pdfFileName;
-		String html = localPath+"pdf.html";
-		pars.generateHTMLFromPDF(html, pdf);
+	public void buildingRegExpressionTest () {
+		String find = "X 120 Mn 12";
+		System.out.println(pars.buildingRegExpression(find));
 	}
 	
 	@Disabled
 	@Test
-	public void generateTxtFromPDFTest () {
+	public void stringContainsAnotherStringTest () {
+		String line = "X 120 Mn 12 1.3401 1,10–1,30 0,30–0,50 12,0–13,0 0,100 0,040 max. 1,50 – – 1,00 –";
+		String word = "X120Mn12";
+		System.out.println(pars.stringContainsAnotherString(line, word));
+		String line2 = "X 120 Mn 12 1.3401 1,10–1,30 0,30–0,50 12,0–13,0 0,100 0,040 max. 1,50 – – 1,00 –";
+		String word2 = "130";
+		System.out.println(pars.stringContainsAnotherString(line2, word2));
+	}
+	
+//	@Disabled
+//	@Test
+//	public void downloadFileFRomUrlTest () throws IOException {
+//		assertEquals(Paths.get(localPath+pdfFileName), pars.downloadFileFRomUrl(path, localPath, pdfFileName));
+//	}
+	
+	
+	@Disabled
+	@Test
+	public void generateTxtFromPDFTest () throws FileNotFoundException, IOException {
 		String pdf = localPath+pdfFileName;
 		String text = localPath+"text.txt";
 		pars.generateTxtFromPDF(text, pdf);

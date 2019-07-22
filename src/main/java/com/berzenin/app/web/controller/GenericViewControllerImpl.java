@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Controller
 public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> implements GenericViewController<E> {
-	
+
 	@Autowired
 	protected S service;
 	
@@ -113,7 +113,7 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 		model.addAttribute("listOfEntites", entites);
 	}
 	
-	protected void setModelAttributeWhenthrowException (RuntimeException e, Model model) {
+	protected void setModelAttributeWhenthrowException (Exception e, Model model) {
 		log.error("Error "+e);
 		message = "Error "+e;
 		entites = service.findAll();

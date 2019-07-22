@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 import com.berzenin.app.model.ResultLine;
 
 @Service
-public class HtmlParser {
+public class HtmlParser extends MainParser {
 
 	public Set<ResultLine> parseHtmlTable(String[] args, String url, String metalType) {
 		Set<ResultLine> lines = new HashSet<>();
@@ -29,42 +29,32 @@ public class HtmlParser {
 
 	public Set<ResultLine> parseTable(String[] args, String url, Element table, String metalType) {
 		Elements rows = table.select("tr");
-		String host = this.getHostName(url);
+//		String host = this.getHostName(url);
 		Set<ResultLine> lines = new HashSet<>();
-		int row = 0;
-		for (Element e : rows) {
-			Set<String> keys = new HashSet<>();
-			row++;
-			for (String arument : args) {
-				int count = 0;
-				if (e.text().toLowerCase().contains(metalType.toLowerCase())) {
-					count++;
-					keys.add(metalType);
-					if (e.text().toLowerCase().contains(arument.toLowerCase())) {
-						for (String a : args) {
-							if (e.text().contains(a)) {
-								count++;
-								keys.add(a);
-							}
-						}
-					}
-				}
-				if (count >= 1) {
-					lines.add(new ResultLine(host, count, e.text(), row, metalType, keys, url));
-				}
-			}
-		}
+//		int row = 0;
+//		for (Element e : rows) {
+//			Set<String> keys = new HashSet<>();
+//			row++;
+//			for (String arument : args) {
+//				int count = 0;
+//				if (e.text().toLowerCase().contains(metalType.toLowerCase())) {
+//					count++;
+//					keys.add(metalType);
+//					if (e.text().toLowerCase().contains(arument.toLowerCase())) {
+//						for (String a : args) {
+//							if (e.text().contains(a)) {
+//								count++;
+//								keys.add(a);
+//							}
+//						}
+//					}
+//				}
+//				if (count >= 1) {
+//					lines.add(new ResultLine(host, count, e.text(), row, metalType, keys, url));
+//				}
+//			}
+//		}
 		return lines;
-	}
-
-	public String getHostName(String url) {
-		URL partOfurl = null;
-		try {
-			partOfurl = new URL(url);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-		return partOfurl.getHost();
 	}
 
 	public Document getDocumentFormUrl(String url) {

@@ -3,8 +3,6 @@ package com.berzenin.app.parsers;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.PrintWriter;
-import java.io.Writer;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -12,34 +10,28 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
-import java.util.HashSet;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
+import java.util.Optional;
 
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.apache.pdfbox.cos.COSDocument;
-import org.apache.pdfbox.io.RandomAccessFile;
-import org.apache.pdfbox.pdfparser.PDFParser;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.PDFTextStripper;
-import org.fit.pdfdom.PDFDomTree;
 import org.springframework.stereotype.Service;
-
-import com.berzenin.app.model.ResultLine;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-public class PdfParser {
+public class PdfParser extends MainParser {
 
 	public boolean downloadFileFRomUrl(String path, String localPath, String pdfFileName) {
+		if (pdfFileName == null || pdfFileName.length()==0) {
+			return false;
+		}
 		URL url = null;
-		Path filePdf = null;
-		filePdf = Paths.get(localPath + pdfFileName);
+		Path filePdf = Paths.get(localPath + pdfFileName);
 		if (!this.checkRemoteFileForNewVersion(path, filePdf.toString())) {
 			System.out.println("false");
 			return false;
@@ -90,69 +82,41 @@ public class PdfParser {
 		return conn.getContentLengthLong();
 	}
 
-	public void generateHTMLFromPDF(String htmlFile, String pdfFile) {
-		try {
-			PDDocument pdf = PDDocument.load(new File(pdfFile));
-			Writer output = new PrintWriter(htmlFile);
-			new PDFDomTree().writeText(pdf, output);
-			output.close();
-			pdf.close();
+	public Optional<Path> generateTxtFromPDF(String txtFile, String pdfFile) {
+		Path file = Paths.get(txtFile);
+		if (!Files.exists(Paths.get(pdfFile))) {
+			log.info("File don't find: " + pdfFile);
+			return Optional.ofNullable(file);
+		}
+		try (PDDocument document = PDDocument.load(new File(pdfFile))) {
+			document.getClass();
+			if (!document.isEncrypted()) {
+				if (!document.isEncrypted()) {
+					PDFTextStripper tStripper = new PDFTextStripper();
+					String pdfFileInText = tStripper.getText(document);
+					String lines[] = pdfFileInText.split("\\r?\\n");
+					return this.writeBytesForTxtFile(txtFile, lines);
+				}
+			}
 		} catch (InvalidPasswordException e) {
-			log.error(e.getMessage());
+			log.error("invalid password"+e);
 			e.printStackTrace();
-		} catch (IOException | ParserConfigurationException e) {
-			log.error(e.getMessage());
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		return Optional.ofNullable(file);
 	}
-
-	public void generateTxtFromPDF(String txtFile, String pdfFile) {
-		try {
-			File f = new File(pdfFile);
-			String parsedText;
-			PDFParser parser = new PDFParser(new RandomAccessFile(f, "r"));
-			parser.parse();
-			COSDocument cosDoc = parser.getDocument();
-			PDFTextStripper pdfStripper = new PDFTextStripper();
-			PDDocument pdDoc = new PDDocument(cosDoc);
-			parsedText = pdfStripper.getText(pdDoc);
-			PrintWriter pw = new PrintWriter(txtFile);
-			pw.print(parsedText);
-			pw.close();
-		} catch (IOException e) {
-			log.error(e.getMessage());
-			e.printStackTrace();
-		}
-	}
-
-	public List<ResultLine> setListWithSearchWords(String link, String host, String txtFile, String metalType, String... args) {
-		List<String> lines = null;
-		List<ResultLine> result = new ArrayList<>();
-		try {
-			int numberOfLines = 0;
-			lines = Files.readAllLines(Paths.get(txtFile));
-			for (String line: lines) {
-				Set<String> keywords = new HashSet<>();
-				int amountEquals = 0;
-				if (line.toLowerCase().contains(metalType.toLowerCase())) {
-					amountEquals++;
-				for (String arg: args) {
-					if (line.toLowerCase().contains(arg.toLowerCase())) {
-						amountEquals++;
-						keywords.add(arg);
-					}
-				}
-				if (amountEquals>0) {
-					result.add(new ResultLine(host, amountEquals, line, numberOfLines, metalType, keywords, link));
-				}
-				numberOfLines++;
+	
+	public Optional<Path> writeBytesForTxtFile(String txtFile, String[] lines) {
+	    Path path = Paths.get(txtFile);
+	    List<String> lin = Arrays.asList(lines);
+		    try {
+				Files.write(path, lin, StandardOpenOption.CREATE);
+				return Optional.ofNullable(path);
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
-			}
-		} catch (IOException e) {
-			log.error(e.getMessage());
-			e.printStackTrace();
-		}		
-		return result;		
-	}
+		    return Optional.ofNullable(path);
+	    }
 
 }

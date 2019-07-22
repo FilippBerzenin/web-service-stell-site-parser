@@ -24,7 +24,7 @@
 		</c:if>
 
 		<div>
-			<a href="/hosts/show/all">Links page</a>
+			<a href="/linksForResources/show/all">Links page</a>
 		</div>
 		<div>
 			<a href="/linksForSearch">Multi searching from links</a>
