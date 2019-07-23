@@ -2,14 +2,12 @@ package com.berzenin.app.parsers;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.List;
@@ -25,32 +23,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class PdfParser extends MainParser {
-
-	public boolean downloadFileFRomUrl(String path, String localPath, String pdfFileName) {
-		if (pdfFileName == null || pdfFileName.length()==0) {
-			return false;
-		}
-		URL url = null;
-		Path filePdf = Paths.get(localPath + pdfFileName);
-		if (!this.checkRemoteFileForNewVersion(path, filePdf.toString())) {
-			System.out.println("false");
-			return false;
-		}
-		try {
-			url = new URL(path);
-		} catch (MalformedURLException e) {
-			log.error(e.getMessage());
-			e.printStackTrace();
-		}
-		try (InputStream in = url.openStream()) {
-			Files.createFile(filePdf);
-			Files.copy(in, filePdf, StandardCopyOption.REPLACE_EXISTING);
-		} catch (IOException e) {
-			log.error(e.getMessage());
-			e.printStackTrace();
-		}
-		return true;
-	}
 
 	public boolean checkRemoteFileForNewVersion(String remotePath, String localPath) {
 		try {

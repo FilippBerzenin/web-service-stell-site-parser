@@ -24,7 +24,7 @@
 			<c:if test="${not empty message}">
 				<div class="alert alert-success">${message}</div>
 			</c:if>
-			<h2>Add new ${page}:</h2>
+			<h2>Add new link:</h2>
 			<div class="form-group">
 				<form:form method="post" action="${prefix}/${page}/create/"
 					modelAttribute="entityFor">
@@ -34,18 +34,18 @@
 										path="urlForResource" /></font></td>
 							<td><form:input path="urlForResource"
 									placeholder="URL for PDF file" /></td>
-							<td><button type="submit">Add new ${page}</button></td>
+							<td><button type="submit">Add new link</button></td>
 						</tr>
 					</table>
 				</form:form>
 			</div>
+			<h3>File download:</h3>
 			<div>
-				<h3>File Upload:</h3>
 				Select a file to upload: <br />
-				<form action="${prefix}/${page}/addPdfFile" method="post"
+				<form class="form-group" action="${prefix}/${page}/addPdfFile" method="post"
 					enctype="multipart/form-data">
-					<input type="file" name="file" size="50" /> <br /> <input
-						type="submit" value="Upload File" />
+					<input type="file" name="file" size="50" />
+					<button type="submit">Upload File</button>
 				</form>
 			</div>
 		</div>

@@ -36,7 +36,7 @@ public class LinkMetalResourcesController
 		LinkForMetalResources entity = LinkForMetalResources.builder()
 				.host("localhost")
 				.resourcesType(ResourcesType.LOCAL_PDF)
-				.urlForResource("clients file")
+				.urlForResource(service.getLocalPathForPdf(file).toString())
 				.localPathForPdfFile(service.getLocalPathForPdf(file).toString())
 				.localPathForTxtFile(service.getLocalPathForPdf(file).toString().replaceAll("pdf", "txt"))
 				.build();
@@ -48,6 +48,7 @@ public class LinkMetalResourcesController
 		}
 		try {
 			if (service.copyFileForlocalDirectory(entity, file)) {
+				service.parsePdf(entity);
 				service.add(entity);
 				message = "File was successful save";
 				entites = service.findAll();
@@ -91,6 +92,7 @@ public class LinkMetalResourcesController
 				setModelAttribute(model);
 				return page;
 			}
+			service.downloadFileFRomUrl(entity);
 			service.add(entity);
 			message = "Entity was successful save";
 			entites = service.findAll();
