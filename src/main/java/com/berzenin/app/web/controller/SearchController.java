@@ -17,23 +17,24 @@ import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.model.Links;
 import com.berzenin.app.model.ResultLine;
 import com.berzenin.app.service.LinkForMetalResourcesService;
+import com.berzenin.app.service.SearchService;
 
 @Controller
 @RequestMapping(value = "/linksForSearch")
 public class SearchController extends GenericViewControllerImpl<LinkForMetalResources, LinkForMetalResourcesService> {
 
 	@Autowired
-	private LinkForMetalResourcesService hostService;
+	private SearchService searchService;
 
-//	@Autowired
-//	private SearchService mainSearcher;
+	@Autowired
+	private LinkForMetalResourcesService linkSearcher;
 
 	public SearchController() {
 		page = "linksForSearch";
 	}
 
 	@ModelAttribute("links")
-	public Links getListOfHostWithPdf() {
+	public Links getListofLinks() {
 		return new Links();
 	}
 
@@ -41,30 +42,30 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 	public String getAllLinks(Model model) {
 		model.addAttribute("message", "Get all links");
 		model.addAttribute("page", page);
-		model.addAttribute("listOfEntites", hostService.findAll());
+		model.addAttribute("listOfEntites", linkSearcher.findAll());
 		return page;
 	}
 
 	@RequestMapping(value = "/multiSerching", method = RequestMethod.POST)
 	public String searchForManyLinks(@ModelAttribute(name = "links") @Valid Links links, BindingResult bindingResult,
 			Model model) {
-//		if (bindingResult.hasErrors()) {
-//			model.addAttribute("message", "Error");
-//			model.addAttribute("page", page);
-//			model.addAttribute("listOfEntites", hostService.findAll());
-//			return page;
-//		}
-//		links.setKey(links.getKeywords().split(" "));
-//		model.addAttribute("message", "Get result");
-//		model.addAttribute("page", page);
-//		List<ResultLine> result = null;
-//		try {
-////			result = mainSearcher.distributorForLineSearch(links);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//		model.addAttribute("result", result);
-//		model.addAttribute("listOfEntites", hostService.findAll());
+		if (bindingResult.hasErrors()) {
+			model.addAttribute("message", "Error");
+			model.addAttribute("page", page);
+			model.addAttribute("listOfEntites", linkSearcher.findAll());
+			return page;
+		}
+		links.setKey(links.getKeywords().split(" "));
+		model.addAttribute("message", "Get result");
+		model.addAttribute("page", page);
+		List<ResultLine> result = null;
+		try {
+			result = searchService.distributorForLineSearch(links);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		model.addAttribute("result", result);
+		model.addAttribute("listOfEntites", linkSearcher.findAll());
 		return page;
 	}
 }

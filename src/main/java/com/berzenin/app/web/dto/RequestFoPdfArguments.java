@@ -1,5 +1,7 @@
 package com.berzenin.app.web.dto;
 
+import com.berzenin.app.model.LinkForMetalResources;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,14 +12,14 @@ import lombok.Setter;
 public class RequestFoPdfArguments {
 	
 	
-	public RequestFoPdfArguments(String pathForLink, String[] args, String metalType) {
-		this.pathForLink = pathForLink;
+	public RequestFoPdfArguments(LinkForMetalResources link, String[] args, String metalType) {
+		this.link = link;
 		this.args = args;
 		this.metalType= metalType;
 	}
-
-	private String pathForLink;
 	
+	private LinkForMetalResources link;
+
 	private String[] args;
 	
 	private String argument;

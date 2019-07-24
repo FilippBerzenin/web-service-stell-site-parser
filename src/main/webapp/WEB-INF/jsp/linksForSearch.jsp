@@ -24,7 +24,8 @@
 		<c:if test="${not empty message}">
 			<div class="alert alert-success">${message}</div>
 		</c:if>
-		
+		<form action="/show/all"></form>
+		<p><button type="submit">Reset</button></p>	
 		<c:if test="${not empty result}">
 		<table class="table  table-sm">
 			<thead class="table-info">
@@ -68,31 +69,33 @@
 					<th>#</th>
 					<th>ID</th>
 					<th>Host</th>
-					<th>Link list</th>
+					<th>Link</th>
 				</tr>
 			</thead>
 			<tbody>
 				<form:form method="POST" action="${prefix}/${page}/multiSerching"
 					modelAttribute="links">
-					<button type="submit">Search</button>
 					<div class="form-group">
 						<label for="metalType">Enter metal type</label>
-						<form:input path="metalType"/>
+						<form:input class="form-control" path="metalType"/>
+					</div>
 						<td><font color="red"><form:errors path="metalType" /></font></td>
+					<div class="form-group">
 						<label for="keywords">Enter keywords, for example X120Mn12 1.3401 rund</label>
-						<form:textarea path="keywords" rows="2" cols="50" value="X120Mn12 1.3401 rund" placeholder="X120Mn12 1.3401 rund"/>
+						<form:input class="form-control" path="keywords"  placeholder="X120Mn12 1.3401 rund"/>
+					</div>
 						<td><font color="red">
 						<form:errors path="keywords" /></font></td>
-					</div>
+						<p><button type="submit">Search</button></p>
 					<c:forEach var="entity" items="${listOfEntites}"
 						varStatus="counter">
 						<tr>
 							<td><form:checkbox path="linksFor"
-									value="${entity.linkForPdfFile}" checked="checked"/></td>
+									value="${entity.localPathForTxtFile}" checked="checked"/></td>
 							<td>${counter.count}</td>
 							<td>${entity.id}</td>
 							<td><a href="${entity.host}"/>${entity.host}</td>
-							<td><a href="${entity.linkForPdfFile}"/>${entity.linkForPdfFile}</td>
+							<td><a href="${entity.urlForResource}"/>${entity.urlForResource}</td>
 						</tr>
 					</c:forEach>
 				</form:form>

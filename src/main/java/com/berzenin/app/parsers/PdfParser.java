@@ -12,6 +12,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
@@ -60,35 +61,43 @@ public class PdfParser extends MainParser {
 			log.info("File don't find: " + pdfFile);
 			return Optional.ofNullable(file);
 		}
+		PDFTextStripper tStripper;
 		try (PDDocument document = PDDocument.load(new File(pdfFile))) {
 			document.getClass();
 			if (!document.isEncrypted()) {
-				if (!document.isEncrypted()) {
-					PDFTextStripper tStripper = new PDFTextStripper();
-					String pdfFileInText = tStripper.getText(document);
-					String lines[] = pdfFileInText.split("\\r?\\n");
-					return this.writeBytesForTxtFile(txtFile, lines);
-				}
+				tStripper = new PDFTextStripper();
+				String pdfFileInText = tStripper.getText(document);
+				document.close();
+				String lines[] = pdfFileInText.split("\\r?\\n");
+				return this.writeBytesForTxtFile(txtFile, lines);
 			}
 		} catch (InvalidPasswordException e) {
 			log.error("invalid password"+e);
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		} 
 		return Optional.ofNullable(file);
 	}
-	
+
 	public Optional<Path> writeBytesForTxtFile(String txtFile, String[] lines) {
-	    Path path = Paths.get(txtFile);
-	    List<String> lin = Arrays.asList(lines);
-		    try {
-				Files.write(path, lin, StandardOpenOption.CREATE);
-				return Optional.ofNullable(path);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		    return Optional.ofNullable(path);
-	    }
+		Path path = Paths.get(txtFile);
+		List<String> lin = Arrays.asList(lines);
+		lin = this.removeWhitespaces(lin);
+		try {
+			Files.write(path, lin, StandardOpenOption.CREATE);
+			return Optional.ofNullable(path);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return Optional.ofNullable(path);
+	}
+	
+	public List<String> removeWhitespaces (List<String> list) {
+		return list.stream()
+				.map(s -> s.trim())
+				.map(s -> s.replaceAll("\\s+", " "))
+				.collect(Collectors.toList());
+	}
 
 }

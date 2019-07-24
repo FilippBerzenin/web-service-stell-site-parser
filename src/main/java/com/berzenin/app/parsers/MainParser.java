@@ -13,6 +13,7 @@ import java.util.regex.Pattern;
 import org.springframework.stereotype.Service;
 
 import com.berzenin.app.model.ResultLine;
+import com.berzenin.app.web.dto.RequestFoPdfArguments;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -20,28 +21,34 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public abstract class MainParser {
 
-	public List<ResultLine> setListWithSearchWords(String link, String host, String txtFile, String metalType,
-			String... args) {
+	public List<ResultLine> setListWithSearchWords(RequestFoPdfArguments argument) {
 		List<String> lines = null;
 		List<ResultLine> result = new ArrayList<>();
 		boolean flagForMetalType = false;
 		try {
 			int numberOfLines = 0;
-			lines = Files.readAllLines(Paths.get(txtFile));
+			lines = Files.readAllLines(Paths.get(argument.getLink().getLocalPathForTxtFile()));
 			for (String line : lines) {
 				Set<String> keywords = new HashSet<>();
 				int amountEquals = 0;
-				if (this.stringContainsAnotherString(line, metalType)) {
+				if (this.stringContainsAnotherString(line, argument.getMetalType())) {
 					amountEquals++;
 					flagForMetalType = true;
-					for (String arg : args) {
+					for (String arg : argument.getArgs()) {
 						if (this.stringContainsAnotherString(line, arg)) {
 							amountEquals++;
 							keywords.add(arg);
 						}
 					}
 					if (amountEquals > 0 && flagForMetalType == true) {
-						result.add(new ResultLine(host, amountEquals, line, numberOfLines, metalType, keywords, link));
+						result.add(new ResultLine(
+								argument.getLink().getHost(),
+								amountEquals,
+								line,
+								numberOfLines,
+								argument.getMetalType(),
+								keywords,
+								argument.getLink().getUrlForResource()));
 					}
 					numberOfLines++;
 				}

@@ -33,6 +33,10 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	
 	@Autowired
 	private PdfParser pdfParser;
+	
+	public LinkForMetalResources findByLink(String link) {
+		return repository.findByLocalPathForTxtFile(link);
+	}
 
 	public LinkForMetalResources getHostWithPdfByLinkForPdfFile(String linkForPdfFile) {
 		return repo.findByLocalPathForPdfFile(linkForPdfFile);

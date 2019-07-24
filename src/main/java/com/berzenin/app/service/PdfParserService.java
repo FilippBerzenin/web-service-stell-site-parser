@@ -27,9 +27,6 @@ public class PdfParserService  {
 
 	private String path;
 	@Getter
-	private static String pdfFileName;
-	private static String txtFileName;
-	private static String host;
 	private int count;
 
 	@Autowired
@@ -37,26 +34,22 @@ public class PdfParserService  {
 
 	public List<ResultLine> getResult(RequestFoPdfArguments argument) throws IOException {
 		this.count = argument.getArgs().length;
-//		this.setPathForFile(argument.getPathForLink());
-//		this.setPdfFileName(argument.getPathForLink());
-//		this.setTxtFileName(argument.getPathForLink());
-		System.out.println(Files.exists(Paths.get(path + txtFileName)));
-		try {
-			if (!Files.exists(Paths.get(path + txtFileName))) {
-				if (host.equals("localhost")) {
-					pdfParser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
-				} else {
-					pdfParser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
-				}
-			}
-		} catch (RuntimeException e) {
-			log.error(e.getMessage());
-			e.printStackTrace();
-		}
-		List<ResultLine> result = pdfParser.setListWithSearchWords(argument.getPathForLink(), host, path + txtFileName,
-				argument.getMetalType(), argument.getArgs());
+//		System.out.println(Files.exists(Paths.get(path + txtFileName)));
+//		try {
+//			if (!Files.exists(Paths.get(path + txtFileName))) {
+//				if (argument.getLink().getHost().equals("localhost")) {
+//					pdfParser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
+//				} else {
+//					pdfParser.generateTxtFromPDF(path + txtFileName, path + pdfFileName);
+//				}
+//			}
+//		} catch (RuntimeException e) {
+//			log.error(e.getMessage());
+//			e.printStackTrace();
+//		}
+		List<ResultLine> result = pdfParser.setListWithSearchWords(argument);
 		result = result.stream().filter(s -> s.getCountEquals() > count).collect(Collectors.toList());
-		result.stream().forEach(s -> s.setLink(argument.getPathForLink()));
+		result.stream().forEach(s -> s.setLink(argument.getLink().getUrlForResource()));
 		result.forEach(System.out::println);
 		return result;
 	}

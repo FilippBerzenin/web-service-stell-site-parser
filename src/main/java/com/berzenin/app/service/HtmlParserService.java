@@ -21,7 +21,7 @@ public class HtmlParserService {
 	private HtmlParser htmlParser;
 	
 	public Set<ResultLine> getResult(RequestFoPdfArguments argument) {
-		Set<ResultLine> result = htmlParser.parseHtmlTable(argument.getArgs(), argument.getPathForLink(), argument.getMetalType());
+		Set<ResultLine> result = htmlParser.parseHtmlTable(argument.getArgs(), argument.getMetalType());
 		return result;
 	}
 

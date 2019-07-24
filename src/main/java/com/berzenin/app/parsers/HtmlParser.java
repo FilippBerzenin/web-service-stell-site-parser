@@ -19,11 +19,11 @@ import com.berzenin.app.model.ResultLine;
 @Service
 public class HtmlParser extends MainParser {
 
-	public Set<ResultLine> parseHtmlTable(String[] args, String url, String metalType) {
+	public Set<ResultLine> parseHtmlTable(String[] args, String url) {
 		Set<ResultLine> lines = new HashSet<>();
-		Document doc = getDocumentFormUrl(url);
-		Elements e = doc.select("table");
-		e.forEach(t -> lines.addAll(this.parseTable(args, url, t, metalType)));
+//		Document doc = getDocumentFormUrl(url);
+//		Elements e = doc.select("table");
+//		e.forEach(t -> lines.addAll(this.parseTable(args, url, t, metalType)));
 		return lines;
 	}
 

@@ -17,5 +17,7 @@ public interface GenericService<E> {
 	public void removeById(Long id);
 
 	public E update(@Valid E entity);
+	
+	public E findByLink(String link);
 }
 

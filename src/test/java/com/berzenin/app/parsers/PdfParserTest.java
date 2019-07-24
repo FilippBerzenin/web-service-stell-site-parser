@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
@@ -28,11 +30,21 @@ class PdfParserTest {
 		path = "https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf";
 	}
 	
+	@Disabled
 	@Test
 	public void testGenerateTxtFromPDF () throws IOException {
-		String pdfFile = "C:\\workspace\\web-metal-searcher\\src\\main\\resources\\localfiles\\FilippBerzeninENG.pdf";
-		String txtFile = "C:\\workspace\\web-metal-searcher\\src\\main\\resources\\localfiles\\FilippBerzeninENG.txt";
+		String txtFile = "..\\web-metal-searcher\\src\\main\\resources\\www.remystahl.de\\Lieferprogramm_Remystahl.txt";
+		String pdfFile = "..\\web-metal-searcher\\src\\main\\resources\\www.remystahl.de\\Lieferprogramm_Remystahl.pdf";
 		pars.generateTxtFromPDF(txtFile, pdfFile);
+	}
+	
+	@Test
+	public void removeWhitespacesTest () {
+		String[] array = {"1.3302 geglüht rund   12      –      40 + flach 75 x 8 – 85 x 18",
+				"1.3401 lösungsgeglüht rund     6      –    220",
+				"1.3401 lösungsgeglüht     flach   20      –    100 mm Breite,  8 – 20  mm Stärke"};
+		List<String> list = Arrays.asList(array);
+		pars.removeWhitespaces(list).forEach(System.out::println);
 	}
 	
 	@Disabled

@@ -6,7 +6,6 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
@@ -14,9 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
 
-import com.berzenin.app.model.Links;
-import com.berzenin.app.model.ResultLine;
-import com.berzenin.app.web.dto.RequestFoPdfArguments;
 import com.berzenin.app.web.exception.NotFoundException;
 
 import lombok.Getter;
@@ -27,12 +23,6 @@ import lombok.extern.slf4j.Slf4j;
 public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> implements GenericService<E> {
 
 	protected final R repository;
-
-	@Autowired
-	private PdfParserService pdfParserService;
-
-	@Autowired
-	private HtmlParserService htmlParserService;
 
 	@Getter
 	protected static final String pathToResource = "..\\web-metal-searcher\\src\\main\\resources\\";
@@ -54,10 +44,6 @@ public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> i
 
 	public String setPathForFile(String url) {
 		String path = "";
-//		if (url.contains("localfiles")) {
-//			path = url.substring(0, url.lastIndexOf("\\") + 1);
-//			return url;
-//		}
 		try {
 			URL partOfurl = new URL(url);
 			if (!Files.exists(Paths.get(pathToResource + partOfurl.getHost()))) {
@@ -81,21 +67,7 @@ public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> i
 			e.printStackTrace();		}
 		return pdfFileName;
 	}
-
-	public List<ResultLine> distributorForLineSearch(Links links) throws IOException {
-		List<ResultLine> result = new LinkedList<>();
-		for (String link : links.getLinksFor()) {
-			if (link.endsWith("pdf")) {
-				result.addAll(pdfParserService
-						.getResult(new RequestFoPdfArguments(link, links.getKey(), links.getMetalType())));
-			} else {
-				result.addAll(htmlParserService
-						.getResult(new RequestFoPdfArguments(link, links.getKey(), links.getMetalType())));
-			}
-		}
-		return result;
-	}
-
+	
 	@Override
 	public List<E> findAll() {
 		List<E> list = (List<E>) repository.findAll();

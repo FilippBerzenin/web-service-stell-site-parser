@@ -93,6 +93,7 @@ public class LinkMetalResourcesController
 				return page;
 			}
 			service.downloadFileFRomUrl(entity);
+			service.parsePdf(entity);
 			service.add(entity);
 			message = "Entity was successful save";
 			entites = service.findAll();
