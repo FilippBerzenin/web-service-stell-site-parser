@@ -20,7 +20,7 @@ public class SearchService {
 	private PdfParserService pdfParserService;
 
 	@Autowired
-	private HtmlParserService htmlParserService;
+	private HtmlService htmlService;
 	
 	@Autowired
 	private LinkForMetalResourcesService linkForMetalResourcesService;
@@ -33,7 +33,7 @@ public class SearchService {
 				result.addAll(pdfParserService
 						.getResult(new RequestFoPdfArguments(res, links.getKey(), links.getMetalType())));
 			} else {
-				result.addAll(htmlParserService
+				result.addAll(pdfParserService
 						.getResult(new RequestFoPdfArguments(res, links.getKey(), links.getMetalType())));
 			}
 		}

@@ -22,14 +22,6 @@
 		<downloadJavadocs>true</downloadJavadocs>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>AsposeJavaAPI</id>
-			<name>Aspose Java API</name>
-			<url>https://repository.aspose.com/repo/</url>
-		</repository>
-	</repositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -82,7 +74,7 @@
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
-			<version>2.0.16</version>
+			<version>2.0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>net.sf.cssbox</groupId>

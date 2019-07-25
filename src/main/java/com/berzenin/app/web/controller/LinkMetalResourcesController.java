@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.berzenin.app.model.Host;
 import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.service.LinkForMetalResourcesService;
 import com.berzenin.app.type.ResourcesType;
@@ -29,6 +30,14 @@ public class LinkMetalResourcesController
 	@ModelAttribute("entityFor")
 	public LinkForMetalResources getEntityForForm() {
 		return new LinkForMetalResources();
+	}
+	
+	@RequestMapping(value= "/addHost")
+	public String addHost (@RequestParam("host") String host, Model model) {
+		Host newHost = new Host();
+		newHost.setUrl(host);
+		service.getLinskFromHost(newHost);
+		return page;
 	}
 
 	@RequestMapping(value = "/addPdfFile")
@@ -76,15 +85,27 @@ public class LinkMetalResourcesController
 			return page;
 		}
 		try {
+			ResourcesType resources;
 			String name = service.setPdfFileName(entity.getUrlForResource());
-			String localPath = service.setPathForFile(entity.getUrlForResource());
-			String url = entity.getUrlForResource();
+			String localPath;
+			String pathForTxtFile = "null";
+			String url = entity.getUrlForResource();			
+			if (name.substring(name.length()-3).equals("pdf")) {
+				resources = ResourcesType.REMOTE_PDF;
+				localPath = service.setPathForFile(entity.getUrlForResource())+name;
+				pathForTxtFile = localPath.replace("pdf", "txt");
+				
+			} else if (true) {
+				resources = ResourcesType.HTML_RESOURCES;
+				localPath = service.setPathForFile(entity.getUrlForResource())+name+".pdf";
+				pathForTxtFile = localPath.replace("pdf", "txt");
+			}
 			entity = LinkForMetalResources.builder()
 				.host(service.getHostNameFromUrl(entity.getUrlForResource()))
-				.resourcesType(ResourcesType.REMOTE_PDF)
+				.resourcesType(resources)
 				.urlForResource(url)
-				.localPathForPdfFile(localPath + name)
-				.localPathForTxtFile(localPath + name.replace("pdf", "txt"))
+				.localPathForPdfFile(localPath)
+				.localPathForTxtFile(pathForTxtFile)
 				.build();
 			if (this.checkIfLinkInData(entity)) {
 				message = "This link is already in the database.";
@@ -92,7 +113,7 @@ public class LinkMetalResourcesController
 				setModelAttribute(model);
 				return page;
 			}
-			service.downloadFileFRomUrl(entity);
+			service.downloadResorcesFromUrl(entity);
 			service.parsePdf(entity);
 			service.add(entity);
 			message = "Entity was successful save";

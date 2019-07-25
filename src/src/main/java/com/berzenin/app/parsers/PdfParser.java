@@ -83,23 +83,6 @@ public class PdfParser extends MainParser {
 	}
 
 	
-	//Not used	
-	public void generateHTMLFromPDF(String htmlFile, String pdfFile) {
-		try {
-			PDDocument pdf = PDDocument.load(new File(pdfFile));
-			Writer output = new PrintWriter(htmlFile);
-			new PDFDomTree().writeText(pdf, output);
-			output.close();
-			pdf.close();
-		} catch (InvalidPasswordException e) {
-			log.error(e.getMessage());
-			e.printStackTrace();
-		} catch (IOException | ParserConfigurationException e) {
-			log.error(e.getMessage());
-			e.printStackTrace();
-		}
-	}
-
 	public void generateTxtFromPDF(String txtFile, String pdfFile) throws IOException {
 		File f = new File(pdfFile);
 		String parsedText;

@@ -76,7 +76,7 @@ class ServiceTest {
 		if (Files.exists(path)) {
 			flag = true;
 		}
-		assertTrue(service.downloadFileFRomUrl(entity));
+		assertTrue(service.downloadResorcesFromUrl(entity));
 		if (flag==false) {
 			Files.delete(path);
 		}

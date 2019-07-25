@@ -14,9 +14,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.berzenin.app.model.Host;
 import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.parsers.PdfParser;
 import com.berzenin.app.repo.LinkForMetalResourcesRepo;
+import com.berzenin.app.type.ResourcesType;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -33,6 +35,14 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	
 	@Autowired
 	private PdfParser pdfParser;
+	
+	@Autowired
+	private HtmlService htmlService;
+	
+	public Host getLinskFromHost(Host host) {
+		htmlService.getAllLinksFromHost(host);
+		return host;
+	}
 	
 	public LinkForMetalResources findByLink(String link) {
 		return repository.findByLocalPathForTxtFile(link);
@@ -90,8 +100,19 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 			e.printStackTrace();
 		}
 	}
-	
-	public boolean downloadFileFRomUrl(LinkForMetalResources res) {
+
+	public boolean downloadResorcesFromUrl(LinkForMetalResources res) {
+		if (res.getResourcesType().equals(ResourcesType.HTML_RESOURCES)) {
+			return htmlService.convertHtmlPageForTxt(res);
+		} if (res.getResourcesType().equals(ResourcesType.REMOTE_PDF)) {
+			return this.downloadPdfFileFromUrl(res);
+		} else {
+			return false;
+		}
+		
+	}
+
+	public boolean downloadPdfFileFromUrl (LinkForMetalResources res) {
 		if (res.getUrlForResource() == null || res.getUrlForResource().length()==0) {
 			return false;
 		}

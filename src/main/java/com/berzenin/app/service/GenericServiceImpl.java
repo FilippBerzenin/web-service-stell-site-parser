@@ -25,7 +25,7 @@ public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> i
 	protected final R repository;
 
 	@Getter
-	protected static final String pathToResource = "..\\web-metal-searcher\\src\\main\\resources\\";
+	protected static final String pathToResource = "..\\websitestillparser\\src\\main\\resources\\";
 
 	@Autowired
 	public GenericServiceImpl(R repository) {

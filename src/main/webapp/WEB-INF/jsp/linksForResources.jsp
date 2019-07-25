@@ -24,39 +24,50 @@
 			<c:if test="${not empty message}">
 				<div class="alert alert-success">${message}</div>
 			</c:if>
-			<h2>Add new link:</h2>
 			<div class="form-group">
+				<h2>Add new link:</h2>
 				<form:form method="post" action="${prefix}/${page}/create/"
 					modelAttribute="entityFor">
 					<table>
 						<tr>
 							<td><font color="red"><form:errors
 										path="urlForResource" /></font></td>
-							<td><form:input path="urlForResource"
-									placeholder="URL for PDF file" /></td>
+							<td><form:input class="form-control" path="urlForResource"
+									placeholder="URL for resource" /></td>
 							<td><button type="submit">Add new link</button></td>
 						</tr>
 					</table>
 				</form:form>
 			</div>
-			<h3>File download:</h3>
-			<div>
-				Select a file to upload: <br />
-				<form class="form-group" action="${prefix}/${page}/addPdfFile" method="post"
-					enctype="multipart/form-data">
-					<input type="file" name="file" size="50" />
-					<button type="submit">Upload File</button>
+			<div class="form-group">
+				<h3>Add new host:</h3>
+				<form class="form-group" method="post" action="${prefix}/${page}/addHost">
+					<table>
+						<tr>
+							<td><input type="text" name="host"/></td>
+							<td><button type="submit">Add new host</button></td>
+						</tr>
+					</table>
 				</form>
+			</div>
+			<div class="form-group">
+					<h3>File download:</h3>
+					Select a file to upload: <br />
+					<form class="form-group" action="${prefix}/${page}/addPdfFile"
+						method="post" enctype="multipart/form-data">
+						<input type="file" name="file" size="50" />
+						<button type="submit">Upload File</button>
+					</form>
 			</div>
 		</div>
 		<br />
-		<h1>${page} list</h1>
+		<h1>${page}list</h1>
 		<table class="table  table-sm">
 			<thead class="table-info">
 				<tr>
 					<th>#</th>
 					<th>ID</th>
-					<th>${page} name</th>
+					<th>${page}name</th>
 					<th>Link list</th>
 					<th>Resources type</th>
 					<th>Delete</th>

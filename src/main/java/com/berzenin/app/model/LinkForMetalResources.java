@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 import com.berzenin.app.type.ResourcesType;
 
@@ -40,4 +42,8 @@ public class LinkForMetalResources {
 	
 	@Column(name="localPathForTxtFile", nullable=false)
 	private String localPathForTxtFile;	
+	
+//    @ManyToOne
+//    @JoinColumn(name="id", nullable=false)
+//    private Host hostFor;
 }
