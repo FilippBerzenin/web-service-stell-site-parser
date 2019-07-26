@@ -18,11 +18,12 @@
 <body>
 	<div class="container">
 		<h1>Search metal!!!</h1>
-
+    <div>
+		<a href="<c:url value="/logout" />">Logout</a>
+    </div>
 		<c:if test="${not empty message}">
 			<div class="alert alert-success">${message}</div>
 		</c:if>
-
 		<div>
 			<a href="/linksForResources/show/all">Links page</a>
 		</div>
