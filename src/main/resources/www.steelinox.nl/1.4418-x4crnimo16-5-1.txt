@@ -1,0 +1,506 @@
+<body>
+<nav id="navbar-custom" class="navbar-custom navbar navbar-default">
+<div class="container">
+<div class="row">
+<div id="navbar">
+<div class="container-fluid">
+<div class="col-sm-3 col-xs-12">
+<img class="logo" src="/assets/img/steelinox-logo.jpg">
+<button type="button" id="collapse-button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-cl" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+</div>
+<div class="col-sm-9 col-xs-12">
+<nav id="navbar-cl" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-left">
+<li class="" id="{url_title}"> <a href="https://www.steelinox.nl/en/">Home</a></li>
+<li class="dropdown " id="{url_title}"> <a data-toggle="dropdown" class="dropdown-toggle hidden-md hidden-lg" href="https://www.steelinox.nl/en/product-overview/">Product overview</a> <a class="dropdown-toggle hidden-xs hidden-sm" href="https://www.steelinox.nl/en/product-overview/">Product overview</a>
+<ul class="dropdown dropdown-menu">
+<li> <a href="https://www.steelinox.nl/en/product-overview/round-bars/">Round bars</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/square-bars/">Square bars</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/hexagon-bars/">Hexagon bars</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/flat-bars/">Flat bars</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/profiles/">Profiles</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/hollow-bars/">Hollow bars</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/plates-sheets/">Plates / sheets</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/sheets-plates-cutting/">Sheets / Plates cutting</a></li>
+<li> <a href="https://www.steelinox.nl/en/product-overview/blocs-flat-sawn-cut-to-size/">Blocs / Flat sawn cut to size</a></li>
+</ul></li>
+<li class="dropdown " id="{url_title}"> <a data-toggle="dropdown" class="dropdown-toggle hidden-md hidden-lg" href="https://www.steelinox.nl/en/qualities/">Qualities</a> <a class="dropdown-toggle hidden-xs hidden-sm" href="https://www.steelinox.nl/en/qualities/">Qualities</a>
+<ul class="dropdown dropdown-menu">
+<li> <a href="https://www.steelinox.nl/en/qualities/stainless-steel/">Stainless steel</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/duplex-superduplex/">Duplex - SuperDuplex</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/heatresistant-steel/">Heatresistant steel</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/high-temperature-steel/">High temperature steel</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/high-temperature-constructionsteel/">High temperature constructionsteel</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/special-qualities/">Special qualities</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/special-steel-alloy/">Special Steel alloy</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/nickel-alloy/">Nickel Alloy</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/titanium/">Titanium</a></li>
+<li> <a href="https://www.steelinox.nl/en/qualities/aviation-aerospace/">Aviation / Aerospace</a></li>
+</ul></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="no-dropdown"> <a href="https://www.steelinox.nl/en/company-profile/" class="">Company profile</a></li>
+<li class="dropdown"> <a href="https://www.steelinox.nl/en/information/" class="">Information</a>
+<ul class="dropdown dropdown-menu">
+<li> <a href="https://www.steelinox.nl/en/information/stainless-steel-info/">Stainless steel info</a></li>
+<li> <a href="https://www.steelinox.nl/en/information/datasheets/">Datasheets</a></li>
+<li> <a href="https://www.steelinox.nl/en/information/fabrication-of-duplex-superduplex/">Fabrication of Duplex - SuperDuplex</a></li>
+<li> <a href="https://www.steelinox.nl/en/information/chemical-resistance-of-stainless-steel/">Chemical resistance of Stainless steel</a></li>
+<li> <a href="https://www.steelinox.nl/en/information/international-comparison-of-grades/">International comparison of grades</a></li>
+<li> <a href="https://www.steelinox.nl/en/information/technical-information/">Technical Information</a></li>
+<li> <a href="https://www.steelinox.nl/en/information/1.4542-17-4ph-aisi-630/">1.4542 - 17-4PH - AISI 630</a></li>
+</ul></li>
+<li class="no-dropdown"> <a href="https://www.steelinox.nl/en/contact/" class="">Contact</a></li>
+<li id="search-link"> <a id="search-button"> <span class="fa fa-search search-icon"></span> </a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div class="row searchbar-row">
+<div class="col-xs-12">
+<div id="searchbar" class="header-text">
+<form method="post" action="https://www.steelinox.nl/en/">
+<div class="hiddenFields">
+<input type="hidden" name="params" value="eyJyZXN1bHRfcGFnZSI6IlwvZW5cL3NlYXJjaCJ9">
+<input type="hidden" name="ACT" value="31">
+<input type="hidden" name="site_id" value="1">
+<input type="hidden" name="csrf_token" value="db3e1ecf82b8c382ab57260cedb32b5a1c0d6479">
+</div>
+<div class="input-group search">
+<span class="fa fa-search search-icon"></span>
+<input type="search" id="keywords" name="keywords" class="form-control" value="">
+<span class="input-group-btn"> <button class="btn btn-default" type="submit">Search</button> </span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<nav class="navbar-info">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<ul class="nav navbar-nav">
+<li class="contact-text"><p>Do you want direct contact? <a rel="nofollow" href="tel:+31-186-651-004">+31 (0)186 651 004</a> or <a rel="nofollow" href="mailto:info@steelinox.nl?subject=Contact%20Website%20Steelinox">info@steelinox.nl</a></p></li>
+<li class="lang-select"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="flag-icon flag-icon-gb"></span> English<i class="fa fa-caret-down pull-right"></i> </a>
+<ul class="dropdown-menu">
+<li><a href="/nl"><span class="flag-icon flag-icon-nl"></span>Nederlands</a></li>
+<li><a href="/en" class="hidden"><span class="flag-icon flag-icon-gb"></span>English</a></li>
+<li><a href="/de"><span class="flag-icon flag-icon-de"></span>Deutsch</a></li>
+<li><a href="/es"><span class="flag-icon flag-icon-es"></span>Español</a></li>
+<li><a href="/fr"><span class="flag-icon flag-icon-fr"></span>Français</a></li>
+<li><a href="/it"><span class="flag-icon flag-icon-it"></span>Italiano</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="breadcrumbs">
+<span class="breadcrumb-text">You are here now</span>
+<h1>1.4418 / X4CrNiMo16-5-1</h1>
+</div>
+</div>
+</div>
+</div>
+<div id="page-content">
+<div class="default">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-8 white-bg">
+<div id="printableArea">
+<p style="text-align:justify">Stainless steel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>1.4418 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </strong>Acier Inoxydable</p>
+<p style="text-align:justify">Rustfrit steel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acciai Inossidabli</p>
+<p style="text-align:justify">Rostfrit steel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Acero Inoxidable</p>
+<p>&nbsp;</p>
+<table style="height:41px; width:474px">
+<tbody>
+<tr>
+<td><strong>W.Nr.</strong> 1.4418</td>
+<td><strong>BS&nbsp;</strong></td>
+<td><strong>SIS </strong>2387</td>
+</tr>
+<tr>
+<td><strong>AISI&nbsp;</strong></td>
+<td><strong>AFNOR </strong>Z6CND16-05-01</td>
+<td><strong>JIS&nbsp;</strong></td>
+</tr>
+<tr>
+<td><strong>X4CrNiMo16-5-1</strong></td>
+<td><strong>DIN 17740</strong> &nbsp;1.4418</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align:center">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p style="text-align:center"><strong>C</strong> max 0,06% &nbsp; &nbsp; <strong>Cr</strong> 15,0 - 17,0 &nbsp; &nbsp; <strong>Mo</strong> 0,8 - 1,5&nbsp; &nbsp; <strong>Ni</strong> 4,0 - 6,0 &nbsp;&nbsp; <strong>N</strong> min 0,02&nbsp; &nbsp;</p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:justify">1.4418 is characterised by its very good resistance to corrosion in aggressive media coupled with very good mechanical and impact properties. Due to its higher alloy content, 1.4418 is more resistant to corrosion than 1.4057 and the addition of molybdenum allows limited exposure to marine environments. As a result of its chemical composition and microstructure, 1.4418 is extremely resistant to intergranular corrosion, corrosion fatigue and stress corrosion cracking.</p>
+<p style="text-align:justify">&nbsp;</p>
+<p style="text-align:center"><strong>Stock range</strong></p>
+<p>&nbsp;</p>
+<p><strong>1.4418 round bar brightdrawn/ground tol. h9 acc. to DIN EN 10278 in lengths of 3 mtr</strong><br> Sizes:</p>
+<table align="center" style="height:41px; width:474px">
+<tbody>
+<tr>
+<td>Ø 10,00 mm</td>
+<td>Ø 20,00 mm</td>
+<td>Ø 40,00 mm</td>
+<td>Ø 80,00 mm</td>
+</tr>
+<tr>
+<td>Ø 12,00 mm</td>
+<td>Ø 22,00 mm</td>
+<td>Ø 50,00 mm</td>
+</tr>
+<tr>
+<td>Ø 14,00 mm</td>
+<td>Ø 25,00 mm</td>
+<td>Ø 55,00 mm</td>
+</tr>
+<tr>
+<td>Ø 15,00 mm</td>
+<td>Ø 30,00 mm</td>
+<td>Ø 60,00 mm</td>
+</tr>
+<tr>
+<td>Ø 16,00 mm</td>
+<td>Ø 35,00 mm</td>
+<td>Ø 70,00 mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>1.4418 round bar hotrolled / forged, peeled / turned acc. DIN EN 10060 ( formerly DIN 1013 ), long 4-6 mtr</strong><br> Sizes:</p>
+<table align="center" style="height:41px; width:474px">
+<tbody>
+<tr>
+<td>Ø 25,00 mm</td>
+<td>Ø 60,00 mm</td>
+<td>Ø 95,00 mm</td>
+<td>Ø 145,00 mm</td>
+<td>Ø 210,00 mm</td>
+<td>Ø 280,00 mm</td>
+<td>Ø 380,00 mm</td>
+</tr>
+<tr>
+<td>Ø 30,00 mm</td>
+<td>Ø 65,00 mm</td>
+<td>Ø 100,00 mm</td>
+<td>Ø 150,00 mm</td>
+<td>Ø 220,00 mm</td>
+<td>Ø 300,00 mm</td>
+<td>Ø 400,00 mm</td>
+</tr>
+<tr>
+<td>Ø 35,00 mm</td>
+<td>Ø 70,00 mm</td>
+<td>Ø 110,00 mm</td>
+<td>Ø 160,00 mm</td>
+<td>Ø 230,00 mm</td>
+<td>Ø 320,00 mm</td>
+<td>Ø 405,00 mm</td>
+</tr>
+<tr>
+<td>Ø 40,00 mm</td>
+<td>Ø 75,00 mm</td>
+<td>Ø 120,00 mm</td>
+<td>Ø 170,00 mm</td>
+<td>Ø 240,00 mm</td>
+<td>Ø 330,00 mm</td>
+<td>Ø 425,00 mm</td>
+</tr>
+<tr>
+<td>Ø 45,00 mm</td>
+<td>Ø 80,00 mm</td>
+<td>Ø 125,00 mm</td>
+<td>Ø 180,00 mm</td>
+<td>Ø 250,00 mm</td>
+<td>Ø 340,00 mm</td>
+<td>Ø 450,00 mm</td>
+</tr>
+<tr>
+<td>Ø 50,00 mm</td>
+<td>Ø 85,00 mm</td>
+<td>Ø 130,00 mm</td>
+<td>Ø 190,00 mm</td>
+<td>Ø 260,00 mm</td>
+<td>Ø 350,00 mm</td>
+</tr>
+<tr>
+<td>Ø 55,00 mm</td>
+<td>Ø 90,00 mm</td>
+<td>Ø 140,00 mm</td>
+<td>Ø 200,00 mm</td>
+<td>Ø 270,00 mm</td>
+<td>Ø 370,00 mm</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Above Ø 450,00 mm up to Ø 705,00 mm sizes from stock available.</strong></p>
+<p><strong>1.4418 Blocks / flat, sawn from forged primematerial</strong><br> Sizes on request.<br> <br> <strong>1.4418 sheets / plates plasma cutting / water-jet cutting / laser-cutting / sawn cuttings</strong><br> Thickness 10 mm - 50 mm<br> <br> &nbsp;</p>
+<p><strong>Certificates: &nbsp; &nbsp; EN 10204 / 3.1</strong></p>
+<p style="text-align:center"><strong>&nbsp;&nbsp;</strong></p>
+</div>
+<div class="print-content">
+<br>
+<button onclick="printDiv('printableArea')" class="btn btn-default"> <i class="fa fa-print"></i> </button>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4 contact-col">
+<div class="row contact-block">
+<div class="col-xs-12">
+<div class="default-block invoice">
+<h3>I want to request an online offer</h3>
+<p>Go to the form</p>
+<a class="btn btn-primary btn-offerte" href="/request-offer/"><i class="fa fa-chevron-right pull-right"></i>Request Offer</a>
+</div>
+</div>
+<div class="col-xs-12">
+<div class="default-block call">
+<div class="card">
+<div class="card-header" id="headingOne">
+<h5 class="mb-0"> <button class="btn-link " data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> I want to be called as soon as possible </button></h5>
+</div>
+<div id="collapseOne" class="collapse in" aria-labelledby="headingOne" data-parent="#accordion">
+<div class="card-body">
+<p>Leave your telephone number here, we will call you back as soon as possible.</p>
+<form action="https://www.steelinox.nl/en/?ACT=30" accept-charset="utf-8" id="form_call" class="form-horizontal" method="post">
+<div style="display:none">
+<input type="hidden" name="params_id" value="8504687">
+<input type="hidden" name="csrf_token" value="db3e1ecf82b8c382ab57260cedb32b5a1c0d6479">
+</div>
+<div class="alert" role="alert" style="display: none"></div>
+<div class="form-group">
+<div class="col-xs-3 phone-field">
+<input minlength="3" type="text" id="freeform_user_phone_code" name="user_phone_code" class="form-control" value="+44">
+</div>
+<div class="col-xs-9 phone-field">
+<input minlength="6" type="text" id="freeform_user_phone" name="user_phone" class="form-control" placeholder="Your number">
+</div>
+<div class="col-sm-12" style="margin-bottom: 20px; margin-top: 15px;">
+<div class="g-recaptcha" id="RecaptchaCall" data-callback="getResponse" style="transform:scale(1.120);-webkit-transform:scale(1.120);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+<input type="hidden" class="required" title="Geef a.u.b aan dat u geen robot bent." id="recaptchaResponse" name="recaptchaResponse" value="">
+</div>
+<div class="col-sm-12">
+<span class="input-group-btn btn-phone"> <button class="btn btn-default" type="submit"> Send <i class="fa fa-angle-right"></i> </button> </span>
+</div>
+</div>
+</form>
+<script>$(function() {
+// AJAX form submit
+$("#form_call").submit(function(e){
+validateRecaptcha();
+
+var form = $(this);
+var bttn = $(form).find('[type="submit"]');
+var phne = $(form).find('[name="user_phone"]');
+var code = $(form).find('[name="user_phone_code"]');
+var alrt = $(form).find('.alert');
+
+$(alrt).hide();
+$(bttn).prop('disabled', true);
+
+$.post(
+// Form url (Freeform autodetects ajax)
+$(form).attr('action'),
+$(form).serialize(),
+
+function(data) {
+if (data.success == false) {
+grecaptcha.reset(RecaptchaCall);
+$.each(data.errors, function(i, item){
+if (i == 'user_phone') {
+if (item == 'Required field missing input') {
+var error = "Please enter your phone number.";
+}
+} else if (i == 'user_phone_code') {
+if (item == 'Required field missing input') {
+var error = "Please enter your country code";
+}
+} else if (i == 'recaptchaResponse') {
+var error = "You must submit the word that appears in the image";
+}
+
+$(alrt).append(error + '<br />');
+});
+
+$(alrt).removeClass("alert-success").addClass("alert-danger").show();
+$(phne).prop('disabled', false);
+$(code).prop('disabled', false);
+$(bttn).prop('disabled', false);
+
+} else if (data.success) {
+$(alrt).html("Your message has been sent.");
+$(alrt).removeClass("alert-danger").addClass("alert-success").show();
+$(phne).prop('disabled', true);
+$(code).prop('disabled', true);
+}
+}
+);
+
+e.preventDefault();
+return false;
+});
+
+});</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=CallCaptchaCallback&amp;render=explicit&amp;hl=nl" async defer></script>
+<script type="text/javascript" charset="utf-8">var RecaptchaCall;
+var CallCaptchaCallback = function() {
+RecaptchaCall = grecaptcha.render('RecaptchaCall', {'sitekey' : '6Ley1BkUAAAAANeHrNe8I0-Lt0y9F2o8zgA6Y-IY'});
+};</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12">
+<div class="default-block question">
+<div class="card">
+<div class="card-header" id="headingTwo">
+<h5 class="mb-0"> <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> I have a question </button></h5>
+</div>
+<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+<div class="card-body">
+<p>You can call us at <b> +31 (0) 186 651004
+<!-- b--> or send an email to <b> info@steelinox.nl
+<!-- b--> <br></b></b></p>
+<b><b>
+<form action="https://www.steelinox.nl/en/?ACT=30" accept-charset="utf-8" id="form_question" method="post">
+<div style="display:none">
+<input type="hidden" name="params_id" value="8504688">
+<input type="hidden" name="csrf_token" value="db3e1ecf82b8c382ab57260cedb32b5a1c0d6479">
+</div>
+<div class="alert" role="alert" style="display: none"></div>
+<div class="form-group">
+<div class="col-sm-12">
+<textarea id="freeform_user_message" name="user_message" rows="4" cols="50"></textarea>
+</div>
+<div class="col-sm-12" style="margin-bottom: 20px; margin-top: 15px;">
+<input type="text" id="freeform_user_email" name="user_email" class="form-control" placeholder="Your email address">
+</div>
+<div class="col-sm-12" style="margin-bottom: 20px;">
+<div class="g-recaptcha" data-callback="getResponse" id="RecaptchaQuestion" style="transform:scale(1.1);-webkit-transform:scale(1.1);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+<input type="hidden" class="required" title="Geef a.u.b aan dat u geen robot bent." id="recaptchaResponse" name="recaptchaResponse" value="">
+</div>
+<div class="col-sm-12">
+<span class="input-group-btn"> <button class="btn btn-default" type="submit"> Send <i class="fa fa-angle-right"></i> </button> </span>
+</div>
+<div style="clear:both;"></div>
+</div>
+</form> <script>$(function() {
+// AJAX form submit
+$("#form_question").submit(function(e){
+validateRecaptcha();
+
+var form = $(this);
+var bttn = $(form).find('[type="submit"]');
+var mesg = $(form).find('[name="user_message"]');
+var mail = $(form).find('[name="user_email"]');
+var alrt = $(form).find('.alert');
+
+$(alrt).html('').hide();
+$(bttn).prop('disabled', true);
+
+$.post(
+// Form url (Freeform autodetects ajax)
+$(form).attr('action'),
+$(form).serialize(),
+
+function(data) {
+if (data.success == false) {
+grecaptcha.reset(RecaptchaQuestion);
+$.each(data.errors, function(i, item){
+if (i == 'user_message') {
+if (item == 'Required field missing input') {
+var error = "Please enter your message.";
+}
+} else if (i == 'user_email') {
+if (item == 'Required field missing input') {
+var error = "Please enter you e-mail address.";
+} else if (item == 'Not a valid email') {
+var error = "Please enter a valid e-mail address.";
+}
+} else if (i == 'recaptchaResponse') {
+var error = "You must submit the word that appears in the image";
+}
+
+$(alrt).append(error + '<br />');
+});
+
+$(alrt).removeClass("alert-success").addClass("alert-danger").show();
+$(mesg).prop('disabled', false);
+$(mail).prop('disabled', false);
+$(bttn).prop('disabled', false);
+
+} else if (data.success) {
+$(alrt).html("Your message has been sent.");
+$(alrt).removeClass("alert-danger").addClass("alert-success").show();
+$(mesg).prop('disabled', true);
+$(mail).prop('disabled', true);
+}
+}
+);
+
+e.preventDefault();
+return false;
+});
+
+});</script> <script src="https://www.google.com/recaptcha/api.js?onload=QuestionCaptchaCallback&amp;render=explicit&amp;hl=nl" async defer></script> <script type="text/javascript" charset="utf-8">var RecaptchaQuestion;
+var QuestionCaptchaCallback = function() {
+RecaptchaQuestion = grecaptcha.render('RecaptchaQuestion', {'sitekey' : '6Ley1BkUAAAAANeHrNe8I0-Lt0y9F2o8zgA6Y-IY'});
+};</script> </b></b>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12">
+<div class="default-block qualities">
+<h3><b><b>Our qualities</b></b></h3>
+<b><b> <br></b></b>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="top-footer">
+<div class="container">
+<div class="row margin-top">
+<div class="col-xs-12 col-sm-4">
+<h3><b><b>Our qualities</b></b></h3>
+<p><b><b><a href="/en//qualities/stainless-steel/1.4005-aisi-416-x12crs13/">1.4005 / AISI 416</a></b></b></p>
+<p><b><b><a href="/en//qualities/stainless-steel/1.4306-aisi-304l-x2crni19-11/">1.4306</a></b></b></p>
+<p><b><b><a href="/en//qualities/stainless-steel/1.4542-17-4ph-aisi-630/">1.4542 / 17-4PH / AISI 630</a></b></b></p>
+<p><b><b><a href="/en//qualities/duplex-superduplex/1.4547-uns-s31254-f44-254-smo/">1.4547 / 254SMO / UNS S31254</a></b></b></p>
+<p><b><b><a href="/en//qualities/heatresistant-steel/1.4835-253ma-uns-s30815-x9crnisince21-11-2/">1.4835 / 253MA</a></b></b></p>
+</div>
+<hr class="visible-xs">
+<div class="col-xs-12 col-sm-4">
+<h3><b><b>About Steelinox</b></b></h3>
+<p><b><b>Steelinox B.V. supplies high-quality stainless steel, special steel, nickel alloys and titanium worldwide. We do this for various customers in the machining industry, mechanical engineering, (petro) chemical, offshore and aerospace industries. Steelinox is the right partner if your material requirements are high.</b></b></p>
+</div>
+<hr class="visible-xs">
+<div class="col-xs-12 col-sm-4">
+<b><b> <h3>Contact</h3> Call us at<br> <a style="font-size:24px;color:#002051;font-family:roboto condensed;margin-top: 0;font-weight: 600;" rel="nofollow" href="tel:+31-186-651-004">+31 (0)186 651 004</a><br> Send us an email<br> <a style="font-size:24px;color:#002051;font-family:roboto condensed;margin-top: 0;font-weight: 600;" rel="nofollow" href="mailto:info@steelinox.nl?subject=Contact%20Website%20Steelinox">info@steelinox.nl</a> <br></b></b>
+</div>
+</div>
+</div>
+</div>
+<div class="bottom-footer">
+<div class="text">
+<b><b> <a href="/general-conditions/">General Conditions</a><span> | </span> <a href="/privacy-statement/">Privacy Statement</a><span> | </span></b></b>
+</div>
+</div>
+</div>
+<link href="/assets/automin/c3c3fec8d32598b49d9fd50eb40d2353.css?modified=1559545962" type="text/css" title="default" rel="stylesheet" media="screen, projection">
+<b><b> <script src="/assets/automin/bc9f26ba8235aa7c17a781d65ad28e2c.js?modified=1559545962" type="text/javascript"></script> </b></b>
+</body>

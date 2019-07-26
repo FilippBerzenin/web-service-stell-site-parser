@@ -1,5 +1,7 @@
 package com.berzenin.app.repo;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -14,4 +16,5 @@ public interface LinkForMetalResourcesRepo extends JpaRepository <LinkForMetalRe
 	
 	public LinkForMetalResources findByLocalPathForTxtFile (String localPathForTxtFile);
 
+	public List<LinkForMetalResources> findAllByHost(String host);
 }

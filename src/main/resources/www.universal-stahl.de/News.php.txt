@@ -1,0 +1,84 @@
+<body>
+<!--nxid=1-->
+<div id="container">
+<div id="Logo">
+<div id="id42480" class="pansiteelement logo">
+<a href="../../index.php" target="_self"><img alt="" src="../../images/Logo_17657.png"></a>
+</div>
+<!--PageLanguages : 4-->
+<div class="lanSelect">
+<!--DisplayName : News / Language : CZ / Path : http://szmh-cz.pansite.de/cz/Service/News.php-->
+<a href="http://szmh-cz.pansite.de/cz/Service/News.php" class="language-select"></a>
+<!--DisplayName : News / Language : PL / Path : http://www.universal-stal.pl/pl/Service/News.php-->
+<a href="http://www.universal-stal.pl/pl/Service/News.php" class="language-select"></a>
+<!--DisplayName : News / Language : EN / Path : http://www.universal-stahl.de/en/Service/News.php-->
+<a href="http://www.universal-stahl.de/en/Service/News.php" class="language-select"><img border="0" alt="link to site" src="../../0_Technik/img/de.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:pansite="http://www.pansite.de/2010/XSLT"></a>
+</div>
+<div id="id43027" class="pansiteelement Logo2">
+<img alt="" src="../../images/Logo2_17658.png">
+</div>
+</div>
+<div id="Schriftzug">
+<div id="id40417" class="pansiteelement Slogen">
+<span class="SText">UNIVERSAL Eisen und Stahl GmbH</span>
+</div>
+</div>
+<div id="Navigation">
+<div id="id40677" class="pansiteelement NavOben">
+<ul>
+<li class="Unternehmen"><a href="../Unternehmen/index.php" target="_self">Unternehmen</a></li>
+<li class="Grobblech Stahl"><a href="../Produkte/Grobblech.php" target="_self">Grobblech Stahl</a></li>
+<li class="Anarbeitung"><a href="../Anarbeitung/index.php" target="_self">Anarbeitung</a></li>
+<li class="Kontakt"><a href="../Kontakt/index.php" target="_self">Kontakt</a></li>
+<li class="Service"><a href="./News.php" target="_self">Service</a></li>
+<li class="Suche"><a href="../Suche/index.php" target="_self">Suche</a></li>
+<li class="Sitemap"><a href="../Sitemap/index.php" target="_self">Sitemap</a></li>
+<li class="Impressum"><a href="../Impressum/index.php" target="_self">Impressum</a></li>
+</ul>
+</div>
+<div id="id40677" class="pansiteelement NavOben2">
+<ul>
+<li class="Flat"><a href="./News.php" target="_self">News</a></li>
+<li class="Long"><a href="./Broschueren_.php" target="_self">Broschüren</a></li>
+<li class="Pipes"><a href="./MessenTermine.php" target="_self">Messen &amp; Termine</a></li>
+<li class="long"><a href="./Zertifikate.php" target="_self">Zertifikate</a></li>
+</ul>
+</div>
+</div>
+<div id="Banner">
+<div id="id40710" class="pansiteelement">
+<img class="BannerBild" border="0" alt="" src="../../images/7406-bea-klein_17733.jpg">
+<img class="BannerBild2" border="0" alt="" src="../../images/HUE_8546-kelin_17727.jpg">
+<img class="BannerBild3" border="0" alt="" src="../../images/HUE_7546_17730.jpg">
+</div>
+</div>
+<div id="InhaltContainer">
+<!--nxid=1-->
+<!--contentid=1-->
+<div id="mainContent">
+<div id="id40420" class="pansiteelement slogen">
+<h1>News</h1>
+</div>
+<div id="id40428" class="pansiteelement">
+<div class="fliesstext">
+<strong>Oktober 2014: </strong>Das neue UES-Lieferprogramm ist da!
+</div>
+</div>
+<div id="id42625" class="pansiteelement">
+<div class="fliesstext">
+<img class="BildL" border="0" alt="" src="../../images/lp-ues-titel-klein_Kopie_17465.jpg">
+<br>UES-Lieferprogramm
+<br>Grobblech, Brennschneiden, Anarbeitung
+<br>
+<a onclick="return hs.htmlExpand(this, { objectType: 'swf', objectWidth:1000, width:1000, objectHeight:700, maincontentText: 'You need to upgrade your Flash player', swfOptions: { version: '7' }} )" class="highslide" href="./Lieferprogramm-UES.pdf" target="__highslide_js_iframe__">finden Sie hier.</a>
+</div>
+</div>
+</div>
+</div>
+<!--contentid=1-->
+<!--nxid=1-->
+<div id="footer">
+</div>
+</div>
+<!--nxid=1-->
+</body>

@@ -6,7 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -32,23 +34,53 @@ public class LinkMetalResourcesController
 		return new LinkForMetalResources();
 	}
 	
-	@RequestMapping(value= "/addHost")
-	public String addHost (@RequestParam("host") String host, Model model) {
+	@RequestMapping(value="/delete/{id}", method=RequestMethod.POST)
+	public String deleteEntity(@PathVariable("id") Long id, Model model) {
+		if (service.findById(id).getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
+			service.deleteAllLinksFromHostResources(service.findById(id).getHost());
+			entites = service.findAll();
+			message = id+ " Successfully deleted.";
+		}
+		try {
+			service.removeById(id);
+			entites = service.findAll();
+			message = id+ " Successfully deleted.";
+			return page;
+		} catch (RuntimeException e) {
+			log.info("Delete failed" + e);
+			message = id+ " delete failed.";
+			return page;
+		} finally {
+			setModelAttribute(model);
+		}
+	}
+
+	@RequestMapping(value = "/addHost")
+	public String addHost(@RequestParam("host") String host, Model model) {
 		Host newHost = new Host();
 		newHost.setUrl(host);
-		service.getLinskFromHost(newHost);
+		newHost = service.getLinskFromHost(newHost);
+		for (String s : newHost.getLinksInsideHost()) {
+			if (s == null || s.isEmpty() || s.contains("mailto")) {
+				continue;
+			}
+			LinkForMetalResources link = new LinkForMetalResources();
+			link.setResourcesType(ResourcesType.HOST_RESOURCE);
+			link.setUrlForResource(s);
+			service.add(link);
+			message = "Host was successful save";
+			entites = service.findAll();
+			setModelAttribute(model);
+		}
 		return page;
 	}
 
 	@RequestMapping(value = "/addPdfFile")
 	public String addPdfFile(@RequestParam("file") MultipartFile file, Model model) {
-		LinkForMetalResources entity = LinkForMetalResources.builder()
-				.host("localhost")
-				.resourcesType(ResourcesType.LOCAL_PDF)
-				.urlForResource(service.getLocalPathForPdf(file).toString())
+		LinkForMetalResources entity = LinkForMetalResources.builder().host("localhost")
+				.resourcesType(ResourcesType.LOCAL_PDF).urlForResource(service.getLocalPathForPdf(file).toString())
 				.localPathForPdfFile(service.getLocalPathForPdf(file).toString())
-				.localPathForTxtFile(service.getLocalPathForPdf(file).toString().replaceAll("pdf", "txt"))
-				.build();
+				.localPathForTxtFile(service.getLocalPathForPdf(file).toString().replaceAll("pdf", "txt")).build();
 		if (this.checkIfLinkInData(entity)) {
 			message = "This link is already in the database.";
 			entites = service.findAll();
@@ -56,9 +88,8 @@ public class LinkMetalResourcesController
 			return page;
 		}
 		try {
-			if (service.copyFileForlocalDirectory(entity, file)) {
+			if (service.copyFileForlocalDirectory(entity, file) && service.addPdf(entity)) {
 				service.parsePdf(entity);
-				service.add(entity);
 				message = "File was successful save";
 				entites = service.findAll();
 				setModelAttribute(model);
@@ -89,24 +120,20 @@ public class LinkMetalResourcesController
 			String name = service.setPdfFileName(entity.getUrlForResource());
 			String localPath;
 			String pathForTxtFile = "null";
-			String url = entity.getUrlForResource();			
-			if (name.substring(name.length()-3).equals("pdf")) {
+			String url = entity.getUrlForResource();
+			if (name.substring(name.length() - 3).equals("pdf")) {
 				resources = ResourcesType.REMOTE_PDF;
-				localPath = service.setPathForFile(entity.getUrlForResource())+name;
+				localPath = service.setPathForFile(entity.getUrlForResource()) + name;
 				pathForTxtFile = localPath.replace("pdf", "txt");
-				
+
 			} else if (true) {
 				resources = ResourcesType.HTML_RESOURCES;
-				localPath = service.setPathForFile(entity.getUrlForResource())+name+".pdf";
+				localPath = service.setPathForFile(entity.getUrlForResource()) + name + ".pdf";
 				pathForTxtFile = localPath.replace("pdf", "txt");
 			}
-			entity = LinkForMetalResources.builder()
-				.host(service.getHostNameFromUrl(entity.getUrlForResource()))
-				.resourcesType(resources)
-				.urlForResource(url)
-				.localPathForPdfFile(localPath)
-				.localPathForTxtFile(pathForTxtFile)
-				.build();
+			entity = LinkForMetalResources.builder().host(service.getHostNameFromUrl(entity.getUrlForResource()))
+					.resourcesType(resources).urlForResource(url).localPathForPdfFile(localPath)
+					.localPathForTxtFile(pathForTxtFile).build();
 			if (this.checkIfLinkInData(entity)) {
 				message = "This link is already in the database.";
 				entites = service.findAll();

@@ -1,6 +1,7 @@
 package com.berzenin.app.service;
 
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.Set;
 
 import org.jsoup.Jsoup;
@@ -33,21 +34,15 @@ public class HtmlService {
 	}
 
 	public Host getAllLinksFromHost(Host host) {
-		Document document;
+		Document doc;
 		try {
-			// Get Document object after parsing the html from given url.
-			document = Jsoup.connect(host.getUrl()).get();
-
-			// Get links from document object.
-			Elements links = document.select("a[href]");
-
-			// Iterate links and print link attributes.
-			for (Element link : links) {
-				System.out.println("Link: " + link.attr("href"));
-				System.out.println("Text: " + link.text());
-				System.out.println("");
-			}
-			return host;
+			doc = Jsoup.connect(host.getUrl()).get();
+		Elements links = doc.select("a[href]");
+		host.setLinksInsideHost(new HashSet<>());
+		for (Element link : links) {
+			host.getLinksInsideHost().add(link.attr("abs:href"));
+		}
+		host.getLinksInsideHost().forEach(System.out::println);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -59,8 +54,6 @@ public class HtmlService {
 		try {
 			doc = Jsoup.connect(res.getUrlForResource()).get();
 			Element body = doc.body();
-
-			System.out.println(body.toString());
 			String lines[] = body.toString().split("\\r?\\n");
 			htmlParser.writeBytesForTxtFile(res.getLocalPathForTxtFile(), lines);
 			return true;

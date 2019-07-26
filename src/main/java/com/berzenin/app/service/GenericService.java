@@ -1,12 +1,12 @@
 package com.berzenin.app.service;
 
-import java.util.List;
+import java.util.Set;
 
 import javax.validation.Valid;
 
 public interface GenericService<E> {
 
-	public List<E> findAll();
+	public Set<E> findAll();
 
 	public E findById(Long id);
 

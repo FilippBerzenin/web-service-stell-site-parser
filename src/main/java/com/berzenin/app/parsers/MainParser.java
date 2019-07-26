@@ -40,6 +40,8 @@ public abstract class MainParser {
 			for (String line : lines) {
 				Set<String> keywords = new HashSet<>();
 				int amountEquals = 0;
+				String strRegEx = "<[^>]*>";
+				line = line.replaceAll(strRegEx, "");
 				if (this.stringContainsAnotherString(line, argument.getMetalType())) {
 					amountEquals++;
 					flagForMetalType = true;
@@ -59,8 +61,8 @@ public abstract class MainParser {
 								keywords,
 								argument.getLink().getUrlForResource()));
 					}
-					numberOfLines++;
 				}
+			numberOfLines++;
 			}
 		} catch (IOException e) {
 			log.error(e.getMessage());

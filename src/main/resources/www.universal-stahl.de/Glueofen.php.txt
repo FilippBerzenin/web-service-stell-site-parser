@@ -1,0 +1,86 @@
+<body>
+<!--nxid=1-->
+<div id="container">
+<div id="Logo">
+<div id="id42480" class="pansiteelement logo">
+<a href="../../index.php" target="_self"><img alt="" src="../../images/Logo_17657.png"></a>
+</div>
+<!--PageLanguages : 1-->
+<div id="id43027" class="pansiteelement Logo2">
+<img alt="" src="../../images/Logo2_17658.png">
+</div>
+</div>
+<div id="Schriftzug">
+<div id="id40417" class="pansiteelement Slogen">
+<span class="SText">UNIVERSAL Eisen und Stahl GmbH</span>
+</div>
+</div>
+<div id="Navigation">
+<div id="id40677" class="pansiteelement NavOben">
+<ul>
+<li class="Unternehmen"><a href="../Unternehmen/index.php" target="_self">Unternehmen</a></li>
+<li class="Grobblech Stahl"><a href="../Produkte/Grobblech.php" target="_self">Grobblech Stahl</a></li>
+<li class="Anarbeitung"><a href="./index.php" target="_self">Anarbeitung</a></li>
+<li class="Kontakt"><a href="../Kontakt/index.php" target="_self">Kontakt</a></li>
+<li class="Service"><a href="../Service/News.php" target="_self">Service</a></li>
+<li class="Suche"><a href="../Suche/index.php" target="_self">Suche</a></li>
+<li class="Sitemap"><a href="../Sitemap/index.php" target="_self">Sitemap</a></li>
+<li class="Impressum"><a href="../Impressum/index.php" target="_self">Impressum</a></li>
+</ul>
+</div>
+<div id="id40677" class="pansiteelement NavOben2">
+<ul>
+<li class="Flat"><a href="./Brennschneiden.php" target="_self">Brennschneiden</a></li>
+<li class="Anarbeitung2"><a href="./index2.php" target="_self">Anarbeitung</a></li>
+</ul>
+</div>
+</div>
+<div id="Banner">
+<div id="id40710" class="pansiteelement">
+<img class="BannerBild" border="0" alt="" src="../../images/HUE_8546_17549_23213.jpg">
+<img class="BannerBild2" border="0" alt="" src="../../images/HUE_8687_17550_23214.jpg">
+<img class="BannerBild3" border="0" alt="" src="../../images/HUE_8006_17551_23215.jpg">
+</div>
+</div>
+<div id="InhaltContainer">
+<!--nxid=1-->
+<!--contentid=1-->
+<div id="mainContent">
+<div id="id40420" class="pansiteelement slogen">
+<h1>Glühofen</h1>
+</div>
+<div id="id40428" class="pansiteelement">
+<div class="fliesstext">
+<strong>Technische Daten:</strong>
+<br>
+<br>Hersteller: Nolzen&nbsp; (2018)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Glühofentyp: Herdwagenofen
+<br>Prozess: Spannungsarmglühen
+<br>Max. Chargengewicht: 20.000 kg
+<br>Max. Höhe: 1.400 mm
+<br>Max. Breite: 2.500 mm
+<br>Max. Länge: 6.000 mm
+<br>Anzahl Regelgruppen: 4
+<br>Anzahl Brenner: 8
+<br>
+</div>
+</div>
+<div id="id40428" class="pansiteelement">
+<div class="fliesstext">
+<img alt="Gluehofen2_600px_Internet" src="../../images/Gluehofen2_600px_Internet_23221.jpg">
+</div>
+</div>
+<div id="id40428" class="pansiteelement">
+<div class="fliesstext">
+<img alt="Gluehofen8_600px_Internet" src="../../images/Gluehofen8_600px_Internet_23220.jpg">
+</div>
+</div>
+</div>
+</div>
+<!--contentid=1-->
+<!--nxid=1-->
+<div id="footer">
+</div>
+</div>
+<!--nxid=1-->
+</body>

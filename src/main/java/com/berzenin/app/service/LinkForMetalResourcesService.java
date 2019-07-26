@@ -9,6 +9,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,6 +23,8 @@ import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.parsers.PdfParser;
 import com.berzenin.app.repo.LinkForMetalResourcesRepo;
 import com.berzenin.app.type.ResourcesType;
+import com.berzenin.app.web.controller.GenericViewControllerImpl;
+import com.berzenin.app.web.controller.LinkMetalResourcesController;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -39,6 +45,29 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	@Autowired
 	private HtmlService htmlService;
 	
+	public boolean deleteAllLinksFromHostResources (String host) {
+		try {
+			repo.findAllByHost(host).forEach(s -> remove(s));
+			return true;
+		} catch (RuntimeException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	public List<LinkForMetalResources> getAllByHost(String host) {
+		return repo.findAllByHost(host);
+	}
+	
+	@Override
+	public Set<LinkForMetalResources> findAll() {
+		GenericViewControllerImpl.message = "All entity";
+		Set <LinkForMetalResources> entites = repo.findAll().stream().collect(Collectors.toSet());
+		return entites.stream()
+			.collect(Collectors.toCollection(
+			() -> new TreeSet<LinkForMetalResources>((p1, p2) -> p1.getHost().compareTo(p2.getHost()))));
+	}
+	
 	public Host getLinskFromHost(Host host) {
 		htmlService.getAllLinksFromHost(host);
 		return host;
@@ -55,11 +84,71 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	public void parsePdf(LinkForMetalResources entity) {
 		pdfParser.generateTxtFromPDF(entity.getLocalPathForTxtFile(), entity.getLocalPathForPdfFile());
 	}
+	
+	public boolean addPdf (LinkForMetalResources entity) {
+		try {
+			repo.save(entity);
+			return true;
+		} catch (RuntimeException e) {
+			e.printStackTrace();
+		}
+		return false;
+	}
+	
+	@Override
+	public LinkForMetalResources add(LinkForMetalResources entity) {
+		try {
+		String name = this.setPdfFileName(entity.getUrlForResource());
+		String localPath = null;
+		String pathForTxtFile = "null";
+		String url = entity.getUrlForResource();
+		localPath = this.setPathForFile(entity.getUrlForResource())+name;
+		if (entity.getResourcesType().equals(null) || name.substring(name.length()-3).equals("pdf")) {
+			entity.setResourcesType(ResourcesType.REMOTE_PDF);
+		} if (entity.getResourcesType().equals(null)) {
+			entity.setResourcesType(ResourcesType.HTML_RESOURCES);
+			localPath = this.setPathForFile(entity.getUrlForResource())+name+".pdf";
+		} if (entity.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
+			localPath = this.setPathForFile(entity.getUrlForResource())+name+".pdf";
+		}
+		pathForTxtFile = localPath.replace("pdf", "txt");
+		entity = LinkForMetalResources.builder()
+			.host(getHostNameFromUrl(entity.getUrlForResource()))
+			.resourcesType(entity.getResourcesType())
+			.urlForResource(url)
+			.localPathForPdfFile(localPath)
+			.localPathForTxtFile(pathForTxtFile)
+			.build();
+		if (this.checkIfLinkInData(entity)) {
+			LinkMetalResourcesController.message = "This link is already in the database.";
+			return entity;
+		}
+		this.downloadResorcesFromUrl(entity);
+		this.parsePdf(entity);
+		repository.save(entity);
+		LinkMetalResourcesController.message = "Entity was successful save";
+		return entity;
+		} catch (RuntimeException e) {
+			log.debug(e.getLocalizedMessage());
+			return entity;
+		}
+	}
 
 	public Path getLocalPathForPdf(MultipartFile file) {
 		Path path = Paths.get(pathToResource + "\\localfiles\\" + file.getOriginalFilename());
 		createLocalDirectory();
 		return path;
+	}
+	
+	public boolean checkIfLinkInData(LinkForMetalResources entity) {
+		LinkForMetalResources find = this.getHostWithPdfByLinkForPdfFile(entity.getLocalPathForPdfFile());
+		if (find == null) {
+			return false;
+		}
+		if (find.equals(entity)) {
+			return true;
+		}
+		return true;
 	}
 
 	public void createLocalDirectory() {
@@ -106,6 +195,8 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 			return htmlService.convertHtmlPageForTxt(res);
 		} if (res.getResourcesType().equals(ResourcesType.REMOTE_PDF)) {
 			return this.downloadPdfFileFromUrl(res);
+		} if (res.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
+			return htmlService.convertHtmlPageForTxt(res);
 		} else {
 			return false;
 		}

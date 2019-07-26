@@ -24,8 +24,9 @@
 		<c:if test="${not empty message}">
 			<div class="alert alert-success">${message}</div>
 		</c:if>
-		<form action="/show/all"></form>
-		<p><button type="submit">Reset</button></p>	
+		<form action="/linksForSearch"" method="GET">
+		<p><button type="submit">Reset</button></p>
+		</form>
 		<c:if test="${not empty result}">
 		<table class="table  table-sm">
 			<thead class="table-info">

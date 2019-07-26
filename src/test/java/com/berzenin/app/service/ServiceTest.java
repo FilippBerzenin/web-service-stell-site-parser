@@ -38,6 +38,11 @@ class ServiceTest {
 	}
 	
 	@Test
+	public void deleteAllLinksFromHostResourcesTest () {
+		service.deleteAllLinksFromHostResources("www.steelinox.nl");
+	}
+	
+	@Test
 	void getHostNameFromUrlTest() {
 		String url = "https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf";		
 		assertEquals("www.remystahl.de", service.getHostNameFromUrl(url));		
@@ -59,6 +64,7 @@ class ServiceTest {
 	@Test
 	public void setPdfFileNameTest() {
 		assertEquals("Lieferprogramm_Remystahl.pdf", service.setPdfFileName("https://www.remystahl.de/fileadmin/user_upload/downloads/Lieferprogramm_Remystahl.pdf"));
+		System.out.println(service.setPdfFileName("https://www.steelinox.nl/en/qualities/"));
 	}
 	
 	@Test

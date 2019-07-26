@@ -6,18 +6,17 @@ import javax.persistence.*;
 
 import lombok.Data;
 
-@Entity
+//@Entity
 @Data
 public class Host {
 	
-	@Id
+//	@Id
 	private Long id;
 	
-	@Column (nullable=false)
+//	@Column (nullable=false)
 	private String url;
 	
 //	@Column
-//	@OneToMany(mappedBy="host")
-//	private Set<LinkForMetalResources> linksInsideHost;
+	private Set<String> linksInsideHost;
 
 }

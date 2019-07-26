@@ -18,9 +18,9 @@ public class SearchService {
 	
 	@Autowired
 	private PdfParserService pdfParserService;
-
+	
 	@Autowired
-	private HtmlService htmlService;
+	private LinkForMetalResourcesService linkSearcher;
 	
 	@Autowired
 	private LinkForMetalResourcesService linkForMetalResourcesService;
@@ -29,13 +29,18 @@ public class SearchService {
 		List<ResultLine> result = new LinkedList<>();
 		for (String link : links.getLinksFor()) {
 			LinkForMetalResources res = linkForMetalResourcesService.findByLink(link);
-			if (res.getResourcesType().equals(ResourcesType.LOCAL_PDF) || res.getResourcesType().equals(ResourcesType.REMOTE_PDF)) {
-				result.addAll(pdfParserService
-						.getResult(new RequestFoPdfArguments(res, links.getKey(), links.getMetalType())));
-			} else {
-				result.addAll(pdfParserService
-						.getResult(new RequestFoPdfArguments(res, links.getKey(), links.getMetalType())));
+			if (res.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
+				linkSearcher.getAllByHost(res.getHost()).stream().forEach(r -> {
+					try {
+						result.addAll(pdfParserService
+								.getResult(new RequestFoPdfArguments(r, links.getKey(), links.getMetalType())));
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				});
 			}
+				result.addAll(pdfParserService
+						.getResult(new RequestFoPdfArguments(res, links.getKey(), links.getMetalType())));
 		}
 		return result;
 	}

@@ -1,7 +1,8 @@
 package com.berzenin.app.web.controller;
 
 import java.util.Arrays;
-import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
@@ -23,8 +24,8 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	@Autowired
 	protected S service;
 	
-	protected String message = "Something wrong";
-	protected List<E> entites;
+	public static String message = "Something wrong";
+	public Set<E> entites;
 	protected String page = "hosts";
 	
 	@Override
@@ -38,7 +39,7 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	@Override
 	public String findById(Long id, Model model) {
 		try {
-			entites = Arrays.asList(service.findById(id));
+			entites = Arrays.asList(service.findById(id)).stream().collect(Collectors.toSet());
 			setModelAttribute(model);
 			return page;	
 		} catch (RuntimeException e) {
@@ -70,7 +71,6 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 		 }
 	}
 
-	
 	public String deleteEntity(@PathVariable("id") Long id, Model model) {
 		try {
 			service.removeById(id);

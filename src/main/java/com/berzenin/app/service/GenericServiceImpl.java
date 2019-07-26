@@ -5,8 +5,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +27,7 @@ public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> i
 	protected final R repository;
 
 	@Getter
-	protected static final String pathToResource = "..\\websitestillparser\\src\\main\\resources\\";
+	protected static final String pathToResource = "..\\web-metal-searcher\\src\\main\\resources\\";
 
 	@Autowired
 	public GenericServiceImpl(R repository) {
@@ -60,21 +62,28 @@ public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> i
 	public String setPdfFileName(String url) {
 		String pdfFileName = "";
 		try {
-			URL partOfurl = new URL(url);
+			URL partOfurl = new URL(url.trim());
 			pdfFileName = FilenameUtils.getName(partOfurl.getPath());
+			if (pdfFileName==null || pdfFileName.length()==0) {
+				if (url.endsWith("/")) {
+					url = url.substring(0, url.length()-2);
+				}
+				pdfFileName = url.substring(url.lastIndexOf("/")+1);
+			}
 		} catch (IOException e) {
 			log.error(e.getMessage());
-			e.printStackTrace();		}
+	}
 		return pdfFileName;
 	}
 	
 	@Override
-	public List<E> findAll() {
+	public Set<E> findAll() {
 		List<E> list = (List<E>) repository.findAll();
-		if (list == null) {
-			return new ArrayList<>();
-		}
-		return list;
+		Set<E> set = list.stream().collect(Collectors.toSet());
+		if (set == null) {
+			return new HashSet<>();
+		}		
+		return set;
 	}
 
 	@Override

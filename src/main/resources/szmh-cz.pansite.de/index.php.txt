@@ -1,0 +1,59 @@
+<body>
+<!--nxid=1-->
+<div id="container">
+<div id="Logo">
+<div id="id42480" class="pansiteelement logo">
+<a href="http://www.universal-stahl.de/index.php" target="_self"><img alt="" src="./images/Logo_18048.png"></a>
+</div>
+<div id="id43027" class="pansiteelement Logo2">
+<img alt="" src="./images/Logo2_18049.png">
+</div>
+</div>
+<div id="Schriftzug">
+<div id="id40417" class="pansiteelement Slogen">
+<span class="SText">Universal Ocel spol. s.r.o.</span>
+</div>
+</div>
+<div id="Navigation">
+<div id="id40677" class="pansiteelement NavOben">
+<ul>
+<li class="Company"><a href="cz/Company/index.php" target="_self">Firme</a></li>
+<li class="Produkte"><a href="cz/Products/index.php" target="_self">Výrobky</a></li>
+<li class="Anarbeitung"><a href="cz/Processing/index.php" target="_self">Opracování</a></li>
+<li class="Kontakt"><a href="cz/Contact/index.php" target="_self">Kontakty</a></li>
+<li class="Service"><a href="cz/Service/News.php" target="_self">Service</a></li>
+<li class="Suche"><a href="cz/Search/index.php" target="_self">Search</a></li>
+<li class="Sitemap"><a href="cz/Sitemap/index.php" target="_self">Sitemap</a></li>
+<li class="Impressum"><a href="cz/Imprint/index.php" target="_self">Impresum</a></li>
+</ul>
+</div>
+</div>
+<div id="Banner">
+<div id="id40710" class="pansiteelement">
+<img class="BannerBild" border="0" alt="" src="./images/A0037923_18023.jpg">
+<img class="BannerBild2" border="0" alt="" src="./images/HUE_8004_18024.jpg">
+<img class="BannerBild3" border="0" alt="" src="./images/uni_37850a_18025.jpg">
+</div>
+</div>
+<div id="InhaltContainer">
+<!--nxid=1-->
+<!--contentid=1-->
+<div id="mainContent">
+<div id="id40420" class="pansiteelement slogen">
+<h1>Experience in steel.</h1>
+</div>
+<div id="id40428" class="pansiteelement">
+<div class="fliesstext">
+<p>Steel is a complex and variously applicable product subject to continuous development. Having made steel to its medium, Universal are the company that offers full service and complex and varied optimum problem solutions upon your demand. Customer orientation is for Universal the most important issue. Thus we speak your language and are always at your site with our network.</p>
+<p>When you need our support, just click onto our website and meet us there. We would like to inform you about our extensive delivery program and our&nbsp; processing facilities.<br></p>
+</div>
+</div>
+</div>
+</div>
+<!--contentid=1-->
+<!--nxid=1-->
+<div id="footer">
+</div>
+</div>
+<!--nxid=1-->
+</body>
