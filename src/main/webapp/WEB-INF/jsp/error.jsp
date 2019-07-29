@@ -18,9 +18,17 @@
 <title>Error page</title>
 </head>
 <body>
+<div class="container">
 	<h1>Error</h1>
 		<c:if test="${not empty message}">
 			<div class="alert alert-success">${message}</div>
 		</c:if>
+		<div>
+			<a href="/linksForResources/show/all">Links page</a>
+		</div>
+		<div>
+			<a href="/linksForSearch">Multi searching from links</a>
+		</div>
+</div>
 </body>
 </html>

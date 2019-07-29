@@ -19,13 +19,21 @@
 </head>
 <body>
 	<div class="container">
-		<a href="${prefix}/">Back</a> <br />
+		<div>
+			<a href="<c:url value="/logout" />">Logout</a>
+		</div>
+		<div>
+			<a href="/linksForResources/show/all">Links page</a>
+		</div>
 		<h1>Hello searcher!</h1>
 		<c:if test="${not empty message}">
 			<div class="alert alert-success">${message}</div>
 		</c:if>
 		<form action="/linksForSearch"" method="GET">
 		<p><button type="submit">Reset</button></p>
+						<div>
+					<input type="hidden" name="_csrf" value="${_csrf.token}" />
+				</div>
 		</form>
 		<c:if test="${not empty result}">
 		<table class="table  table-sm">
@@ -99,6 +107,9 @@
 							<td><a href="${entity.urlForResource}"/>${entity.urlForResource}</td>
 						</tr>
 					</c:forEach>
+					<div>
+						<input type="hidden" name="_csrf" value="${_csrf.token}" />
+					</div>
 				</form:form>
 			</tbody>
 		</table>

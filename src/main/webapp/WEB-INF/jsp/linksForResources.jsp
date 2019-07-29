@@ -19,7 +19,12 @@
 </head>
 <body>
 	<div class="container">
-		<a href="${prefix}/">Back</a> <br />
+		<div>
+			<a href="<c:url value="/logout" />">Logout</a>
+		</div>
+		<div>
+			<a href="/linksForSearch">Multi searching from links</a>
+		</div>
 		<div>
 			<c:if test="${not empty message}">
 				<div class="alert alert-success">${message}</div>
@@ -37,27 +42,37 @@
 							<td><button type="submit">Add new link</button></td>
 						</tr>
 					</table>
+					<div>
+						<input type="hidden" name="_csrf" value="${_csrf.token}" />
+					</div>
 				</form:form>
 			</div>
 			<div class="form-group">
 				<h3>Add new host:</h3>
-				<form class="form-group" method="post" action="${prefix}/${page}/addHost">
+				<form class="form-group" method="post"
+					action="${prefix}/${page}/addHost">
 					<table>
 						<tr>
-							<td><input type="text" name="host"/></td>
+							<td><input type="text" name="host" /></td>
 							<td><button type="submit">Add new host</button></td>
 						</tr>
 					</table>
+					<div>
+						<input type="hidden" name="_csrf" value="${_csrf.token}" />
+					</div>
 				</form>
 			</div>
 			<div class="form-group">
-					<h3>File download:</h3>
-					Select a file to upload: <br />
-					<form class="form-group" action="${prefix}/${page}/addPdfFile"
-						method="post" enctype="multipart/form-data">
-						<input type="file" name="file" size="50" />
-						<button type="submit">Upload File</button>
-					</form>
+				<h3>File download:</h3>
+				Select a file to upload: <br />
+				<form class="form-group" action="${prefix}/${page}/addPdfFile"
+					method="post" enctype="multipart/form-data">
+					<input type="file" name="file" size="50" />
+					<button type="submit">Upload File</button>
+					<div>
+						<input type="hidden" name="_csrf" value="${_csrf.token}" />
+					</div>
+				</form>
 			</div>
 		</div>
 		<br />
@@ -85,6 +100,9 @@
 							<form action="${prefix}/${page}/delete/${entity.id}"
 								method="post">
 								<button type="submit" name="delete" value="Delete">Delete</button>
+								<div>
+									<input type="hidden" name="_csrf" value="${_csrf.token}" />
+								</div>
 							</form>
 						</td>
 					</tr>

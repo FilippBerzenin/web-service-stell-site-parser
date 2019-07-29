@@ -46,7 +46,7 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 		return page;
 	}
 
-	@RequestMapping(value = "/multiSerching", method = RequestMethod.POST)
+	@RequestMapping(value = {"/multiSerching"}, method = RequestMethod.POST)
 	public String searchForManyLinks(@ModelAttribute(name = "links") @Valid Links links, BindingResult bindingResult,
 			Model model) {
 		if (bindingResult.hasErrors()) {
