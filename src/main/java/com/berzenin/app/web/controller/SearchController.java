@@ -30,7 +30,7 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 	private LinkForMetalResourcesService linkSearcher;
 
 	public SearchController() {
-		page = "linksForSearch";
+		namePage = "linksForSearch";
 	}
 
 	@ModelAttribute("links")
@@ -41,9 +41,9 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 	@RequestMapping(method = RequestMethod.GET)
 	public String getAllLinks(Model model) {
 		model.addAttribute("message", "Get all links");
-		model.addAttribute("page", page);
+		model.addAttribute("page", namePage);
 		model.addAttribute("listOfEntites", linkSearcher.findAll());
-		return page;
+		return namePage;
 	}
 
 	@RequestMapping(value = {"/multiSerching"}, method = RequestMethod.POST)
@@ -51,13 +51,13 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 			Model model) {
 		if (bindingResult.hasErrors()) {
 			model.addAttribute("message", "Error");
-			model.addAttribute("page", page);
+			model.addAttribute("page", namePage);
 			model.addAttribute("listOfEntites", linkSearcher.findAll());
-			return page;
+			return namePage;
 		}
 		links.setKey(links.getKeywords().split(" "));
 		model.addAttribute("message", "Get result");
-		model.addAttribute("page", page);
+		model.addAttribute("page", namePage);
 		List<ResultLine> result = null;
 		try {
 			result = searchService.distributorForLineSearch(links);
@@ -66,6 +66,6 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 		}
 		model.addAttribute("result", result);
 		model.addAttribute("listOfEntites", linkSearcher.findAll());
-		return page;
+		return namePage;
 	}
 }

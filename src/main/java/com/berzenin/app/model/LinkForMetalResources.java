@@ -42,8 +42,4 @@ public class LinkForMetalResources {
 	
 	@Column(name="localPathForTxtFile", nullable=false)
 	private String localPathForTxtFile;	
-	
-//    @ManyToOne
-//    @JoinColumn(name="id", nullable=false)
-//    private Host hostFor;
 }

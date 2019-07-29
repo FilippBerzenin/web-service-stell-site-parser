@@ -9,12 +9,14 @@ import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.support.PagedListHolder;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,14 +35,19 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	
 	public static String message = "Something wrong";
 	public Set<E> entites;
-	protected String page = "hosts";
+	protected String namePage = "hosts";
 	
 	@Override
-	public String findAll(Model model) {
+	public String findAll(HttpServletRequest request, Model model) {
 		message = "All entity";
 		entites = service.findAll();
+		PagedListHolder pagedListHolder = new PagedListHolder(entites.stream().collect(Collectors.toList()));
+		int page = ServletRequestUtils.getIntParameter(request, "p", 0);
+		pagedListHolder.setPage(page);
+		pagedListHolder.setPageSize(3);
+		model.addAttribute("pagedListHolder", pagedListHolder);
 		setModelAttribute(model);
-		return page;
+		return namePage;
 	}	
 	
 	@Override
@@ -48,10 +55,10 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 		try {
 			entites = Arrays.asList(service.findById(id)).stream().collect(Collectors.toSet());
 			setModelAttribute(model);
-			return page;	
+			return namePage;	
 		} catch (RuntimeException e) {
 			this.setModelAttributeWhenthrowException(e, model);
-			return page;
+			return namePage;
 		}
 	}
 	
@@ -63,17 +70,17 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 		 {if (result.hasErrors()) {
 				message = "Something wrong with parameters";
 				setModelAttribute(model);
-				return page;
+				return namePage;
 			}
 			try {
 				service.add(entity);
 				message = "Entity was successful save";
 				entites = service.findAll();
 				setModelAttribute(model);
-				return page;
+				return namePage;
 			} catch (RuntimeException e) {
 				this.setModelAttributeWhenthrowException(e, model);
-				return page;
+				return namePage;
 			}
 		 }
 	}
@@ -83,11 +90,11 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 			service.removeById(id);
 			entites = service.findAll();
 			message = id+ " Successfully deleted.";
-			return page;
+			return namePage;
 		} catch (RuntimeException e) {
 			log.info("Delete failed" + e);
 			message = id+ " delete failed.";
-			return page;
+			return namePage;
 		} finally {
 			setModelAttribute(model);
 		}
@@ -100,22 +107,22 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 		if (result.hasErrors()) {
 			message = "Something wrong with attributes";
 			setModelAttribute(model);
-			return page;
+			return namePage;
 		}
 		try {
 			service.update(entity);
 			message = "Entity was successful update";
 			entites = service.findAll();
 			setModelAttribute(model);
-			return page;
+			return namePage;
 		} catch (RuntimeException e) {
 			this.setModelAttributeWhenthrowException(e, model);
-			return page;
+			return namePage;
 		}
 	}
 	
 	protected void setModelAttribute(Model model) {
-		model.addAttribute("page", page);
+		model.addAttribute("page", namePage);
 		model.addAttribute("message", message);
 		model.addAttribute("listOfEntites", entites);
 	}

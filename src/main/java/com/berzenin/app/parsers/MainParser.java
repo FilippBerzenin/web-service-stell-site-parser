@@ -113,11 +113,18 @@ public abstract class MainParser {
 				String lines[] = pdfFileInText.split("\\r?\\n");
 				return this.writeBytesForTxtFile(txtFile, lines);
 			}
+		} catch (NoClassDefFoundError e) {
+			log.info("txt "+txtFile+ " pdf "+pdfFile);
+			log.error("NoClassDefFoundError "+e);
+			e.printStackTrace();
+			return Optional.ofNullable(file);
 		} catch (InvalidPasswordException e) {
 			log.error("invalid password"+e);
 			e.printStackTrace();
+			return Optional.ofNullable(file);
 		} catch (IOException e) {
 			e.printStackTrace();
+			return Optional.ofNullable(file);
 		} 
 		return Optional.ofNullable(file);
 	}

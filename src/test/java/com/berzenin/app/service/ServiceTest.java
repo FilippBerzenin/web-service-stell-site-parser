@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashSet;
 
 import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.BeforeEach;
@@ -19,6 +20,7 @@ import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.berzenin.app.model.Host;
 import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.repo.LinkForMetalResourcesRepo;
 import com.berzenin.app.type.ResourcesType;
@@ -32,15 +34,28 @@ class ServiceTest {
 	@Autowired
 	LinkForMetalResourcesService service;
 	
+	@Autowired
+	HtmlService HtmlService;
+	
 	@BeforeEach
 	public void setUp() {
 		service = new LinkForMetalResourcesService(repo);
+		HtmlService = new HtmlService();
 	}
 	
 	@Test
-	public void deleteAllLinksFromHostResourcesTest () {
-		service.deleteAllLinksFromHostResources("www.steelinox.nl");
+	public void getAllLinksFromHostTest () {
+		Host host = new Host();
+		host.setUrl("https://www.steelinox.nl/nl");
+		host.setId(1L);
+		host.setLinksInsideHost(new HashSet<>());
+		HtmlService.getAllLinksFromHost(host);
 	}
+	
+//	@Test
+//	public void deleteAllLinksFromHostResourcesTest () {
+//		service.deleteAllLinksFromHostResources("www.steelinox.nl");
+//	}
 	
 	@Test
 	void getHostNameFromUrlTest() {

@@ -47,12 +47,22 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	
 	public boolean deleteAllLinksFromHostResources (String host) {
 		try {
-			repo.findAllByHost(host).forEach(s -> remove(s));
+			repo.findAllByHost(host).forEach(s -> deleteLink(s));
 			return true;
 		} catch (RuntimeException e) {
 			e.printStackTrace();
 		}
 		return false;
+	}
+	
+	public void deleteLink (LinkForMetalResources link) {
+		try {
+			Files.deleteIfExists(Paths.get(link.getLocalPathForTxtFile()));
+			Files.deleteIfExists(Paths.get(link.getLocalPathForPdfFile()));
+			remove(link);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public List<LinkForMetalResources> getAllByHost(String host) {
@@ -103,14 +113,14 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		String pathForTxtFile = "null";
 		String url = entity.getUrlForResource();
 		localPath = this.setPathForFile(entity.getUrlForResource())+name;
-		if (entity.getResourcesType().equals(null) || name.substring(name.length()-3).equals("pdf")) {
+		if (name.substring(name.length()-3).equals("pdf")) {
 			entity.setResourcesType(ResourcesType.REMOTE_PDF);
+		} if (entity.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
+			localPath = this.setPathForFile(entity.getUrlForResource())+name+".pdf";
 		} if (entity.getResourcesType().equals(null)) {
 			entity.setResourcesType(ResourcesType.HTML_RESOURCES);
 			localPath = this.setPathForFile(entity.getUrlForResource())+name+".pdf";
-		} if (entity.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
-			localPath = this.setPathForFile(entity.getUrlForResource())+name+".pdf";
-		}
+		}		
 		pathForTxtFile = localPath.replace("pdf", "txt");
 		entity = LinkForMetalResources.builder()
 			.host(getHostNameFromUrl(entity.getUrlForResource()))
@@ -124,7 +134,9 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 			return entity;
 		}
 		this.downloadResorcesFromUrl(entity);
-		this.parsePdf(entity);
+		if (entity.getResourcesType().equals(ResourcesType.REMOTE_PDF)) {
+			this.parsePdf(entity);	
+		}
 		repository.save(entity);
 		LinkMetalResourcesController.message = "Entity was successful save";
 		return entity;

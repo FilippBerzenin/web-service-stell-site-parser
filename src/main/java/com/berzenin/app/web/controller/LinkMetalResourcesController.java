@@ -1,5 +1,10 @@
 package com.berzenin.app.web.controller;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import javax.validation.Valid;
 
 import org.springframework.stereotype.Controller;
@@ -26,7 +31,7 @@ public class LinkMetalResourcesController
 		extends GenericViewControllerImpl<LinkForMetalResources, LinkForMetalResourcesService> {
 
 	public LinkMetalResourcesController(LinkForMetalResourcesService service) {
-		page = "linksForResources";
+		namePage = "linksForResources";
 	}
 
 	@ModelAttribute("entityFor")
@@ -42,14 +47,20 @@ public class LinkMetalResourcesController
 			GenericViewControllerImpl.message = id+ " Successfully deleted.";
 		}
 		try {
-			service.removeById(id);
+			service.deleteLink(service.findById(id));
+			Files.delete(Paths.get(service.findById(id).getUrlForResource()));
 			entites = service.findAll();
 			message = id+ " Successfully deleted.";
-			return page;
-		} catch (RuntimeException e) {
+			return namePage;
+		}catch (IOException e) {
 			log.info("Delete failed" + e);
 			message = id+ " delete failed.";
-			return page;
+			return namePage;
+		} 
+		catch (RuntimeException e) {
+			log.info("Delete failed" + e);
+			message = id+ " delete failed.";
+			return namePage;
 		} finally {
 			setModelAttribute(model);
 		}
@@ -61,18 +72,22 @@ public class LinkMetalResourcesController
 		newHost.setUrl(host);
 		newHost = service.getLinskFromHost(newHost);
 		for (String s : newHost.getLinksInsideHost()) {
-			if (s == null || s.isEmpty() || s.contains("mailto")) {
+			if (s == null || s.isEmpty() || s.contains("mailto") || s.contains("maps.google.com")) {
 				continue;
 			}
 			LinkForMetalResources link = new LinkForMetalResources();
 			link.setResourcesType(ResourcesType.HOST_RESOURCE);
 			link.setUrlForResource(s);
-			service.add(link);
-			message = "Host was successful save";
-			entites = service.findAll();
-			setModelAttribute(model);
+			try {
+				service.add(link);
+				message = "Host was successful save";
+			} catch (RuntimeException e) {
+				log.error(e.getLocalizedMessage());
+			}
 		}
-		return page;
+		entites = service.findAll();
+		setModelAttribute(model);
+		return namePage;
 	}
 
 	@RequestMapping(value = "/addPdfFile")
@@ -85,7 +100,7 @@ public class LinkMetalResourcesController
 			message = "This link is already in the database.";
 			entites = service.findAll();
 			setModelAttribute(model);
-			return page;
+			return namePage;
 		}
 		try {
 			service.add(entity);
@@ -99,12 +114,12 @@ public class LinkMetalResourcesController
 //			message = "Thomething wrong";
 //			entites = service.findAll();
 //			setModelAttribute(model);
-			return page;
+			return namePage;
 		} catch (RuntimeException e) {
 			log.info(e.getMessage());
 			e.printStackTrace();
 			this.setModelAttributeWhenthrowException(e, model);
-			return page;
+			return namePage;
 		}
 	}
 
@@ -114,7 +129,7 @@ public class LinkMetalResourcesController
 		if (result.hasErrors()) {
 			message = "Something wrong with parameters";
 			setModelAttribute(model);
-			return page;
+			return namePage;
 		}
 //		try {
 			service.add(entity);
@@ -158,7 +173,7 @@ public class LinkMetalResourcesController
 //			e.printStackTrace();
 //			this.setModelAttributeWhenthrowException(e, model);
 //		}
-		return page;
+		return namePage;
 	}
 
 	public boolean checkIfLinkInData(LinkForMetalResources entity) {

@@ -19,7 +19,9 @@ import com.berzenin.app.web.dto.RequestFoPdfArguments;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Getter
 @Setter
 @Service
@@ -27,6 +29,9 @@ public class HtmlService {
 
 	@Autowired
 	private HtmlParser htmlParser;
+	
+    public static Set<String> uniqueURL = new HashSet<String>();
+    public static String my_site;
 
 	public Set<ResultLine> getResult(RequestFoPdfArguments argument) {
 		Set<ResultLine> result = htmlParser.parseHtmlTable(argument.getArgs(), argument.getMetalType());
@@ -34,19 +39,29 @@ public class HtmlService {
 	}
 
 	public Host getAllLinksFromHost(Host host) {
-		Document doc;
-		try {
-			doc = Jsoup.connect(host.getUrl()).get();
-		Elements links = doc.select("a[href]");
-		host.setLinksInsideHost(new HashSet<>());
-		for (Element link : links) {
-			host.getLinksInsideHost().add(link.attr("abs:href"));
-		}
-		host.getLinksInsideHost().forEach(System.out::println);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		my_site  = host.getUrl();
+		get_links(host.getUrl());
+		host.setLinksInsideHost(uniqueURL);
 		return host;
+	}
+
+	private void get_links(String url) {
+		try {
+			Document doc = Jsoup.connect(url).userAgent("chrome").get();
+			Elements links = doc.select("a");
+			if (links.isEmpty()) {
+				return;
+			}
+			links.stream().map((link) -> link.attr("abs:href")).forEachOrdered((this_url) -> {
+				boolean add = uniqueURL.add(this_url);
+				if (add && this_url.contains(my_site)) {
+					get_links(this_url);
+				}
+			});
+		} catch (IOException e) {
+			log.error("Error: "+e.getLocalizedMessage());
+		}
+
 	}
 
 	public boolean convertHtmlPageForTxt(LinkForMetalResources res) {
@@ -59,8 +74,8 @@ public class HtmlService {
 			return true;
 		} catch (IOException e) {
 			e.printStackTrace();
+			return false;
 		}
-		return false;
 	}
 
 }
