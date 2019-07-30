@@ -69,8 +69,6 @@
 			</tbody>
 		</table>
 		</c:if>
-		
-		
 		<table class="table  table-sm">
 			<thead class="table-info">
 				<tr>
@@ -103,8 +101,15 @@
 									value="${entity.localPathForTxtFile}" checked="checked"/></td>
 							<td>${counter.count}</td>
 							<td>${entity.id}</td>
-							<td><a href="${entity.host}"/>${entity.host}</td>
-							<td><a href="${entity.urlForResource}"/>${entity.urlForResource}</td>
+							<td><a href="${entity.host}"></a>${entity.host}</td>
+							<c:choose>
+								<c:when test="${entity.resourcesType == 'HOST_RESOURCE'}">
+									 <td>${entity.resourcesType}</td>
+								</c:when>
+								<c:otherwise>
+									 <td><a href="${entity.urlForResource}"></a>${entity.urlForResource}</td>
+								</c:otherwise>
+							</c:choose>	
 						</tr>
 					</c:forEach>
 					<div>

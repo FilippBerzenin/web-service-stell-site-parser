@@ -29,7 +29,9 @@
 			<c:if test="${not empty message}">
 				<div class="alert alert-success">${message}</div>
 			</c:if>
-			<div class="form-group">
+		</div>
+		<div class="row">
+			<div class="col">
 				<h2>Add new link:</h2>
 				<form:form method="post" action="${prefix}/${page}/create/"
 					modelAttribute="entityFor">
@@ -47,7 +49,7 @@
 					</div>
 				</form:form>
 			</div>
-			<div class="form-group">
+			<div class="col">
 				<h3>Add new host:</h3>
 				<form class="form-group" method="post"
 					action="${prefix}/${page}/addHost">
@@ -62,6 +64,7 @@
 					</div>
 				</form>
 			</div>
+			</div>
 			<div class="form-group">
 				<h3>File download:</h3>
 				Select a file to upload: <br />
@@ -74,7 +77,6 @@
 					</div>
 				</form>
 			</div>
-		</div>
 		<br />
 		<h1>${page} list</h1>
 			<div>
@@ -101,7 +103,6 @@
 						<td>${counter.count}</td>
 						<td>${entity.id}</td>
 						<td><a href="${entity.host}"></a>${entity.host}</td>
-						
 						<c:choose>
 								<c:when test="${entity.resourcesType == 'HOST_RESOURCE'}">
 									 <td>${entity.resourcesType}</td>
@@ -109,8 +110,7 @@
 								<c:otherwise>
 									 <td><a href="${entity.urlForResource}"></a>${entity.urlForResource}</td>
 								</c:otherwise>
-							</c:choose>	
-						
+						</c:choose>	
 						<td>${entity.resourcesType}</td>
 						<td>
 							<form action="${prefix}/${page}/upload/${entity.id}"

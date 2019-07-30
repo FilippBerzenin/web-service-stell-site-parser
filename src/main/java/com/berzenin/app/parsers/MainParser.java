@@ -66,7 +66,6 @@ public abstract class MainParser {
 			}
 		} catch (IOException e) {
 			log.error(e.getMessage());
-			e.printStackTrace();
 		}
 		return result;
 	}

@@ -1,7 +1,8 @@
 package com.berzenin.app.web.controller;
 
 import java.io.IOException;
-import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
@@ -56,15 +57,17 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 			return namePage;
 		}
 		links.setKey(links.getKeywords().split(" "));
-		model.addAttribute("message", "Get result");
 		model.addAttribute("page", namePage);
-		List<ResultLine> result = null;
+		Set<ResultLine> result = null;
 		try {
-			result = searchService.distributorForLineSearch(links);
+			result = searchService.distributorForLineSearch(links).stream().collect(Collectors.toSet());
+//					Collectors.toCollection(
+//					() -> new TreeSet<ResultLine>((p1, p2) -> ((Integer)p1.getCountEquals()).compareTo((Integer)p2.getCountEquals()))));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		model.addAttribute("result", result);
+		model.addAttribute("message", "Get result: "+result.size());
 		model.addAttribute("listOfEntites", linkSearcher.findAll());
 		return namePage;
 	}

@@ -46,6 +46,7 @@ public class HtmlService {
 	}
 
 	private void get_links(String url) {
+		String regex = "";
 		try {
 			Document doc = Jsoup.connect(url).userAgent("chrome").get();
 			Elements links = doc.select("a");
@@ -53,8 +54,12 @@ public class HtmlService {
 				return;
 			}
 			links.stream().map((link) -> link.attr("abs:href")).forEachOrdered((this_url) -> {
-				boolean add = uniqueURL.add(this_url);
-				if (add && this_url.contains(my_site)) {
+				boolean add = false;
+				if (this_url.matches(regex) && this_url.contains(my_site)) {
+					log.info("URL add: "+this_url);
+					add = uniqueURL.add(this_url);	
+				}
+				if (add) {
 					get_links(this_url);
 				}
 			});

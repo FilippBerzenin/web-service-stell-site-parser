@@ -132,7 +132,7 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		String name = this.setPdfFileName(entity.getUrlForResource());
 		String localPath = null;
 		String pathForTxtFile = "null";
-		String url = entity.getUrlForResource();
+		String url = entity.getUrlForResource().trim();
 		localPath = this.setPathForFile(entity.getUrlForResource())+name;
 		if (entity.getResourcesType() != null && entity.getResourcesType().equals(ResourcesType.LOCAL_PDF)) {
 			downloadResorcesFromUrl(entity);

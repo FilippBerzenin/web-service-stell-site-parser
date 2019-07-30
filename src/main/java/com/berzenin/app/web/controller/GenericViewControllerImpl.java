@@ -39,30 +39,30 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	
 	@Override
 	public String showPageWithNumber(@PathVariable("page") int page, Model model) {
-		setEntitesFromPage();
-		setModelAttribute(model);
+		pageResult = new HashMap<>();
+		setEntitesFromPage(pageResult, entites);
 		entites = pageResult.get(page);
 		message = message+ " All entity from "+page;
+		setModelAttribute(model);
 		return namePage;
 	}
 	
 	@Override
 	public String uploadById(Long id, Model model) {
 		if (service.uploadById(id)) {
-			setEntitesFromPage();
+			setEntitesFromPage(pageResult, entites);
 			message = message + " Entity with id "+id+" succeseful upload ";
 		}
-		setEntitesFromPage();
+		setEntitesFromPage(pageResult, entites);
 		message = message+  "Entity with id "+id+" failed upload ";
 		setModelAttribute(model);
 		return namePage;
 	}
 	
-	private void setEntitesFromPage() {
+	protected Map <Integer, Set<E>> setEntitesFromPage(Map <Integer, Set<E>> pageResult, Set<E> entites) {
 		entites = service.findAll();
 		counterPage = new ArrayList<>();
 		int count = entites.size();
-		pageResult = new HashMap<>();
 		Iterator<E> iterator = entites.iterator();
 		for (int i = 0, g = 1; i<count; i=i+10, g++) {
 				Set<E> points = new HashSet<>(); 
@@ -72,6 +72,7 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 				}
 				pageResult.put(g, points);
 		}
+		return pageResult;
 	}
 	
 	@Override
