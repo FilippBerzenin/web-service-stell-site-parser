@@ -1,0 +1,82 @@
+1.4305
+
+Als Automatenstahlgüte mit einem Schwefelgehalt von 0,15 – 0,35 % ist 1.4305 der klassische austenitische Stahl für die Automatenbearbeitung. Die
+ständigen Fortschritte bei unserer Stahlerzeugung haben 1.4305 zur Referenzgüte für Spanungsmaterial werden lassen.
+
+
+
+
+
+Produktformen
+
+Armaturen für mittlere korrosive Beanspruchungen, Automobilindustrie, Dekorative Zwecke und Kücheneinrichtungen,
+Elektronische Ausrüstung, Maschinenbau
+Normen und
+Bezeichnungen
+
+
+
+
+EN 10088-3 1.4305 X8CrNiS18-9
+AISI 303
+UNS S30300
+BS 303S22
+JIS SUS303
+AFNOR Z8CNF18-09
+DIN 17440 1.4305
+SIS 2346
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Mittel
+Mechanische Eigenschaften Mittel
+Schmiedbarkeit Schlecht
+Schweißeignung Schlecht
+Spanbarkeit Sehr gut
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,73
+Magnetisierbarkeit Gering*
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 16,0
+20 – 200 °C 16,5
+20 – 300 °C 17,0
+20 – 400 °C 17,5
+20 – 500 °C 18,0
+
+* Der Werkstoff kann im abgeschreckten Zustand leicht magnetisch sein, mit zunehmender Kaltverfestigung steigt der
+Magnetismus.
+Mechanische
+Eigenschaften
+
+
+Die Bedingungen, die bei diesem Stahl zu optimalen Eigenschaften bezüglich Verarbeitung und Verwendung führen, bestehen
+in einem Lösungsglühen zwischen 1000 °C und 1100 °C mit anschließend rascher Abkühlung an Luft oder in Wasser. In
+diesem Zustand gelten die folgenden Werte für die mechanischen Eigenschaften (Probennahme in Längsrichtung):
+
+Norm Typische Werte (ca.)
+≤ 160 1 – 20* 21 – 160
+Streckgrenze (MPa) Rp0,2 ≥ 190 300 300
+Zugfestigkeit (MPa) Rm 500 – 750 620 620
+Bruchdehnung (%) A5 ≥ 35 40 40
+Härte HB ≤ 250 210 210
+
+*Angegebene Werte gelten für den nicht kaltverfestigten Zustand.
+
+Typisches Verfestigungsschaubild siehe Rückseite.
+
+Für dickere Abmessungen (d > 160 mm) müssen die mechanischen Eigenschaften vereinbart werden, oder die Lieferung
+geschieht in Anlehnung an die angegebenen Werte.
+Die Richtigkeit kann nicht garantiert werden.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

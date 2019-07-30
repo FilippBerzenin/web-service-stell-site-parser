@@ -1,0 +1,166 @@
+1.4122
+
+1.4122 zeichnet sich aus durch die Verbindung einer höheren bzw.
+gleichen Korrosionsbeständigkeit wie 1.4016, und die Möglichkeit
+durch eine Wärmebehandlung ausgezeichnete mechanische
+Werte zu erreichen. Diese Güte ist hochglanzpolierbar.
+
+
+
+1.4122 is characterised by its combination of outstanding mechanical
+properties, (after heat treatment) and a corrosion resistance which is
+comparable with that of 1.4016. This steel can also be polished to high
+gloss finishes.
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Automobilindustrie, Bauindustrie, Lebensmittelindustrie,
+Maschinenbau, Pumpenwellen, Schneidwarenindustrie
+Automotive industry, Pump shafts, Food and beverage industry,
+Mechanical engineering, Cutting tools, Building industry
+Normen und
+Bezeichnungen
+Major
+Specifications
+EN 10088-3 1.4122 X39CrMo17-1
+DIN 17440 1.4122
+EN 10088-3 1.4122 X39CrMo17-1
+DIN 17440 1.4122
+
+Allgemeine
+Eigenschaften
+
+General
+Properties
+Korrosionsbeständigkeit Gut
+Mechanische Eigenschaften Sehr gut
+Schmiedbarkeit Mittel
+Schweißeignung Vorsicht geboten
+Spanbarkeit Vorsicht geboten
+Corrosion resistance good
+Mechanical properties very good
+Forgeability average
+Weldability with care
+Machinability with care
+Physikalische
+Eigenschaften
+
+Physical
+Constants
+Dichte (kg/dm³) 7,70
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,65
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 29
+Spez. Wärmekapazität bei 20 °C (J/kg K) 430
+Mittlerer Wärmeausdehnungsbeiwert (K-1)
+20 – 100 °C: 10,4 x 10-6
+20 – 200 °C: 10,8 x 10-6
+20 – 300 °C: 11,2 x 10-6
+20 – 400 °C: 11,6 x 10-6
+Density (kg/dm³) 7.70
+Electrical resistivity at 20 °C (Ω mm²/m) 0.65
+Magnetizability yes
+Thermal conductivity at 20 °C (W/m K) 29
+Specific heat capacity at 20 °C (J/kg K) 430
+Thermal expansion (K-1) 20 – 100 °C: 10.4 x 10-6
+20 – 200 °C: 10.8 x 10-6
+20 – 300 °C: 11.2 x 10-6
+20 – 400 °C: 11.6 x 10-6
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+1.4122 wird durch ein Halten bei Temperaturen im
+Bereich von 750 °C – 850 °C mit anschließender
+langsamer Abkühlung im Ofen oder an Luft
+weichgeglüht. Für diesen Zustand gelten die folgenden
+Werte für die mechanischen Eigenschaften:
+
+Norm
+Zugfestigkeit (N/mm²) Rm ≤900
+Härte HB ≤280
+
+Hinweis: Die HB-Werte können 60 Einheiten und die
+Zugfestigkeit 150 N/mm² höher liegen, bedingt durch die
+Kaltverfestigung beim Richten von Profilen ≤35 mm.
+
+Die mechanischen Eigenschaften können durch ein
+Vergüten verbessert werden, bei dem der Stahl
+zunächst durch ein Halten bei Temperaturen zwischen
+980 °C und 1060 °C mit anschließendem Abschrecken
+an Luft, in Öl oder Polymer gehärtet wird. Die
+Anlasstemperatur ist abhängig von der gewünschten
+Festigkeit. In den meisten Fällen ist der Zustand QT750
+festgelegt, der durch ein Anlassen von 650 °C – 750 °C
+mit Luftabkühlung erreicht wird. Für diesen Zustand
+gelten die folgenden Werte:
+
+Norm Typische Werte
+Streckgrenze (N/mm²) Rp0,2 ≥550 570
+Zugfestigkeit (N/mm²) Rm 750 – 950 825
+Bruchdehnung (%) A5 12 19
+Kerbschlagarbeit (J) 25 °C ISO-V Ø < 60: ≥20
+Ø > 60: ≥14
+
+Für dickere Abmessungen (d ≥160 mm) müssen die
+mechanischen Eigenschaften vereinbart werden, oder
+die Lieferung geschieht in Anlehnung an die
+angegebenen Werte.
+
+Um die Möglichkeit von Rissen zu reduzieren, muss
+gewährleistet sein, dass die Anlassbehandlung so
+schnell wie möglich im Anschluss an das Härten
+stattfindet.
+1.4122 can be soft annealed by holding at a temperature in the
+range 750 °C to 850 °C followed by slow cooling in air or in a
+furnace. In this condition, the following mechanical properties can
+be expected:
+
+Property Specification
+Tensile strength (N/mm²) Rm ≤900
+Hardness HB ≤280
+
+Note: the HB values could be 60 units higher and the tensile
+strengths 150 N/mm² higher due to cold work during straightening of
+profiles ≤35 mm.
+
+1.4122 can be hardened by holding at a temperature between 980
+°C – 1060°C followed by cooling in oil or polymer.
+
+The tempering temperature is dependent on the desired strength.
+The heat treated condition usually specified is the QT750 condition
+and is obtained by tempering in the temperature range 650 °C to
+750 °C. The number behind the designation QT relates to the
+minimum tensile strength. In this condition, the following mechanical
+properties can be expected:
+
+Property Spec.QT750 Typical
+Yield strength (N/mm²) Rp0.2 ≥550 570
+Tensile strength (N/mm²) Rm 750 – 950 825
+Tensile elongation (%) A5 ≥12 19
+Impact energy (J) 25 °C ISO-V Ø < 60: ≥20
+Ø > 60: ≥14
+
+To reduce the possibility of cracking, care must be taken to ensure
+that tempering takes place as soon as possible after the hardening
+step.
+
+The mechanical properties (d ≥160 mm) have to be agreed on for
+thicker dimensions, or the delivered product is based on the values
+given.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

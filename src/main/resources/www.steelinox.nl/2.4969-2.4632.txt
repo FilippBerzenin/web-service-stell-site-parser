@@ -1,0 +1,161 @@
+2.4969/2.4632
+
+Eine ausscheidungshärtbare Nickel-Chrom-Ko-balt-Legierung mit
+hoher Zeitstandfestigkeit bei Temperaturen bis ca. 920°C. Die
+Legierung hat ausserdem gute Korrosions- und
+Oxydationsbeständigkeit bei hohen Temperaturen. Verwendung
+für Gasturbinenschaufeln und -scheiben, Warmarbeitswerkzeuge und
+Federn.
+
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A precipitation-hardenable nickel-chromium-cobalt alloy having high
+stress-rupture strength and creep resistance at temperatures to about
+1700°F (920°C). The alloy also has good resistance to
+hightemperature corrosion and oxidation. Used for blades and discs in
+gas turbines, hot-working tools, and springs.
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Blech, Band, Rundstab, Flachstab,
+Schmiedematerial, Draht, Strangpressprofile
+Sheet, Strip, Plate, Round Bar, Flat Bar, Forging Stock,
+Wire, Extruded Section
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+UNS N07090
+BS HR2, HR202, HR402,
+HR501 - HR503
+W-Nr.: 2.4632
+SAE AMS 5829
+AECMA Pr EN 2295 - 2299,
+2400, 2401, 2412, 2669,
+2670
+UNS N07090
+BS HR2, HR202, HR402,
+HR501 - HR503
+W-Nr.: 2.4632
+SAE AMS 5829
+AECMA Pr EN 2295 - 2299,
+2400, 2401, 2412, 2669,
+2670
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+Dichte, Ib/in³ ................................................... 0.296
+g/cm³ ................................................................. 8.18
+
+Schmelzbereich, °F .............................. 2390 - 2500
+°C......................................................... 1310 – 1370
+
+Spezifische Wärme, Btu/lb•°F ........................ 0.107
+J/kg•°C .............................................................. 446
+Permeabilität bei 200 Oe (15.9 kA/m) .......... 1.0706
+
+Ausdehnungsbeiwert,
+68 – 212°F 10-6 in/in•°F ..................................... 7.1
+20 – 100°C μm/m•°C ........................................ 12.7
+
+Wärmeleitfähigkeit, Btu • in/ft²•h•°F .................. 79.7
+W/m•°C ............................................................. 11.5
+
+Spez. elektr. Widerstand,
+ohm•circ mil/ft .................................................... 710
+μohm•m ............................................................ 1.18
+Density, Ib/in³ .................................................................................. 0.296
+g/cm³ ................................................................................................. 8.18
+
+Melting Range, °F ................................................................ 2390 – 2500
+°C.......................................................................................... 1310 – 1370
+
+Specific Heat, Btu/lb•°F ................................................................... 0.107
+J/kg•°C ............................................................................................... 446
+Permeability at 200 Oersted (15.9 kA/m) ...................................... 1.0706
+
+Coefficient of Expansion,
+68 - 212°F 10-6 in/in•°F ...................................................................... 7.1
+20 - 100°C μm/m•°C ......................................................................... 12.7
+
+Thermal Conductivity, Btu • in/ft²•h•°F .............................................. 79.7
+W/m•°C ............................................................................................. 11.5
+
+Electrical Resistivity,
+ohm•circ mil/ft ..................................................................................... 710
+μohm•m ............................................................................................. 1.18
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Ausscheidungsgehärtet)
+
+Zeitstandfestigkeit (1000 Std) ksi MPa
+1300°F / 705°C ........................................52 360
+1400°F / 760°C ....................................... 35 240
+1500°F / 815°C ....................................... 22 150
+1600°F / 870°C ....................................... 11 75
+(Precipitation Hardened)
+
+Rupture Strength (1000 h) ksi MPa
+1300°F / 705°C ....................................... 52 360
+1400°F / 760°C ....................................... 35 240
+1500°F / 815°C ....................................... 22 150
+1600°F / 870°C ....................................... 11 75
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

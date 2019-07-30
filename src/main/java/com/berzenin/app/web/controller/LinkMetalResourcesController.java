@@ -2,7 +2,6 @@ package com.berzenin.app.web.controller;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import javax.validation.Valid;
@@ -38,32 +37,34 @@ public class LinkMetalResourcesController
 	public LinkForMetalResources getEntityForForm() {
 		return new LinkForMetalResources();
 	}
-	
-	@RequestMapping(value="/delete/{id}", method=RequestMethod.POST)
+
+	@RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
 	public String deleteEntity(@PathVariable("id") Long id, Model model) {
-		if (service.findById(id).getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
-			service.deleteAllLinksFromHostResources(service.findById(id).getHost());
-			entites = service.findAll();
-			GenericViewControllerImpl.message = id+ " Successfully deleted.";
-		}
 		try {
+			String path = service.findById(id).getUrlForResource();
+			if (service.findById(id).getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
+				service.deleteAllLinksFromHostResources(service.findById(id).getHost());
+				Files.delete(Paths.get(service.setPathForFile(path)));
+				GenericViewControllerImpl.message = id + " Successfully deleted.";
+			} else {
 			service.deleteLink(service.findById(id));
-			Files.delete(Paths.get(service.findById(id).getUrlForResource()));
-			entites = service.findAll();
-			message = id+ " Successfully deleted.";
+			Files.delete(Paths.get(service.setPathForFile(path)));
+			message = id + " Successfully deleted.";
 			return namePage;
-		}catch (IOException e) {
+			}
+		} catch (IOException e) {
 			log.info("Delete failed" + e);
-			message = id+ " delete failed.";
+			message = id + " delete failed.";
 			return namePage;
-		} 
-		catch (RuntimeException e) {
+		} catch (RuntimeException e) {
 			log.info("Delete failed" + e);
-			message = id+ " delete failed.";
+			message = id + " delete failed.";
 			return namePage;
 		} finally {
 			setModelAttribute(model);
+			showPageWithNumber(1, model);
 		}
+		return namePage;
 	}
 
 	@RequestMapping(value = "/addHost")
@@ -85,7 +86,7 @@ public class LinkMetalResourcesController
 				log.error(e.getLocalizedMessage());
 			}
 		}
-		entites = service.findAll();
+		showPageWithNumber(1, model);
 		setModelAttribute(model);
 		return namePage;
 	}
@@ -93,27 +94,19 @@ public class LinkMetalResourcesController
 	@RequestMapping(value = "/addPdfFile")
 	public String addPdfFile(@RequestParam("file") MultipartFile file, Model model) {
 		LinkForMetalResources entity = LinkForMetalResources.builder().host("localhost")
-				.resourcesType(ResourcesType.LOCAL_PDF).urlForResource(service.getLocalPathForPdf(file).toString())
+				.resourcesType(ResourcesType.LOCAL_PDF)
+				.urlForResource(service.getLocalPathForPdf(file).toString())
 				.localPathForPdfFile(service.getLocalPathForPdf(file).toString())
 				.localPathForTxtFile(service.getLocalPathForPdf(file).toString().replaceAll("pdf", "txt")).build();
 		if (this.checkIfLinkInData(entity)) {
 			message = "This link is already in the database.";
-			entites = service.findAll();
+			showPageWithNumber(1, model);
 			setModelAttribute(model);
 			return namePage;
 		}
 		try {
-			service.add(entity);
-//			if (service.copyFileForlocalDirectory(entity, file) && service.addPdf(entity)) {
-//				service.parsePdf(entity);
-//				message = "File was successful save";
-//				entites = service.findAll();
-//				setModelAttribute(model);
-//				return page;
-//			}
-//			message = "Thomething wrong";
-//			entites = service.findAll();
-//			setModelAttribute(model);
+			service.addPdf(entity, file);
+			showPageWithNumber(1, model);
 			return namePage;
 		} catch (RuntimeException e) {
 			log.info(e.getMessage());
@@ -128,51 +121,14 @@ public class LinkMetalResourcesController
 			Model model) {
 		if (result.hasErrors()) {
 			message = "Something wrong with parameters";
+			showPageWithNumber(1, model);
 			setModelAttribute(model);
 			return namePage;
 		}
-//		try {
-			service.add(entity);
-//		}
-//			ResourcesType resources;
-//			String name = service.setPdfFileName(entity.getUrlForResource());
-//			String localPath;
-//			String pathForTxtFile = "null";
-//			String url = entity.getUrlForResource();
-//			if (name.substring(name.length() - 3).equals("pdf")) {
-//				resources = ResourcesType.REMOTE_PDF;
-//				localPath = service.setPathForFile(entity.getUrlForResource()) + name;
-//				pathForTxtFile = localPath.replace("pdf", "txt");
-//
-//			} else if (true) {
-//				resources = ResourcesType.HTML_RESOURCES;
-//				localPath = service.setPathForFile(entity.getUrlForResource()) + name + ".pdf";
-//				pathForTxtFile = localPath.replace("pdf", "txt");
-//			}
-//			entity = LinkForMetalResources.builder().host(service.getHostNameFromUrl(entity.getUrlForResource()))
-//					.resourcesType(resources).urlForResource(url).localPathForPdfFile(localPath)
-//					.localPathForTxtFile(pathForTxtFile).build();
-//			if (this.checkIfLinkInData(entity)) {
-//				message = "This link is already in the database.";
-//				entites = service.findAll();
-//				setModelAttribute(model);
-//				return page;
-//			}
-//			service.downloadResorcesFromUrl(entity);
-//			service.parsePdf(entity);
-//			service.add(entity);
-//			message = "Entity was successful save";
-//			entites = service.findAll();
-//			setModelAttribute(model);
-//			return page;
-//		} catch (StringIndexOutOfBoundsException e) {
-//			message = "input value incorrect";
-//			e.getLocalizedMessage();
-//		} catch (RuntimeException e) {
-//			log.info(e.getMessage());
-//			e.printStackTrace();
-//			this.setModelAttributeWhenthrowException(e, model);
-//		}
+		service.add(entity);
+		message = "Entuty add to collection" + entity.toString();
+		showPageWithNumber(1, model);
+		setModelAttribute(model);
 		return namePage;
 	}
 

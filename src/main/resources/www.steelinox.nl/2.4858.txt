@@ -1,0 +1,177 @@
+2.4858
+
+Eine Nickel-Eisen-Chrom-Legierung mit Zusätzen von Molybdän und
+Kupfer. Sehr gute Beständigkeit sowohl gegen reduzierende als auch
+oxydierende Säuren, gegen Spannungsrisskorrosion sowie gegen
+Lochfrass- und Spaltkorrosion. Die Legierung ist besonders beständig
+gegen Schwefel- und Phosphorsäure. Verwendung für chemische
+Verfahrenstechnik, Anlagen zur Luftreinhaltung, für Rohre zur Öl- und
+Gasgewinnung, für die Wiederaufbereitung nuklearer Brennelemente,
+zur Säureproduktion sowie für Beizeinrichtungen.
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+A nickel-iron-chromium alloy with additions of molybdenum and
+copper. It has excellent resistance to both reducing and oxidizing
+acids, to stresscorrosion cracking, and to localized attack such as
+pitting and crevice corrosion. The alloy is especially resistant to sulfuric
+and phosphoric acids. Used for chemical processing, pollution-control
+equipment, oil and gas well piping, nuclear fuel reprocessing, acid
+production, and pickling equipment.
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Blech, Band, Rundstab, Flachstab, Sechskant,
+Rohr,Draht, Schmiedestücke
+Sheet, Plate, Strip, Round Bar, Flat Bar, Hexagon,
+Tube, Pipe, Wire, Forging Stock
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+UNS N08825
+BS 3072 – BS 3074, 3076 (NA16)
+ASTM B 163, B 366,
+B 423 - B 425, B 564, B 704,
+B 705, B 751, B 775, B 829
+ASME SB-163, SB-366,
+SB-423 - SB-425, SB-564,
+SB-704, SB-705, SB-751,
+SB-775, SB-829
+ASME Code Cases 1936,
+N-572
+DIN 17744, 17750 - 17752,
+17754
+ISO 6207, 6208, 9723 - 9725
+W-Nr.: 2.4858
+VdTÜV 432
+NACE MR-01-75
+UNS N08825
+BS 3072 – BS 3074, 3076 (NA16)
+ASTM B 163, B 366,
+B 423 - B 425, B 564, B 704,
+B 705, B 751, B 775, B 829
+ASME SB-163, SB-366,
+SB-423 - SB-425, SB-564,
+SB-704, SB-705, SB-751,
+SB-775, SB-829
+ASME Code Cases 1936,
+N-572
+DIN 17744, 17750 - 17752,
+17754
+ISO 6207, 6208, 9723 - 9725
+W-Nr.: 2.4858
+VdTÜV 432
+NACE MR-01-75
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+Dichte, Ib/in³ ................................................... 0.294
+g/cm³ ................................................................ 8.14
+
+Schmelzbereich, °F .............................. 2500 - 2550
+°C......................................................... 1370 – 1400
+
+Spezifische Wärme, Btu/lb•°F ........................ 0.105
+J/kg•°C .............................................................. 440
+
+Curie-Temperatur, °F ..................................... <-320
+°C.................................................................... <-196
+Permeabilität bei 200 Oe (15.9 kA/m) ............ 1.005
+
+Ausdehnungsbeiwert,
+70 - 200°F, 10-6 in/in•°F ..................................... 7.8
+21 - 93°C, μm/m•°C .......................................... 14.0
+
+Wärmeleitfähigkeit, Btu • in/ft²•h•°F .................. 76.8
+W/m•°C ............................................................. 11.1
+
+Spez. elektr. Widerstand,
+ohm•circ mil/ft .................................................... 678
+μohm•m ............................................................ 1.13
+Density, Ib/in³ .................................................................................. 0.294
+g/cm³ ................................................................................................. 8.14
+
+Melting Range, °F ................................................................. 2500 - 2550
+°C.......................................................................................... 1370 – 1400
+
+Specific Heat, Btu/lb•°F ................................................................... 0.105
+J/kg•°C ............................................................................................... 440
+
+Curie Temperature, °F .................................................................... <-320
+°C..................................................................................................... <-196
+Permeability at 200 Oersted (15.9 kA/m) ........................................ 1.005
+
+Coefficient of Expansion,
+70 - 200°F, 10-6 in/in•°F …………………………………………............ 7.8
+21 - 93°C, μm/m•°C .......................................................................... 14.0
+
+Thermal Conductivity, Btu • in/ft²•h•°F .............................................. 76.8
+W/m•°C ............................................................................................. 11.1
+
+Electrical Resistivity,
+ohm•circ mil/ft ..................................................................................... 678
+μohm•m ............................................................................................. 1.13
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Geglüht)
+
+Zugfestigkeit, ksi ................................................ 100
+MPa ................................................................... 690
+
+Streckgrenze (0.2% Dehngrenze),
+ksi ........................................................................ 45
+MPa.................................................................... 310
+Dehnung, % ......................................................... 45
+(Annealed)
+
+Tensile Strength, ksi .......................................................................... 100
+MPa .................................................................................................... 690
+
+Yield Strength (0.2% Offset),
+ksi ......................................................................................................... 45
+MPa..................................................................................................... 310
+Elongation, % ....................................................................................... 45
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

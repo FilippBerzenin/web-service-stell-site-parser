@@ -40,7 +40,7 @@
 </ul>
 <ul class="nav navbar-nav navbar-right">
 <li class="no-dropdown"> <a href="https://www.steelinox.nl/en/company-profile/" class="">Company profile</a></li>
-<li class="dropdown"> <a href="https://www.steelinox.nl/en/information/" class="">Information</a>
+<li class="dropdown"> <a href="https://www.steelinox.nl/en/information/" class="active">Information</a>
 <ul class="dropdown dropdown-menu">
 <li> <a href="https://www.steelinox.nl/en/information/stainless-steel-info/">Stainless steel info</a></li>
 <li> <a href="https://www.steelinox.nl/en/information/datasheets/">Datasheets</a></li>
@@ -66,7 +66,7 @@
 <input type="hidden" name="params" value="eyJyZXN1bHRfcGFnZSI6IlwvZW5cL3NlYXJjaCJ9">
 <input type="hidden" name="ACT" value="31">
 <input type="hidden" name="site_id" value="1">
-<input type="hidden" name="csrf_token" value="a7d77b82d8374144a7adeed4dba045aacbf65b95">
+<input type="hidden" name="csrf_token" value="18b87f51aa29b61ed7ba4ca849163502f27841ea">
 </div>
 <div class="input-group search">
 <span class="fa fa-search search-icon"></span>
@@ -104,7 +104,7 @@
 <div class="col-xs-12">
 <div class="breadcrumbs">
 <span class="breadcrumb-text">You are here now</span>
-<h1>1.4542 / 17-4PH / AISI 630</h1>
+<h1>1.4542 - 17-4PH - AISI 630</h1>
 </div>
 </div>
 </div>
@@ -115,40 +115,9 @@
 <div class="row">
 <div class="col-xs-12 col-sm-8 white-bg">
 <div id="printableArea">
-<p style="text-align:justify">Stainless steel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <strong>1.4542 / 17-4PH / AISI 630 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; </strong>Acier Inoxydable</p>
-<p style="text-align:justify">Rustfrit steel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acciai Inossidabli</p>
-<p style="text-align:justify">Rostfrit steel &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acero Inoxidable</p>
+<p>This stainless steel is unique in that it not only offers excellent corrosion resistance, comparable to that of type 1.4301/1.4307 (304/304L) austenitic stainless steels, but it also offers a wide range of mechanical properties once treated. Its performance – based on its metallurgical conditions – means that it can meet demands for high levels of tensile strength as well as being suitable for applications that require high impact strength. It is suitable for numerous and varied applications in fields as diverse as:<br> • Leisure marine craft (propeller shafts, fittings);<br> • Food processing (handling and transfer equipment);<br> • Energy production (atomic power plants);<br> • Construction and the automotive industry.</p>
 <p>&nbsp;</p>
-<table style="height:41px; width:474px">
-<tbody>
-<tr>
-<td><strong>W.Nr.</strong> 1.4542</td>
-<td><strong>17-4PH</strong></td>
-<td><strong>SIS</strong></td>
-</tr>
-<tr>
-<td><strong>AISI </strong>630</td>
-<td><strong>AFNOR&nbsp;</strong></td>
-<td><strong>JIS&nbsp;</strong></td>
-</tr>
-<tr>
-<td><strong>X5CrNiCuNb 16-4</strong></td>
-<td><strong>DIN 17740</strong></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p style="text-align:center"><strong>C</strong> ≤ 0,07 &nbsp; &nbsp; <strong>Cr</strong> 15,0 - 17,0 &nbsp; &nbsp;&nbsp; <strong>Ni</strong> 3,0 - 5,0 &nbsp; &nbsp;&nbsp; <strong>Cu </strong>3,0 - 5,0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Nb</strong> 5x C - 0,45<br> &nbsp;</p>
-<p>17-4PH -Steel AISI 630 - 1.4542 will be delivered in round - forgings - blocks - flats.</p>
-<p>in Condition A - Condition H900 - Condition H1025 - Condition H1075 -&nbsp;&nbsp;Condition H1150/1150.</p>
-<p style="text-align:center"><br> <strong>Stock range</strong></p>
-<p style="text-align:center">&nbsp;</p>
-<p><strong>1.4542 - AISI 630 round bar brightdrawn/ground tol. h9 acc. to DIN EN 10278 in lengths of 3 mtr</strong><br> Sizes: Ø 5,00 mm - Ø 65,00 mm</p>
-<p><strong>1.4542 - AISI 630 round bar hotrolled / forged, peeled / turned acc. DIN EN 10060 ( formerly DIN 1013 ), long 4-6 mtr</strong><br> Sizes: Ø 20 mm - Ø 610 mm<br> <strong>Larger sizes on request.</strong><br> <br> <strong>1.4542 - AISI 630 Forgings</strong><br> Forgings acc. to drawings, bars, discs and rings on request.</p>
-<p><strong>1.4542 - AISI 630 Blocks / flat, sawn from forged primematerial</strong><br> Sizes on request.</p>
-<p><strong>1.4542 - AISI 630 sheets / plates plasma cutting / water-jet cutting / laser-cutting / sawn cuttings</strong><br> Thickness: 12,70 and 25,00 mm</p>
-<p><br> <strong>Certificates: &nbsp; &nbsp; EN 10204 / 3.1</strong></p>
-<p style="text-align:center">&nbsp;&nbsp;</p>
+<p>Click here for further information about: <u><a href="/images/uploads/Datasheet_1.4542_174PH.pdf" target="">1.4542 - 17-4PH - AISI 630 (pdf)</a></u></p>
 </div>
 <div class="print-content">
 <br>
@@ -175,8 +144,8 @@
 <p>Leave your telephone number here, we will call you back as soon as possible.</p>
 <form action="https://www.steelinox.nl/en/?ACT=30" accept-charset="utf-8" id="form_call" class="form-horizontal" method="post">
 <div style="display:none">
-<input type="hidden" name="params_id" value="8504668">
-<input type="hidden" name="csrf_token" value="a7d77b82d8374144a7adeed4dba045aacbf65b95">
+<input type="hidden" name="params_id" value="8541170">
+<input type="hidden" name="csrf_token" value="18b87f51aa29b61ed7ba4ca849163502f27841ea">
 </div>
 <div class="alert" role="alert" style="display: none"></div>
 <div class="form-group">
@@ -276,8 +245,8 @@ RecaptchaCall = grecaptcha.render('RecaptchaCall', {'sitekey' : '6Ley1BkUAAAAANe
 <b><b>
 <form action="https://www.steelinox.nl/en/?ACT=30" accept-charset="utf-8" id="form_question" method="post">
 <div style="display:none">
-<input type="hidden" name="params_id" value="8504669">
-<input type="hidden" name="csrf_token" value="a7d77b82d8374144a7adeed4dba045aacbf65b95">
+<input type="hidden" name="params_id" value="8541171">
+<input type="hidden" name="csrf_token" value="18b87f51aa29b61ed7ba4ca849163502f27841ea">
 </div>
 <div class="alert" role="alert" style="display: none"></div>
 <div class="form-group">

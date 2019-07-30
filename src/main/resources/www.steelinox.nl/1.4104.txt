@@ -1,0 +1,93 @@
+1.4104
+
+Im Vergleich zum ferritischen Stahl 1.4016 ist die Spanbarkeit des 1.4104 durch den gezielten Zusatz von Schwefel verbessert. Jedoch wird die
+Korrosionsbeständigkeit durch den Schwefel trotz gleicher Chromgehalte im Vergleich zum 1.4016 herabgesetzt. Dies macht sich besonders in
+chlorhaltigen Medien bemerkbar. Aufgrund des Kohlenstoffgehaltes ist eine Verbesserung der mechanischen Eigenschaften durch ein Vergüten
+möglich.
+
+
+
+
+
+Produktformen
+
+Automobilindustrie, Elektronische Ausrüstung, Dekorative Zwecke und Kücheneinrichtungen
+Normen und
+Bezeichnungen
+
+
+
+
+EN 10088-3 1.4104 X14CrMoS17
+AISI 430F
+JIS SUS430F
+AFNOR Z13CF17
+DIN 17440 1.4104
+SIS 2383
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Niedrig
+Mechanische Eigenschaften Gut
+Schmiedbarkeit Mittel
+Schweißeignung Schlecht
+Spanbarkeit Sehr gut
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,70
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,70
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 25
+Spez. Wärmekapazität bei 20 °C (J/kg K) 460
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 10,0
+20 – 200 °C 10,5
+20 – 300 °C 10,5
+20 – 400 °C 10,5
+Mechanische
+Eigenschaften
+
+
+Die Wärmebehandlung, die zum weichgeglühten Zustand führt, besteht aus einem Halten bei 800 °C mit anschließender
+Luftabkühlung. Dabei darf 825 °C nicht überschritten werden. Für diesen Zustand gelten die folgenden Werte für die
+mechanischen Eigenschaften:
+
+Norm
+Zugfestigkeit (MPa) Rm ≤ 730
+Härte HB ≤ 220
+
+Hinweis: Die HB-Werte können 60 Einheiten und die Zugfestigkeit 150 MPa höher liegen, bedingt durch die Kaltverfestigung
+beim Richten von Profilen ≤ 35 mm.
+
+Die mechanischen Eigenschaften können durch ein Vergüten verbessert werden, bei dem der Stahl zunächst durch ein Halten
+bei Temperaturen zwischen 950 °C und 1070 °C mit anschließendem Abschrecken an Luft, in Öl oder Polymer gehärtet wird.
+Die Anlasstemperatur ist abhängig von der gewünschten Festigkeit. In den meisten Fällen ist der Zustand QT650 festgelegt,
+der durch ein Anlassen von 550 °C – 650 °C mit Luftabkühlung erreicht wird. Für diesen Zustand gelten die folgenden Werte,
+wobei der Index im Anschluss an QT die minimale Festigkeit wiedergibt. Im folgenden sind Werte für den Zustand QT650
+angegeben:
+
+Norm Typische Werte (ca.)
+1 – 60 61 – 160 1 – 60* 61 – 160
+Streckgrenze (MPa) Rp0,2 ≥ 500 ≥ 500 525 550
+Zugfestigkeit (MPa) Rm 650 – 850 650 – 850 725 760
+Bruchdehnung (%) A5 ≥ 12 ≥ 10 19 10
+Härte HB
+Kerbschlagarbeit (J)
+25 °C ISO-V
+
+*Angegebene Werte gelten für den nicht kaltverfestigten Zustand.
+
+Typisches Verfestigungsschaubild siehe Rückseite.
+Für dickere Abmessungen (d ≥ 160 mm) müssen die mechanischen Eigenschaften vereinbart werden, oder die Lieferung
+geschieht in Anlehnung an die angegebenen Werte.
+
+Die Richtigkeit kann nicht garantiert werden.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

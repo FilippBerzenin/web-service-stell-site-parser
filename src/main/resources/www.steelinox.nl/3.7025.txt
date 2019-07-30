@@ -1,0 +1,175 @@
+3.7025
+
+Titan Grade 1 ist ein Reintitan, welches sich sehr gut zum
+Kaltumformen eignet. Das Material hat eine hohe Kerbschlagfestigkeit
+und ist sehr gut schweissbar. Die Güte ist giessbar und wird vereinzelt
+als Füllung in der Zahnmedizin verwendet. Lieferbar ist dieser Grad als
+Gussteil, Draht, Rohre, Stäbe, Bleche und Schmiedestücke. Typische
+Anwendungen sind in der Chemischenund Maschinenindustrie
+aufgrund der Korrosionsbeständigkeit zu finden, sowie für
+Flugzeugteile wegen der maximalen Verformbarkeit.
+
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+TITAN Grade 1
+
+Titanium Grade 1 is “unalloyed” titanium offering optimum ductility and
+cold formability. The material has high impact toughness and is realy
+weldable. The material is castable and is sometimes utilized “as cast”
+in detal applica-tions. The alloy is available as castings, wire, welded
+tube, bar, plate, sheet, forgings and billet. Typical Applications: for
+corrosion resis-tance in the chemical and marine industries, in air-
+frame constructions where maximun ease of formability desired.
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Blech, Stab, Draht, Gussteile und Schmiedestücke Sheet, Plate, Bar, Rod, Wire, Castings and Forgings
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+UNS R50250
+W-Nr.: 3.7025
+ASTM B 265 (Blech, Band), B 348 (Stab),
+B 338 (nahtlos/geschweisste Rohre), B 367
+(Gussteile),
+B 381 (Schmiedestücke), B 861 (nahtlose Rohre),
+B 862 (geschweisste Rohre),
+ASTM F 67 (Implantate, Medizinalbereich), F 467
+UNS R50250
+W-Nr.: 3.7025
+ASTM B 265 (Blech, Band), B 348 (Stab),
+B 338 (nahtlos/geschweisste Rohre), B 367 (Gussteile),
+B 381 (Schmiedestücke), B 861 (nahtlose Rohre),
+B 862 (geschweisste Rohre),
+ASTM F 67 (Implantate, Medizinalbereich), F 467
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+Dichte, Ib/in³ ................................................... 0.163
+g/cm³ ................................................................ 4.51
+
+Schmelzbereich, etwa. °F ................................ 3040
+°C...................................................................... 1671
+
+Beta Transus °F +/- 25 .................................... 1630
+°C +/- 4 .............................................................. 888
+
+Ausdehnungsbeiwert,
+10-6 in/in • F 32 - 212°F ....... 4.8 32 - 1200°F .... 5.6
+32 - 600°F ....... 5.1 32 - 1500°F .... 5.6
+32 - 1000°F ..... 5.4
+um/m • °C 0 - 100°C ......... 8.7 0 - 649°C ..... 10.1
+0 - 316°C ......... 9.2 0 - 816°C...... 10.1
+0 - 538°C ......... 9.8
+
+Spez. elektr. Widerstand,
+ohm•circ mil/ft ...................................................... 56
+uohm•m ......................................................... 0.093
+
+Elastizitätsmodul, 106 psi ................................. 14.9
+Torsionsmodul, 106 psi ...................................... 6.5
+
+Spezifische Wärme, Btu/lb•°F ........................ 0.124
+J/kg•°C ........................................................... 519.2
+
+Glühtemperatur ganz °F 1300°/30 min., -2 Std., AC
+°C............ 704°/30 min., -2 Std., AC
+spannungsarm °F ............. 1000-1100°/30 min., AC
+°C................. 538-593°/30 min., AC
+
+Schmiedetemperatur
+Vorschmieden °F .............................. 1600 - 1700°
+°C.................................. 871 - 927°
+Fertigschmieden °F ............................ 1500 - 1600°
+°C.................................. 815 - 871°
+Density, Ib/in³ .................................................................................. 0.163
+g/cm³ ..................................................................................................4.51
+
+Melting Range, approx. °F ................................................................3040
+°C.......................................................................................................1671
+
+Beta Transus °F +/- 25 ......................................................................1630
+°C +/- 4 ................................................................................................888
+
+Coefficient of Expansion,
+10-6 in/in • F 32 - 212°F .......... 4.8 32 - 1200°F ........ 5.6
+32 - 600°F .......... 5.1 32 - 1500°F ........ 5.6
+32 - 1000°F ........ 5.4
+um/m • °C 0 - 100°C ............ 8.7 0 - 649°C .......... 10.1
+0 - 316°C ............ 9.2 0 - 816°C .......... 10.1
+0 - 538°C ............ 9.8
+
+Electrical Resistivity,
+ohm•circ mil/ft ..................................................................................... 56
+uohm•m .......................................................................................... 0.093
+
+Elasticity-Tension Modulus, 106 psi ..................................................14.9
+Elasticity-Torsion Modulus, 106 psi .................................................... 6.5
+
+Specific Heat, Btu/lb•°F ................................................................... 0.124
+J/kg•°C ............................................................................................ 519.2
+
+Annealing Temp full °F ................................... 1300°/30 min., -2 hrs., AC
+°C...................................................................... 704°/30 min., -2 hrs., AC
+stress relief °F ....................................................1000-1100°/30 min., AC
+°C........................................................................... 538-593°/30 min., AC
+
+Forging Temp
+Blocking °F .......................................................................... 1600 - 1700°
+°C............................................................................................. 871 - 927°
+Finishing °F ......................................................................... 1500 - 1600°
+°C............................................................................................. 815 - 871°
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Geglüht)
+ksi MPA
+Zugfestigkeit, RT min. 35 241
+Streckgrenze, RT min. 25 172
+
+Dehnung, min. 24 %
+Brucheinschnürung, min. 30 %
+(Annealed)
+ksi MPA
+Tensile Strength, RT min. 35 241
+Yield Strength, RT min. 25 172
+
+Elongation, min. 24 %
+Reduction of Area, min. 30 %
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

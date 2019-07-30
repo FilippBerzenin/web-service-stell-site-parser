@@ -1,0 +1,218 @@
+Steelinox BV
+1.4542 630 17-4PH
+Chemical Analysis
+C Si Mn Ni Cr Mo Nb P S
+≤ 0,06 ≤ 0,6 ≤ 1,0 4 – 5 15,0 – 16,5 ≤ 0,5 ≥ 5 x C – 0,45 ≤ 0,030 0,015 – 0,025
+General
+Presentation
+This stainless steel is unique in that it not only offers excellent corrosion resistance, comparable to that of type 1.4301/1.4307
+(304/304L) austenitic stainless steels, but it also offers a wide range of mechanical properties once treated.
+Its performance – based on its metallurgical conditions – means that it can meet demands for high levels of tensile strength as
+well as being suitable for applications that require high impact strength.
+It is suitable for numerous and varied applications in fields as diverse as:
+• Leisure marine craft (propeller shafts, fittings);
+• Food processing (handling and transfer equipment);
+• Energy production (atomic power plants);
+• Construction and the automotive industry.
+Classification Improved machinability, precipitation hardened, martensitic stainless steel.
+Standards Steel designations
+Europe USA Japan
+Number Symbol UNS JIS
+1.4542 X5CrNiCuNb16-4 S17400 SUS630
+Other designations
+USA France Germany UK Sweden
+AISI AFNOR DIN BS SS
+630 Z6CNU17.04 1.4542
+Steelinox BV Tel.: +31 186 651004 www.steelinox.nl
+NL 3281 NJ Numansdorp Fax.: +31 186 651952 info@steelinox.nl
+Steelinox BV
+1.4542 630 17-4PH
+Chemical Analysis
+C Si Mn Ni Cr Mo Nb P S
+≤ 0,06 ≤ 0,6 ≤ 1,0 4 – 5 15,0 – 16,5 ≤ 0,5 ≥ 5 x C – 0,45 ≤ 0,030 0,015 – 0,025
+Mechanical
+properties
+Metallurgical
+state
+Coding
+Heat
+treatment applied
+Guaranteed mechanical characteristics
+Standards Conditions Rm (MPa)
+Rp0,2
+(MPa)
+A % Z % KV (J) HRC HB
+Annealed
+EN 10088-3 +AT 1030/1050ºC
+annealing
+≤ 1200 – – – – – ≤ 360
+ASTM A564 Cond A – – – – – ≤ 38 ≤ 363
+Hardened ASTM A564
+H900
+1030/1050ºC
+annealing Air or oil
+cooling
++ hardening
+1 h at 480ºC/Air
+cooling
+≥ 1310 ≥ 1170 ≥ 10 ≥ 40 – ≥ 40 ≥ 388
+H925
+1030/1050ºC
+annealing Air or oil
+cooling
++ hardening
+4 h at 495ºC/Air
+cooling
+≥ 1170 ≥ 1070 ≥ 10 ≥ 44 ≥ 6,8 ≥ 38 ≥ 375
+Softened
+EN 10088-3 +P1070
+Annealing
+1030/1050ºC/ Air or
+oil cooling
++ Tempering 4 h
+at 550ºC, Air cooling
+1070/1270 ≥ 1000 ≥ 10 – – – –
+ASTM A564 H1025 ≥ 1070 ≥ 1000 ≥ 12 ≥ 45 ≥ 20 ≥ 35 ≥ 331
+ASTM A564 H1075
+Annealing
+1030/1050ºC/ Air or
+oil cooling
++ Tempering 4 h
+at 580ºC, Air cooling
+≥ 1000 ≥ 860 ≥ 13 ≥ 45 ≥ 27 ≥ 32 ≥ 311
+EN 10088-3 +P960 Annealing1030/1050ºC/ Air or
+oil cooling
++ Tempering 4 h
+at 590ºC, Air cooling
+960/1160 ≥ 790 ≥ 12 – – – –
+ASTM A564 H1100 ≥ 965 ≥ 795 ≥ 14 ≥ 45 ≥ 34 ≥ 31 ≥ 302
+EN 10088-3 +P930 Annealing1030/1050ºC/ Air or
+oil cooling
++ Tempering 4 h
+at 620ºC, Air cooling
+930/1100 ≥ 720 ≥ 16 – ≥ 40 – –
+ASTM A564 H1150 ≥ 930 ≥ 725 ≥ 16 ≥ 50 ≥ 41 ≥ 28 ≥ 277
+EN 10088-3 +P800
+Annealing
+1030/1050ºC/ Air or
+oil cooling
++ Tempering 2 h
+at 760ºC, Air cooling
++ Tempering 4 h
+at 620ºC, Air cooling
+800/950 ≥ 520 ≥ 18 – ≥ 75 – –
+ASTM A564 H1150M ≥ 795 ≥ 520 ≥ 18 ≥ 55 ≥ 75 ≥ 24 ≥ 255
+ASTM A564 H1150D
+Annealing
+1030/1050ºC/ Air or
+oil cooling
++ Tempering 4 h
+at 620ºC, Air cooling
+≥ 860 ≥ 725 ≥ 16 ≥ 50 ≥ 41 24/33 255/311
+Cryogenic application (resilience):
+Excellent results up to -60ºC
+Fatigue resistance
+Fatigue induced breaking point after a rotating flexing motion at 20ºC and 300ºC
+State TREATED+P930 TREATED+P1070
+Temperature 20ºC 300ºC 20ºC 300ºC
+107 cycles 620 MPa 530 MPa 620 MPa 520 MPa
+108 cycles 620 MPa 450 MPa 500 MPa 415 MPa
+Steelinox BV Tel.: +31 186 651004 www.steelinox.nl
+NL 3281 NJ Numansdorp Fax.: +31 186 651952 info@steelinox.nl
+Steelinox BV
+1.4542 630 17-4PH
+Chemical Analysis
+C Si Mn Ni Cr Mo Nb P S
+≤ 0,06 ≤ 0,6 ≤ 1,0 4 – 5 15,0 – 16,5 ≤ 0,5 ≥ 5 x C – 0,45 ≤ 0,030 0,015 – 0,025
+Physical
+Properties
+These properties are dependent on the metallurgical condition which is ordered. For information purpose, the table below shows
+some typical values of an annealed (+AT) and softened (+P930) metallurgical condition.
+Specific gravity Thermal conducitivity Thermal expansion coefficient Modulus ofElasicity
+(kg/m3) (W/m°C) (/°C) MPa
+(+AT) 7750 17 10.8 x 10-6 197000
+(+930) 7860 17 10.9 x 10-6 197000
+(for information only)
+Magnetic and electrical properties
+1.4542 is a ferro-magnetic grade with properties that differ depending on its metallurgical condition and therefore, the heat
+treatment applied.
+For information purposes, in the SOFTEND +P930 state, the following values are obtained:
+Residual induction 3800 Gauss
+Coercive field 43 Oe
+Magnetic permeability at 100 OE 59
+Magnetic permeability at 200 OE 38
+Electrical resistivity 77 μΩ-mm (at 20°C)
+(+AT) (+930)
+Weight of round bars (kg/m) 0,0062 x D2 (D: diameter in mm) 0,0062 x D2 (D: diameter in mm)
+Weight of hexagonal bars (kg /m) 0,0068 x D2 (D: diameter in mm) 0,0068 x D2 (D: diameter in mm)
+Corrosion
+resistance
+1.4542 offers excellent corrosion resistance, similar to that of type 18 Cr-8Ni austenitic steels in most corrosive environments. The
+structure of this steel makes it insensitive to intergranular corrosion and highly resistant to fatiguecorrosion as well as to stress
+corrosion. Furthermore, excellent resistance to corrosion-erosion should be noted due to the association of high level mechanical
+properties and corrosion resistance. When assemblies of stainless steel and less noble materials (aluminium, mild steel) are applied
+in atmospheric use, there is no risk of galvanic corrosion, the absence of any environmental electrolyte making it impossible for
+this phenomena to develop and spread. In "critical" cases like those met in nautical applications (short term immersion of stainless
+steel/aluminium assemblies, areas and dips that retain liquids), insulating the assemblies using an inert silicon seal offers good
+results in terms of protection against this kind of corrosion.
+1.4542 is pickled in the same way as 630 grade steel.
+If necessary, the following decontamination treatment process is recommended:
+One volume of 52% nitric acid (36° Baumé),
+One volume water
+Ambient temperature
+Short duration
+Wash carefully when the process is completed
+The corrosion resistance of a stainless steel depends on many factors related to the composition of the corrosive atmosphere
+(chloride concentration, presence or absence of oxidising agents, temperature, pH, agitation or no agitation, and so on), as well as
+to the preparation of the material (surfaces free from metal particles, surface finish, such as hardening, polishing, and so on).
+Precautionary measures should be taken for certain tests such as the sal
+ine mist test (French standard NFX 41002): for example marking labels (that might cause corrosion run-outs and reduce the test
+resistance time) should not be used on the sample.The table below illustrates a performance scale in different environments:
+Environment Behavior
+Nitric Acid Good
+Phosphoric Acid Restricted use
+Sulphuric Acid Restricted use
+Sodium carbonate Average
+NaCl (Saline mist) Average
+Humidity Excellent
+Sea Water Restricted use
+Oil/gas Restricted use
+Steelinox BV Tel.: +31 186 651004 www.steelinox.nl
+NL 3281 NJ Numansdorp Fax.: +31 186 651952 info@steelinox.nl
+Steelinox BV
+1.4542 630 17-4PH
+Chemical Analysis
+C Si Mn Ni Cr Mo Nb P S
+≤ 0,06 ≤ 0,6 ≤ 1,0 4 – 5 15,0 – 16,5 ≤ 0,5 ≥ 5 x C – 0,45 ≤ 0,030 0,015 – 0,025
+Hot Processing Forging
+1.4542 is suitable for forging. Reheating takes place between 1150 and 1200°C, forging between 1200°C and 950°C.
+Cooling in air, water or oil. The parts obtained in this way can be used:
+Annealed (with an expansion treatment lasting 1 to 2 hours at 250°/300°C), or
+Hardened (with optional annealing + tempering for one hour at 480°C), or
+Softened (with optional annealing + tempering defined by the standards according to the desired level of mechanical 
+properties).
+Machinability The performance of 1.4542 in machining is enhanced as a result of the optimization of the inclusion population
+Welding 1.4542 can be welded, without preheating, using MIG and TIG techniques, with or without the use of filler material, or by
+laser, resistance or electron beam techniques. Welds, whether made with or without a filler material, have an annealed
+structure and should preferably be subject to expansion treatment (one to two hours at 250°C/300°C) or hardening or
+softening treatment (see above). For welding performed with no filler material or with a homogeneous filler material, the
+welding mechanical properties obtained in this way can be identical to that of the base metal. Furthermore, it should be
+restated that the welding design should make allowance for the care required with all high steels with high proof stress:
+avoiding cut outs and sudden changes in cross section.
+Welding with a filler material:
+For MIG welding, we recommend the use of a protective gas made up of Ar+1%CO2 or 1-2%O2; gasses containing H2
+and N2 should be avoided. The welding wire used as filler metal can be ER308LSi (1.4316) or a homogeneous filler called
+630 (17-4PH)
+Heat Treatment To ASTM A564/A564M and EN10088-3
+After annealing from 1030°C to 1050°C, 1.4542 presents a soft martensitic structure with a hardness of around 35 HRC.
+After annealing, if the metal is to be used in this condition, we recommend an expansion treatment lasting one to two hours
+at 250/300°C, with no significant effect on its mechanical properties. This precipitation hardening steel is specific in that it
+can be hardened, after annealing, using a medium temperature hardening treatment. The maximum hardness, of around 42
+HRC (impact strength of 3 daJ/cm²) is obtained by tempering to around 480°C (for one hour).
+Softening: by tempering at 550-760°C depending on the instructions defined by the applicable standards. To harden the
+metal after this kind of softening, the metal needs to be annealed once again before performing the medium temperature
+hardening treatment. The annealed bars are suitable for medium temperature hardening, performed on parts. Parts taken
+from softened bars must, to harden, be subject once again to an annealing operation, then to
+the medium temperature hardening treatment.
+Steelinox BV Tel.: +31 186 651004 www.steelinox.nl
+NL 3281 NJ Numansdorp Fax.: +31 186 651952 info@steelinox.nl

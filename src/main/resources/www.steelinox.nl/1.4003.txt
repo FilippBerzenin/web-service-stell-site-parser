@@ -1,0 +1,93 @@
+1.4003
+
+1.4003 ist ein ferritischer Chromstahl, der für den Einsatz in milden korrosiven Medien geeignet ist. Im Vergleich zu anderen ferritischen Stählen zeigt
+1.4003 höhere Festigkeiten und kann in dickeren Bereichen geschweißt werden, wodurch er ideal für die Bauindustrie geeignet ist. 1.4003 bietet gute
+mechanische Eigenschaften, Schweißeignung und Korrosionsbeständigkeit zu vernünftigen Kosten.
+
+
+
+
+
+
+
+Produktformen
+
+Automobilindustrie, Bauindustrie, Bergbauindustrie, Elektronische Ausrüstung, Erdölindustrie, Maschinenbau,
+Transportindustrie, Zuckerindustrie
+Normen und
+Bezeichnungen
+
+
+EN 10088-3 1.4003 X2CrNi12
+DIN 17440 1.4003
+SEW 400 1.4003
+
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Niedrig
+Mechanische Eigenschaften geglüht Weich
+Mechanische Eigenschaften vergütet Gut
+Schmiedbarkeit Gut
+Schweißeignung Gut
+Spanbarkeit Gut
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,70
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,60
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 25
+Spez. Wärmekapazität bei 20 °C (J/kg K) 460
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 10,4
+20 – 200 °C 10,8
+20 – 300 °C 11,2
+20 – 400 °C 11,6
+20 – 500 °C 11,9
+Mechanische
+Eigenschaften
+
+
+1.4003 kann im Bereich von 680 °C – 740 °C mit anschließender Abkühlung an Luft lösungsgeglüht werden. Für diesen
+Zustand gelten die folgenden mechanischen Eigenschaften:
+
+Norm Typische Werte (ca.)
+längs längs
+1 – 20* 21 – 80 ≥ 80
+Streckgrenze (MPa) Rp0,2 ≥ 260 320 320 300
+Zugfestigkeit (MPa) Rm 450 – 550 530 530 510
+Bruchdehnung (%) A5 ≥ 20 28 28 30
+Härte HB ≤ 200 180 180 175
+Kerbschlagarbeit (J) 25 °C ISO-V ≥ 100 220 220
+
+Typisches Verfestigungsschaubild siehe Rückseite.
+
+Die chemische Zusammensetzung des 1.4003 erlaubt ein Härten bzw. ein Vergüten, wodurch die mechanischen
+Eigenschaften eingestellt werden können. Für diesen Zustand können folgende Werte erwartet werden:
+
+Norm Typische Werte (ca.)
+längs längs
+1 – 100*
+Streckgrenze (MPa) Rp0,2 ≥ 400 428
+Zugfestigkeit (MPa) Rm 500 – 750 570
+Bruchdehnung (%) A5 ≥ 20 23
+Kerbschlagarbeit (J)
+25 °C ISO-V ≥ 100 200
+
+*Angegebene Werte gelten für den nicht kaltverfestigten Zustand.
+
+Für dickere Abmessungen (d ≥ 100 mm) müssen die mechanischen Eigenschaften vereinbart werden, oder die Lieferung
+geschieht in Anlehnung an die angegebenen Werte.
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.de
+info@steelinox.nl

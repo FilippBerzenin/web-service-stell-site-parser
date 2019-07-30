@@ -1,0 +1,170 @@
+2.4668
+
+Eine ausscheidungshärtbare Nickel-Chrom-Legierung mit wesentlichen
+Gehalten an Eisen, Niob und Molybdän in Verbindung mit geringeren
+Aluminium- und Titangehalten. Verbindet Korrosionsbeständigkeit
+und hohe Festigkeit mit sehr guter Schweissbarkeit, einschliesslich
+Beständigkeit gegen Schweissrissigkeit. Die Legierung hat sehr gute
+Zeitstandfestigkeit bei Temperaturen bis 700°C. Verwendung in
+Gasturbinen, Raketentriebwerken, Raumfahrzeugen und
+Kernreaktoren.
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A precipitation-hardenable nickel-chromium alloy containing also
+significant amounts of iron, niobium, and molybdenum along with
+lesser amounts of aluminium and titanium. It combines corrosion
+resistance and high strength with outstanding weldability including
+resistance to postweld cracking. The alloy has excellent creep-rupture
+strength at temperatures to 1300°F (700°C). Used in gas turbines,
+rocket motors, spacecraft, nuclear reactors, pumps and tooling.
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+
+Produktformen
+Product forms
+Blech, Band, Rundstab, Flachstab,
+Sechskantprofile, Rohr, Draht, Schmiedestücke,
+Strangpressprofile
+Sheet, Plate, Strip, Round Bar, Flat Bar, Hexagon,
+Tube, Pipe, Wire, Extruded Section, Forging Stock
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+UNS N07718, (N07719)
+ASTM B 637, B 670
+ASME SB-637, SB-670
+SAE AMS 5589, 5590, 5596,
+5597, 5662 – 5664, 5832,
+5914, 5950, 5962
+W-Nr.: 2.4668
+ASME Code Cases 1993, 2206,
+2222, N-62, N-208, N-253
+NACE MR-01-75
+AECMA Pr EN 2404, 2405,
+2407, 2408, 2952, 2961,
+3219, 3666
+ISO 6208, 9723 – 9725
+UNS N07718, (N07719)
+ASTM B 637, B 670
+ASME SB-637, SB-670
+SAE AMS 5589, 5590, 5596,
+5597, 5662 – 5664, 5832,
+5914, 5950, 5962
+W-Nr.: 2.4668
+ASME Code Cases 1993, 2206,
+2222, N-62, N-208, N-253
+NACE MR-01-75
+AECMA Pr EN 2404, 2405,
+2407, 2408, 2952, 2961,
+3219, 3666
+ISO 6208, 9723 – 9725
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+Dichte, Ib/in³ ................................................... 0.296
+g/cm³ ................................................................ 8.19
+
+Schmelzbereich, °F .............................. 2300 - 2437
+°C......................................................... 1260 – 1336
+
+Spezifische Wärme, Btu/lb•°F ........................ 0.104
+J/kg•°C .............................................................. 435
+
+Curie-Temperatur, °F ....................................... -170
+°C...................................................................... -112
+Permeabilität bei 200 Oe (15.9 kA/m) .......... 1.0011
+
+Ausdehnungsbeiwert,
+70 - 200°F, 10-6 in/in•°F ..................................... 7.2
+21 - 93°C, μm/m•°C .......................................... 13.0
+
+Wärmeleitfähigkeit, Btu • in/ft²•h•°F ..................... 79
+W/m•°C ............................................................. 11.4
+
+Spez. elektr. Widerstand,
+ohm•circ mil/ft …………………........................... 751
+μohm•m ............................................................ 1.25
+Density, Ib/in³ .................................................................................. 0.296
+g/cm³ ..................................................................................................8.19
+
+Melting Range, °F ................................................................. 2300 - 2437
+°C.......................................................................................... 1260 – 1336
+
+Specific Heat, Btu/lb•°F ................................................................... 0.104
+J/kg•°C ................................................................................................435
+
+Curie Temperature, °F ...................................................................... -170
+°C....................................................................................................... -112
+Permeability at 200 Oersted (15.9 kA/m) ...................................... 1.0011
+
+Coefficient of Expansion,
+70 - 200°F, 10-6 in/in•°F ..................................................................... 7.2
+21 - 93°C, μm/m•°C ...........................................................................13.0
+
+Thermal Conductivity, Btu • in/ft²•h•°F ................................................. 79
+W/m•°C ............................................................................................. 11.4
+
+Electrical Resistivity,
+ohm•circ mil/ft ......................................................................................751
+μohm•m ..............................................................................................1.25
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Ausscheidungsgehärtet)
+
+Zeitstandsfestigkeit (1000 h) ksi MPa
+1100°F / 595°C ..................................... 110 760
+1200°F / 650°C ....................................... 86 590
+1300°F / 705°C ....................................... 53 370
+1400°F / 760°C ....................................... 24 170
+(Precipitation Hardened)
+
+Rupture Strength (1000 h) ksi MPa
+1100°F / 595°C ........................................ 110 760
+1200°F / 650°C .......................................... 86 590
+1300°F / 705°C .......................................... 53 370
+1400°F / 760°C .......................................... 24 170
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

@@ -19,5 +19,7 @@ public interface GenericService<E> {
 	public E update(@Valid E entity);
 	
 	public E findByLink(String link);
+
+	public boolean uploadById(Long id);
 }
 

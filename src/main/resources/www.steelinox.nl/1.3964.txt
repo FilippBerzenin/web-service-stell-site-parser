@@ -1,0 +1,145 @@
+1.3964
+1.3964 zeigt aufgrund seines hohen Legierungsgehaltes
+nichtmagnetische Eigenschaften. Aus diesem hohen
+Gehalt an Legierungselementen resultieren auch hohe
+Zugfestigkeiten und Streckgrenzen. Die mechanischen
+Eigenschaften sind mit einer guten
+Korrosionsbeständigkeit, speziell in Meerwasser und
+küstennahen Umgebungen.
+
+
+
+
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+1.3964 displays non magnetic properties due to its high
+alloy content. This high alloy content also results in high
+tensile and yield strengths coupled with very good
+resistance against corrosion, especially in seawater and
+coastal environments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Normen und
+Bezeichnungen
+Major
+Specifications
+
+SEW 390
+1.3964
+X2CrNiMnMoNNb21-16-5-3
+SEW 390
+1.3964
+X2CrNiMnMoNNb21-16-5-3
+
+Allgemeine
+Eigenschaften
+
+General
+Properties
+Korrosionsbeständigkeit Sehr gut
+Mechanische Eigenschaften Gut
+Schmiedbarkeit Mittel
+Schweißeignung Gut
+Spanbarkeit Mittel
+Corrosion resistance very good
+Mechanical properties good
+Forgeability average
+Weldability good
+Machinability average
+Physikalische
+Eigenschaften
+
+Physical
+Constants
+Dichte (kg/dm3) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm2/m) 0,70
+Magnetisierbarkeit Nicht vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 14
+Spez. Wärmekapazität bei 20 °C (J/kg K) 460
+Mittlerer Wärmeausdehnungsbeiwert (K-1) 20 – 100°C:
+15,7 x 10-6
+20 – 200°C:
+17,0 x 10-6
+20 – 300°C:
+17,5 x 10-6
+20 – 400°C:
+17,8 x 10-6
+Density (kg/dm3) 7.90
+Electrical resistivity at 20 °C (Ω mm2/m) 0.70
+Magnetizability no
+Thermal conductivity at 20 °C (W/m K) 14
+Specific heat capacity at 20 °C (J/kg K) 460
+Thermal expansion (K-1)20 – 100 °C: 15.7 x 10-6
+20 – 200 °C: 17.0 x 10-6
+20 – 300 °C: 17.5 x 10-6
+20 – 400 °C: 17.8 x 10-6
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+Die Bedingungen, die bei diesem Stahl zu optimalen
+Eigenschaften bezüglich Verarbeitung
+und Verwendung führen, bestehen in einem Halten
+zwischen 1020 °C und 1050 °C mit anschließend
+rascher Abkühlung an Luft oder in Wasser. In diesem
+Zustand gelten die folgenden
+Werte für die mechanischen Eigenschaften:
+
+Norm Typische Werte
+Streckgrenze (N/mm2) Rp0,2 ≥365 560
+Zugfestigkeit (N/mm2) Rm 700 – 950 890
+Bruchdehnung (%) A5 ≥35 39
+Kerbschlagarbeit (J) 25 °C ISO-V ≥85 150
+
+Für dickere Abmessungen (d ≥160 mm) müssen die
+mechanischen Eigenschaften vereinbart
+werden, oder die Lieferung geschieht in Anlehnung an
+die angegebenen Werte.
+Optimal physical and fabrication properties are realised
+after solution annealing in the
+temperature range 1020 °C – 1050 °C followed by rapid
+cooling in air or water. In the solution
+annealed condition, the following mechanical properties
+may be attained when testing in the
+longitudinal direction:
+
+Property Specification Typical
+yield strength (N/mm2) Rp0.2 ≥365 560
+tensile strength (N/mm2) Rm 700 – 950 890
+tensile elongation (%) A5 ≥35 39
+impact energy (J) 25 °C ISO-V ≥85 150
+
+The mechanical properties (d ≥160 mm) have to be agreed
+on for thicker dimensions, or the
+delivered product is based on the values given.
+
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

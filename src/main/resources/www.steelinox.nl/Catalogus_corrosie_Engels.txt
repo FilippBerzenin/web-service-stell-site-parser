@@ -1,0 +1,1327 @@
+
+Chemical resistance of
+Stainless steel
+
+
+
+
+
+
+
+
+
+Einsteinstraat 9 Tel. +31 186 651004 www.steelinox.nl
+NL 3281 NJ Numansdorp Fax. +31 186 651952 info@steelinox.nl
+General corrosion
+Stainless steels are defined as being characterized by particularly high resistance to chemical attack by aqueous media.
+In general, they contain at least 12% by weight of chrome and a maximum of 1.2% carbon. The reason for their high
+resistance to corrosion is a passive layer that forms on the surface. This consists of a metal oxide or hydroxide layer
+rich in chrome, only a few Ångstrom units thick, separating the actual metal from the attacking medium. After
+sufficient time has passed, the passive layer of a stainless steel exhibits a constant composition and remains in a state
+of equilibrium with the surrounding medium. Once formed, such a layer cannot therefore be transferred to another
+medium. Following any mechanical damage of the surface, a new layer can generally be expected to form
+spontaneously at that point. If in some medium a satisfactory passive layer cannot form, or if an existing layer is
+locally damaged or completely destroyed, corrosion can occur. The decisive element responsible for the formation of a
+passive layer is chrome. A chrome content above the quoted value of some 12% inhibits rusting under normal
+atmospheric conditions. Further increases in the chrome content and, according to the application, the addition of
+molybdenum and other alloys permit corrosion resistance to be extended to much more aggressive media. Only those
+alloy contents dissolved in the metal are effective in achieving passivation. The highest resistance to corrosion is thus
+given with a segregation-free matrix whose chrome or molybdenum contents are not reduced by precipitations of the
+formation of non-metallic phases. The right heat treatment for achieving an ideal structure is described in the
+particular material sheets. Stainless steels may suffer general corrosion or various types of localised corrosion.
+Resistance to general corrosion is usually classified as follows:
+
+0 = resistant to general corrosion (mass loss rate <0.1 g/h · m² corresponding to a corrosion rate < 0.11 mm thickness
+reduction/year)
+1 = slight susceptibility to general corrosion, suitable for some applications (0.1 – 1.0 g/h · m² corresponding to 0.11 –
+1.10 mm thickness reduction/year)
+2 = low resistance to general corrosion, unsuitable for virtually all applications (1.0 – 10.0 g/h · m² corresponding to
+1.1 – 11.0 mm thickness reduction/year)
+3 = no resistance to general corrosion (>10.0 g/h · m² corresponding to > 11.0 mm thickness reduction/year)
+The following warning is provided for the major forms of localised corrosion
+L = risk of pitting, crevice corrosion or stress-corrosion cracking, even in resistance class 0
+
+General corrosion is to be expected primarily in acids and strong alkaline solutions. Pitting, crevice corrosion or
+stress-corrosion cracking are most frequently caused by chloride ions but they may also be induced by the rarer halides
+bromide and iodide, while stress-corrosion cracking can also occur in the presence of other species.
+
+Pitting and crevice corrosion
+Pitting corrosion is initiated by interaction
+between halide ions and the passive film, the
+latter being locally punctured. Hollows the size
+of pin pricks are formed and grow into pit sites
+which can vary greatly in severity. The risk of
+pitting increases with:
+- Increasing concentrations of halide ions
+- Increasing temperature
+- An increase in the electrochemical
+potential of the steel in the relevant
+electrolyte, caused for example by the
+effects of an oxidising agent.
+Crevice corrosion arises in crevices where fluid
+exchange with the surrounding environment is limited. Crevices of this nature are design or production related and
+occur e.g. on flanges, tube steels, beneath seals or even under scale/deposits. The corrosion mechanism is largely the
+as for pitting, although crevice geometry and the type of materials forming the crevice exert an additional influence.
+Since crevice attack occurs under less serious corrosion conditions than pitting, attempts should be made to design out
+crevices in components to be used in chloride-bearing media.
+Assuming a homogeneous distribution of alloying elements, a rough guide to the pitting and crevice corrosion
+resistance of stainless steel is the efficiency sum (W) of % Cr + 3.3 x % Mo + 30 x % N. The influence of nitrogen as
+an alloying element is, however, more complex than expressed by this equation. The high efficiency expressed in the
+factor of 30 will only apply in full in the case of high-alloy steels with increased molybdenum contents.
+A material’s inherent resistance to pitting and crevice corrosion can only be fully achieved if the surface quality of the
+material is pristine, i.e. bright metallic. It is therefore important to remove any heat tinting or scale left after welding,
+iron particles or rust from other sources, grinding residue etc.
+
+Stress-corrosion cracking
+Stainless steels in media containing specific components – in particular chloride ions – and subjected at the same time
+to tensile stresses may suffer corrosion attack and cracking, even if the steel displays adequate resistance to the
+medium when not under mechanical load. This phenomenon is known as stress corrosion cracking and is not caused
+exclusively by service stresses; the blame frequently lies with internal stresses applied during processing, e.g. welding,
+grinding or cold forming. As with pitting and crevice corrosion, the risk of chloride-induced stress-corrosion cracking
+becomes greater as the temperature and chloride concentration increase. There are, however, other material-related
+variables. For example, austenitic steel grades 18/10-CrNi and 17/12/2-CrNiMo are at particular risk of chloride-
+induced stress-corrosion cracking when temperatures exceed 50 ºC. Resistance can be distinctly enhanced by
+increasing the molybdenum and in particular the nickel content of the material. In comparison, ferritic and austenitic-
+ferritic stainless steels are relatively insensitive to corrosion of this type.
+
+How to use the table
+Even though the figures provided in the following have been calculated in laboratory test using pickled
+specimens with the best possible microstructure – annealed, tempered or quenched – the provide a basic guide
+to applicability. It must however be emphasised that under practical conditions agents rarely occur in such
+pure form, and that even slight additions, e.g. of oxidising or reducing materials, can weaken or intensify
+corrosive attack. Deposits, such as those occasionally found on the walls above the bath surface or at other
+points, and condensation in the steam chamber of an enclosed apparatus can under certain circumstances
+greatly modify the conditions for corrosive attack. Exact knowledge of corrosive conditions is thus vital in
+selecting the right grade of
+steel. The best (and
+sometimes only) way of
+gaining information on the
+resistance of a material in the
+corrosive medium in question
+is to carry out tests on a
+specimen under actual service
+conditions, taking into
+consideration not only the
+composition and
+concentration of the corrosive
+medium but also the temperature, the pH value and other variables. We would be pleased to provide
+specimens of the relevant materials for test purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of steel grades
+
+Material-Nr. Abbreviation as per EN 10088-2 DIN EN/SEW AISI ASTM UNS
+1.4000 X6Cr13 10088-2 410S S41008
+1.4002 X6CrAl13 10088-2 405
+1.4003 X2CrNi12 10088-2 S40977
+1.4006 X12Cr13 10088-2 410 A 182 F 6 a S41000
+1.4016 X6Cr17 10088-2 430 S43000
+1.4021 X20Cr13 10088-2 420 S43000
+1.4028 X30Cr13 10088-2 420 S42000
+1.4031 X39Cr13 10088-2
+1.4034 X46Cr13 10088-2 420 S42000
+1.4113 X6CrMo17-1 10088-2 434
+1.4120 X20CrMo13 SEW 400
+1.4301 X5CrNi18-10 10088-2 304 A182 F 304 S30400
+1.4303 X4CrNi18-12 10088-2 305
+1.4305 X8CrNiS 18-9 10088-2 303 S30300
+1.4306 X2CrNi 19-11 10088-2 304L S30403
+1.4307 X2CrNi 18-9 10088-2 304L A182 F 304L
+1.4310 X10CrNi18-8 10088-2 301
+1.4311 X2CrNiN 18-10 10088-2 304 LN
+1.4313 X3CrNiMo 13-4 10088-2 S41500
+1.4315 X5CrNiN 19-9 SEW 400 304 N
+1.4318 X2CrNiN 18-7 10088-2 301 LN
+1.4401 X5CrNiMo 17-12-2 10088-2 316 A182 F 316 S31600
+1.4404 X2CrNiMo 17-12-2 10088-2 316 L A182 F 316L S31603
+1.4429 X2CrNiMoN 17-13-3 10088-2 316 LN
+1.4435 X2CrNiMo 18-14-3 10088-2 316 L S31603
+1.4436 X3CrNiMo 17-13-3 10088-2 316
+1.4438 X2CrNiMo 18-15-4 10088-2 317 L
+1.4439 X2CrNiMoN 17-13-5 10088-2 S31726
+1.4462 X2CrNiMoN 22-5-3 10088-2 A182 F51 S31803
+1.4465 X1CrNiMoN 25-25-2 SEW 400
+1.4501 X2NiCrMoCuWN 25-7-4 10088-2 A182 F55 S32760
+1.4509 X2CrTiNb 18 10088-2 S43940
+1.4510 X3CrTi 17 10088-2 439
+1.4511 X3CrNb 17 10088-2
+1.4512 X2CrTi 12 10088-2 409
+1.4520 X2CrTi 17 10088-2
+1.4521 X2CrMoTi 18-2 10088-2 444
+1.4539 X1NiCrMoCu 25-20-5 10088-2 N08904
+1.4541 X6CrNiTi 18-10 10088-2 321 A182 F321 S32100
+1.4550 X6CrNiNb 18-10 10088-2 347 A182 F347 S34700
+1.4561 X1CrNiMoTi 18-13-2 SEW 400 316 Ti
+1.4565 X2CrNiMnMoNbN 25-18-5-4 SEW 400 S34565
+1.4568 X7CrNiAl 17-7 10088-2 631
+1.4571 X6CrNiMoTi 17-12-2 10088-2 316 Ti S31635
+1.4589 X5CrNiMoTi 15-2 SEL 94 S42035
+
+
+Corrosive agent Formula Condition Concentration
+Acetic acid CH3COOH 10%
+Acetic acid CH3COOH 10%
+Acetic acid CH3COOH 50%
+Acetic acid CH3COOH 50%
+Acetic acid with hydrogen peroxide CH3COOH + H2O2 10% and 50%
+Acetic acid with hydrogen peroxide CH3COOH + H2O2 10% and 50%
+Acetic acid with hydrogen peroxide CH3COOH + H2O2 10% and 50%
+Acetic anhydride (CH3CO)2O
+Acetic anhydride (CH3CO)2O
+Acetochchloride CH3COCl
+Activin see p-toluene sulfonchloramide sodium
+Alcohol see methyl and ethyl alcohol
+Alum see potassium aluminium sulphate
+Aluminium Al molten
+Aluminium acetate Al(CH3COO)3 cold saturated
+Aluminium acetate Al(CH3COO)3 cold and hot saturated
+Aluminium ammonium sulphate Al(NH4)(SO4)2 · 12H2O all concentrations
+Aluminium ammonium sulphate Al(NH4)(SO4)2 · 12H2O cold and hot saturated
+Aluminium chloride AlCl3 · 6H2O 5%
+Aluminium chloride AlCl3 · 6H2O 25%
+Aluminium nitrate Al(NO3)3 · 9H2O
+Aluminium sulphate Al2(SO4)3 · 18H2O 10%
+Aluminium sulphate Al2(SO4)3 · 18H2O 10%
+Aluminium sulphate Al2(SO4)3 · 18H2O cold saturated
+Aluminium sulphate Al2(SO4)3 · 18H2O cold and hot saturated
+Ammonia NH3
+Ammonium alum see aluminium ammonium sulphate
+Ammonium bicarbonate NH4HCO3 all concentrations
+Ammonium bifluoride NH4HF2 cold saturated
+Ammonium carbonate (NH4)2CO3 · H2O cold saturated
+Ammonium carbonate (NH4)2CO3 · H2O hot saturated
+Ammonium chloride (sal ammoniac) NH4Cl 10%
+Ammonium chloride (sal ammoniac) NH4Cl 25%
+Ammonium chloride (sal ammoniac) NH4Cl 50%
+Ammonium chloride (sal ammoniac) NH4Cl cold saturated
+Ammonium chloride (sal ammoniac) NH4Cl cold and hot saturated
+Ammonium chloride (sal ammoniac) NH4Cl
+cold saturated
+with copper and
+zinc chlorides
+Ammonium hexachlorostannate (pink salt) (NH4)2(SnCl6) cold saturated
+Ammonium hexachlorostannate (pink salt) (NH4)2(SnCl6)
+Ammonium hydroxide NH4OH all concentrations
+Ammonium nitrate NH4NO3 · 9H2O cold saturated
+Ammonium nitrate NH4NO3 · 9H2O cold and hot saturated
+Ammonium oxalate (NH4)2C2O4 · H2O cold saturated
+Ammonium oxalate (NH4)2C2O4 · H2O cold and hot saturated
+Ammonium perchlorate NH4ClO4 10%
+Ammonium perchlorate NH4ClO4
+Ammonium sulphate (NH4)2SO4 cold saturated
+Ammonium sulphate (NH4)2SO4 cold saturated
+Ammonium sulphate (NH4)2SO4 with 5% sulphuric acid
+Ammonium sulphite (NH4)2SO3 · H2O cold saturated
+Ammonium sulphite (NH4)2SO3 · H2O cold and hot saturated
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+20 ºC 0 0 0 0 0 0 0
+boiling 2 2 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+boiling 3 2 1 1 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+50 ºC 2 0 0 0 0 0 0 0
+90 ºC 3 1 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 2 1 0 0 0 0 0 0
+boiling 2 L 1 L 1 L 1 L 0 L 0 L 0 L 0
+750 ºC 3 3 3 3 3 3 3 3
+20 ºC 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0
+boiling 3 2 0 0 0
+50 ºC 2 L 1 L 0 L 0 L
+20 ºC 3 L 2 L 2 L 0 L
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+boiling 3 2 2 1 0 0 0 0
+20 ºC 2 2 2 1 0 0 0 0
+boiling 3 3 3 2 1 0 0 0
+50 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 3 3 2 2 1 1 1 1
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+boiling 1 L 0 L 0 L 0 L 0 L 0 L 0 L 0 L
+boiling 2 L 2 L 2 L 1 L 1 L
+boiling 2 L 1 L 1 L 1 L
+20 ºC 0 L 0 L 0 L 0 L 0 L 0 L 0
+boiling 2 L 1 L 1 L 1 L
+boiling 3 L 3 L 3 L 3 L 3 L
+20 ºC 2 L 2 L 1 L 1 L 0 L
+60 ºC 3 L 3 L 3 L 3 L 3 L
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0
+boiling 2 2 1 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 2 2 1 0 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0
+boiling 2 2 1 1 0 0 0 0
+100 ºC 3 3 1 1 1 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 2 2 1 0 0 0 0 0
+Corrosive agent Formula Condition Concentration
+Aniline C6H5NH2
+Aniline hydrochloride C6H5NH2HCl 5%
+Antichlor see sodium thiosulphate, sodium perborate
+Antimony Sb molten
+Antimony chloride SbCl3
+Aqua regia HCl + HNO3
+Aqueous ammonia see ammonium hydroxide
+Arsenic acid H3AsO4 · 1/2H2O all concentrations
+Aspirin see acetosalicylic acid
+Atmosphere
+Barium chloride BaCl2 fused
+Barium chloride BaCl2 · 2H2O cold saturated
+Barium chloride BaCl2 · 2H2O cold and hot saturated
+Barium hydroxide Ba(OH)2 cold saturated
+Barium hydroxide Ba(OH)2 cold and hot saturated
+Barium nitrate Ba(NO3)2 all concentrations
+Beer
+Benzoic acid C6H5COOH all concentrations
+Benzole C6H6
+Bleach liquor see sodium hypochlorite
+Bleach solution see chlorinated lime
+Bleaching lye see sodium hypochlorite
+Blood
+Bonder's solution see iron phosphate
+Borax see sodium tetraborate
+Boric acid H3BO3 all concentrations
+Boric acid H3BO3 all concentrations
+Brandy
+Bromine Br2
+Bromine water 0,03%
+Bromine water 0,3%
+Bromine water 1%
+Buttermilk
+Butyric acid C3H7COOH 100%
+Butyric acid C3H7COOH 100%
+Cadmium Cd
+Calcium bisulphite (sulphite lye) CaH2(SO3)2 cold saturated
+Calcium bisulphite (sulphite lye) CaH2(SO3)2 cold and hot saturated
+Calcium bisulphite (sulphite lye) CaH2(SO3)2 20 bar
+Calcium chloride CaCl2 · 6H2O cold saturated
+Calcium chloride CaCl2 · 6H2O cold saturated
+Calcium hydroxide (slaked lime) Ca(OH)2
+Calcium hydroxide (slaked lime) Ca(OH)2
+Calcium hypochloriste Ca(OCl)2 · 4H2O cold saturated
+Calcium sulphate CaSO4 saturated
+Calcium sulphite CaSO3 cold saturated
+Camphor C10H16O
+Carbolic acid see phenol
+Carbon dioxide (carbonid acid) CO2 dry
+Carbon dioxide (carbonid acid) CO2 moist
+Carbon disulphide CS2
+Carbon tetrachloride CCl4 anhydrous
+Carbon tetrachloride CCl4 anhydrous
+Carnallite KClMgCl2 · 6H2O cold saturated
+Carnallite KClMgCl2 · 6H2O cold and hot saturated
+Caustic potash solution see potassium hydroxide
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 3 L 3 L 3 L 3 L 3 L 2 L
+650 ºC 3 3 3 3 3 3 3 3
+20 ºC 3 L 3 L 3 L 3 L 3 L 3 L
+20 ºC 3 3 3 3 3 2 2 2
+20 ºC 0 0 0 0 0 0 0 0
+1 1 0 0 0 0 0 0
+fused 3 3 3 3 3 3
+20 ºC 1 L 0 L 0 L 0 L 0 L 0 L 0 L 0 L
+boiling 2 L 2 L 1 L 1 L 0 L 0 L 0 L 0 L
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20 ºC and 70 ºC 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+0 L 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 1 1 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0
+20ºC and boiling 3 L 3 L 3 L 3 L 3 L 3 L 3 L
+20 ºC 0 L 0 L
+20 ºC 1 L 1 L
+20 ºC 3 L 3 L
+20 ºC 1 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 2 2 1 0 0 0 0
+molten 2 2
+20 ºC 2 2 0 0 0 0 0 0
+boiling 3 3 2 2 0 0 0 0
+200 ºC 3 3 3 3 0 0 0 0
+20 ºC 0 L 0 L 0 L 0 L 0 L
+boiling 1 L 1 L 0 L 0 L 0 L
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0
+up to 40 ºC 2 L 1 L 0 L 0 L
+20 ºC 0 0 0 0 0
+20 ºC 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+hot 0 0 0 0 0 0 0 0
+hot 1 1 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20 ºC 2 L 3 L 0 L 0 L 0 L
+boiling 3 L 3 L 1 L 1 L 1 L 0 L 0 L 0 L
+Corrosive agent Formula Condition Concentration
+Caustic soda solution see sodium hydroxide
+Cheese
+Chloramine-T see p-toluene sodium sulfonchloramide
+Chloric acid HClO3 concentrated
+Chlorinated lime [3CaCl(OCl) ·Ca(OH)2] ·5H2O dry
+Chlorinated lime [3CaCl(OCl) ·Ca(OH)2] ·5H2O moist
+Chlorinated lime (bleach solution) [3CaCl(OCl) ·Ca(OH)2] ·5H2O 2,5 g Cl/l
+Chlorine (damp gas) Cl2
+Chlorine (damp gas) Cl2
+Chlorine (dry gas) Cl2
+Chlorine water cold water saturated with chlorine
+Chloroacetic acid see mono-and trichloracetic acid
+Chlorobenzene C6H5Cl dry
+Chlorobenzene C6H5Cl dry
+Chloroform CHCl3 anhydrous
+Chlorosulphonic acid HSO3Cl 10%
+Chlorosulphonic acid HSO3Cl 100%
+Chocolate
+Chorme alum see potassium chrome sulphate
+Chrome sulphate Cr2(SO4)3 · 18H2O saturated
+Chromic acid CrO3 10% pure, free of SO3
+Chromic acid CrO3 10% pure, free of SO3
+Chromic acid CrO3 50% pure, free of SO3
+Chromic acid CrO3 50% pure, free of SO3
+Chromic acid CrO3 50% tech., containing SO3
+Chromic acid CrO3 50% tech., containing SO3
+Cider
+Citric acid HOC(CH2COOH)2COOH · H2O 1%
+Citric acid HOC(CH2COOH)2COOH · H2O 1%
+Citric acid HOC(CH2COOH)2COOH · H2O 10%
+Citric acid HOC(CH2COOH)2COOH · H2O 10%
+Citric acid HOC(CH2COOH)2COOH · H2O 25%
+Citric acid HOC(CH2COOH)2COOH · H2O 25%
+Citric acid HOC(CH2COOH)2COOH · H2O 50%
+Citric acid HOC(CH2COOH)2COOH · H2O 50%
+Citric acid HOC(CH2COOH)2COOH · H2O 3 bar 5%
+Coffee
+Copper acetate (CH3COO)2Cu · H2O cold saturated
+Copper acetate (CH3COO)2Cu · H2O cold and hot saturated
+Copper carbonate CuCO3Cu(OH)2 all concentrations
+Copper chloride CuCl2 · 2H2O cold saturated
+Copper cyanide Cu(CN)2 hot saturated
+Copper nitrade Cu(NO3)2 · 3H2O 50%
+Copper sulphate CuSO4 ·5H2O all concentrations
+Copper sulphate (blue vitriol + 3%H2SO4) CuSO4 ·5H2O
+Copper sulphate (blue vitriol + 3%H2SO4) CuSO4 ·5H2O
+Creosote
+Creosote
+Cresol CH3C6H4(OH)2
+Crude oil
+Developer see photographic developer
+Dichloroethane CH2ClCH2Cl anhydrous
+Dichloroethylene CHClCHCl anhydrous
+Disulphur dichloride S2Cl2 anhydrous
+Disulphur dichloride S2Cl2 anhydrous
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+20 ºC 0 0 0 0 0
+20 ºC 3 L 3 L 1 L
+20 ºC 0 0 0 0 0
+20 ºC 3 L 3 L 2 L 1 L 1 L 0 L 0 L
+20 ºC 3 L 3 L 2 L 1 L 0 L 0 L 0 L
+20 ºC 3 L 3 L 3 L 3 L 3 L
+100 ºC 3 L 3 L 3 L 3 L 3 L
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 3 L 3 L 3 L 1 L 1 L 0 L 0 L
+20 ºC 2 1 0 0 0 0 0 0
+boiling 3 2 2 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 3 L 3 L 3 L 3 L 3 L
+20 ºC 3 L 3 L 0 L 0 L
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 3 3 1 1 0
+20 ºC 3 3 2 1 1 0
+boiling 3 3 3 2 2 2 2
+20 ºC 3 3 2 1 1
+boiling 3 3 3 3 3 2 2
+20 ºC 0 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+kochend 2 1 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+kochend 3 2 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+kochend 3 3 2 2 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+kochend 3 3 2 2 1 0 0 0
+140 ºC 2 1 1 1 0 0 0 0
+20ºC and boiling 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 3 L 3 L 3 L 3 L 3 L 2 L 2 L 0 L
+boiling 3 2 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 2 2 2 0 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0
+boiling 2 1 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0
+boiling 2 2 2 0 0
+Corrosive agent Formula Condition Concentration
+Dripping
+Dye bath (alkaline or neutral)
+Dye bath (organic acid)
+Dye bath (organic acid)
+Dye bath (strong sulphuric acid or organic +
+strong sulphuric acid) (H2SO4 more than 1%)
+Dye bath (strong sulphuric acid or organic +
+strong sulphuric acid) (H2SO4 more than 1%)
+Dye bath (strong sulphuric acid or organic +
+strong sulphuric acid) (H2SO4 less than 1%)
+Dye bath (strong sulphuric acid or organic +
+strong sulphuric acid) (H2SO4 less than 1%)
+Epsom salts see magnesium sulphate
+Ethyl chloride C2H5Cl anhydrous
+Ethyl ether (C2H5)2O
+Ethyl glycol CH2OHCH2OH
+Ethylalcohol (spirit) C2H5OH all concentrations
+Ethylene chloride see dichloroethane
+Fatty acid (oleic acid) + traces of H2SO4 C17H33COOH
+Fatty acid (oleic acid) C17H33COOH 30 bar technical
+Fatty acid (oleic acid) C17H33COOH 30 bar technical
+Fatty acid (oleic acid) C17H33COOH 30 bar technical
+Fatty acid (oleic acid) C17H33COOH 30 bar technical
+Ferric chloride FeCl3 30%
+Ferric chloride FeCl3 50%
+Ferric nitrate Fe(NO3)3 · 9H2O all concentrations
+Ferric sulphate Fe2(SO4)3 10%
+Ferric sulphate Fe2(SO4)3 10%
+Ferrous sulphate FeSO4 · 7H2O all concentrations
+Fixing salt see photographic fixing bath
+Fluosilicic acid H2SiF6 vapours
+Formaldehyde (formalin = methyl aldehyde) HCHO 40%
+Formic acid HCOOH 10%
+Formic acid HCOOH 10%
+Formic acid HCOOH 10%
+Formic acid HCOOH 50%
+Formic acid HCOOH 50%
+Formic acid HCOOH 50%
+Formic acid HCOOH 80%
+Formic acid HCOOH 80%
+Formic acid HCOOH 100%
+Formic acid HCOOH 100%
+Fruit juices and fruit acids
+Fruit pulp (containing SO2)
+Gallic acid C6H2(OH)3COOH saturated
+Gallic acid C6H2(OH)3COOH hot saturated
+Glacial acetic acid 100%
+Glacial acetic acid 100%
+Glauber's salt see sodium sulphate
+Glue (also acid)
+Glycerine C3H5(OH)3 concentrated
+Hydrazine sulphate (NH2)2 · H2SO4 10%
+Hydrochloric acid gas, see hydrogen chloride gas
+Hydrochloric acid HCl 0,50%
+Hydrochloric acid HCl 0,50%
+Hydrocyanic acid HCN
+Hydrofluoric acid HF 40%
+Hydrogen chloride gas HCl
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+20 ºC 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0
+boiling 1 0 0 0 0 0
+20 ºC 1 1 0 0 0 0
+boiling 1 1 1 0 0 0
+20 ºC 0 0 0 0 0 0
+boiling 1 1 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+hot 3 2 1 0 0 0
+150 ºC 0 0 0 0 0 0 0 0
+180 ºC 2 2 1 1 0 0 0 0
+235 ºC 3 2 2 1 0 0 0 0
+300 ºC 3 3 2 2 0 0 0 0
+20 ºC 3 L 3 L 3 L 3 L 2 L 1 L 1 L 0
+50 ºC 3 L 3 L 3 L 3 L 3 L
+20 ºC 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 1 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+100 ºC 3 2 1 1 1 1 1 1
+20ºC and boiling 0 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+70 ºC 3 2 1 1 0 0 0 0
+boiling 3 3 2 2 1 0 0 0
+20 ºC 2 2 0 0 0 0 0 0
+70 ºC 3 2 1 2 1 0 0 0
+boiling 3 3 3 3 1 1 1 1
+20 ºC 2 2 0 0 0 0 0 0
+boiling 3 3 2 2 1 1 1 1
+20 ºC 1 1 0 0 0 0 0 0
+boiling 3 3 2 2 1 0 0 0
+20ºC and boiling 0 0 0 0 0
+1 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+boiling 3 2 2 1 1 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0
+20 ºC 3 L 2 L 2 L 1 L 1 L 0 L 0 L 0
+boiling 3 L 3 L 3 L 3 L 3 L 1 L 1 L 1 L
+20 ºC 0 0 0 0 0 0 0
+20 ºC 3 3 3 3 3
+20 ºC 3 L 2 L 1 L 1 L
+Corrosive agent Formula Condition Concentration
+Hydrogen chloride gas HCl
+Hydrogen chloride gas HCl
+Hydrogen chloride gas HCl
+Hydrogen fluoride HF dry gaseous
+Hydrogen peroxide H2O2
+Hydrogen sulphide H2S dry < 4%
+Hydrogen sulphide H2S < 4%
+Hydrogen sulphide H2S < 4%
+Hydrogen sulphide H2S moist < 4%
+Hydroxylamine sulphate (NH2OH)2 · H2SO4 10%
+Industrial air see atmosphere
+Ink see iron gallate ink
+Iodine J2 dry
+Iodine J2 moist
+Iodoform CHI3 vapour
+Iron gallate ink
+Iron phosphate
+Lactic acid CH3CH(OH)COOH 2%
+Lactic acid CH3CH(OH)COOH 2%
+Lactic acid CH3CH(OH)COOH 10%
+Lactic acid CH3CH(OH)COOH 10%
+Lactic acid CH3CH(OH)COOH 80%
+Lactic acid CH3CH(OH)COOH 80%
+Lactic acid CH3CH(OH)COOH concentrated
+Lactic acid CH3CH(OH)COOH concentrated
+Lead Pb molten
+Lead acetate (suger of lead) Pb(CH3COO)2 · 3H2O all concentrations
+Lead acetate (suger of lead) Pb(CH3COO)2 · 3H2O all concentrations
+Lead nitrate Pb(NO3)2
+Lemon juice
+Linseed oil (+3% H2SO4)
+Linseed oil (+3% H2SO4)
+Liqueurs
+Lubricating oil see oil
+Lysoform
+Lysol
+Magnesium carbonate MgCO3 all concentrations
+Magnesium chloride MgCl2 · 6H2O 10%
+Magnesium chloride MgCl2 · 6H2O 30%
+Magnesium sulphate (Epsom salts) MgSO4 · 7H2O cold saturated
+Magnesium sulphate (Epsom salts) MgSO4 · 7H2O cold and hot saturated
+Maleic acid (CHCOOH)2 50%
+Malic acid COOHCH2CHOHCOOH up to 50%
+Malic acid COOHCH2CHOHCOOH up to 50%
+Malic acid COOHCH2CHOHCOOH up to 50%
+Manganese chloride MnCl2 · 4H2O 10%
+Manganese chloride MnCl2 · 4H2O 50%
+Manganese sulphate MgSO4 · 7H2O
+Meat
+Mercuric acetate Hg(CH3COO)2 cold saturated
+Mercuric acetate Hg(CH3COO)2 hot saturated
+Mercuric chloride HgCl2 (Sublimate) 0,10%
+Mercuric chloride HgCl2 (Sublimate) 0,10%
+Mercuric chloride HgCl2 (Sublimate) 0,70%
+Mercuric chloride HgCl2 (Sublimate) 0,70%
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+50 ºC 3 L 2 L 1 L 1 L 1 L
+100 ºC 3 L 3 L 2 L 2 L 1 L
+400 ºC 3 3 3 3 3
+100 ºC 3 3 1 1 1
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+100 ºC 0 0 0 0 0 0 0 0
+< 400 ºC 2 2 1 0 0 0 0 0
+200 ºC 3 3 1 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 2 L 2 L 1 L 1 L 0 L 0 L 0 L 0 L
+20 ºC and 60 ºC 0 0 0 0 0 0 0 0
+20 ºC 1 L 0 L 0 L 0 L 0 0 0 0
+98 ºC 1 0 0 0 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0
+boiling 3 3 2 1 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0
+boiling 3 2 2 2 1 1 1 1
+20 ºC 1 1 0 0 0 0 0 0
+boiling 3 2 2 2 1 1 1 1
+600 ºC 1
+20 ºC 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+200 ºC 1 0 0 0 0 0
+0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 2 L 1 L 0 L 0 L 0 L 0 L 0 L 0
+20 ºC 2 L 1 L 0 L 0 L 0 L 0 L 0 L 0 L
+20 ºC 2 1 0 0 0 0 0 0
+boiling 0 0 0 0 0
+100 ºC 2 1 1 0 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+60 ºC 2 2 1 0 0 0 0 0
+100 ºC 3 3 2 1 0 0 0 0
+boiling 0 L 0 L 0 L 0 L 0 L
+boiling 0 L 0 L 0 L 0 L 0 L
+20 ºC 2 1 0 0 0 0 0 0
+0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 2 L 1 L 0 L 0 L 0 L 0 0 0
+boiling 3 L 2 L 1 L 1 L 0 L 0 L 0 L 0
+20 ºC 2 L 2 L 1 L 1 L 1 L 0 0 0
+boiling 3 L 3 L 2 L 2 L 2 L 1 L 0 L 0 L
+Corrosive agent Formula Condition Concentration
+Mercurous nitrate (HgNO3)2 · 2H2O all concentrations
+Mercury Hg
+Mercury cyanide Hg(CN)2 all concentrations
+Methyl alcohol CH3OH all concentrations
+Methyl aldehyde see formaldehyde
+Methyl chloride CH3Cl anhydrous
+Methylene chloride CH2Cl2 anhydrous
+Milk fresh
+Milk sour
+Milk of lime see calcium hydroxide
+Mixed acids (nitrating acids) 2% H2SO4 + 1% HNO3
+Mixed acids (nitrating acids) 15% H2SO4 + 5% HNO3
+Mixed acids (nitrating acids) 20% H2SO4 + 15% HNO3
+Mixed acids (nitrating acids) 20% H2SO4 + 15% HNO3
+Mixed acids (nitrating acids) 30% H2SO4 + 5% HNO3
+Mixed acids (nitrating acids) 30% H2SO4 + 5% HNO3
+Mixed acids (nitrating acids) 50% H2SO4 + 50% HNO3
+Mixed acids (nitrating acids) 50% H2SO4 + 50% HNO3
+Mixed acids (nitrating acids) 50% H2SO4 + 50% HNO3
+Mixed acids (nitrating acids) 70% H2SO4 + 10% HNO3
+Mixed acids (nitrating acids) 70% H2SO4 + 10% HNO3
+Mixed acids (nitrating acids) 70% H2SO4 + 10% HNO3
+Mixed acids (nitrating acids) 75% H2SO4 + 25% HNO3
+Mixed acids (nitrating acids) 75% H2SO4 + 25% HNO3
+Mixed acids (nitrating acids) 75% H2SO4 + 25% HNO3
+Monochloracetic acid CH2ClCOOH 50%
+Mustard
+Nickel chloride NiCl2 · 6H2O cold saturated
+Nickel nitrate Ni(NO3)2 · 6H2O cold saturated
+Nickel sulphate NiSO4 ·7H2O cold saturated
+Nitrating acid see mixed acids
+Nitric acid HNO3 7%
+Nitric acid HNO3 7%
+Nitric acid HNO3 10%
+Nitric acid HNO3 10%
+Nitric acid HNO3 25%
+Nitric acid HNO3 25%
+Nitric acid HNO3 37%
+Nitric acid HNO3 37%
+Nitric acid HNO3 50%
+Nitric acid HNO3 50%
+Nitric acid HNO3 66%
+Nitric acid HNO3 66%
+Nitric acid HNO3 99% (high concentration)
+Nitric acid HNO3 99% (high concentration)
+Nitrosylsulphuric acid 60ºBé with 4 - 5% nitro content
+Nitrosylsulphuric acid 60ºBé with 4 - 5% nitro content
+Nitrous acid HNO2 concentrated
+Novocain
+Oil (lubricating oil)
+Oil (vegetable oil)
+Oleic acid see fatty acids
+Oxalic acid (COOH)2 · 2H2O 5%
+Oxalic acid (COOH)2 · 2H2O 5%
+Oxalic acid (COOH)2 · 2H2O 10%
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+boiling 0 0 0 0 0 0 0 0
+20 ºC and 50ºC 0 0 0 0 0 0 0 0
+20 ºC 2 2 0 0 0 0 0
+20 ºC and 65 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+up to 70 ºC 0 0 0 0 0 0 0
+up to 70 ºC 1 0 0 0 0 0 0
+boiling 3 3 2 2 0 0 0 0
+134 ºC 3 3 2 1 1
+50 ºC 3 3 1 0 0 0 0 0
+80 ºC 3 3 2 1 0 0 0 0
+90 ºC 3 3 1 0 0 0 0 0
+110 ºC 3 3 2 1 0 0 0 0
+50 ºC 3 2 1 0 0 0 0 0
+90 ºC 3 3 2 1 1
+120 ºC 3 3 3 2 2
+50 ºC 3 3 1 0 0 0 0 0
+90 ºC 3 3 3 1 0 0 0 0
+168 ºC 3 3 3 3 3
+50 ºC 3 2 1 1 0 0 0 0
+90 ºC 3 3 1 1 1
+157 ºC 3 3 3 3 3
+20 ºC 3 L 3 L 2 L 1 L 1 L 0 L 0 L
+20 ºC 2 L 0 L 0 L 0 L 0 L 0 0 0
+20 ºC 1 L 1 L 0 L 0 L 0
+20 ºC 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 1 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 2 1 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 2 1 1 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 2 1 1 1 1 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 3 2 2 1 1 1 1 1
+20 ºC 2 1 1 1 2 1 1 1
+boiling 3 3 3 2 2
+20 ºC 0 0 0 0 0 0 0 0
+75 ºC 1 1
+20 ºC 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0
+boiling 3 3 1 1 0 0 0
+20 ºC 1 2 1 0 0 0 0
+Corrosive agent Formula Condition Concentration
+Oxalic acid (COOH)2 · 2H2O 10%
+Oxalic acid (COOH)2 · 2H2O 25%
+Oxalic acid (COOH)2 · 2H2O 50%
+P-toluene sulfonchloramide sodium (chloramin
+T)
+CH3C6H4SO2NClNa · 3H2O cold saturated
+P-toluene sulfonchloramide sodium (chloramin
+T)
+CH3C6H4SO2NClNa · 3H2O cold and hot concentrated
+Paraffin
+Persil
+Petrol all concentrations
+Petroleum
+Petroleum ether
+Phenol (carbolic acid) C6H5OH pure
+Phenol (carbolic acid) C6H5OH with 10% H2O
+Phenol (carbolic acid) C6H5OH raw 90% Phenol
+Phosphate detergents
+Phosphoric acid H3PO4 chem. pure 1%
+Phosphoric acid H3PO4 chem. pure 1%
+Phosphoric acid H3PO4 chem. pure 10%
+Phosphoric acid H3PO4 chem. pure 10%
+Phosphoric acid H3PO4 chem. pure 45%
+Phosphoric acid H3PO4 chem. pure 45%
+Phosphoric acid H3PO4 chem. pure 60%
+Phosphoric acid H3PO4 chem. pure 60%
+Phosphoric acid H3PO4 chem. pure 70%
+Phosphoric acid H3PO4 chem. pure 70%
+Phosphoric acid H3PO4 chem. pure 80%
+Phosphoric acid H3PO4 chem. pure 80%
+Phosphoric acid H3PO4 chem. pure concentrated
+Phosphoric acid H3PO4 chem. pure concentrated
+Phosphoric acid anhydride (phosphorus
+pentoxide, dry or moist)
+P2O5
+Photographic developer (Agfa -glycine
+developer)
+Photographic fixing bath
+Pickling liquid
+Picric acid C6H2(NO2)3OH
+Pink salt see ammonium hexachlorostannate
+Potash see potassium carbonate
+Potassium acetate CH3COOK molten
+Potassium aluminium sulphate (alum) KAl(SO4)2 · 12H2O 10%
+Potassium aluminium sulphate (alum) KAl(SO4)2 · 12H2O 10%
+Potassium aluminium sulphate (alum) KAl(SO4)2 · 12H2O cold saturated
+Potassium aluminium sulphate (alum) KAl(SO4)2 · 12H2O cold and hot saturated
+Potassium bifluoride KHF2 cold saturated
+Potassium bisulphate KHSO4 2%
+Potassium bisulphate KHSO4 5%
+Potassium bisulphate KHSO4 5%
+Potassium bisulphate KHSO4 15%
+Potassium bitartrate (tartar) KHC4H4O6 cold saturated
+Potassium bitartrate (tartar) KHC4H4O6 cold and hot saturated
+Potassium bromide KBr cold saturated
+Potassium carbonate (potash) K2CO3 cold saturated
+Potassium carbonate (potash) K2CO3 cold and hot saturated
+Potassium chlorate KClO3 hot saturated
+Potassium chloride KCl cold saturated
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+boiling 3 2 2 1 1 1
+boiling 3 2 2 1 1 1
+boiling 3 2 2 1 1 1
+20 ºC 1 L 0 L 0 L 0 L 0
+boiling 1 L 0 L 0 L 0 L 0 L
+20 ºC and molten 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+boiling 2 1 1 1 0 0 0 0
+boiling 3 1 1 1 0 0 0 0
+boiling 3 3 1 1 0 0 0 0
+95 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 1 1 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+boiling 2 2 0 0 0 0 0 0
+20 ºC 2 2 1 0 0 0 0 0
+boiling 3 2 2 2 1 0 0 0
+20 ºC 2 2 1 0 0 0 0 0
+boiling 3 3 2 2 1 0 0 0
+20 ºC 2 2 1 0 0 0 0 0
+boiling 3 3 2 2 2 1 1 1
+20 ºC 2 2 1 1 0 0 0 0
+boiling 3 3 3 3 2
+20 ºC 2 2 1 1 0 0 0 0
+boiling 3 3 3 3 3
+20 ºC 1 1 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+20 ºC 3 L 3 L 3 L 0 L 0 L
+20 ºC 1 L 0 L 0 L 0 L 0 L 0 L 0 L 0 L
+20 ºC 0 0 0 0 0 0 0
+0 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+boiling 2 2 1 1 0 0 0 0
+20 ºC 2 2 1 0 0 0 0 0
+boiling 3 3 3 1 0 0 0 0
+20 ºC 3 2 2 2 1 1 1 1
+90 ºC 3 2 0 0 0
+20 ºC 1 1 0 0 0 0
+90 ºC 3 2 0 0
+90 ºC 3 2 1 1
+cold 0 0 0 0 0
+boiling 2 2 1 0 0 0
+20 ºC 0 L 0 L 0 L 0 L 0 L 0 L 0 L
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 1 L 0 L 0 L 0 L 0 L 0 L 0 L 0 L
+Corrosive agent Formula Condition Concentration
+Potassium chloride KCl cold and hot saturated
+Potassium chrome sulphate (chrome alum) KCr(SO4)2 · 12H2O cold saturated
+Potassium chrome sulphate (chrome alum) KCr(SO4)2 · 12H2O cold and hot saturated
+Potassium cyanate KOCN
+Potassium cyanide KCN 5%
+Potassium dichromate K2Cr2O7 25%
+Potassium dichromate K2Cr2O7 25%
+Potassium ferricyanide K3[Fe(CN)6] cold saturated
+Potassium ferricyanide K3[Fe(CN)6] hot saturated
+Potassium ferrocyanide
+Potassium hydroxide (caustic potash solution) KOH 20%
+Potassium hydroxide (caustic potash solution) KOH 20%
+Potassium hydroxide (caustic potash solution) KOH 50%
+Potassium hydroxide (caustic potash solution) KOH 50%
+Potassium hydroxide (caustic potash solution) KOH hot saturated
+Potassium hydroxide (caustic potash) KOH fused
+Potassium hypochlorite KClO approx. 15% free chlorine
+Potassium hypochlorite KClO
+Potassium iodide KI cold saturated
+Potassium nitrate (saltpetre) KNO3 25%
+Potassium nitrate (saltpetre) KNO3 25%
+Potassium nitrate (saltpetre) KNO3 50%
+Potassium nitrate (saltpetre) KNO3 50%
+Potassium nitrate (saltpetre) KNO3 molten
+Potassium oxalate K2C2O4 · H2O all concentrations
+Potassium oxalate K2C2O4 · H2O all concentrations
+Potassium permanganate KMnO4 all concentrations
+Potassium permanganate KMnO4 all concentrations
+Potassium sulphate K2SO4 cold and hot saturated
+Precipitation bath see spinning bath
+Prussic acid see hydrocyanic acid
+Pulp see fruit pulp
+Pyrogallic acid (pyrogallol) C6H3(OH)3 all concentrations
+Quinine sulphate
+Sal ammoniac see ammonium chloride
+Salicylic acid HOC6H4COOH all concentrations
+Salt of hartshorn NH4HCO3 + (NH4)2CO3 cold saturated
+Salt/acid mixtures 10% H2SO4 + 10% copper sulphate
+Salt/acid mixtures 10% H2SO4 + 2% ferrous sulphate
+Saltpetre see potassium nitrate / sodium nitrate
+Sauerkraut liquor
+Schweinfurt green Cu(CH3COO)2 · 3Cu(AsO2)2
+Seawater
+Seawater
+Silver bromide AgBr saturated
+Silver chloride AgCl saturated
+Silver nitrate AgNO3 10%
+Silver nitrate AgNO3 fused
+Slaked lime see calcium hydroxide
+Soap
+Soda see sodium carbonate
+Sodium acetate CH3COONa· 3H2O saturated
+Sodium bicarbonate NaHCO3 all concentrations
+Sodium bisulphate NaHSO4 · H2O 10%
+Sodium bisulphite NaHSO3 50%
+Sodium bromide NaBr 20%
+Sodium carbonate (soda) Na2CO3 · 10H2O 10%
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+boiling 3 L 1 L 0 L 0 L 0 L 0 L 0 L 0 L
+20 ºC 2 2 1 0 0 0 0 0
+boiling 3 3 3 3 3 1 1
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 3 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 2 1 1 0 0 0 0 0
+boiling 2 1 1 0 0 0 0 0
+360 ºC 3 3 3 3 3
+20 ºC 2 L 1 L 0 L 0 L
+150 ºC 2 L 1 L 0 L 0 L 0 L
+20 ºC 2 L 1 L 0 L 0 0 L 0 L 0 L
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+550 ºC 3 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 3 2 2 1 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+boiling 2 1 1 0 0 0 0 0
+boiling 3 2 2 1 1 0 0 0
+20 ºC 2 L 1 L 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 L 0 L 0 L 0 L 0 L 0 L 0
+boiling 2 L 1 L 0 L 0 L 0 L
+20 ºC 0 L 0 L 0 L 0 L
+20 ºC 1 L 1 L 1 L 0 L 0 L 0
+boiling 0 0 0 0 0 0 0 0
+250 ºC 3 2 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 1 0 0 0 0
+boiling 1 0 0 0 0 0
+80 ºC 0 L 0 L
+boiling 0 0 0 0 0 0 0 0
+Corrosive agent Formula Condition Concentration
+Sodium carbonate (soda) Na2CO3 · 10H2O fused
+Sodium carbonate (soda) Na2CO3 · 10H2O fused
+Sodium chlorate NaClO3 30%
+Sodium chloride (table salt) NaCl cold saturated
+Sodium chloride (table salt) NaCl hot saturated
+Sodium chlorite NaClO2 5%
+Sodium chlorite NaClO2 5%
+Sodium fluoride NaF 5%
+Sodium hydrogen phosphate Na2HPO4 · 12H2O
+Sodium hydroxide (caustic soda solution) Na(OH) 25%
+Sodium hydroxide (caustic soda solution) Na(OH) 25%
+Sodium hydroxide (caustic soda solution) Na(OH) 50%
+Sodium hydroxide (caustic soda) Na(OH) fused
+Sodium hypochlorite (bleaching liquor) NaClO 5%
+Sodium hypochlorite (bleaching liquor) NaClO 5%
+Sodium nitrate (Chile saltpetre) NaNO3
+Sodium nitrate (Chile saltpetre) NaNO3 fused
+Sodium nitrite NaNO2 hot saturated
+Sodium perborate NaBO3 · 4H2O cold saturated
+Sodium perchlorate NaClO4 · 4H2O 10%
+Sodium peroxide (sodium superoxide) Na2O2 10%
+Sodium peroxide (sodium superoxide) Na2O2 10%
+Sodium peroxide (sodium superoxide) Na2O2
+10% stabilised with sodium
+silicate
+Sodium phosphate sec. Na2HPO4 · 12H2O cold saturated
+Sodium phosphate tert. Na3PO4 · 12H2O cold saturated
+Sodium salicylate HOC6H4COONa cold saturated
+Sodium silicate Na2SiO3
+Sodium sulphate (Glauber's salt) Na2SO4 · 10H2O cold saturated
+Sodium sulphate (Glauber's salt) Na2SO4 · 10H2O cold saturated
+Sodium sulphide Na2S · 9H2O 25%
+Sodium sulphide Na2S · 9H2O sat. Solution
+Sodium sulphite Na2SO3 · 7H2O 50%
+Sodium tetraborate (borax) Na2B4O7 · 10H2O saturated
+Sodium tetraborate (borax) Na2B4O7 · 10H2O molten
+Sodium thiosulphate (anti-chlorine) Na2S2O3 · 5H2O 25%
+Soft soap
+Spinning bath (viscose bath) up to 10% H2SO4
+Spinning bath (viscose bath) over 10% H2SO4
+Spirit see ethyl alcohol
+Stannic chloride SnCl4 cold saturated
+Stannic chloride SnCl4 cold and hot saturated
+Stannous chloride SnCl2 · 2H2O hot saturated
+Stannous chloride SnCl2 · 2H2O hot saturated
+Steam
+Stearic acid C17H35COOH
+Stearic acid C17H35COOH
+Sublimate see mercuric chloride
+Sugar of lead see lead acetate
+Sugar solution
+Sulphite liquor see calcium bisulphite
+Sulphur chloride see disulphur dichloride
+Sulphur dioxide see sulphurous acid (gas)
+Sulphur, dry molten
+Sulphur, dry boiling
+Sulphur, wet
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+100 ºC 0 0 0 0 0 0 0 0
+900 ºC 3 3 3 3 3
+20ºC and boiling 0 0 0 0 0
+20 ºC 1 L 0 L 0 L 0 L 0 L 0 L 0 L 0
+100 ºC 3 L 2 L 1 L 1 L 1 L 0 L 0 L 0 L
+20 ºC 2 L 2 L 1 L 0 L
+boiling 3 2 2 L 1 L 1 L
+20 ºC 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 2 2 2 1 1 0 0 0
+boiling 3 2 2 1 1 0 0 0
+320 ºC 3 3 3 3 3 3 2 2
+20 ºC 3 L 2 L 2 L 1 L 1 L 0 L 0 L
+boiling 3 L 3 L 2 L 1 L 1 L 1 L 1 L 1 L
+20ºC and boiling 0 0 0 0 0 0 0 0
+360 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 2 2 1 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+boiling 3 2 0 0 0 0 0 0
+up to 80 ºC 3 2 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0 0
+boiling 2 1 0 0 0 0 0
+100 ºC 1 1
+boiling 2 2 1 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+3 3 3 3 3 2 2 2
+20ºC and boiling 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+70 ºC 3 3 2 2 1 0 0 0
+70 ºC 3 3 3 3 3 1 1 1
+20 ºC 3 L 3 L 3 L 3 L 2 L
+boiling 3 L 3 L 3 L 3 L 3 L
+50 ºC 3 L 2 L 2 L 1 L 0 L
+boiling 3 L 3 L 3 L 3 L 3 L
+400 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+130 ºC 0 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+130 ºC 0 0 0 0 0 0 0 0
+445 ºC 3 3 3 2 2
+20 ºC 1 1 0 0 0 0
+Corrosive agent Formula Condition Concentration
+Sulphuric acid H2SO4 1%
+Sulphuric acid H2SO4 1%
+Sulphuric acid H2SO4 1%
+Sulphuric acid H2SO4 2,50%
+Sulphuric acid H2SO4 2,50%
+Sulphuric acid H2SO4 2,50%
+Sulphuric acid H2SO4 5%
+Sulphuric acid H2SO4 5%
+Sulphuric acid H2SO4 5%
+Sulphuric acid H2SO4 7,50%
+Sulphuric acid H2SO4 7,50%
+Sulphuric acid H2SO4 7,50%
+Sulphuric acid H2SO4 10%
+Sulphuric acid H2SO4 10%
+Sulphuric acid H2SO4 10%
+Sulphuric acid H2SO4 20%
+Sulphuric acid H2SO4 20%
+Sulphuric acid H2SO4 20%
+Sulphuric acid H2SO4 40%
+Sulphuric acid H2SO4 40%
+Sulphuric acid H2SO4 40%
+Sulphuric acid H2SO4 60%
+Sulphuric acid H2SO4 60%
+Sulphuric acid H2SO4 60%
+Sulphuric acid H2SO4 80%
+Sulphuric acid H2SO4 80%
+Sulphuric acid H2SO4 80%
+Sulphuric acid H2SO4 98% (concentrated)
+Sulphuric acid H2SO4 98% (concentrated)
+Sulphuric acid H2SO4 98% (concentrated)
+Sulphuric acid H2SO4 98% (concentrated)
+Sulphuric acid fuming (11% free SO3)
+Sulphuric acid fuming (11% free SO3)
+Sulphuric acid fuming (60% free SO3)
+Sulphuric acid fuming (60% free SO3)
+Sulphurous acid H2SO3 saturated
+Sulphurous acid H2SO3 4 bar
+Sulphurous acid H2SO3 5 - 8 bar
+Sulphurous acid H2SO3 10 - 20 bar
+Sulphurous acid, gas (SO2) moist, free of SO3
+Sulphurous acid, gas (SO2) moist, free of SO3
+Sulphurous acid, gas (SO2) moist, free of SO3
+Sulphurous acid, gas (SO2) moist, free of SO3
+Super phosphate Ca(H2PO4)2 + CaSO4 + 3% H2SO4
+Tannic acid (tannin) 5%
+Tannic acid (tannin) 5%
+Tannic acid (tannin) 10%
+Tannic acid (tannin) 10%
+Tannic acid (tannin) 50%
+Tannic acid (tannin) 50%
+Tannin see tannic acid
+Tar, pure
+Tartar see potassium bitratrate
+Tartaric acid COOH(CHOH)2COOH 10%
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+20 ºC 3 3 2 1 0 0 0 0
+70 ºC 3 3 2 1 0 0 0 0
+boiling 3 3 3 1 1 0 0 0
+20 ºC 3 3 3 1 0 0 0 0
+70 ºC 3 3 3 1 0 0 0 0
+boiling 3 3 3 2 2 0 0 0
+20 ºC 3 3 3 1 0 0 0 0
+70 ºC 3 3 3 1 1 0 0 0
+boiling 3 3 3 3 2 1 1 1
+20 ºC 3 3 3 1 0 0 0 0
+70 ºC 3 3 3 1 1 0 0 0
+boiling 3 3 3 2 2 1 1 1
+20 ºC 3 3 3 2 1 0 0 0
+70 ºC 3 3 3 2 2 0 0 0
+boiling 3 3 3 3 2 1 1 1
+20 ºC 3 3 3 1 1 0 0 0
+70 ºC 3 3 3 2 2 1 1 1
+boiling 3 3 3 3 3 2 2 2
+20 ºC 3 3 3 1 1 0 0
+70 ºC 3 3 3 2 2 2 1 2
+boiling 3 3 3 3 3 2 2 2
+20 ºC 3 3 3 3 2 0 0
+70 ºC 3 3 3 3 3 1
+boiling 3 3 3 3 3
+20 ºC 3 3 3 1 1 1 1 1
+70 ºC 3 3 3 3 2 2 2 2
+boiling 3 3 3 3 3 2 2 2
+20 ºC 0 0 0 0 0 0 0
+70 ºC 2 2 2 2 2 1 1 1
+150 ºC 3 3 3 2 2
+boiling 3 3 3 3 3
+20 ºC 0 0 0 0 0 0 0
+100 ºC 3 3 3 1 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+80 ºC 3 3 3 0 0 0 0 0
+20 ºC 3 2 0 0 0 0 0 0
+135 ºC 3 2 0 1 0 0 0 0
+160 ºC 3 3 1 2 1
+180 - 200 ºC 3 3 2 2 1
+up to 100 ºC 3 2 0 0 0 0 0 0
+up to 300 ºC 3 3 1 1 0 0 0 0
+up to 500 ºC 3 3 3 1 1
+900 ºC 3 3 3 3 2
+20 ºC 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 1 1 1 0 0 0 0 0
+20 ºC and hot 0 0 0 0 0 0 0 0
+20 ºC 1 0 0 0 0 0 0 0
+Corrosive agent Formula Condition Concentration
+Tartaric acid COOH(CHOH)2COOH 10%
+Tartaric acid COOH(CHOH)2COOH 50%
+Tartaric acid COOH(CHOH)2COOH 50%
+Thioglycolic acid HSCH2COOH
+Tin Sn molten
+Tin Sn molten
+Tin Sn molten
+Tincture of iodine
+Toluene C6H5CH3
+Tricholoracetic acid CCl3COOH 80%
+Trichloroethylene C2HCl3 anhydrous
+Trisodium phosphate see sodium phosphate tert.
+Turpentine
+Urea CO(NH2)2
+Urine
+Varnish (copal varnish)
+Vaseline
+Vaseline
+Vegetables
+Vinegar (wine vinegar)
+Vinegar (wine vinegar)
+Washing powder
+Water (tap water)
+Water [pit water (acid water)]
+Water glass
+Water glass
+Wine (white and red wines)
+Wine (white and red wines)
+Wine vinegar see vinegar
+Xylene C6H4(CH3)2
+Zinc Zn molten
+Zinc chloride ZnCl2 cold and hot saturated
+Zinc chloride ZnCl2 cold saturated
+Zinc chloride ZnCl2 cold and hot saturated
+Zinc sulphate ZnSO4 · 7H2O cold saturated
+Zinc sulphate ZnSO4 · 7H2O hot saturated
+Zinc cyanide Zn(CN)2 moistened with water
+Temperature Gr. 1 Gr. 2 Gr. 3 Gr. 4 Gr. 5 1.4465 1.4539 1.4565 S
+boiling 2 2 0 0 0 0 0 0
+20 ºC 2 1 0 0 0 0 0 0
+boiling 3 2 2 2 1 0 0 0
+20ºC and boiling 1 0 0 0
+200 ºC 2 2 0 0 0 0 0 0
+400 ºC 3 3 1 1 1
+600 ºC 3 3 3 3 3
+20 ºC 2 L 2 L 1 L 1 L 1 L 0 L 0 L 0 L
+20ºC and boiling 0 0 0 0 0 0 0 0
+20 ºC 2 L 1 L 0 L 0 L
+boiling 0 0 0 0 0 0 0 0
+20 ºC and hot 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+20 ºC 0 L 0 L 0 L 0 0 0
+0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+hot 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0
+20 ºC 0 0 0 0 0 0 0
+boiling 2 1 0 0 0 0 0 0
+0 0 0 0
+20 ºC 0 L 0 L 0 L 0 0 0 0 0
+20 ºC 1 L 1 L 0 L 0 L 0 L 0 0 0
+20 ºC 0 0 0 0 0 0 0 0
+boiling 0 0 0 0 0 0 0 0
+20 ºC 0 0 0 0 0
+hot 0 0 0 0 0
+20ºC and boiling 0 0 0 0 0 0 0 0
+500 ºC 3 3 3 3 3
+20 ºC 1 L 1 L 1 L 0 L 0 L 0 L 0 L 0
+45 ºC 2 L 1 L 0 L 0 L 0 L
+boiling 3 L 3 L 3 L 3 L 2 L 1 L 1 L 1 L
+20ºC and boiling 0 0 0 0 0
+boiling 2 2 0 0 0 0 0 0
+20 ºC 1 1 0 0 0 0 0 0

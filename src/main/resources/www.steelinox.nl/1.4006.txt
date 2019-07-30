@@ -1,0 +1,176 @@
+1.4006
+
+1.4006 ist ein martensitischer Stahl, der gute mechanische
+Eigenschaften und eine gute Korrosionsbeständigkeit in
+gemäßigt aggressiven Medien in sich vereinigt. Zur Erzielung
+einer optimalen Korrosionsbeständigkeit dieses Chromstahls
+ist eine geglättete (industriepolierte) und rückstandsfreie
+Oberfläche erforderlich.
+
+
+
+1.4006 is a martensitic grade which exhibits good mechanical
+properties coupled with good corrosion resistance in
+moderately corrosive environments
+
+
+.
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Dekorative Zwecke und Kücheneinrichtungen,
+Erdölindustrie/ Petrochemische Industrie,
+Maschinenbau, Pumpenindustrie, Wasserbau
+Hinweis: Alternativwerkstoff 1.4021
+Ab Lager lieferbar
+decorative applications and kitchen utensils/fittings,
+petrochemical industry, pump components, mechanical
+engineering
+Note: available from stock
+1.4021 can be used as an alternative
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+EN 10088-3 1.4006 X12Cr13
+AISI 410
+BS 410S21
+JIS 410
+AFNOR Z10C13 / Z13C13
+DIN 17440 1.4006
+SIS 2302
+EN 10088-3 1.4006 X12Cr13
+AISI 410
+BS 410S21
+JIS 410
+AFNOR Z10C13 / Z13C13
+DIN 17440 1.4006
+SIS 2302
+Allgemeine
+Eigenschaften
+
+General
+Properties
+Korrosionsbeständigkeit Mittel
+Mechanische Eigenschaften Gut
+Schmiedbarkeit Mittel
+Schweißeignung Sehr gut
+Spanbarkeit Gut
+Corrosion resistance average
+Mechanical properties good
+Forgeability average
+Weldability very good
+Machinability good
+Physikalische
+Eigenschaften
+
+Physical
+Constants
+Dichte (kg/dm3) 7,70
+Elektr. Widerstand bei 20 °C (Ω mm2/m) 0,60
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 30
+Spez. Wärmekapazität bei 20 °C (J/kg K) 460
+Mittlerer Wärmeausdehnungsbeiwert (K-1)
+20 – 100 °C: 10,5 x 10-6
+20 – 200 °C: 11,0 x 10-6
+20 – 300 °C: 11,5 x 10-6
+20 – 400 °C: 12,0 x 10-6
+Density (kg/dm3) 7.70
+Electrical resistivity at 20 °C (Ω mm2/m) 0.60
+Magnetizability yes
+Thermal conductivity at 20 °C (W/m K) 30
+Specific heat capacity at 20 °C (J/kg K) 460
+Thermal expansion (K-1) 20 – 100 °C: 10.5 x 10-6
+20 – 200 °C: 11.0 x 10-6
+20 – 300 °C: 11.5 x 10-6
+20 – 400 °C: 12.0 x 10-6
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+1.4006 ist sowohl geglüht, als auch vergütet
+lieferbar. Der geglühte Zustand wird durch ein
+Halten bei 745 °C – 825 °C mit anschließender
+langsamer Abkühlung im Ofen erreicht. Für den
+geglühten Zustand gelten die folgenden Werte für
+die mechanischen Eigenschaften:
+
+Norm
+Zugfestigkeit (N/mm2) Rm ≤730
+Härte HB ≤220
+
+Hinweis: Die HB-Werte können 60 Einheiten und die
+Zugfestigkeit 150 N/mm2 höher liegen,
+bedingt durch die Kaltverfestigung beim Richten von
+Profilen ≤ 35 mm. Im Anschluss an ein Halten
+zwischen 950 °C – 1000 °C kann dieser Werkstoff an
+Luft oder in Öl gehärtet werden. Obwohl durch das
+Anlassen bei verschiedenen Temperaturen diverse
+Festigkeitsstufen erreicht werden können, ist
+üblicherweise der Zustand QT650 festgelegt. QT650
+wird durch eine Anlassen in einem Temperaturbereich
+zwischen 680 °C – 780 °C erreicht. Für diesen Zustand
+gelten die folgenden mechanischen Werte:
+
+Norm Typische Werte
+Streckgrenze (N/mm2) Rp0,2 ≥450 480
+Zugfestigkeit (N/mm2) Rm 650 – 850 720
+Bruchdehnung (%) A5 ≥15 20
+Kerbschlagarbeit (J) 25 °C
+ISO-V ≥25
+Für dickere Abmessungen (d ≥160 mm) müssen die
+mechanischen Eigenschaften vereinbart
+werden, oder die Lieferung geschieht in Anlehnung an
+die angegebenen Werte.
+Sollte ein anschließendes Entspannen gewünscht sein,
+muss es 50 °C unterhalb der Anlasstemperatur,
+aber oberhalb von 525 °C durchgeführt werden.
+1.4006 is delivered in both the annealed and quenched and
+tempered conditions. The annealed condition is obtained by
+heating in the temperature range 745 °C to 825 °C, followed by
+slow
+cooling in a furnace. In this condition, the following mechanical
+properties can be expected:
+
+Property Specification
+Tensile strength (N/mm2) Rm ≤ 730
+Hardness HB ≤ 220
+Note: the HB values could be 60 units higher and the tensile
+strengths 150 N/mm2 higher due
+to cold work during straightening of profiles ≤35 mm.
+
+This steel may be heat treated by hardening in air or oil after
+holding at a temperature between
+950 and 1000°C. Although a range of mechanical properties
+may be obtained by tempering at
+different temperatures, the QT 650 condition is usually specified
+and may be obtained by
+tempering in the temperature range 680 °C to 780 °C. In this
+condition, the following mechanical
+properties can be expected:
+
+Property Specification Typical
+Yield strength (N/mm2) Rp0,2 ≥450 480
+Yensile strength (N/mm2) Rm 650 – 850 720
+Tensile elongation (%) A5 ≥15 20
+impact energy (J) 25 °C ISO-V ≥25
+The mechanical properties (d ≥160 mm) have to be agreed on
+for thicker dimensions, or the
+delivered product is based on the values given.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

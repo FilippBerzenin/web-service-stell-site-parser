@@ -1,6 +1,5 @@
 package com.berzenin.app.web.controller;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 import org.springframework.http.HttpStatus;
@@ -16,9 +15,17 @@ public interface GenericViewController<E> {
 
 	@RequestMapping(value="/show/all", method=RequestMethod.GET)
 	@ResponseStatus(HttpStatus.OK)
-	String findAll(HttpServletRequest request, Model model);
+	String findAll(Model model);
 	
-	@RequestMapping(value="/show/{id}", method=RequestMethod.GET)
+	@RequestMapping(value="/upload/{id}", method=RequestMethod.POST)
+	@ResponseStatus(HttpStatus.OK)
+	String uploadById(@PathVariable("id") Long id, Model model);
+	
+	@RequestMapping(value="/show/{page}", method=RequestMethod.GET)
+	@ResponseStatus(HttpStatus.OK)
+	String showPageWithNumber(@PathVariable("page") int page, Model model);
+	
+	@RequestMapping(value="/show_entity/{id}", method=RequestMethod.GET)
 	@ResponseStatus(HttpStatus.OK)
 	String findById(@PathVariable("id") Long id, Model model);
 	

@@ -76,7 +76,13 @@
 			</div>
 		</div>
 		<br />
-		<h1>${page}list</h1>
+		<h1>${page} list</h1>
+			<div>
+			Page number: 
+			<c:forEach var="number_page" items="${countPage}">
+			<td><a href="${prefix}/${page}/show/${number_page}">${number_page}</a></td>
+			</c:forEach>
+			</div>
 		<table class="table  table-sm">
 			<thead class="table-info">
 				<tr>
@@ -85,6 +91,7 @@
 					<th>${page}name</th>
 					<th>Link list</th>
 					<th>Resources type</th>
+					<th>Updates</th>
 					<th>Delete</th>
 				</tr>
 			</thead>
@@ -93,9 +100,27 @@
 					<tr>
 						<td>${counter.count}</td>
 						<td>${entity.id}</td>
-						<td>${entity.host}</td>
-						<td>${entity.urlForResource}</td>
+						<td><a href="${entity.host}"></a>${entity.host}</td>
+						
+						<c:choose>
+								<c:when test="${entity.resourcesType == 'HOST_RESOURCE'}">
+									 <td>${entity.resourcesType}</td>
+								</c:when>
+								<c:otherwise>
+									 <td><a href="${entity.urlForResource}"></a>${entity.urlForResource}</td>
+								</c:otherwise>
+							</c:choose>	
+						
 						<td>${entity.resourcesType}</td>
+						<td>
+							<form action="${prefix}/${page}/upload/${entity.id}"
+								method="post">
+								<button type="submit" name="upload" value="Upload">Upload</button>
+								<div>
+									<input type="hidden" name="_csrf" value="${_csrf.token}" />
+								</div>
+							</form>
+						</td>
 						<td>
 							<form action="${prefix}/${page}/delete/${entity.id}"
 								method="post">

@@ -1,0 +1,165 @@
+1.4828
+
+1.4828 ist eine Standardgüte für den Ofenbau und andere
+Hochtemperaturbauteile. Im Vergleich zum 1.4878 und 1.4713 ist
+1.4828 in seiner Zunderbeständigkeit wesentlich verbessert. Aufgrund
+der hohen Zugfestigkeit bei höheren Temperaturen ist 1. 4828 im
+Vergleich zu andere Güten ideal für Anwendungen geeignet, bei denen
+besonderer Wert auf die mechanischen Eigenschaften
+gelegt wird.
+
+
+
+1.4828 is a standard steel grade used for the fabrication of furnace
+furniture and other high temperature components. Compared with
+1.4878 and 1.4713, 1.4828 exhibits superior resistance to scaling. Due
+to its high tensile strength at elevated tempera-tures, compared with
+other grades, 1.4828 is ideally suited for applications where a greater
+emphasis is placed on mechanical prop-erty requirements.
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Apparatebau für Hochtemperatureinsatz,
+Automobilindustrie, Kettenindustrie, Maschinenbau,
+Ofenbau, Siebe und Roste
+Construction of high temperature components, Automotive engineering,
+Chains, screens and mesh, Mechanical engineering,
+Furnace engineering
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+EN 10095 1.4828 X15CrNiSi20-12
+AISI Ähnlich 309
+BS Ähnlich 309S24
+JIS Ähnlich SUH309
+AFNOR Z17CNS20-12 ähnlich Z9CN24-13
+SEW 470 1.4828
+UNS Ähnlich S30900
+SAE J 405 Ähnlich 30309
+ISO-H13 X15CrNiSi20-12
+EN 10095 : 1.4828 X15CrNiSi 20 12
+AISI : similar 309
+BS : similar 309 S 24
+JIS : similar SUH 309
+AFNOR : Z 17 CNS 20-12 similar Z 9 CN 24-13
+DIN : 1.4828
+SEW 470 : 1.4828 X15CrNiSi 20 12
+UNS : similar S30900
+SAE J 405 : similar 30309
+ISO – H13 : X15CrNiSi 20 12
+Allgemeine
+Eigenschaften
+
+General
+Properties
+Korrosionsbeständigkeit Niedrig
+Mechanische Eigenschaften Mittel
+Schmiedbarkeit Gut
+Schweißeignung Gut
+Spanbarkeit Gut
+Corrosion resistance : low
+Mechanical properties : medium
+Forgeability : good
+Weldability : good
+Machinability : good
+
+Physikalische
+Eigenschaften
+
+Physical
+Constants
+Dichte (kg/dm³) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,85
+Magnetisierbarkeit Nicht vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+bei 500 °C (W/m K) 21
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Schmelzpunkt ca. 1420 °C
+Mittlerer Wärmeausdehnungsbeiwert (K-1)
+20 – 200 °C: 16,5 x 10-6
+20 – 400 °C: 17,5 x 10-6
+20 – 600 °C: 18,0 x 10-6
+20 – 800 °C: 18,5 x 10-6
+20 – 1000 °C: 19,5 x 10-6
+Density (kg/dm3) : 7,9
+Electrical resistivity at 20°C ( Ω mm2/m) : 0,85
+Magnetisable : not possible
+Thermal conductivity at 20°C (W/m K) : 15
+at 500°C (W/m K) : 21
+specific heat capacity at 20°C (J/kg K) : 500
+thermal expansion (10-6K-1) between
+20 and 200°C : 16,5
+20 and 400°C : 17,5
+20 and 600°C : 18,0
+20 and 800°C : 18,5
+20 and 1000°C : 19,5
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+Die Bedingungen, die bei diesem Stahl zu
+optimalen Eigenschaften bezüglich Verarbeitung
+und Verwendung führen, bestehen in einem
+Lösungsglühen bei 1050 °C – 1150 °C mit
+anschließender Abkühlung an Luft oder in Wasser.
+Während der Fertigung und Verarbeitung ist der
+Temperaturbereich von 650 °C – 850 °C aufgrund
+der Gefahr der Sigmaphasenversprödung, die die
+Zähigkeitseigenschaften stark herabsetzt,
+unbedingt zu vermeiden. Der Versprödungseffekt
+kann durch ein Lösungsglühen bei Temperaturen
+von 1050 °C – 1100 °C wieder aufgehoben werden.
+Im lösungsgeglühten, abgeschreckten Zustand
+gelten die folgenden Werte für die mechanischen
+Eigenschaften:
+
+Norm Typische Werte
+Streckgrenze (N/mm²) Rp0,2 ≥230 400
+Zugfestigkeit (N/mm²) Rm 550 – 750 675
+Bruchdehnung (%) A5 ≥30 45
+Härte HB ≥235
+
+Für dickere Abmessungen (d ≥160 mm) müssen die
+mechanischen Eigenschaften vereinbart
+werden, oder die Lieferung geschieht in Anlehnung
+an die angegebenen Werte.
+Optimal material properties are realised after solution annealing in the
+temperature range 1050 - 1150°C followed by rapid cooling in air or
+water. During operation and fabrication, the time spent in the
+temperature range 550 - 900°C must be minimised to avoid
+embrittlement, both chromium carbide precipitation and sigma phase
+formation. This embrittlement effect can be reversed by solution
+annealing the steel at a temperature in the range 1050 to 1100°C.
+
+In the solution annealed condition the following mechanical properties
+may be attained when testing in the longitudinal direction at room tem-
+perature:
+
+Property Specification Typical
+Yield strength (N/mm2) Rp0,2 : ≥230 400
+Tensile strength (N/mm2) Rm : 550 – 750 675
+Tensile elongation (%) A5 : ≥30 45
+Hardness HB : ≤223
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

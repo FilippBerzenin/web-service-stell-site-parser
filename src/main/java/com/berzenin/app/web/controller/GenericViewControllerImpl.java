@@ -1,26 +1,23 @@
 package com.berzenin.app.web.controller;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.support.PagedListHolder;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.berzenin.app.service.GenericService;
 
@@ -36,16 +33,54 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	public static String message = "Something wrong";
 	public Set<E> entites;
 	protected String namePage = "hosts";
+	protected Map <Integer, Set<E>> pageResult;
+	protected List<Integer> counterPage;
+
 	
 	@Override
-	public String findAll(HttpServletRequest request, Model model) {
+	public String showPageWithNumber(@PathVariable("page") int page, Model model) {
+		setEntitesFromPage();
+		setModelAttribute(model);
+		entites = pageResult.get(page);
+		message = message+ " All entity from "+page;
+		return namePage;
+	}
+	
+	@Override
+	public String uploadById(Long id, Model model) {
+		if (service.uploadById(id)) {
+			setEntitesFromPage();
+			message = message + " Entity with id "+id+" succeseful upload ";
+		}
+		setEntitesFromPage();
+		message = message+  "Entity with id "+id+" failed upload ";
+		setModelAttribute(model);
+		return namePage;
+	}
+	
+	private void setEntitesFromPage() {
+		entites = service.findAll();
+		counterPage = new ArrayList<>();
+		int count = entites.size();
+		pageResult = new HashMap<>();
+		Iterator<E> iterator = entites.iterator();
+		for (int i = 0, g = 1; i<count; i=i+10, g++) {
+				Set<E> points = new HashSet<>(); 
+				counterPage.add(g);
+				for (int j = 0;iterator.hasNext() && j<10;j++) {
+					points.add(iterator.next());
+				}
+				pageResult.put(g, points);
+		}
+	}
+	
+	@Override
+	public String findAll(Model model) {
 		message = "All entity";
 		entites = service.findAll();
-		PagedListHolder pagedListHolder = new PagedListHolder(entites.stream().collect(Collectors.toList()));
-		int page = ServletRequestUtils.getIntParameter(request, "p", 0);
-		pagedListHolder.setPage(page);
-		pagedListHolder.setPageSize(3);
-		model.addAttribute("pagedListHolder", pagedListHolder);
+		if (entites.size()>10) {
+			showPageWithNumber(1, model);
+		}
 		setModelAttribute(model);
 		return namePage;
 	}	
@@ -54,6 +89,7 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	public String findById(Long id, Model model) {
 		try {
 			entites = Arrays.asList(service.findById(id)).stream().collect(Collectors.toSet());
+			showPageWithNumber(1, model);
 			setModelAttribute(model);
 			return namePage;	
 		} catch (RuntimeException e) {
@@ -75,7 +111,8 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 			try {
 				service.add(entity);
 				message = "Entity was successful save";
-				entites = service.findAll();
+				showPageWithNumber(1, model);
+				findAll(model);
 				setModelAttribute(model);
 				return namePage;
 			} catch (RuntimeException e) {
@@ -88,7 +125,8 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	public String deleteEntity(@PathVariable("id") Long id, Model model) {
 		try {
 			service.removeById(id);
-			entites = service.findAll();
+			showPageWithNumber(1, model);
+			findAll(model);
 			message = id+ " Successfully deleted.";
 			return namePage;
 		} catch (RuntimeException e) {
@@ -122,6 +160,7 @@ public abstract class GenericViewControllerImpl<E, S extends GenericService<E>> 
 	}
 	
 	protected void setModelAttribute(Model model) {
+		model.addAttribute("countPage", counterPage);
 		model.addAttribute("page", namePage);
 		model.addAttribute("message", message);
 		model.addAttribute("listOfEntites", entites);

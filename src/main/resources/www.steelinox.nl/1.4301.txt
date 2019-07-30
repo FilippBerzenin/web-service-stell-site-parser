@@ -1,0 +1,86 @@
+1.4301
+
+1.4301 ist der Standard der austenitischen Chrom-Nickel-Stähle. Aufgrund der hohen Korrosionsbeständigkeit und der guten Verarbeitbarkeit sowie des
+attraktiven Aussehens im hochglanzpolierten, geschliffenen oder gebürsteten Zustand findet er in zahlreichen Gebieten Anwendung. Da 1.4301 im
+geschweißten Zustand nicht gegen interkristalline Korrosion beständig ist, sollte wenn größere Partien geschweißt werden müssen und kein
+anschließendes Lösungsglühen möglich ist, 1.4307 eingesetzt werden.
+
+
+
+
+
+Produktformen
+
+Automobilindustrie, Bauindustrie, Chemische Industrie, Dekorative Zwecke und Kücheneinrichtung, Elektronische Ausrüstung,
+Erdölindustrie/ Petrochemische Industrie, Lebensmittelindustrie
+Normen und
+Bezeichnungen
+
+
+
+
+EN 10088-3 1.4301 X5CrNi18-10
+AISI 304
+UNS S30400
+BS 304S31
+JIS SUS304
+AFNOR Z7CN18-09
+DIN 17440 1.4301
+SIS 2333
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Gut
+Mechanische Eigenschaften Mittel
+Schmiedbarkeit Gut
+Schweißeignung Ausgezeichnet
+Spanbarkeit Mittel
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,73
+Magnetisierbarkeit Sehr gering
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 16,0
+20 – 200 °C 16,5
+20 – 300 °C 17,0
+20 – 400 °C 17,5
+20 – 500 °C 18,0
+Mechanische
+Eigenschaften
+
+
+Die optimalen Eigenschaften bezüglich Verarbeitung und Verwendung werden durch ein Lösungsglühen im
+Temperaturbereich von 1000 °C – 1100 °C mit anschließendem raschen Abkühlen an Luft oder Wasser erreicht. Da diese
+Güte zur Ausscheidung von Chromkarbiden neigt, muss die Zeit im Temperaturbereich 400 °C – 850 °C sowohl bei der
+Herstellung als auch bei der Verarbeitung sorgfältig begrenzt werden. In diesem Zustand gelten die folgenden Werte für die
+mechanischen Eigenschaften:
+
+Norm Typische Werte (ca.)
+längs quer längs
+≤ 160 160 – 250 1 – 20* 21 – 80 ≥ 80
+Streckgrenze (MPa) Rp0,2 ≥ 190 ≥ 190 360 360 340
+Zugfestigkeit (MPa) Rm 500 – 700 500 – 700 660 660 640
+Bruchdehnung (%) A5 ≥ 25 ≥ 35 50 50 55
+Härte HB ≤ 215 195 195 190
+Kerbschlagarbeit (J)
+25 °C ISO-V ≥ 100 ≥ 60 225 225
+
+*Angegebene Werte gelten für den nicht kaltverfestigten Zustand.
+
+Typisches Verfestigungsschaubild siehe Rückseite.
+
+Für dickere Abmessungen (d ≥ 250 mm) müssen die mechanischen Eigenschaften vereinbart werden, oder die Lieferung
+geschieht in Anlehnung an die angegebenen Werte.
+Die Richtigkeit kann nicht garantiert werden.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

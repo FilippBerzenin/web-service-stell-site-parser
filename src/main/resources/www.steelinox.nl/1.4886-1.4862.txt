@@ -1,0 +1,169 @@
+1.4886/1.4862
+
+Eine Nicke-Eisen-Chrom-Legierung mit Siliziumzusatz
+für verbesserte Oxydationsbeständigkeit. Sie besitzt gute
+Hochwarmfestigkeit und hervorragende Beständigkeit gegen
+aufkohlende und oxydierende Atmosphären. Das austenitische
+Mikrogefüge der Legierung bleibt auch bei langzeitig hohen
+Temperaturen stabil. Verwendung für Ofenmuffeln, Retorten und
+hitzebeanspruchte Fördersysteme sowie für Wärmebehandlungskörbe
+und -halterungen.
+
+
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+ALLOY 330/DS
+
+A nickel-iron-chromium alloy with an addition of silicon for enhanced
+oxidation resistance. It has good strength at high temperatures and
+excellent resistance to carburizing and oxidizing atmospheres.
+The alloy's austenitic microstructure remains stable during long-time
+exposure to high temperature. Used in industrial heating for furnace
+muffles, retorts, and conveyor systems and for heattreating baskets
+and fixtures.
+
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+
+Produktformen
+Product forms
+Rohr, Blech, Band, Rundstab, Flachstab,
+Sechskant, Schmiedematerial und Draht
+Pipe, Tube, Sheet, Strip, Plate, Round Bar, Flat Bar,
+Forging Stock, Hexagon and Wire
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+UNS N08330
+ASTM B 366, B 511, B 512,
+B 535, B 536, B 546, B 710,
+B 739, B 751, B 775, B 829
+SAE AMS 5592, 5716
+ASME SB-366, SB-511, SB-512,
+SB-535, SB-536, SB-546,
+SB-710, SB-739, SB-751,
+SB-775, SB-829
+W-Nr.: 1.4886
+
+BS 3072 - BS 3076 (NA17)
+W-Nr.: 1.4862
+UNS N08330
+ASTM B 366, B 511, B 512,
+B 535, B 536, B 546, B 710,
+B 739, B 751, B 775, B 829
+SAE AMS 5592, 5716
+ASME SB-366, SB-511, SB-512,
+SB-535, SB-536, SB-546,
+SB-710, SB-739, SB-751,
+SB-775, SB-829
+W-Nr.: 1.4886
+
+BS 3072 - BS 3076 (NA17)
+W-Nr.: 1.4862
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+1.4886 1.4862
+Dichte, Ib/in³ ...................................0.292 0.284
+g/cm³ ................................................ 8.08 7.86
+
+Schmelzbereich, °F .............. 2520-2590 2430-2550
+°C......................................... 1380-1420 1330-1400
+
+Spezifische Wärme,
+Btu/lb •°F ..................................... 0.110 0.108
+J/kg • °C ......................................... 460 452
+Permeabilität bei 200 Oe (15.9 kA/m)
+..................................................... 1.020 1.038
+
+Ausdehnungsbeiwert,
+10-6 in/in • °F 75 - 200°F ......8.3 68 - 212°F ...... 8.3
+μm/m •°C 24 - 93°C ...... 14.9 20 - 100°C ... 15.0
+
+Wärmeleitfähigkeit,
+Btu • in/ft2•h• °F ............................ 86.0 83.2
+W/m•°C ......................................... 12.4 12.0
+Spez. elektr. Widerstand,
+
+ohm• circ mil/ft ............................... 612 650
+μohm•m ...................................... 1.017 1.080
+1.4886 1.4862
+Density, Ib/in³ .......................................................... 0.292 0.284
+g/cm³ ......................................................................... 8.08 7.86
+
+Melting Range, °F ........................................... 2520-2590 2430-2550
+°C..................................................................... 1380-1420 1330-1400
+
+Specific Heat,
+Btu/lb •°F ................................................................. 0.110 0.108
+J/kg • °C ..................................................................... 460 452
+Permeability at 200 Oersted (15.9 kA/m)……………. 1.02 1.038
+
+Coefficient of Expansion,
+10-6 in/in • °F 75 - 200°F . 8.3 68 - 212°F . 8.3
+μm/m•°C 24 - 93°C . 14.9 20 - 100°C . 15.0
+
+Thermal Conductivity,
+Btu • in/ft2•h• °F ......................................................... 86.0 83.2
+W/m•°C ...................................................................... 12.4 12.0
+
+Electrical Resistivity,
+ohm• circ mil/ft ............................................................. 612 650
+μohm•m .................................................................... 1.017 1.080
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+Alloy 330 (Geglüht)
+Zeitstandfestigkeit (1000 Std) ksi MPa
+1400°F / 760°C ...................................... 7.0 48
+1600°F / 870°C ...................................... 3.1 21
+1800°F / 980°C .......................................25 8.6
+2000°F / 1095°C ..................................0.78 5.4
+Alloy 330 (Annealed)
+Rupture Strength (1000 h) ksi MPa
+1400°F / 760°C ....................................... 7.0 48
+1600°F / 870°C ....................................... 3.1 21
+1800°F / 980°C ......................................1.25 8.6
+2000°F / 1095°C ................................... 0.78 5.4
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

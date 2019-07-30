@@ -1,0 +1,84 @@
+1.4307
+
+Durch die Fortschritte in der Herstellung der rostfreien Stähle, besonders die Absenkung des Kohlenstoffgehaltes zu sehr niedrigen Werten, hat 1.4307
+fast alle titanstabilisierten Güten vom Typ 1.4541 ersetzt. Die Beständigkeit gegen interkristalline Korrosion ist im Vergleich zu den titanstabilisierten
+Güten gleichwertig und der Werkstoff ist nicht von Messerlinienkorrosion betroffen. Im Gegensatz zu den titanstabilisierten Güten hat 1.4307 eine
+bessere Oberfläche und kann sowohl mechanisch- als auch elektropoliert werden. Aufgrund des Fehlens von Titan und den daraus resultierenden
+Ausscheidungen, ist 1.4307 wesentlich besser spanbar, was sich auch in höheren Werkzeuggeschwindigkeiten und längeren Werkzeugstandzeiten
+äußert.
+
+
+
+
+
+Produktformen
+
+Automobilindustrie, Bauindustrie, Chemische Industrie, Dekorative Zwecke und Kücheneinrichtung, Elektronische Ausrüstung,
+Erdölindustrie/ Petrochemische Industrie, Lebensmittelindustrie, Luft- und Raumfahrtindustrie, Maschinenbau
+Normen und
+Bezeichnungen
+
+
+
+
+EN 10088-3 1.4307 X2CrNi18-9
+AISI 304L
+UNS S30403
+BS 304S11
+AFNOR Z3CN19-09
+SIS 2352
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Gut
+Mechanische Eigenschaften Mittel
+Schmiedbarkeit Gut
+Schweißeignung Ausgezeichnet
+Spanbarkeit Mittel
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,73
+Magnetisierbarkeit Gering
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 16,0
+20 – 200 °C 16,5
+20 – 300 °C 17,0
+20 – 400 °C 18,0
+20 – 500 °C 18,0
+Mechanische
+Eigenschaften
+
+
+Zu optimalen Eigenschaften bezüglich Verarbeitung und Verwendung führen ein Lösungsglühen bei 1000 °C – 1100 °C mit
+anschließendem raschen Abkühlen an Luft oder Wasser. Während der Herstellung und der Weiterverarbeitung muss der
+Temperaturbereich von 450 °C – 850 °C vermieden werden, um die Gefahr einer Versprödung möglichst gering zu halten. In
+diesem Zustand gelten die folgenden Werte für die mechanischen Eigenschaften (in Längsrichtung):
+
+Norm Typische Werte (ca.)
+längs quer längs
+1 – 160 16 – 250 1 – 20* 21 – 80 > 80
+Streckgrenze (MPa) Rp0,2 ≥ 175 ≥ 175 340 340 345
+Zugfestigkeit (MPa) Rm 500 – 700 500 – 700 630 630 650
+Bruchdehnung (%) A5 ≥ 45 ≥ 35 51 51 48
+Härte HB ≤ 215 ≤ 215 195 195 200
+Kerbschlagarbeit (J)
+25 °C ISO-V ≥ 100 ≥ 60
+
+*Angegebene Werte gelten für den nicht kaltverfestigten Zustand.
+
+Für dickere Abmessungen (d ≥ 250 mm) müssen die mechanischen Eigenschaften vereinbart werden, oder die Lieferung
+geschieht in Anlehnung an die angegebenen Werte.
+Die Richtigkeit kann nicht garantiert werden.
+
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

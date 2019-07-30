@@ -1,0 +1,141 @@
+1.3912
+
+Alloy 36 ist eine Nickel-Eisen-Legierung mit geringer
+Wärmeausdehnung, Nickelanteil 36%. Sie ist im Normalbereich
+atmosphärischer Temperaturen fast masskonstant und besitzt einen
+niedrigen Ausdehnungsbeiwert von tiefkalten Temperaturen bis
+ca. + 260°C. Die Legierung behält im Tieftemperaturbereich
+ausserdem ihre gute Festigkeit und Zähigkeit. Verwendung für
+Längennormale, Messgeräte, Laserbauteile, Bimetall-Thermostatband,
+Thermostatstäbe sowie für Behälter und Rohrleitungen
+zum Transport von Flüssiggas.
+
+
+
+
+A nickel-iron low-expansion alloy containing 36%
+nickel. It maintains nearly constant dimensions over
+the range of normal atmospheric temperatures, and
+has a low coefficient of expansion from cryogenic
+temperatures to about 500°F (+ 260°C). The alloy
+also retains good strength and toughness at
+cryogenic temperatures. Used for standards of
+length, measuring devices, laser components, bimetal
+thermostat strip, thermostat rods, and tanks
+and piping for storing and transporting liquefied
+gases.
+
+
+
+
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Produktformen
+Product forms
+Blech, Rundstab, Rohr, Draht, Schmiedematerial Sheet, Plate, Round Bar, Pipe, Tube, Wire, Forging Stock
+Normen und
+Bezeichnungen
+Major
+Specifications
+
+UNS K93600
+ASTM F 30
+DIN 385, 1715
+W-Nr.: 1.3912
+UNS K93600
+ASTM F 30
+DIN 385, 1715
+W-Nr.: 1.3912
+Physikalische
+und Thermische
+Eigenschaften
+
+Physical and
+Thermal
+Properties
+Dichte, Ib/in³ 0.293
+g/cm³ 8.11
+Schmelztemperatur (etwa)
+°F 2610
+°C 1430
+Wendepunkt, °F 430
+°C 220
+Wärmeleitfähigkeit, Btu • in/ft2•h•°F 69.3
+W/m•°C 10.0
+Ausdehnungsbeiwert,
+68 - 212°F, 10-6 in/in•°F 0.83
+68 - 392°F, 10-6 in/in•°F 1.4
+20 - 100°C, μm/m•°C 1.5
+20 - 200°C, μm/m•°C 2.6
+Spez. elektr. Widerstand,
+ohm•circ mil/ft 480
+μohm•m 0.800
+Density, Ib/in³ 0.293
+g/cm³ . 8.11
+Melting Temperature (approximate),
+°F 2610
+°C 1430
+Inflection Point, °F 430
+°C 220
+Thermal Conductivity, Btu • in/ft2•h•°F 69.3
+W/m•°C 10.0
+Coefficient of Expansion,
+68 - 212°F, 10-6 in/in•°F 0.83
+68 - 392°F, 10-6 in/in•°F 1.4
+20 - 100°C, μm/m•°C 1.5
+20 - 200°C, μm/m•°C . 2.6
+Electrical Resistivity,
+ohm•circ mil/ft 480
+μohm•m 0.800
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Geglüht)
+
+Zugfestigkeit, ksi 71
+MPa 490
+Streckgrenze (0.2% Dehngrenze),
+ksi 35
+MPa 240
+Dehnung, % 42
+
+(Annealed)
+
+Tensile Strength, ksi 71
+MPa 490
+Yield Strength (0.2% Offset),
+ksi 35
+MPa . 240
+Elongation, % 42
+The correctness cannot be guaranteed.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

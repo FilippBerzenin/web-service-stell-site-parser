@@ -1,0 +1,145 @@
+1.4567
+
+1.4567 ist im wesentlichen das Gleiche wie ein 1.4301, mit Ausnahme
+des Kupferzusatzes von 3,00 bis 3,50 %. Durch seinen Kupfergehalt
+bietet der Werkstoff 1.4567 eine hervorragende Kaltumformbarkeit und
+Verformung.
+
+
+
+1.4567 is essentially the same as 1.4301, with the exception of a
+copper addition of between 3 and 3.5%. The copper addition allows for
+superb cold forming and deformation.
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Chemische Industrie, Dekorative Zwecke und
+Kücheneinrichtungen, Elektronische Ausrüstung,
+Lebensmittelindustrie, Maschinenbau, Schiffsbau,
+Schraubenindustrie
+Automotive industry, Chemical industry, Food and beverage industry ,
+Decorative items and kitchen utensils, Electronic equipment,
+Ship building
+
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+EN 10088-3 1.4567 X3CrNiCu18-9-4
+AISI 304Cu
+JIS XM7
+AFNOR Z3CNU18-10
+DIN 17440 1.4567
+EN 10088-3 : 1.4567 X3CrNiCu 18-9-4
+AISI : 304 Cu
+JIS : XM7
+AFNOR : Z3CNU 18-10
+DIN 17440 : 1.4567
+
+Allgemeine
+Eigenschaften
+General
+Properties
+Korrosionsbeständigkeit Gut
+Mechanische Eigenschaften Mittel
+Schmiedbarkeit Gut
+Schweißeignung Gut (Selten)
+Spanbarkeit Schlecht
+Corrosion resistance : good
+Mechanical properties : average
+Forgeability : good
+Weldability : good (seldom)
+Machinability : very good
+
+Physikalische
+Eigenschaften
+
+Physical
+Constants
+Dichte (kg/dm³) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,73
+Magnetisierbarkeit Gering
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Mittlerer Wärmeausdehnungsbeiwert (K-1)
+20 – 100 °C: 16,7 x 10-6
+20 – 200 °C: 17,2 x 10-6
+20 – 300 °C: 17,7 x 10-6
+20 – 400 °C: 18,1 x 10-6
+20 – 500 °C: 18,4 x 10-6
+density (kg/dm3) : 7,9
+electrical resistivity at 20°C ( Ω mm2/m) : 0,73
+magnetisability : slight
+thermal conductivity at 20°C (W/m K) : 15
+specific heat capacity at 20°C (J/kg K) : 500
+thermal expansion (10-6 K-1) 20 – 100°C : 16,7
+20 – 300°C : 17,7
+20 – 400°C : 18,1
+20 – 500°C : 18,4
+
+
+
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+Die Bedingungen, die bei diesem Stahl zu
+Optimalen Eigenschaften bezüglich Verarbeitung
+und Verwendung führen, bestehen in einem Halten
+zwischen 1000 °C und 1100 °C mit anschließend
+rascher Abkühlung an Luft oder in Wasser. Um
+während der Fertigung und Verarbeitung eine
+Versprödung zu vermeiden, muss die Zeitspanne,
+die das Material Temperaturen zwischen 450 °C –
+850 °C ausgesetzt wird, gering gehalten werden. Im
+lösungsgeglühten Zustand gelten die folgenden
+Werte für die mechanischen Eigenschaften:
+
+Norm Typische Werte
+Streckgrenze (N/mm²) Rp0,2 ≥175 340
+Zugfestigkeit (N/mm²) Rm 450 – 650 630
+Bruchdehnung (%) A5 ≥45 51
+Härte HB ≤215 195
+Optimal material properties are realised after solution annealing in the
+temperature range 1000 - 1100 °C followed by rapid cooling in air or wa-
+ter. During operation and fabrication, the time spent in the temperature
+range 450 - 850 °C must be minimised to avoid embrittlement. In the
+solution annealed condition, the following mechanical properties may be
+attained when testing in the longitudinal direction:
+
+Property Specification Typical
+Yield strength (N/mm2) Rp0,2 : ≥175 340
+Tensile strength (N/mm2) Rm : 450 – 650 630
+Tensile elongation (%) A5 : ≥45 51
+Hardness HB : ≤215 195
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

@@ -1,0 +1,77 @@
+1.4362
+
+1.4362 gehört zur Familie der DUPLEX-Stähle. Er kann bedingt einen kostengünstigen Ersatz für austenitische Chrom-Nickel- oder Chrom-Nickel-
+Molybdän-Stähle, ggf. auch für den Duplexwerkstoff 1.4460 darstellen. Die Streckgrenze liegt gegenüber den austenitischen Stählen deutlich höher. Der
+Gebrauch von rostfreien DUPLEX-Stählen, erreichte seine Popularität durch die einzigartige Kombination von Korrosionsbeständigkeit, Beständigkeit
+gegen Spannungsrisskorrosion, hohe Festigkeit und Streckgrenze. Als Resultat seiner hohen Festigkeit, ist dieser Stahl ideal für die Bauindustrie
+geeignet. Der relativ niedrige Nickelgehalt, im Vergleich zum konventionellen Austenit, macht 1.4362 auch vom ökonomischen Standpunkt interessant.
+
+
+
+
+
+Produktformen
+
+Bauindustrie, Chemische Industrie, Erdölindustrie/ Petrochemische Industrie, Elektronische Ausrüstung, Maschinenbau,
+Schiffsbau
+Normen und
+Bezeichnungen
+
+
+EN 10088-3 1.4362 X2CrNiN23-4
+AFNOR Z2CN23-04AZ
+SIS 2327
+UNS S32304
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Ausgezeichnet
+Mechanische Eigenschaften Ausgezeichnet
+Schmiedbarkeit Mittel
+Schweißeignung Gut
+Spanbarkeit Bedingt
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,80
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,80
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 13,0
+20 – 200 °C 13,5
+20 – 300 °C 14,0
+Mechanische
+Eigenschaften
+
+
+Die Bedingungen, die bei diesem Stahl zu optimalen Eigenschaften bezüglich Verarbeitung und Verwendung führen, bestehen
+in einem Lösungsglühen zwischen 950 °C und 1050 °C mit anschließend rascher Abkühlung an Luft oder in Wasser. Für
+diesen Zustand gelten die folgenden Werte für die mechanischen Eigenschaften:
+
+Norm Typische Werte (ca.)
+längs längs
+1 – 20* 21 – 80 ≥ 80
+Streckgrenze (MPa) Rp0,2 ≥ 400 420 420 410
+Zugfestigkeit (MPa) Rm 600 – 830 630 630 615
+Bruchdehnung (%) A5 ≥ 25 40 40 45
+Härte HB ≤ 260
+Kerbschlagarbeit (J)
+25 °C ISO-V ≥ 100
+
+*Angegebene Werte gelten für den nicht kaltverfestigten Zustand.
+
+Typisches Verfestigungsschaubild siehe Rückseite.
+
+Für dickere Abmessungen (d ≥ 100 mm) müssen die mechanischen Eigenschaften vereinbart werden, oder die Lieferung
+geschieht in Anlehnung an die angegebenen Werte.
+Die Richtigkeit kann nicht garantiert werden.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

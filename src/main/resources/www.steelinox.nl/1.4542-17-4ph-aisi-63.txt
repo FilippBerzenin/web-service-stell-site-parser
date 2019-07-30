@@ -66,7 +66,7 @@
 <input type="hidden" name="params" value="eyJyZXN1bHRfcGFnZSI6IlwvZW5cL3NlYXJjaCJ9">
 <input type="hidden" name="ACT" value="31">
 <input type="hidden" name="site_id" value="1">
-<input type="hidden" name="csrf_token" value="246a8f132e87b22f904e2b3f09992ff49e234f60">
+<input type="hidden" name="csrf_token" value="7ef594b110ed6953090204d11499dd1df2c020c1">
 </div>
 <div class="input-group search">
 <span class="fa fa-search search-icon"></span>
@@ -144,8 +144,8 @@
 <p>Leave your telephone number here, we will call you back as soon as possible.</p>
 <form action="https://www.steelinox.nl/en/?ACT=30" accept-charset="utf-8" id="form_call" class="form-horizontal" method="post">
 <div style="display:none">
-<input type="hidden" name="params_id" value="8504691">
-<input type="hidden" name="csrf_token" value="246a8f132e87b22f904e2b3f09992ff49e234f60">
+<input type="hidden" name="params_id" value="8541231">
+<input type="hidden" name="csrf_token" value="7ef594b110ed6953090204d11499dd1df2c020c1">
 </div>
 <div class="alert" role="alert" style="display: none"></div>
 <div class="form-group">
@@ -245,8 +245,8 @@ RecaptchaCall = grecaptcha.render('RecaptchaCall', {'sitekey' : '6Ley1BkUAAAAANe
 <b><b>
 <form action="https://www.steelinox.nl/en/?ACT=30" accept-charset="utf-8" id="form_question" method="post">
 <div style="display:none">
-<input type="hidden" name="params_id" value="8504692">
-<input type="hidden" name="csrf_token" value="246a8f132e87b22f904e2b3f09992ff49e234f60">
+<input type="hidden" name="params_id" value="8541232">
+<input type="hidden" name="csrf_token" value="7ef594b110ed6953090204d11499dd1df2c020c1">
 </div>
 <div class="alert" role="alert" style="display: none"></div>
 <div class="form-group">

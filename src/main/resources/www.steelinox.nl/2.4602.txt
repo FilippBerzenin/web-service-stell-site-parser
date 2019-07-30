@@ -1,0 +1,185 @@
+2.4602
+
+Durch die Legierungsbestandteile Chrom, Molybdän, Wolfram und des
+kontrollierten Eisengehalts, verfügt diese Legierung über eine
+ausgezeichnte Beständigkeit gegenüber oxidierenden, reduzierenden
+und gemischten Säuren. Auch ist diese Qualität sehr widerstandsfähig
+gegenüber Lochfrass und Spaltkorrosion in den Säure-Halogenid
+Klimas. Verwendung in den meisten chemischen Prozessen,
+Umweltschutz, Rauchgasentschwefelung, Zellstoff- und
+Papierindustrie.
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+By virtue of its contents of chromium, molybdenum, and tungsten and
+controlled iron, this alloy exhibits excellent resistance to both oxidizing
+and reducing acid environments as well as those containing mixed
+acids. It is particularly useful for resistance to pitting and crevice
+corrosion in acid-halide environments. Applications include the
+chemical processing, pollution control, flue gas desulfuri-zation, waste
+incineration, and pulp and paper processing industries.
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+
+
+
+
+Produktformen
+Product forms
+Blech, Band, Rundstab, Flachstab, Sechskant,
+Rohr,Draht, Schmiedematerial
+Sheet, Plate, Strip, Round Bar, Flat Bar, Hexagon, Tube,
+Pipe, Wire, Forging Stock
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+UNS N06022
+ASTM B 366, B 564, B 574, B 575,
+B 619, B 622, B 626, B 751,
+B 775, B 829
+ASME SB-366, SB-564, SB-574,
+SB-575, SB-619, SB-622,
+SB-626, SB-751, SB-775,
+SB-829
+ASME Code Cases 2226,
+N-621
+W-Nr.: 2.4602
+ISO 6207, 6208, 9723, 9724
+VdTÜV 479
+UNS N06022
+ASTM B 366, B 564, B 574, B 575,
+B 619, B 622, B 626, B 751,
+B 775, B 829
+ASME SB-366, SB-564, SB-574,
+SB-575, SB-619, SB-622,
+SB-626, SB-751, SB-775,
+SB-829
+ASME Code Cases 2226,
+N-621
+W-Nr.: 2.4602
+ISO 6207, 6208, 9723, 9724
+VdTÜV 479
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+Dichte, Ib/in³ ................................................... 0.311
+g/cm³ ................................................................ 8.61
+
+Schmelzbereich, °F .............................. 2464 - 2529
+°C.......................................................... 1351 - 1387
+
+Spezifische Wärme, Btu/lb•°F ........................ 0.091
+J/kg•°C .............................................................. 381
+
+Curie-Temperatur, °F ......................................<-320
+°C.....................................................................<-196
+Permeabilität bei 200 Oe (15.9 kA/m) .......... <1.001
+
+Ausdehnungsbeiwert,
+70 - 200°F, 10-6 in/in•°F ................................... 6.90
+21 - 93°C, μm/m•°C ........................................ 12.42
+
+Wärmeleitfähigkeit*, Btu • in/ft²•h•°F ................... 91
+W/m•°C ............................................................. 13.2
+
+Spez. elektr. Widerstand*,
+ohm • circ mil/ft ............................................... 730.7
+μohm•m .......................................................... 1.215
+
+Young-Modul*, 106 psi .................................... 30.3
+GPa ................................................................... 209
+Schubmodul*, 106 psi ..................................... 11.0
+GPa .................................................................. 75.8
+Kontraktionszahl* ............................................ 0.30
+Härte*, HRB ....................................................... 86
+*Raumtemperatur, wie geglüht.
+Density, Ib/in³ .................................................................................. 0.311
+g/cm³...................................................................................................8.61
+
+Melting Range, °F ................................................................. 2464 - 2529
+°C........................................................................................... 1351 - 1387
+
+Specific Heat, Btu/lb•°F ................................................................... 0.091
+J/kg•°C ................................................................................................381
+
+Curie Temperature, °F .................................................................... <-320
+°C..................................................................................................... <-196
+Permeability at 200 Oersted (15.9 kA/m) ...................................... <1.001
+
+Coefficient of Expansion,
+70 - 200°F, 10-6 in/in•°F ................................................................... 6.90
+21 - 93°C, μm/m•°C ........................................................................ 12.42
+
+Thermal Conductivity*, Btu • in/ft²•h•°F ............................................... 91
+W/m•°C ............................................................................................ 13.2
+
+Electrical Resistivity*,
+ohm • circ mil/ft ............................................................................... 730.7
+μohm•m ........................................................................................... 1.215
+
+Young's Modulus*, 106 psi ................................................................30.3
+GPa.....................................................................................................209
+Shear Modulus*, 106 psi ................................................................. 11.0
+GPa.................................................................................................... 75.8
+Poission's Ratio* ............................................................................... 0.30
+Hardness*, HRB .................................................................................. 86
+*room temperature, as annealed
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Geglüht)
+
+Zugfestigkeit, ksi ................................................ 100
+MPa ................................................................... 690
+
+Streckgrenze (0.2% Dehngrenze),
+ksi ........................................................................ 45
+MPa ................................................................... 310
+Dehnung, % ......................................................... 45
+(Annealed)
+
+Tensile Strength, ksi ...........................................................................100
+MPa .....................................................................................................690
+
+Yield Strength (0.2% Offset),
+ksi ......................................................................................................... 45
+MPa......................................................................................................310
+Elongation, % ....................................................................................... 45
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

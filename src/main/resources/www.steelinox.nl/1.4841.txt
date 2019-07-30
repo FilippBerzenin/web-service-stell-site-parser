@@ -1,0 +1,86 @@
+1.4841
+
+1.4841 ist ein hitzebeständiger Stahl, der seinen Ursprung im 1.4828 hat, jedoch durch seinen höheren Chrom- und Nickelgehalt wesentlich besser bei
+hohen Temperaturen gegen Oxidation beständig ist. Dieser Stahl zeichnet sich durch seine guten Festigkeitseigenschaften bei hohen Temperaturen
+aus. Dadurch ist er besonders geeignet, wenn großer Wert auf gute mechanische Eigenschaften bei hohen Temperaturen gelegt wird. Außerdem ist
+diese Güte durch eine ausgezeichnete chemische Beständigkeit bei Temperaturen bis 1100 °C charakterisiert.
+
+
+
+
+
+Produktformen
+
+Apparatebau für Hochtemperatureinsatz, Automobilindustrie, Chemische Industrie, Erdölindustrie, Zement-Kettenindustrie,
+Maschinenbau, Ofenbau
+Normen und
+Bezeichnungen
+
+
+
+
+EN 10095 1.4841 X15CrNiSi25-21
+AISI 314
+BS 314S25
+JIS SUH310
+AFNOR Z15CNS25-20
+DIN 17440 1.4841
+SEW 470 1.4841
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Sehr gut
+Mechanische Eigenschaften Mittel
+Schmiedbarkeit Gut
+Schweißeignung Gut
+Spanbarkeit Mittel
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,90
+Magnetisierbarkeit Nicht vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+bei 500 °C (W/m K) 19
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Schmelzpunkt ca. 1380 °C
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 200 °C 15,5
+20 – 400 °C 17,0
+20 – 600 °C 17,5
+20 – 800 °C 18,0
+20 – 1000 °C 19,0
+20 – 1200 °C 19,5
+Mechanische
+Eigenschaften
+
+
+Die Bedingungen, die bei diesem Stahl zu optimalen Eigenschaften bezüglich Verarbeitung und Verwendung führen, bestehen
+in einem Lösungsglühen bei 1050 °C – 1150 °C mit anschließend Abkühlung an Luft oder in Wasser. Während der Fertigung
+und Verarbeitung ist der Temperaturbereich von 650 °C – 850 °C aufgrund der Gefahr der Sigmaphasenversprödung, die die
+Zähigkeitseigenschaften stark herabsetzt, unbedingt zu vermeiden. Der Versprödungseffekt kann durch ein Lösungsglühen
+bei Temperaturen von 1050 °C – 1100 °C wieder aufgehoben werden. Für den lösungsgeglühten abgeschreckten Zustand
+gelten die folgenden Werte für die mechanischen Eigenschaften:
+
+Norm Typische Werte (ca.)
+längs quer längs
+< 160 < 160 1 – 20* 21 – 80 ≥ 80
+Streckgrenze (MPa) Rp0,2 ≥ 230 ≥ 230 360 360 360
+Zugfestigkeit (MPa) Rm 550 – 750 550 – 750 630 630 630
+Bruchdehnung (%) A5 ≥ 30 ≥ 22 40 40 40
+Härte HB ≤ 223 ≤ 223
+Kerbschlagarbeit (J)
+25 °C ISO-V
+
+*Angegebene Werte gelten für den nicht kaltverfestigten Zustand.
+Für dickere Abmessungen (d ≥ 160 mm) müssen die mechanischen Eigenschaften vereinbart
+werden, oder die Lieferung geschieht in Anlehnung an die angegebenen Werte.
+Die Richtigkeit kann nicht garantiert werden.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

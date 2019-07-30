@@ -1,0 +1,170 @@
+2.4665
+
+Eine Nickel-Chrom-Eisen-Molybdän-Legierung mit sehr guter
+Festigkeit und Oxydationsbeständigkeit bei Temperaturen bis 1200° C.
+Die durch den Molybdängehalt bewirkte Verfestigung der Matrix ergibt
+hohe Festigkeit in einer Mischkristall-Legierung mit guten
+Verarbeitungseigenschaften. Verwendung in Gasturbinen,
+Industrieöfen, Wärmebehandlungsanlagen und Kerntechnik.
+
+
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A nickel-chromium-iron-molybdenum alloy with outstanding strength
+and oxidation resistance at temperatures to 2200°F (1200°C). Matrix
+stiffening provided by the molybdenum content results in high
+strength in a solid-solution alloy having good fabrication characteristics.
+Used in gas turbines, industrial furnaces, heat-treating equipment, and
+nuclear engineering.
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Blech, Band, Rundstab, Flachstab,
+Schmiedematerial,Sechskant, Draht und
+Strangpressprofile
+Sheet, Strip, Plate, Round Bar, Flat Bar, Forging Stock,
+Hexagon, Wire and Extruded Section
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+
+
+UNS N06002
+ASTM B 366, B 435, B 572,
+B 619, B 622, B 626, B 751,
+B 775, B 829
+ASME SB-366, SB-435, SB-572,
+SB-619, SB-622, SB-626,
+SB-751, SB-775, SB-829
+SAE AMS 5536, 5587, 5588,
+5754, 5798
+W-Nr.: 2.4665
+NACE MR-01-75
+AECMA Pr EN 2182 - 2185
+BS HR 6, HR 204
+ISO 6207, 6208, 9723 - 9725
+UNS N06002
+ASTM B 366, B 435, B 572,
+B 619, B 622, B 626,
+B 751, B 775, B 829
+ASME SB-366, SB-435, SB-572,
+SB-619, SB-622, SB-626,
+SB-751, SB-775, SB-829
+SAE AMS 5536, 5587, 5588,
+5754, 5798
+W-Nr.: 2.4665
+NACE MR-01-75
+AECMA Pr EN 2182 - 2185
+BS HR 6, HR 204
+ISO 6207, 6208, 9723 - 9725
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+Dichte, Ib/in³ ................................................... 0.297
+g/cm³ ................................................................. 8.22
+
+Schmelzbereich, °F .............................. 2300 - 2470
+°C......................................................... 1260 – 1355
+
+Spezifische Wärme, Btu/lb•°F .........................0.110
+J/kg•°C .............................................................. 461
+Permeabilität bei 200 Oe (15.9 kA/m) .......... 1.0110
+
+Ausdehnungsbeiwert,
+70 – 200°F, 10-6 in/in•°F .................................... 7.4
+20 – 100°C, μm/m•°C ....................................... 13.3
+
+Wärmeleitfähigkeit, Btu • in/ft²•h•°F .................. 80.4
+W/m•°C ............................................................. 11.6
+
+Spez. elektr. Widerstand,
+ohm•circ mil/ft .................................................... 698
+μohm•m ............................................................ 1.16
+Density, Ib/in³ .................................................................................. 0.297
+g/cm³ ..................................................................................................8.22
+
+Melting Range, °F ................................................................. 2300 - 2470
+°C.......................................................................................... 1260 – 1355
+
+Specific Heat, Btu/lb•°F ................................................................... 0.110
+J/kg•°C ................................................................................................461
+Permeability at 200 Oersted (15.9 kA/m) ..................................... 1.0110
+
+Coefficient of Expansion,
+70 – 200°F, 10-6 in/in•°F ......................................................................7.4
+20 – 100°C, μm/m•°C ........................................................................ 13.3
+
+Thermal Conductivity, Btu • in/ft²•h•°F .............................................. 80.4
+W/m•°C ............................................................................................. 11.6
+
+Electrical Resistivity,
+ohm•circ mil/ft ......................................................................................698
+μohm•m ..............................................................................................1.16
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Lösungsgeglüht)
+
+Zeitstandfestigkeit (1000 Std) ksi MPa
+1400°F / 760°C ........................................16.0 110
+1500°F / 815°C ....................................... 10.5 72
+1600°F / 870°C ......................................... 6.5 45
+1700°F / 925°C ......................................... 3.8 26
+1800°F / 980°C ......................................... 2.2 15
+(Solution Annealed)
+
+Rupture Strength (1000 h) ksi MPa
+1400°F / 760°C .......................................... 16.0 110
+1500°F / 815°C .......................................... 10.5 72
+1600°F / 870°C ......................................... . 6.5 45
+1700°F / 925°C ........................................... 3.8 26
+1800°F / 980°C ........................................... 2.2 15
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

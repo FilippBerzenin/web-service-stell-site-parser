@@ -1,0 +1,209 @@
+1.4310
+
+1.4310 ist im wesenlichten eine magere Version van 1.4301, der als
+Resultat seiner Kombination von hohem Chrom- und Nickelgehalt ein
+metastabiles austenitisches Gefüge bildet, das sehr stark bei einer
+Kaltumformung verfestigt. Da dieser Stahl in der Federnherstellung
+Verwendung findet, muss darauf hingewiesen, dass das Gefüge
+anschlieβend einen hohen Anteil von Reibmartensit enthält, wodurch der
+Werkstoff magnetisch wird.
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+1.4310 is essentially a leaner version of 1.4301, which as a result of its
+combination of high chromium and restricted nickel content, produces a
+metastable austenitic structure which will work harden / strengthen very
+rapidly when subjected to cold deformation. Since this steel is used for
+the production of spring components, the final microstructure will contain
+a significant amount of shear induced martensite and as such will be
+relatively magnetic.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+
+
+
+
+
+
+
+
+
+Produktformen
+Product forms
+Automobilindustrie, Chemische industrie,
+Elektronische Ausrüstung, Lebensmittelindustrie.
+Automotive industry, chemical industry, food and
+beverage industry, electronic equipment.
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+EN 10088-3 1.4310 X10CrNi18-8
+AISI 301
+BS 301S21
+AFNOR Z12CN17-07/Z12CN18-07
+DIN17440 1.4310
+EN 10088-3 1.4310 X10CrNi18-8
+AISI 301
+BS 301S21
+AFNOR Z12CN17-07 / Z12CN18-07
+DIN 17440 1.4310
+Allgemeine
+Eigenschaften
+
+General
+Properties
+Korrosionsbeständigkeit Gut
+Mechanische Eigenschaften Mittel
+Schmiedbarkeit Gut
+Schweißeignung Ausgezeichnet
+Spanbarkeit Mittel
+Corrosion resistance good
+Mechanical properties average
+Forgeability good
+Weldability excellent
+Machinability average
+Physikalische
+Eigenschaften
+
+Physical
+Constants
+Dichte (kg/dm3) 7,90
+Elektr. Widerstand bei 20 °C (Ω mm2/m) 0,73
+Magnetisierbarkeit Gering
+Wärmeleitfähigkeit bei 20 °C (W/m K) 15
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Mittlerer Wärmeausdehnungsbeiwert (K-1) 20 – 100°C:
+16,0 x 10-6
+20 – 200°C:
+17,0 x 10-6
+20 – 300°C:
+17,0 x 10-6
+20 – 400°C:
+18,0 x 10-6
+20 – 500°C:
+18,0 x 10-6
+Density (kg/dm3) 7.90
+Electrical resistivity at 20 °C (Ω mm2/m) 0.73
+Magnetizability slight
+Thermal conductivity at 20 °C (W/m K) 15
+Specific heat capacity at 20 °C (J/kg K) 500
+Thermal expansion (K-1) 20 – 100 °C: 16.0 x 10-6
+20 – 200 °C: 17.0 x 10-6
+20 – 300 °C: 17.0 x 10-6
+20 – 400 °C: 18.0 x 10-6
+20 – 500 °C: 18.0 x 10-6
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+Zu optimalen Eigenschaften bezüglich Verarbeitung
+und Verwendung führen ein Lösungsglühen
+bei 1000 °C – 1100 °C mit anschließendem raschen
+Abkühlen an Luft oder Wasser. Während
+der Herstellung und der Weiterverarbeitung muss der
+Temperaturbereich von 450 °C – 850 °C
+vermieden werden, um die Gefahr einer Versprödung
+möglichst gering zu halten. In diesem
+Zustand gelten die folgenden Werte für die
+mechanischen Eigenschaften (Probennahme in
+Längsrichtung):
+
+Norm Typische Werte
+Streckgrenze (N/mm2) Rp0,2 ≥195 400
+Zugfestigkeit (N/mm2) Rm 500 – 750 710
+Bruchdehnung (%) A5 ≥40 45
+Härte HB ≤230
+
+Für dickere Abmessungen (d ≥ 160 mm) müssen die
+mechanischen Eigenschaften vereinbart
+werden, oder die Lieferung geschieht in Anlehnung an
+die angegebenen Werte.
+Optimal material properties are realised after solution
+annealing in the temperature range
+1000 °C – 1100 °C followed by rapid cooling in air or
+water. Since this grade of steel is
+susceptible to precipitation of chromium carbides, care
+must be taken to limit the time spent
+in the temperature range 450 °C to 850 °C, both during
+fabrication and service. In the
+solution annealed condition, the following mechanical
+properties may be attained when testing
+in the longitudinal direction:
+
+Property Specification Typical
+yield strength (N/mm2) Rp0.2 ≥95 400
+tensile strength (N/mm2) Rm 500 – 750 710
+tensile elongation (%) A5 ≥40 45
+hardness HB ≤230
+The mechanical properties (d ≥160 mm) have to be
+agreed on for thicker dimensions, or the
+delivered product is based on the values given.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

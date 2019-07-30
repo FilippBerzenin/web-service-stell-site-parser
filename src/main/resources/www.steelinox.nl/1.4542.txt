@@ -1,0 +1,75 @@
+1.4542
+
+1.4542 ist ein aushärtbarer nichtrostender Stahl mit hoher Streckgrenze, hohem Verschleißwiderstand und guter Korrosionsbeständigkeit. 1.4542 zählt
+zu den wichtigsten aushärtbaren Stählen.
+
+
+
+
+
+Produktformen
+
+Luft- und Raumfahrt, Anlagenbau, Chemische Industrie, Holzindustrie, Maschinenbau, Erdölindustrie, Papierindustrie,
+Sport- und Freizeitindustrie, Schiffsbau
+Normen und
+Bezeichnungen
+
+
+
+
+EN 10088-3 1.4542 X5CrNiCuNb16-4
+AISI 630
+ASTM A564-89 17-4PH
+JIS SCS24 / SUS630
+AFNOR Z7CNU15-05 / Z7CNU17-04
+DIN 17440 1.4542
+Luftfahrt BSS604 / BSS622
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Gut
+Mechanische Eigenschaften Ausgezeichnet
+Schmiedbarkeit Gut
+Schweißeignung Gut
+Spanbarkeit Schlecht bis mittel
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,80
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,71
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 16
+Spez. Wärmekapazität bei 20 °C (J/kg K) 500
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 10,9
+20 – 200 °C 11,1
+Mechanische
+Eigenschaften
+
+
+1.4542 wird bei Temperaturen zwischen 1020 °C und 1050 °C lösungsgeglüht, gefolgt von einer raschen Abkühlung an
+Wasser, Luft oder Öl in Abhängigkeit vom Querschnitt des Bauteils. Es ist wichtig sicherzustellen, dass das Bauteil tatsächlich
+die Möglichkeit hat auf Raumtemperatur abzukühlen, damit der aus vorhergehenden Wärmebehandlungen stammende
+Austenit vollständig in Martensit umwandelt. In diesem Zustand gelten bei Probennahme in Längsrichtung folgende
+Eigenschaften:
+
+Norm Typische Werte (ca.)
+1 – 80* 1 – 80* 81 – 200
+Zugfestigkeit (MPa) Rm ≤ 1200 1050 1100
+Härte HB ≤ 360 330 335
+
+*Angegebene Werte gelten nur für den nicht kaltverfestigten Zustand.
+Die mechanischen Eigenschaften des 1.4542 sind von der durchgeführten Wärmebehandlung
+abhängig, z.B. die Menge der Ausscheidungen.
+
+Für dickere Abmessungen (d ≥ 200 mm) müssen die mechanischen Eigenschaften vereinbart
+werden, oder die Lieferung geschieht in Anlehnung an die angegebenen Werte.
+Die Richtigkeit kann nicht garantiert werden.
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

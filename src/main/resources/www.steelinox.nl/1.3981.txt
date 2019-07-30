@@ -1,0 +1,154 @@
+1.3981
+
+Eine Nickel-Eisen-Kobalt-Legierung mit kontrollierter
+Wärmeausdehnug, Nickelanteil 29%. Ihr Ausdehnungsbeiwert,
+der mit steigender Temperatur bis zum Wendepunkt abnimmt,
+entspricht der Ausdehnungsgeschwindigkeit von Borosilikatglas und
+Tonerdekeramik. Vewendung für Glas/Metall-Verbindungen, wo hohe
+Zuverlässigkeit oder Beständigkeit gegen Wärmeschock verlangt
+werden. Beispiele sind Hochleistungs-Senderöhren,
+Transistorleitungen und -sockel, IC-Leiterrahmen und Blitzlichtbirnen.
+
+
+
+
+
+A nickel-iron-cobalt controlled-expansion alloy containing 29% nickel.
+Its coefficient of expansion, which decreases with rising temperature to
+the inflection point, matches the expansion rate of borosilicate glasses
+and alumina ceramics. Used for glass-to-metal seals in applications
+requiring high reliability or resistance to thermal shock. Examples
+are high-power transmitting valves, transistor leads and headers,
+integrated-circuit lead frames, and photography flash bulbs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The correctness cannot be guaranteed.
+Produktformen
+Product forms
+Blech, Rohr, Rundstab Sheet, Plate, Tube, Round Bar
+Normen und
+Bezeichnungen
+
+Major
+Specifications
+
+UNS K94610
+ASTM F 15, F 29
+SAE AMS 7726 - 7728
+DIN 17745
+W-Nr.: 1.3981
+UNS K94610
+ASTM F 15, F 29
+SAE AMS 7726 - 7728
+DIN 17745
+W-Nr.: 1.3981
+Thermische/
+Physikalische
+Eigenschaften
+
+Thermal/
+Physical
+Properties
+Dichte, Ib/in³ ......................................... 0.295
+g/cm³ ...................................................... 8.16
+
+Schmelztemperatur (etwa),
+°F ........................................................... 2640
+°C............................................................ 1450
+Wendepunkt, °F ....................................... 840
+°C.............................................................. 450
+Warmeleitfähigkeit, Btu • in/ft²•h•°F .......... 116
+W/m•°C ................................................... 16.7
+
+Ausdehnungsbeiwert,
+68 - 212°F, 10-6 in/in•°F .................... ……3.3
+68 - 752°F, 10-6 in/in•°F.................... 2.6 - 2.9
+20 - 100°C, μm/m•°C ................................ 6.0
+20 - 400°C, μm/m•°C ........................ 4.6 - 5.2
+
+Spez. elektr. Widerstand,
+ohm•circ mil/ft ........................................... 260
+μohm•m ................................................. 0.430
+Density, Ib/in³ .................................................................................. 0.295
+g/cm³ ..................................................................................................8.16
+Melting Temperature (approximate),
+
+°F ......................................................................................................2640
+°C.......................................................................................................1450
+Inflection Point, °F ...............................................................................840
+°C.........................................................................................................450
+Thermal Conductivity, Btu • in/ft²•h•°F ............................................... 116
+W/m•°C ............................................................................................. 16.7
+Coefficient of Expansion,
+
+68 - 212°F, 10-6 in/in•°F ..................................................................... 3.3
+68 - 752°F, 10-6 in/in•°F ............................................................. 2.6 - 2.9
+20 - 100°C, μm/m•°C .......................................................................... 6.0
+20 - 400°C, μm/m•°C …………………………………………......... 4.6 - 5.2
+Electrical Resistivity,
+
+ohm•circ mil/ft .....................................................................................260
+μohm•m ........................................................................................... 0.430
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+(Geglüht)
+
+Zugfestigkeit, ksi ........................................ 75
+MPa .......................................................... 520
+Streckgrenze (0.2% Dehngrenze),
+
+ksi ............................................................... 49
+MPa .......................................................... 340
+Dehnung, % ............................................... 42
+(Annealed)
+
+Tensile Strength, ksi ............................................................................ 75
+MPa......................................................................................................520
+Yield Strength (0.2% Offset),
+
+ksi ......................................................................................................... 49
+MPa......................................................................................................340
+Elongation, % ....................................................................................... 42
+
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

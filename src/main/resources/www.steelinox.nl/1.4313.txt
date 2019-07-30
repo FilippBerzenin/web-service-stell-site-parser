@@ -1,0 +1,288 @@
+1.4313
+
+1.4313 wird im vergütetem Zustand mit guten Zähigkeitseigenschaften
+im Temperaturbereich von -60 °C bis +300 °C eingesetzt. Aufgrund
+seines erhöhten Molybdängehaltes ist die Korrosionsbeständigkeit
+ähnlich dem des 1.4057.
+
+
+
+In quenched and tempered condition, 1.4313 is used within a
+temperature range of -60 °C to 300 °C, showing good toughness
+properties. Due to its elevated molybdenum content, its corrosion
+resistance resembles that of 1.4057.
+
+
+
+
+Produktformen
+Product forms
+Erdölindustrie/ Petrochemische Industrie, Pumpen- und
+Kompressorenbauteile, Turbinen für
+Wasserkraftwerke,Werkzeuge und Formen für
+Druckguss
+Petrochemical industry, Pump and compressor components, Tools and
+dies for pressure die casting, Turbines for hydro-electric power
+generation
+Normen und
+Bezeichnunge
+n
+
+Major
+Specifications
+
+
+
+EN 10088-3 1.4313 X3CrNiMo13-4
+ASTM-A 182-F6NM430F
+UNS J91540
+BS 425C11
+SEL G-X5CrNi13-4 / X4CrNi13-4
+JIS SCS5
+AFNOR Z6CN13-04
+DIN 17440 X4CrNi13-4
+EN 10088-3 1.4313 X3CrNiMo13-4
+ASTM-A 182-F6NM430 F
+UNS J91540
+BS 425C11
+SEL G-X5CrNi13-4 / X4CrNi13-4
+JIS SCS5
+AFNOR Z6CN13-04
+DIN 17440 X4CrNi13-4
+Allgemeine
+Eigenschaften
+
+General
+Properties
+Korrosionsbeständigkeit Mittel
+Mechanische Eigenschaften Sehr gut
+Schmiedbarkeit Mittel
+Schweißeignung Schlecht
+Spanbarkeit Mittel
+Corrosion resistance average
+Mechanical properties very good
+Forgeability average
+Weldability poor
+Machinability average
+Physikalische
+Eigenschaften
+
+Physical
+Constants
+Dichte (kg/dm³) 7,70
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,60
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 25
+Spez. Wärmekapazität bei 20 °C (J/kg K) 430
+Mittlerer Wärmeausdehnungsbeiwert (K-1) 20 –
+100 °C: 10,5 x 10-6
+20 – 200 °C: 10,9 x 10-6
+20 – 300 °C: 11,3 x 10-6
+20 – 400 °C: 11,6 x 10-6
+Density (kg/dm³) 7.70
+Electrical resistivity at 20 °C (Ω mm²/m) 0.60
+Magnetizability yes
+Thermal conductivity at 20 °C (W/m K) 25
+Specific heat capacity at 20 °C (J/kg K) 430
+Thermal expansion (K-1) 20 – 100 °C: 10.5 x 10-6
+20 – 200 °C: 10.9 x 10-6
+20 – 300 °C: 11.3 x 10-6
+20 – 400 °C: 11.6 x 10-6
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+
+Zu optimalen Eigenschaften bezüglich Verarbeitung und
+Verwendung führen ein Lösungsglühen bei 600 °C –
+650 °C mit anschließendem langsamen Abkühlen an
+Luft oder im Ofen. Während der Herstellung und der
+Weiterverarbeitung muss der Temperaturbereich von
+825 °C vermieden werden, um die Gefahr einer
+Versprödung möglichst gering zu halten. Für diesen
+Zustand gelten die folgenden Werte für die
+mechanischen Eigenschaften (Probennahme in
+Längsrichtung):
+
+Norm
+Zugfestigkeit (N/mm²) Rm 1100
+Härte HB ≤320
+
+1.4313 kann durch ein Halten bei Temperaturen
+zwischen 950 °C – 1050 °C gehärtet werden, mit
+anschließender Abkühlung an Luft, in Öl oder in
+Polymer. Die Anlasstemperatur ist abhängig von der
+gewünschten Festigkeit. In den meisten Fällen werden
+drei Wärmebehandlungszustände spezifiziert, QT 650
+(Anlassen zwischen 650 °C – 700 °C mit einem 2.
+Anlassen bei 600 °C – 620 °C), QT780 (Anlassen
+zwischen 550 °C und 600 °C) und QT900 (Anlassen
+zwischen 520 °C und 580 °C). Der Index hinter der
+Abkürzung QT steht für die minimale Festigkeit.
+
+Hinweis: Sollte die Wärmebehandlung in einem
+Durchlaufofen durchgeführt werden, wird üblicherweise
+die höhere Temperatur als Zielwert angenommen und in
+einigen Fällen wird sie auch überschritten.
+
+In diesen Zuständen gelten die folgenden Werte für die
+mechanischen Eigenschaften:
+(für den Werkstoff typische Werte)
+1.4313 may be annealed to a fully soft structure by holding the steel or
+component at a temperature between 600 °C and 650 °C followed by
+furnace cooling or slow cooling in air. Care must however be taken to
+ensure that a temperature of 825 °C is not exceeded during annealing.
+In this condition, the following mechanical properties can be expected:
+
+Property Specification
+Tensile strength (N/mm²) Rm ≤1100
+Hardness HB ≤320
+
+The mechanical properties may be improved by quenching and
+empering, in which the steel is first hardened by holding the steel at a
+temperature between 950 °C and 1050 °C followed by quenching in air,
+oil or polymer. The tempering temperature is dependent on the desired
+strength. In most cases the QT650, QT780 and QT900 conditions are
+specified and may be obtained by tempering hardened material in the
+following temperature ranges:
+
+QT 650 QT 780 QT 900
+Temperature 650 – 700 °C 550 – 600 °C 520 – 580 °C
+600 – 620 °C
+Quenching Air/water Air/water Air/water
+
+*Should heat treatment be performed in a continuos furnace, the upper
+temperature is usually aimed for, and in some instances is even
+exceeded. Typical mechanical properties that can be expected in these
+heat treated conditions are presented below:
+
+Property Spec. QT650 Typical
+Yield strength (N/mm²) Rp0.2 ≥520 690
+Tensile strength (N/mm²) Rm 650 – 830 760
+Tensile elongation (%) A5 ≥15 20
+Impact energy (J) 25°C ISO-V ≥70
+
+Property Spec. QT780 Typical
+Yield strength (N/mm²) Rp0.2 ≥620 800
+Tensile strength (N/mm²) Rm 780 – 980 875
+Tensile elongation (%) A5 ≥15 19
+Impact energy (J) 25°C ISO-V ≥70
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl
+
+
+
+Mechanische
+Eigenschaften
+
+Mechanical
+properties
+
+
+Zustand Anlass-
+Tempratuur
+(°C)
+Rm
+N/mm²
+Rp0,2
+N/mm²
+A5
+(%)
+Av
+(J)
+QT 650 650 °C – 770
+°C und
+600°C - 620°C
+Luft oder
+Wasser
+650 – 830
+(690)
+≥520
+(690)
+≥15
+(20)
+≥70
+QT 780 550°C – 600°C
+Luft oder
+Wasser
+780 – 980
+(875)
+≥620
+(800)
+≥15
+(19)
+≥70
+QT 900 520°C – 580°C 900-1000
+(990)
+≥800
+(940)
+≥12
+(17)
+≥50
+
+Für dickere Abmessungen (d ³ 160 mm) müssen die mechanischen
+Eigenschaften vereinbart werden, oder die Lieferung geschieht in
+Anlehnung an die angegebenen Werte.
+Property Spec. QT900
+Typical
+Yield strength (N/mm²) Rp0.2 ≥800
+940
+Tensile strength (N/mm²) Rm 900 – 1100
+990
+Tensile elongation (%) A5 ≥12
+17
+Impact energy (J) 25°C ISO-V ≥50
+
+The mechanical properties (d ≥160 mm) have to be
+agreed on for thicker dimensions, or the delivered product
+is based on the values given.
+Die Richtigkeit kann nicht garantiert werden. The correctness cannot be guaranteed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

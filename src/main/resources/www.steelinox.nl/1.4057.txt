@@ -1,0 +1,101 @@
+1.4057
+
+Wenn 13 %ige Chromstähle sich hinsichtlich Zähigkeit und Korrosionsbeständigkeit als ungenügend erweisen, bietet sich die Verwendung von 1.4057
+an. Er ist für Gebrauchstemperaturen bis zu 400 °C verwendbar.
+
+
+Produktformen
+
+Automobilindustrie, Chemische Industrie, Erdölindustrie/ Petrochemische Industrie, Luftfahrt, Maschinenbau
+Normen und
+Bezeichnungen
+
+
+
+
+EN 10088-3 1.4057 X17CrNI16-2
+AISI 431
+BS 431S29
+JIS SUS431
+AFNOR Z15CN16-02
+DIN 17440 1.4057
+SIS 2321
+Luftfahrt WL 4044
+Allgemeine
+Eigenschaften
+
+
+Korrosionsbeständigkeit Gut
+Mechanische Eigenschaften Gut
+Schmiedbarkeit Mittel
+Schweißeignung Gut
+Spanbarkeit Schlecht
+Physikalische
+Eigenschaften
+
+
+Dichte (kg/dm³) 7,70
+Elektr. Widerstand bei 20 °C (Ω mm²/m) 0,70
+Magnetisierbarkeit Vorhanden
+Wärmeleitfähigkeit bei 20 °C (W/m K) 25
+Spez. Wärmekapazität bei 20 °C (J/kg K) 460
+Mittlerer Wärmeausdehnungsbeiwert (10-6 K-1)
+20 – 100 °C 10,0
+20 – 200 °C 10,5
+20 – 300 °C 10,5
+20 – 400 °C 10,5
+Mechanische
+Eigenschaften
+
+
+1.4057 wird durch ein Halten bei Temperaturen im Bereich von 680 °C – 800 °C mit anschließender langsamer Abkühlung im
+Ofen oder an Luft weichgeglüht. Für diesen Zustand gelten die folgenden Werte für die mechanischen Eigenschaften:
+
+Norm
+Zugfestigkeit (MPa) Rm ≤ 950
+Härte HB ≤ 295
+
+Hinweis: Die HB-Werte können 60 Einheiten und die Zugfestigkeit 150 MPa höher liegen, bedingt durch die Kaltverfestigung
+beim Richten von Profilen ≤ 35 mm.
+
+Typisches Verfestigungsschaubild siehe Rückseite.
+1.4057 kann durch ein Halten bei Temperaturen zwischen 950 °C – 1060 °C gehärtet werden mit anschließender Abkühlung
+an Luft oder in Öl. Die Anlasstemperatur ist abhängig von der gewünschten Festigkeit. Da diese Güte gegen die 475 °-
+Versprödung empfindlich ist, sollte während der Fertigung und des Einsatzes der Bereich zwischen 420 °C und 520 °C
+vermieden werden. Üblicherweise werden zwei Wärmebehandlungszustände spezifiziert, QT800 (Anlassen bei 750 °C
+– 800 °C mit einem anschließenden 2. Anlassen zwischen 650 °C und 700 °C)* und QT900 (Anlassen zwischen 600 °C und
+650 °C). Der Index hinter der Abkürzung QT steht für die minimale Festigkeit. Für diese Zustände gelten die folgenden Werte
+für die mechanischen Eigenschaften:
+* Befindet sich der Nickelgehalt an der unteren Spezifikationsgrenze, ist eine einfache Anlassbehandlung
+bei Temperaturen zwischen 620 °C und 720 °C ausreichend.
+
+QT800 Typische Werte (ca.)
+1 – 80** 81 – 160 1 – 80** 81 – 160
+Streckgrenze (MPa) Rp0,2 ≥ 600 ≥ 600 620 620
+Zugfestigkeit (MPa) Rm 800 – 950 800 – 950 820 820
+Bruchdehnung (%) A5 ≥ 14 ≥ 12 20 20
+Kerbschlagarbeit (J)
+25 °C ISO-V ≥ 25 ≥ 20
+
+QT900 Typische Werte (ca.)
+1 – 80** 81 – 160 1 – 80** 81 – 160
+Streckgrenze (MPa) Rp0,2 ≥ 700 ≥ 700 710 710
+Zugfestigkeit (MPa) Rm 900 – 1050 900 –1050 920 920
+Bruchdehnung (%) A5 ≥ 12 ≥ 10 16 16
+Kerbschlagarbeit (J)
+25 °C ISO-V ≥ 20 ≥ 15
+**Angegebene Werte gelten nur für den nicht kaltverfestigten Zustand.
+
+Typisches Anlassschaubild siehe Rückseite.
+Für dickere Abmessungen (d ≥ 160 mm) müssen die mechanischen Eigenschaften vereinbart werden, oder die Lieferung
+geschieht in Anlehnung an die angegebenen Werte.
+Die Richtigkeit kann nicht garantiert werden.
+
+
+
+Einsteinstraat 9
+NL 3281 NJ Numansdorp
+Tel. +31 186 651004
+Fax. +31 186 651952
+www.steelinox.nl
+info@steelinox.nl

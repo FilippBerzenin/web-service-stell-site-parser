@@ -66,7 +66,7 @@
 <input type="hidden" name="params" value="eyJyZXN1bHRfcGFnZSI6IlwvZW5cL3NlYXJjaCJ9">
 <input type="hidden" name="ACT" value="31">
 <input type="hidden" name="site_id" value="1">
-<input type="hidden" name="csrf_token" value="e7dcedaa8d607d448bcf637898326376e0614af4">
+<input type="hidden" name="csrf_token" value="f8b7cdebffb9ca0bcb22073acb63b4a11b773b9b">
 </div>
 <div class="input-group search">
 <span class="fa fa-search search-icon"></span>

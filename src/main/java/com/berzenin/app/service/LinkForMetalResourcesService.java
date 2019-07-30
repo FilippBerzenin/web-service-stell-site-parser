@@ -55,13 +55,32 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		return false;
 	}
 	
-	public void deleteLink (LinkForMetalResources link) {
+	@Override
+	public boolean uploadById(Long id) {
+		LinkForMetalResources entity = this.findById(id);
+		if (entity.getResourcesType().equals(ResourcesType.LOCAL_PDF)) {
+			GenericViewControllerImpl.message = "This is local file, please delete and upload pdf ones more";
+			return false;
+		}
 		try {
-			Files.deleteIfExists(Paths.get(link.getLocalPathForTxtFile()));
-			Files.deleteIfExists(Paths.get(link.getLocalPathForPdfFile()));
-			remove(link);
-		} catch (IOException e) {
-			e.printStackTrace();
+			deleteLink(entity);
+			add(entity);
+			return true;
+		} catch (RuntimeException e) {
+			log.error(e.getLocalizedMessage());
+		}
+		return false;
+	}
+	
+	public void deleteLink (LinkForMetalResources links) {
+		for (LinkForMetalResources link : repo.findAllByHost(links.getHost())) {
+			try {
+				Files.deleteIfExists(Paths.get(link.getLocalPathForTxtFile()));
+				Files.deleteIfExists(Paths.get(link.getLocalPathForPdfFile()));
+				remove(link);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}	
 		}
 	}
 	
@@ -95,8 +114,10 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		pdfParser.generateTxtFromPDF(entity.getLocalPathForTxtFile(), entity.getLocalPathForPdfFile());
 	}
 	
-	public boolean addPdf (LinkForMetalResources entity) {
+	public boolean addPdf (LinkForMetalResources entity, MultipartFile file) {
 		try {
+			copyFileForlocalDirectory(entity, file); 
+			parsePdf(entity);
 			repo.save(entity);
 			return true;
 		} catch (RuntimeException e) {
@@ -104,7 +125,7 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		}
 		return false;
 	}
-	
+
 	@Override
 	public LinkForMetalResources add(LinkForMetalResources entity) {
 		try {
@@ -113,11 +134,17 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		String pathForTxtFile = "null";
 		String url = entity.getUrlForResource();
 		localPath = this.setPathForFile(entity.getUrlForResource())+name;
-		if (name.substring(name.length()-3).equals("pdf")) {
+		if (entity.getResourcesType() != null && entity.getResourcesType().equals(ResourcesType.LOCAL_PDF)) {
+			downloadResorcesFromUrl(entity);
+			this.parsePdf(entity);
+			repository.save(entity);
+			LinkMetalResourcesController.message = "Entity was successful save";
+			return entity;
+		} else if (name.substring(name.length()-3).equals("pdf")) {
 			entity.setResourcesType(ResourcesType.REMOTE_PDF);
-		} if (entity.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
+		} else if (entity.getResourcesType() != null && entity.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
 			localPath = this.setPathForFile(entity.getUrlForResource())+name+".pdf";
-		} if (entity.getResourcesType().equals(null)) {
+		} else if (entity.getResourcesType() == null) {
 			entity.setResourcesType(ResourcesType.HTML_RESOURCES);
 			localPath = this.setPathForFile(entity.getUrlForResource())+name+".pdf";
 		}		
@@ -129,6 +156,7 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 			.localPathForPdfFile(localPath)
 			.localPathForTxtFile(pathForTxtFile)
 			.build();
+		log.info("Entity: "+entity.toString());
 		if (this.checkIfLinkInData(entity)) {
 			LinkMetalResourcesController.message = "This link is already in the database.";
 			return entity;
@@ -209,6 +237,8 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 			return this.downloadPdfFileFromUrl(res);
 		} if (res.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
 			return htmlService.convertHtmlPageForTxt(res);
+		} if (res.getResourcesType().equals(ResourcesType.LOCAL_PDF)) {
+			return true;
 		} else {
 			return false;
 		}
@@ -226,16 +256,18 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		} catch (MalformedURLException e) {
 			log.error(e.getMessage());
 			e.printStackTrace();
+			return false;
 		}
 		try (InputStream in = url.openStream()) {
 			if (!Files.exists(filePdf)) {
 				Files.createFile(filePdf);
 			}
 			Files.copy(in, filePdf, StandardCopyOption.REPLACE_EXISTING);
+			return true;
 		} catch (IOException e) {
 			log.error(e.getMessage());
 			e.printStackTrace();
+			return false;
 		}
-		return true;
 	}
 }
