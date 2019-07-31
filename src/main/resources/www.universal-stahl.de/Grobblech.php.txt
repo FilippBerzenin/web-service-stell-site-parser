@@ -1,0 +1,931 @@
+<body>
+<!--nxid=1-->
+<div id="container">
+<div id="Logo">
+<div id="id42480" class="pansiteelement logo">
+<a href="../../index.php" target="_self"><img alt="" src="../../images/Logo_17657.png"></a>
+</div>
+<!--PageLanguages : 4-->
+<div class="lanSelect">
+<!--DisplayName : Heavy Plates / Language : CZ / Path : http://szmh-cz.pansite.de/cz/Products/Heavy_Plates.php-->
+<a href="http://szmh-cz.pansite.de/cz/Products/Heavy_Plates.php" class="language-select"></a>
+<!--DisplayName : Heavy Plates / Language : PL / Path : http://www.universal-stal.pl/pl/Products/Heavy_Plates.php-->
+<a href="http://www.universal-stal.pl/pl/Products/Heavy_Plates.php" class="language-select"></a>
+<!--DisplayName : Heavy Plates / Language : EN / Path : http://www.universal-stahl.de/en/Products/Heavy_Plates.php-->
+<a href="http://www.universal-stahl.de/en/Products/Heavy_Plates.php" class="language-select"><img border="0" alt="link to site" src="../../0_Technik/img/de.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:pansite="http://www.pansite.de/2010/XSLT"></a>
+</div>
+<div id="id43027" class="pansiteelement Logo2">
+<img alt="" src="../../images/Logo2_17658.png">
+</div>
+</div>
+<div id="Schriftzug">
+<div id="id40417" class="pansiteelement Slogen">
+<span class="SText">UNIVERSAL Eisen und Stahl GmbH</span>
+</div>
+</div>
+<div id="Navigation">
+<div id="id40677" class="pansiteelement NavOben">
+<ul>
+<li class="Unternehmen"><a href="../Unternehmen/index.php" target="_self">Unternehmen</a></li>
+<li class="Grobblech Stahl"><a href="./Grobblech.php" target="_self">Grobblech Stahl</a></li>
+<li class="Anarbeitung"><a href="../Anarbeitung/index.php" target="_self">Anarbeitung</a></li>
+<li class="Kontakt"><a href="../Kontakt/index.php" target="_self">Kontakt</a></li>
+<li class="Service"><a href="../Service/News.php" target="_self">Service</a></li>
+<li class="Suche"><a href="../Suche/index.php" target="_self">Suche</a></li>
+<li class="Sitemap"><a href="../Sitemap/index.php" target="_self">Sitemap</a></li>
+<li class="Impressum"><a href="../Impressum/index.php" target="_self">Impressum</a></li>
+</ul>
+</div>
+<div id="id40677" class="pansiteelement NavOben2">
+<ul>
+</ul>
+</div>
+</div>
+<div id="Banner">
+<div id="id40710" class="pansiteelement">
+<img class="BannerBild" border="0" alt="" src="../../images/B0037963_17527.jpg">
+<img class="BannerBild2" border="0" alt="" src="../../images/VIERSEN7-bea_17529.jpg">
+<img class="BannerBild3" border="0" alt="" src="../../images/B0037963_17530.jpg">
+</div>
+</div>
+<div id="InhaltContainer">
+<!--nxid=1-->
+<!--contentid=1-->
+<div id="mainContent">
+<div id="id40420" class="pansiteelement slogen">
+<h1>Lieferprogramm Grobblech</h1>
+</div>
+<div id="id40428" class="pansiteelement">
+<div class="fliesstext">
+<p>Wir halten für Sie ein breites Spektrum von Stählen auch mit besonderen Eigenschaften <br>sowie mit Möglichkeiten für weitere mechanische Bearbeitung bereit. </p>
+<p>Ein weit gefächertes Angebot von Abmessungen und Güten ist jederzeit für Sie bei uns abrufbar. <br>Für jeden Einsatzzweck finden Sie bei uns das geeignete Produkt. </p>
+<p>Und Spezialaufträge gehören für uns zum Tagesgeschäft.<br></p>
+</div>
+</div>
+<div id="id40428" class="pansiteelement">
+<div class="fliesstext">
+Unlegierte Baustähle nach DIN EN 10025-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Feinkornbaustähle nach DIN EN 10025-3&nbsp;, auch nach DBS 918002-2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Druckbehälterstähle nach DIN EN 10028-2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Druckbehälterstähle nach DIN EN 10028-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Druckwasserstoffbeständige Stähle nach DIN EN 10028-2/VdTÜV&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Vergütungs- und Einsatzstähle nach DIN EN 10083/10084&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Vergütete Baustähle mit hoher Streckgrenze nach DIN EN 10025-6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Hartmanganstähle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Verschleißfeste Stähle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Sauergasbeständige Druckbehälterstähle (HIC-Stähle)
+<br>Stähle nach ASTM/ASME-Standard &nbsp;&nbsp;&nbsp;&nbsp;
+<br>Schiffbaugüten nach den Vorschriften der Klassifizierungsgesellschaften&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Offshore-Güten nach DIN EN 10225&nbsp;&nbsp;&nbsp;&nbsp;
+<br>DBS Bleche nach DBS 918002-2&nbsp;&nbsp;&nbsp;&nbsp;
+<br>Baustähle nach DIN EN 10025-4 (TM-Stähle), auch mit DBS 918002-2&nbsp;
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Unlegierte Baustähle nach DIN EN 10025-2
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 235 JR+N</td>
+<td class="vse_table_td2_horizontal">1.0038</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 200</td>
+<td class="vse_table_td2_horizontal">1.000 - 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 235 J2+N</td>
+<td class="vse_table_td1_horizontal">1.0117</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 200</td>
+<td class="vse_table_td1_horizontal">1.000 - 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 235 JR C+N</td>
+<td class="vse_table_td2_horizontal">1.0122</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 30</td>
+<td class="vse_table_td2_horizontal">1.000 - 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 355 J2+N</td>
+<td class="vse_table_td1_horizontal">1.0577</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td1_horizontal">2 &#x2013; 400</td>
+<td class="vse_table_td1_horizontal">1.000 - 4.250</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 355 J2 C+N</td>
+<td class="vse_table_td2_horizontal">1.0579</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 30</td>
+<td class="vse_table_td2_horizontal">1.000 - 4.250</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 355 K2+N</td>
+<td class="vse_table_td1_horizontal">1.0596</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td1_horizontal">6 &#x2013; 400</td>
+<td class="vse_table_td1_horizontal">1.000 - 4.250</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Feinkornbaustähle nach DIN EN 10025-3&nbsp;, auch nach DBS 918002-2
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 275 N</td>
+<td class="vse_table_td2_horizontal">1.0490</td>
+<td class="vse_table_td2_horizontal">3.1 nach&nbsp; EN 10204</td>
+<td class="vse_table_td2_horizontal">5 &#x2013; 130</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 275 NL</td>
+<td class="vse_table_td1_horizontal">1.0491</td>
+<td class="vse_table_td1_horizontal">3.1 nach&nbsp; EN 10204</td>
+<td class="vse_table_td1_horizontal">5 &#x2013; 130</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 355 N</td>
+<td class="vse_table_td2_horizontal">1.0545</td>
+<td class="vse_table_td2_horizontal">3.1 nach&nbsp; EN 10204</td>
+<td class="vse_table_td2_horizontal">3 &#x2013;&nbsp;300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 355 NL</td>
+<td class="vse_table_td1_horizontal">1.0546</td>
+<td class="vse_table_td1_horizontal">3.1 nach&nbsp; EN 10204</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 460 N</td>
+<td class="vse_table_td2_horizontal">1.8901</td>
+<td class="vse_table_td2_horizontal">3.1 nach&nbsp; EN 10204</td>
+<td class="vse_table_td2_horizontal">4 &#x2013; 200</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 460 NL</td>
+<td class="vse_table_td1_horizontal">1.8903</td>
+<td class="vse_table_td1_horizontal">3.1 nach&nbsp; EN 10204</td>
+<td class="vse_table_td1_horizontal">4 &#x2013; 200</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Druckbehälterstähle nach DIN EN 10028-2
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">P 265 GH</td>
+<td class="vse_table_td2_horizontal">1.0425</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">P 295 GH</td>
+<td class="vse_table_td1_horizontal">1.0481</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td1_horizontal">5 - 120</td>
+<td class="vse_table_td1_horizontal">1.000 - 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">P 355 GH</td>
+<td class="vse_table_td2_horizontal">1.0473</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td2_horizontal">5 &#x2013; 120</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">16 Mo 3</td>
+<td class="vse_table_td1_horizontal">1.5415</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td1_horizontal">1 &#x2013; 320</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">13 CrMo 4-5</td>
+<td class="vse_table_td2_horizontal">1.7335</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1 </td>
+<td class="vse_table_td2_horizontal">2 &#x2013; 200</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">10 CrMo 9-10</td>
+<td class="vse_table_td1_horizontal">1.7380</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td1_horizontal">4 &#x2013; 120</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Druckbehälterstähle nach DIN EN 10028-3
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">P 275 NH</td>
+<td class="vse_table_td2_horizontal">1.0487</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">5 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">P 275 NL1</td>
+<td class="vse_table_td1_horizontal">1.0488</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">5 &#x2013; 300</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">P 275 NL2</td>
+<td class="vse_table_td2_horizontal">1.1104</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">5 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">P 355 N</td>
+<td class="vse_table_td1_horizontal">1.0562</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1/W10</td>
+<td class="vse_table_td1_horizontal">3 - 300</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">P 355 NH</td>
+<td class="vse_table_td2_horizontal">1.0565</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1/W10</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">P 355 NL1</td>
+<td class="vse_table_td1_horizontal">1.0566</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1/W10</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">P 355 NL2</td>
+<td class="vse_table_td2_horizontal">1.1106</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1/W10</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">P 460 NH</td>
+<td class="vse_table_td1_horizontal">1.8935</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1/W10</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 200</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">P 460 NL1</td>
+<td class="vse_table_td2_horizontal">1.8915</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1/W10</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 200</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">P 460 NL2</td>
+<td class="vse_table_td1_horizontal">1.8918</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1/W10</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 200</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Druckwasserstoffbeständige Stähle nach DIN EN 10028-2/VdTÜV
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">12 CrMo 19 5<br>X 12 CrMo 5</td>
+<td class="vse_table_td2_horizontal"><p>1.7362</p></td>
+<td class="vse_table_td2_horizontal"><p>3.2 TÜV bzw. 3.1 nach EN 10204</p></td>
+<td class="vse_table_td2_horizontal"><p>6 &#x2013; 80</p></td>
+<td class="vse_table_td2_horizontal"><p>1.000 &#x2013; 3.000</p></td>
+<td class="vse_table_td2_horizontal"><p>max. 16.000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Vergütungs- und Einsatzstähle nach DIN EN 10083/10084
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">C 45</td>
+<td class="vse_table_td2_horizontal">1.0503</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">2 &#x2013; 210</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">C 45 E</td>
+<td class="vse_table_td1_horizontal">1.1191</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">2 &#x2013; 210</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">C 60</td>
+<td class="vse_table_td2_horizontal">1.0601</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">2 &#x2013; 130</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">C 60 E</td>
+<td class="vse_table_td1_horizontal">1.1221</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">2 &#x2013; 130</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">42 CrMo 4</td>
+<td class="vse_table_td2_horizontal">1.7225</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">2 &#x2013; 250</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">16 MnCr 5</td>
+<td class="vse_table_td1_horizontal">1.7131</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">2 &#x2013; 200</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">20 MnCr 5</td>
+<td class="vse_table_td2_horizontal">1.7147</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">2 &#x2013; 200</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Vergütete Baustähle mit hoher Streckgrenze nach DIN EN 10025-6
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 690 QL</td>
+<td class="vse_table_td2_horizontal">1.8928</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">4 &#x2013; 250</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 690 QL1</td>
+<td class="vse_table_td1_horizontal">1.8988</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">4 &#x2013; 250</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 890 QL</td>
+<td class="vse_table_td2_horizontal">1.8983</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">4 &#x2013; 120</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 960 QL</td>
+<td class="vse_table_td1_horizontal">1.8933</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">4 &#x2013; 120</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Hartmanganstähle
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">&nbsp;Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">X 120 Mn 12</td>
+<td class="vse_table_td2_horizontal">1.3401</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">2 &#x2013; 35</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 2.500</td>
+<td class="vse_table_td2_horizontal">max. 6.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Verschleißfeste Stähle
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">Bezeichnung</th>
+<th class="vse_table_th1_horizontal">Werkstoff-Nr.</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">265 HB-Stähle/PS 265 H</td>
+<td class="vse_table_td2_horizontal">1.8704</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">8 &#x2013; 50</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">Wasservergütete 400 HB-Stähle</td>
+<td class="vse_table_td1_horizontal">1.8714</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 150</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">Wasservergütete 450 HB-Stähle</td>
+<td class="vse_table_td2_horizontal">1.8722</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">8 - 30</td>
+<td class="vse_table_td2_horizontal">2.500 - 3.000</td>
+<td class="vse_table_td2_horizontal">max. 12.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">Wasservergütete 500 HB-Stähle</td>
+<td class="vse_table_td1_horizontal">1.8734</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 80</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 12.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Sauergasbeständige Druckbehälterstähle (HIC-Stähle)
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">Güte</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">A/SA 516 Gr. 60/65/70</td>
+<td class="vse_table_td2_horizontal">3.2 LRS</td>
+<td class="vse_table_td2_horizontal">6 &#x2013; 60</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.050</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Stähle nach ASTM/ASME-Standard
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">Güte</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">A/SA 516 Gr. 60</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">A/SA 516 Gr. 70</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">A/SA 387 Gr. 11 Cl. 2</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">6 &#x2013; 100</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">A/SA 387 Gr. 12 Cl. 2</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 200</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">A/SA 387 Gr. 22 Cl. 2</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">4 &#x2013; 120</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">A/SA 387 Gr. 5 Cl. 2</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">6 &#x2013; 60</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Schiffbaugüten nach den Vorschriften der Klassifizierungsgesellschaften
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">Schiffbaugüte Gr. A</td>
+<td class="vse_table_td2_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td2_horizontal">5 &#x2013; 50</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">Schiffbaugüte Gr. B</td>
+<td class="vse_table_td1_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td1_horizontal">5 &#x2013; 50</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">Schiffbaugüte Gr. D</td>
+<td class="vse_table_td2_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td2_horizontal">5 &#x2013; 50</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">Schiffbaugüte Gr. E</td>
+<td class="vse_table_td1_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td1_horizontal">5 &#x2013; 50</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">Schiffbaugüte Gr. A 36</td>
+<td class="vse_table_td2_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">Schiffbaugüte Gr. D 36 *)</td>
+<td class="vse_table_td1_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td1_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td1_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">Schiffbaugüte Gr. E 36 *)</td>
+<td class="vse_table_td2_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td2_horizontal">3 &#x2013; 300</td>
+<td class="vse_table_td2_horizontal">1.000 &#x2013; 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">Schiffbaugüte Gr. F 36</td>
+<td class="vse_table_td1_horizontal">3.2 nach EN 10204 - GL, LRS, DNV, ABS, BV, VL</td>
+<td class="vse_table_td1_horizontal">10 &#x2013; 120</td>
+<td class="vse_table_td1_horizontal">2.000 &#x2013; 3.500</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>*) Die Güten DH 36 und EH 36 sind auch als TM-Stahl verfügbar.&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Offshore-Güten nach DIN EN 10225
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 355 G3+N</td>
+<td class="vse_table_td2_horizontal">3.2 GL, LRS, DNV</td>
+<td class="vse_table_td2_horizontal">10 &#x2013; 40</td>
+<td class="vse_table_td2_horizontal">2.000 &#x2013; 3.500</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S 355 G7/8/9/10+M</td>
+<td class="vse_table_td1_horizontal">3.2 GL, LRS, DNV</td>
+<td class="vse_table_td1_horizontal">10 &#x2013; 100</td>
+<td class="vse_table_td1_horizontal">2.000 &#x2013; 3.500</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S 460 G2+M</td>
+<td class="vse_table_td2_horizontal">3.2 GL, LRS, DNV</td>
+<td class="vse_table_td2_horizontal">10 &#x2013; 60</td>
+<td class="vse_table_td2_horizontal">2.000 &#x2013; 3.500</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+DBS Bleche nach DBS 918002-2
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S235J2+N</td>
+<td class="vse_table_td2_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td2_horizontal">5 &#x2013; 40</td>
+<td class="vse_table_td2_horizontal">2.000 - 4.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S355J2+N</td>
+<td class="vse_table_td1_horizontal">3.2 TÜV bzw. 3.1 nach EN 10204, AD 2000 W1</td>
+<td class="vse_table_td1_horizontal">10 &#x2013; 60</td>
+<td class="vse_table_td1_horizontal">2.000 - 4.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="id42757" class="pansiteelement">
+<div class="fliesstext">
+<br>
+<table class="vse_table_table_horizontal">
+<caption class="vse_table_caption_horizontal">
+Baustähle nach DIN EN 10025-4 (TM-Stähle), auch mit DBS 918002-2
+</caption>
+<thead class="vse_table_thead_horizontal">
+<tr class="vse_table_tr1_horizontal">
+<th class="vse_table_th1_horizontal">DIN-Kurzzeichen</th>
+<th class="vse_table_th1_horizontal">Abnahmeprüfzeugnis</th>
+<th class="vse_table_th1_horizontal">Blechdicke in mm</th>
+<th class="vse_table_th1_horizontal">Breite in mm</th>
+<th class="vse_table_th1_horizontal">Länge in mm</th>
+</tr>
+</thead>
+<tbody class="vse_table_tbody_horizontal">
+<tr class="vse_table_tr2_horizontal">
+<td class="vse_table_td2_horizontal">S355ML</td>
+<td class="vse_table_td2_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td2_horizontal">10 &#x2013; 80</td>
+<td class="vse_table_td2_horizontal">2.000 &#x2013; 3.000</td>
+<td class="vse_table_td2_horizontal">max. 16.000</td>
+</tr>
+<tr class="vse_table_tr1_horizontal">
+<td class="vse_table_td1_horizontal">S460ML</td>
+<td class="vse_table_td1_horizontal">3.1 nach EN 10204</td>
+<td class="vse_table_td1_horizontal">10 &#x2013; 80</td>
+<td class="vse_table_td1_horizontal">2.000 &#x2013; 3.000</td>
+<td class="vse_table_td1_horizontal">max. 16.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<!--contentid=1-->
+<!--nxid=1-->
+<div id="footer">
+</div>
+</div>
+<!--nxid=1-->
+</body>
