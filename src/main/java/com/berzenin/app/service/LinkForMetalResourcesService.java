@@ -4,11 +4,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.file.DirectoryNotEmptyException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
+//import java.nio.file.DirectoryNotEmptyException;
+//import java.nio.file.Files;
+//import java.nio.file.Path;
+//import java.nio.file.Paths;
+//import java.nio.file.StandardCopyOption;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
@@ -22,6 +22,7 @@ import com.berzenin.app.model.Host;
 import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.parsers.PdfParser;
 import com.berzenin.app.repo.LinkForMetalResourcesRepo;
+import com.berzenin.app.service.utils.FilesController;
 import com.berzenin.app.type.ResourcesType;
 import com.berzenin.app.web.controller.GenericViewControllerImpl;
 import com.berzenin.app.web.controller.LinkMetalResourcesController;
@@ -44,6 +45,9 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	
 	@Autowired
 	private HtmlService htmlService;
+
+	@Autowired
+	private FilesController filesController;
 	
 	public boolean deleteAllLinksFromHostResources (String host) {
 		try {
@@ -75,8 +79,8 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	public void deleteLink (LinkForMetalResources links) {
 		for (LinkForMetalResources link : repo.findAllByHost(links.getHost())) {
 			try {
-				Files.deleteIfExists(Paths.get(link.getLocalPathForTxtFile()));
-				Files.deleteIfExists(Paths.get(link.getLocalPathForPdfFile()));
+				filesController.deleteFile(link.getLocalPathForTxtFile());
+				filesController.deleteFile(link.getLocalPathForPdfFile());
 				remove(link);
 			} catch (IOException e) {
 				e.printStackTrace();
@@ -116,7 +120,7 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	
 	public boolean addPdf (LinkForMetalResources entity, MultipartFile file) {
 		try {
-			copyFileForlocalDirectory(entity, file); 
+			filesController.copyFileForlocalDirectory(entity, file); 
 			parsePdf(entity);
 			repo.save(entity);
 			return true;
@@ -202,16 +206,16 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		}
 	}
 
-	public boolean copyFileForlocalDirectory(LinkForMetalResources entity, MultipartFile file) {
-		Path copied = Paths.get(entity.getLocalPathForPdfFile());
-		try {
-			Files.copy(file.getInputStream(), copied, StandardCopyOption.REPLACE_EXISTING);
-			return true;
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-		return false;
-	}
+//	public boolean copyFileForlocalDirectory(LinkForMetalResources entity, MultipartFile file) {
+//		Path copied = Paths.get(entity.getLocalPathForPdfFile());
+//		try {
+//			Files.copy(file.getInputStream(), copied, StandardCopyOption.REPLACE_EXISTING);
+//			return true;
+//		} catch (IOException e1) {
+//			e1.printStackTrace();
+//		}
+//		return false;
+//	}
 
 	@Override
 	public void removeById(Long id) {

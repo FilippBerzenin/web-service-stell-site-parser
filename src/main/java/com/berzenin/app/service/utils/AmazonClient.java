@@ -2,12 +2,17 @@ package com.berzenin.app.service.utils;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Stream;
 
 import javax.annotation.PostConstruct;
+import javax.naming.NameNotFoundException;
 
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Value;
@@ -28,6 +33,7 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
+import com.amazonaws.services.s3.model.ObjectListing;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.Region;
 import com.amazonaws.services.s3.model.S3Object;
@@ -46,66 +52,78 @@ public class AmazonClient implements CrudFiles {
 
 	private TransferManager tm;
 
-//	@Value("${amazonProperties.endpointUrl}")
-//	private String endpointUrl;
-//	@Value("${amazonProperties.bucketName}")
-//	private String bucketName;
-//	@Value("${amazonProperties.accessKey}")
-//	private String accessKey;
-//	@Value("${amazonProperties.secretKey}")
-//	private String secretKey;
-
 	@Value("${amazonProperties.endpointUrl}")
 	private String endpointUrl = "https://ec2-35-177-156-144.eu-west-2.compute.amazonaws.com";
 	@Value("${amazonProperties.bucketName}")
 	private String bucketName = "web-stell-searcher";
 	@Value("${amazonProperties.accessKey}")
-	private String accessKey;
+	private String accessKey = "AKIAJB4PZDWISCLJS3ZA";;
 	@Value("${amazonProperties.secretKey}")
-	private String secretKey;
+	private String secretKey = "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";
 	@Value("${amazonProperties.clientRegion}")
-	private String clientRegion = Region.EU_London.name();
+	private String clientRegion = Region.EU_London.toString();
 
 	@PostConstruct
 	public void initializeAmazon() {
-//		AWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
-//		s3client = new AmazonS3Client(credentials);
-
-//		s3Client = AmazonS3ClientBuilder.standard().withRegion(clientRegion)
-//				.withCredentials(new ProfileCredentialsProvider()).build();
-//		tm = TransferManagerBuilder.standard().withS3Client(s3Client).build();
-
 		AWSCredentials credentials = new BasicAWSCredentials(accessKey,
 				secretKey);
-
 		s3Client = AmazonS3ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(credentials))
-				.withRegion(Regions.DEFAULT_REGION).build();
+				.withRegion(clientRegion).build();
 	}
 
-	public void createBucket() {
-		String bucketName = "baeldung";
-
+	public void createBucket(String bucketName) {
 		if (s3Client.doesBucketExistV2(bucketName)) {
 			log.info("Bucket name is not available." + " Try again with a different Bucket name.");
 			return;
 		}
-
 		s3Client.createBucket(bucketName);
 	}
-
-	public boolean upload(String filePath) {
-		try {
-			Upload upload = tm.upload(bucketName, "test", new File(filePath));
-			log.info("File upload started ");
-			upload.waitForCompletion();
-			log.info("File upload " + " successful");
-		} catch (AmazonClientException | InterruptedException e) {
-			log.info("File upload failed ");
-			e.printStackTrace();
-		}
-		return false;
-
+	
+	public Optional<List<Bucket>> getAllBucket() {
+		return Optional.of(s3Client.listBuckets());
 	}
+	
+	public boolean deleteBacket(String bucketName) {
+		try {
+			s3Client.deleteBucket(bucketName);
+		    return true;
+		} catch (AmazonServiceException e) {
+		    log.error("Backet failed deleted "+bucketName);
+		    return false;
+		}
+	}
+
+	public boolean upload(File file, String pathToPutInStorage) {
+		try {
+			log.info("File upload started "+file.getName());
+			s3Client.putObject(bucketName, pathToPutInStorage, file);
+			log.info("File upload "+file.getName() + " successful");
+			return true;
+		} catch (AmazonClientException e) {
+			log.error("File upload failed "+file.getName() + e.getLocalizedMessage());
+			return false;
+		}
+	}
+	
+	public Optional<ObjectListing> getAllObject() {
+		return Optional.of(s3Client.listObjects(bucketName));		
+	}
+	
+	public S3Object getObjectFromStorage(String pathToGetFileInStorage) {
+		return Optional.of(s3Client.getObject(bucketName, pathToGetFileInStorage)).orElseThrow(RuntimeException::new);
+	}
+//	return false;
+//		try {
+//			Upload upload = tm.upload(bucketName, "test", new File(filePath));
+//			log.info("File upload started ");
+//			upload.waitForCompletion();
+//			log.info("File upload " + " successful");
+//		} catch (AmazonClientException | InterruptedException e) {
+//			log.info("File upload failed ");
+//			e.printStackTrace();
+//		}
+//		return false;
+//	}
 
 	public boolean uploadFile() {
 		initializeAmazon();
