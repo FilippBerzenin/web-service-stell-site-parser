@@ -1,11 +1,8 @@
 package com.berzenin.app.web.controller;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -19,6 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.berzenin.app.model.Host;
 import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.service.LinkForMetalResourcesService;
+import com.berzenin.app.service.utils.FilesController;
 import com.berzenin.app.type.ResourcesType;
 
 import lombok.extern.slf4j.Slf4j;
@@ -29,6 +27,10 @@ import lombok.extern.slf4j.Slf4j;
 public class LinkMetalResourcesController
 		extends GenericViewControllerImpl<LinkForMetalResources, LinkForMetalResourcesService> {
 
+	@Autowired
+	private FilesController filesController;
+
+	
 	public LinkMetalResourcesController(LinkForMetalResourcesService service) {
 		namePage = "linksForResources";
 	}
@@ -44,18 +46,14 @@ public class LinkMetalResourcesController
 			String path = service.findById(id).getUrlForResource();
 			if (service.findById(id).getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
 				service.deleteAllLinksFromHostResources(service.findById(id).getHost());
-				Files.delete(Paths.get(service.setPathForFile(path)));
+				filesController.deleteFile(filesController.setPathForFile(path));
 				GenericViewControllerImpl.message = id + " Successfully deleted.";
 			} else {
 			service.deleteLink(service.findById(id));
-			Files.delete(Paths.get(service.setPathForFile(path)));
+			filesController.deleteFile(filesController.setPathForFile(path));
 			message = id + " Successfully deleted.";
 			return namePage;
 			}
-		} catch (IOException e) {
-			log.info("Delete failed" + e);
-			message = id + " delete failed.";
-			return namePage;
 		} catch (RuntimeException e) {
 			log.info("Delete failed" + e);
 			message = id + " delete failed.";
@@ -95,9 +93,9 @@ public class LinkMetalResourcesController
 	public String addPdfFile(@RequestParam("file") MultipartFile file, Model model) {
 		LinkForMetalResources entity = LinkForMetalResources.builder().host("localhost")
 				.resourcesType(ResourcesType.LOCAL_PDF)
-				.urlForResource(service.getLocalPathForPdf(file).toString())
-				.localPathForPdfFile(service.getLocalPathForPdf(file).toString())
-				.localPathForTxtFile(service.getLocalPathForPdf(file).toString().replaceAll("pdf", "txt")).build();
+				.urlForResource(filesController.getLocalPathForPdf(file).toString())
+				.localPathForPdfFile(filesController.getLocalPathForPdf(file).toString())
+				.localPathForTxtFile(filesController.getLocalPathForPdf(file).toString().replaceAll("pdf", "txt")).build();
 		if (this.checkIfLinkInData(entity)) {
 			message = "This link is already in the database.";
 			showPageWithNumber(1, model);
@@ -119,7 +117,8 @@ public class LinkMetalResourcesController
 	@Override
 	public String add(@ModelAttribute("entity") @Valid LinkForMetalResources entity, BindingResult result,
 			Model model) {
-		if (result.hasErrors()) {
+		if (result.hasErrors() || entity.getUrlForResource().isEmpty() ) {
+			message = "";
 			message = "Something wrong with parameters";
 			showPageWithNumber(1, model);
 			setModelAttribute(model);

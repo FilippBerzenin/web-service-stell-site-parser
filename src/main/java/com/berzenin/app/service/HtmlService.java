@@ -15,6 +15,7 @@ import com.berzenin.app.model.Host;
 import com.berzenin.app.model.LinkForMetalResources;
 import com.berzenin.app.model.ResultLine;
 import com.berzenin.app.parsers.HtmlParser;
+import com.berzenin.app.service.utils.FilesController;
 import com.berzenin.app.web.dto.RequestFoPdfArguments;
 
 import lombok.Getter;
@@ -29,6 +30,9 @@ public class HtmlService {
 
 	@Autowired
 	private HtmlParser htmlParser;
+	
+	@Autowired
+	private FilesController filesController;
 	
     public static Set<String> uniqueURL = new HashSet<String>();
     public static String my_site;
@@ -75,7 +79,7 @@ public class HtmlService {
 			doc = Jsoup.connect(res.getUrlForResource()).get();
 			Element body = doc.body();
 			String lines[] = body.toString().split("\\r?\\n");
-			htmlParser.writeBytesForTxtFile(res.getLocalPathForTxtFile(), lines);
+			filesController.writeBytesForTxtFile(res.getLocalPathForTxtFile(), lines);
 			return true;
 		} catch (IOException e) {
 			e.printStackTrace();

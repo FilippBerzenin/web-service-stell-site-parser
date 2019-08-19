@@ -46,7 +46,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-public class AmazonClient implements CrudFiles {
+public class AmazonClient {
 
 	private AmazonS3 s3Client;
 
@@ -187,7 +187,6 @@ public class AmazonClient implements CrudFiles {
 		}
 	}
 
-	@Override
 	public Optional<File> read(String filesname) {
 		try {
 			initializeAmazon();
@@ -205,17 +204,4 @@ public class AmazonClient implements CrudFiles {
 
 		}
 	}
-
-	@Override
-	public boolean update() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean uploadFile(MultipartFile file) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
 }
