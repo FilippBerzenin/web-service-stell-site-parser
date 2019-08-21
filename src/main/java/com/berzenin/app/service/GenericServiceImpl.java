@@ -9,16 +9,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
 
+import com.berzenin.app.service.utils.FilesController;
 import com.berzenin.app.web.exception.NotFoundException;
 
 @Service
 public abstract class GenericServiceImpl<E, R extends CrudRepository<E, Long>> implements GenericService<E> {
 
 	protected final R repository;
+	protected final FilesController filesController;
 
 	@Autowired
-	public GenericServiceImpl(R repository) {
+	public GenericServiceImpl(R repository, FilesController filesController) {
 		this.repository = repository;
+		this.filesController = filesController;
 	}
 	
 	@Override

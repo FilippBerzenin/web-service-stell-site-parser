@@ -1,74 +1,245 @@
 package com.berzenin.app.service.utils;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
-import javax.naming.NameNotFoundException;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
+import org.apache.pdfbox.text.PDFTextStripper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.amazonaws.AmazonClientException;
 import com.amazonaws.AmazonServiceException;
-import com.amazonaws.SdkClientException;
 import com.amazonaws.auth.AWSCredentials;
-import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.auth.profile.ProfileCredentialsProvider;
-import com.amazonaws.regions.Regions;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
-import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.ObjectListing;
+import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
-import com.amazonaws.services.s3.model.Region;
 import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.s3.model.S3ObjectInputStream;
 import com.amazonaws.services.s3.transfer.TransferManager;
 import com.amazonaws.services.s3.transfer.TransferManagerBuilder;
 import com.amazonaws.services.s3.transfer.Upload;
+import com.berzenin.app.model.LinkForMetalResources;
 
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-public class AmazonClient {
+public class AmazonClientService extends AbstractFilesController implements FilesController {
 
 	private AmazonS3 s3Client;
 
-	private TransferManager tm;
-
 	@Value("${amazonProperties.endpointUrl}")
-	private String endpointUrl = "https://ec2-35-177-156-144.eu-west-2.compute.amazonaws.com";
+	private String endpointUrl;
 	@Value("${amazonProperties.bucketName}")
-	private String bucketName = "web-stell-searcher";
+	private String bucketName;
 	@Value("${amazonProperties.accessKey}")
-	private String accessKey = "AKIAJB4PZDWISCLJS3ZA";;
+	private String accessKey;
 	@Value("${amazonProperties.secretKey}")
-	private String secretKey = "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";
-	@Value("${amazonProperties.clientRegion}")
-	private String clientRegion = Region.EU_London.toString();
+	private String secretKey;
 
 	@PostConstruct
-	public void initializeAmazon() {
-		AWSCredentials credentials = new BasicAWSCredentials(accessKey,
-				secretKey);
-		s3Client = AmazonS3ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(credentials))
-				.withRegion(clientRegion).build();
+	private void initializeAmazon() {
+		AWSCredentials credentials = new BasicAWSCredentials(this.accessKey, this.secretKey);
+		this.s3Client = new AmazonS3Client(credentials);
+	}
+
+	public String uploadFile(MultipartFile multipartFile) {
+		String fileUrl = "";
+		try {
+			File file = convertMultiPartToFile(multipartFile);
+			String fileName = generateFileName(multipartFile);
+			fileUrl = endpointUrl + "/" + bucketName + "/" + fileName;
+			uploadFileTos3bucket(fileName, file);
+			file.delete();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return fileUrl;
+	}
+
+	public String deleteFileFromS3Bucket(String fileUrl) {
+		String fileName = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
+		s3Client.deleteObject(new DeleteObjectRequest(bucketName, fileName));
+		return "Successfully deleted";
+	}
+
+	@Getter
+	protected static final String pathToResource = "web-stell-searcher";
+
+	@Override
+	public boolean copyFileForlocalDirectory(LinkForMetalResources entity, MultipartFile file) {
+		try {
+			log.info("File upload started " + file.getOriginalFilename());
+			String path = entity.getLocalPathForPdfFile().replace("\\", "/");
+			s3Client.putObject(bucketName, path,
+					convertMultiPartToFile(file));
+			log.info("File upload " + file.getOriginalFilename() + " successful");
+			return true;
+		} catch (NullPointerException | AmazonClientException e) {
+			log.error("File upload failed " + file.getOriginalFilename() + e.getLocalizedMessage());
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	public boolean deleteFile(String fileUrl) {
+		String fileName = fileUrl.substring(fileUrl.lastIndexOf("\\") + 1);
+		log.info("File " + fileName + " start deleting");
+		try {
+			s3Client.deleteObject(new DeleteObjectRequest(bucketName, fileName));
+			log.info("File " + fileName + " successful deleted");
+			return true;
+		} catch (RuntimeException e) {
+			log.info("File " + fileName + " failed deleted" + e.getLocalizedMessage());
+			return false;
+		}
+	}
+
+	private String generateFileName(MultipartFile multiPart) {
+		return new Date().getTime() + "-" + multiPart.getOriginalFilename().replace(" ", "_");
+	}
+
+	public void copyPdfMultipartFile(LinkForMetalResources entity, MultipartFile file) {
+		try {
+			TransferManager tm = TransferManagerBuilder.standard().withS3Client(s3Client)
+					.withMultipartUploadThreshold((long) (5 * 1024 * 1025)).build();
+			Upload upload = tm.upload(bucketName, file.getName(), convertMultiPartToFile(file));
+			upload.waitForCompletion();
+		} catch (AmazonClientException | InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public boolean upload(File file, String pathToPutInStorage) {
+		try {
+			log.info("File upload started " + file.getName());
+			s3Client.putObject(bucketName, pathToPutInStorage, file);
+			log.info("File upload " + file.getName() + " successful");
+			return true;
+		} catch (AmazonClientException e) {
+			log.error("File upload failed " + file.getName() + e.getLocalizedMessage());
+			log.error(e.getStackTrace().toString());
+			return false;
+		}
+	}
+
+	@Override
+	public boolean downloadPdfFileFromUrl(LinkForMetalResources res) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public Path getLocalPathForPdf(MultipartFile file) {
+//		createLocalDirectory();
+		Path path = Paths.get("localfiles\\" + file.getOriginalFilename());
+		return path;
+	}
+
+	public void createLocalDirectory() {
+		if (!Files.notExists(Paths.get(pathToResource + "\\localfiles\\"))) {
+			try {
+				Files.createDirectory(Paths.get(pathToResource + "\\localfiles\\"));
+			} catch (IOException e) {
+				log.error(e.getMessage());
+				e.printStackTrace();
+			}
+		}
+	}
+
+	@Override
+	public String setPathForFile(String path) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String setPdfFileName(String urlForResource) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Path> generateTxtFromPDF(String txtFile, String pathToPdfFile) {
+		Path file = Paths.get(txtFile);
+		if (getObjectFromStorage(pathToPdfFile.replace("\\", "/")) == null) {
+			log.info("File don't find: " + pathToPdfFile);
+			return Optional.ofNullable(file);
+		}
+		S3Object pdfFile = getObjectFromStorage(pathToPdfFile.replace("\\", "/"));
+		PDFTextStripper tStripper;
+		try (PDDocument document = PDDocument.load(pdfFile.getObjectContent().getDelegateStream())) {
+			document.getClass();
+			if (!document.isEncrypted()) {
+				tStripper = new PDFTextStripper();
+				String pdfFileInText = tStripper.getText(document);
+				document.close();
+				String lines[] = pdfFileInText.split("\\r?\\n");
+				Path p = this.writeBytesForTxtFile(txtFile, lines).get();
+				return Optional.of(p);
+			}
+		} catch (NoClassDefFoundError e) {
+			log.info("txt "+txtFile+ " pdf "+pdfFile);
+			log.error("NoClassDefFoundError "+e);
+			e.printStackTrace();
+			return Optional.ofNullable(file);
+		} catch (InvalidPasswordException e) {
+			log.error("invalid password"+e);
+			e.printStackTrace();
+			return Optional.ofNullable(file);
+		} catch (IOException e) {
+			e.printStackTrace();
+			return Optional.ofNullable(file);
+		} 
+		return Optional.ofNullable(file);
+	}
+
+	@Override
+	public Optional<List<String>> readAllLines(String localPathForTxtFile) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Path> writeBytesForTxtFile(String localPathForTxtFile, String[] lines) {
+		Path path = Paths.get(localPathForTxtFile);
+		List<String> lin = Arrays.asList(lines);
+		lin = this.removeWhitespaces(lin);
+		File file = new File("test.txt");
+		try (OutputStream out = new FileOutputStream(file)) {
+			String pathTxt = localPathForTxtFile.replace("\\", "/");
+			byte[] bytes = lin.stream().collect(Collectors.joining("\n")).getBytes();
+			s3Client.putObject(bucketName, pathTxt, new ByteArrayInputStream(bytes), new ObjectMetadata());
+			return Optional.ofNullable(path);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return Optional.ofNullable(path);
 	}
 
 	public void createBucket(String bucketName) {
@@ -78,55 +249,30 @@ public class AmazonClient {
 		}
 		s3Client.createBucket(bucketName);
 	}
-	
+
 	public Optional<List<Bucket>> getAllBucket() {
 		return Optional.of(s3Client.listBuckets());
 	}
-	
+
 	public boolean deleteBacket(String bucketName) {
 		try {
 			s3Client.deleteBucket(bucketName);
-		    return true;
-		} catch (AmazonServiceException e) {
-		    log.error("Backet failed deleted "+bucketName);
-		    return false;
-		}
-	}
-
-	public boolean upload(File file, String pathToPutInStorage) {
-		try {
-			log.info("File upload started "+file.getName());
-			s3Client.putObject(bucketName, pathToPutInStorage, file);
-			log.info("File upload "+file.getName() + " successful");
 			return true;
-		} catch (AmazonClientException e) {
-			log.error("File upload failed "+file.getName() + e.getLocalizedMessage());
+		} catch (AmazonServiceException e) {
+			log.error("Backet failed deleted " + bucketName);
 			return false;
 		}
 	}
-	
+
 	public Optional<ObjectListing> getAllObject() {
-		return Optional.of(s3Client.listObjects(bucketName));		
+		return Optional.of(s3Client.listObjects(bucketName));
 	}
-	
+
 	public S3Object getObjectFromStorage(String pathToGetFileInStorage) {
 		return Optional.of(s3Client.getObject(bucketName, pathToGetFileInStorage)).orElseThrow(RuntimeException::new);
 	}
-//	return false;
-//		try {
-//			Upload upload = tm.upload(bucketName, "test", new File(filePath));
-//			log.info("File upload started ");
-//			upload.waitForCompletion();
-//			log.info("File upload " + " successful");
-//		} catch (AmazonClientException | InterruptedException e) {
-//			log.info("File upload failed ");
-//			e.printStackTrace();
-//		}
-//		return false;
-//	}
 
 	public boolean uploadFile() {
-		initializeAmazon();
 //		log.info("Files upload start "+multipartFile.getName());
 		String fileUrl = "";
 		try {
@@ -147,17 +293,18 @@ public class AmazonClient {
 		}
 	}
 
-	private File convertMultiPartToFile(MultipartFile file) throws IOException {
+	private File convertMultiPartToFile(MultipartFile file) {
 		log.info("Get files with size " + file.getSize());
 		File convFile = new File(file.getOriginalFilename());
-		FileOutputStream fos = new FileOutputStream(convFile);
-		fos.write(file.getBytes());
-		fos.close();
+		FileOutputStream fos;
+		try {
+			fos = new FileOutputStream(convFile);
+			fos.write(file.getBytes());
+			fos.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		return convFile;
-	}
-
-	private String generateFileName(MultipartFile multiPart) {
-		return new Date().getTime() + "-" + multiPart.getOriginalFilename().replace(" ", "_");
 	}
 
 	private boolean uploadFileTos3bucket(String fileName, File file) {
@@ -174,22 +321,8 @@ public class AmazonClient {
 		}
 	}
 
-	public boolean deleteFile(String fileUrl) {
-		String fileName = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
-		log.info("File " + fileName + " start deleting");
-		try {
-			s3Client.deleteObject(new DeleteObjectRequest(bucketName, fileName));
-			log.info("File " + fileName + " successful deleted");
-			return true;
-		} catch (RuntimeException e) {
-			log.info("File " + fileName + " failed deleted" + e.getLocalizedMessage());
-			return false;
-		}
-	}
-
 	public Optional<File> read(String filesname) {
 		try {
-			initializeAmazon();
 			log.info("File " + filesname + " start reading");
 			S3Object s3object = s3Client.getObject(bucketName, filesname);
 			S3ObjectInputStream inputStream = s3object.getObjectContent();

@@ -13,23 +13,23 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.berzenin.app.WebsitestillparserApplication;
 import com.berzenin.app.WebsitestillparserApplicationTest;
-import com.berzenin.app.service.utils.AmazonClient;
+import com.berzenin.app.service.utils.AmazonClientController;
 
 class AmazonClientTest {
 	
-	private static AmazonClient client;
+	private static AmazonClientController client;
 	
 	@BeforeAll
 	public static void setUp() {
-		client = new AmazonClient();
+		client = new AmazonClientController();
 		client.initializeAmazon();
 	}
 	
-	@Disabled
+
 	@Test
 	public void uploadObject() throws IOException {
 		String path = "1.txt";
-		String pathToStorage = "test/"+path;		
+		String pathToStorage = path;		
 		client.upload(new File(path), pathToStorage);		
 	}
 	

@@ -13,7 +13,6 @@ import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -29,11 +28,10 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-public class LocalFilesController implements FilesController {
+public class LocalFilesController extends AbstractFilesController {
 	
 	@Getter
 	protected static final String pathToResource = "..\\web-metal-searcher\\src\\main\\resources\\";
-
 	
 	public boolean copyFileForlocalDirectory(LinkForMetalResources entity, MultipartFile file) {
 		Path copied = Paths.get(entity.getLocalPathForPdfFile());
@@ -57,13 +55,13 @@ public class LocalFilesController implements FilesController {
 	}
 	
 	public Path getLocalPathForPdf(MultipartFile file) {
-		Path path = Paths.get(pathToResource + "\\localfiles\\" + file.getOriginalFilename());
 		createLocalDirectory();
+		Path path = Paths.get(pathToResource + "\\localfiles\\" + file.getOriginalFilename());
 		return path;
 	}
 	
 	public void createLocalDirectory() {
-		if (!Files.exists(Paths.get(pathToResource + "\\localfiles\\"))) {
+		if (!Files.notExists(Paths.get(pathToResource + "\\localfiles\\"))) {
 			try {
 				Files.createDirectory(Paths.get(pathToResource + "\\localfiles\\"));
 			} catch (IOException e) {
@@ -132,16 +130,6 @@ public class LocalFilesController implements FilesController {
 		return pdfFileName;
 	}
 
-	public String getHostNameFromUrl(String url) {
-		URL partOfurl = null;
-		try {
-			partOfurl = new URL(url);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-		return partOfurl.getHost();
-	}
-	
 	public Optional<List<String>> readAllLines(String url) {
 		try {
 			return Optional.of(Files.readAllLines(Paths.get(url)));
@@ -195,12 +183,4 @@ public class LocalFilesController implements FilesController {
 		}
 		return Optional.ofNullable(path);
 	}
-	
-	public List<String> removeWhitespaces (List<String> list) {
-		return list.stream()
-				.map(s -> s.trim())
-				.map(s -> s.replaceAll("\\s+", " "))
-				.collect(Collectors.toList());
-	}
-
 }

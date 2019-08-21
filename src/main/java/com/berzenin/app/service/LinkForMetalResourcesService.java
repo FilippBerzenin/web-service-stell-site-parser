@@ -29,8 +29,8 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMetalResources, LinkForMetalResourcesRepo> {
 
-	public LinkForMetalResourcesService(LinkForMetalResourcesRepo repository) {
-		super(repository);
+	public LinkForMetalResourcesService(LinkForMetalResourcesRepo repository, FilesController filesController) {
+		super(repository, filesController);
 	}
 
 	@Autowired
@@ -41,9 +41,6 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	
 	@Autowired
 	private HtmlService htmlService;
-
-	@Autowired
-	private FilesController filesController;
 	
 	public boolean deleteAllLinksFromHostResources (String host) {
 		try {
@@ -106,16 +103,13 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		return repo.findByLocalPathForPdfFile(linkForPdfFile);
 	}
 	
-	public void parsePdf(LinkForMetalResources entity) {
-		filesController.generateTxtFromPDF(entity.getLocalPathForTxtFile(), entity.getLocalPathForPdfFile());
-	}
-	
 	public boolean addPdf (LinkForMetalResources entity, MultipartFile file) {
 		try {
-			filesController.copyFileForlocalDirectory(entity, file); 
-			parsePdf(entity);
-			repo.save(entity);
-			return true;
+			if (this.filesController.copyFileForlocalDirectory(entity, file) && 
+				this.filesController.generateTxtFromPDF(entity.getLocalPathForTxtFile(), entity.getLocalPathForPdfFile()) != null) {
+				repo.save(entity);
+				return true;				
+			}
 		} catch (RuntimeException e) {
 			e.printStackTrace();
 		}
@@ -132,7 +126,7 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		localPath = filesController.setPathForFile(entity.getUrlForResource())+name;
 		if (entity.getResourcesType() != null && entity.getResourcesType().equals(ResourcesType.LOCAL_PDF)) {
 			downloadResorcesFromUrl(entity);
-			this.parsePdf(entity);
+			filesController.generateTxtFromPDF(entity.getLocalPathForTxtFile(), entity.getLocalPathForPdfFile());
 			repository.save(entity);
 			LinkMetalResourcesController.message = "Entity was successful save";
 			return entity;
@@ -159,7 +153,7 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		}
 		this.downloadResorcesFromUrl(entity);
 		if (entity.getResourcesType().equals(ResourcesType.REMOTE_PDF)) {
-			this.parsePdf(entity);	
+			filesController.generateTxtFromPDF(entity.getLocalPathForTxtFile(), entity.getLocalPathForPdfFile());	
 		}
 		repository.save(entity);
 		LinkMetalResourcesController.message = "Entity was successful save";
