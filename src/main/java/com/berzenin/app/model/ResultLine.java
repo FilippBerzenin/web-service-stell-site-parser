@@ -10,7 +10,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode (of = "link")
+@EqualsAndHashCode (of = {"link", "host", "line"})
 public class ResultLine {
 	
 	private String host;

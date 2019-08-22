@@ -61,8 +61,6 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 		Set<ResultLine> result = null;
 		try {
 			result = searchService.distributorForLineSearch(links).stream().collect(Collectors.toSet());
-//					Collectors.toCollection(
-//					() -> new TreeSet<ResultLine>((p1, p2) -> ((Integer)p1.getCountEquals()).compareTo((Integer)p2.getCountEquals()))));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

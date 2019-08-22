@@ -41,10 +41,6 @@ public abstract class MainParser {
 				int amountEquals = 0;
 				String strRegEx = "<[^>]*>";
 				line = line.replaceAll(strRegEx, "");
-				if (line.length()>50) {
-					line.substring(0, 50);
-					line = "need find in page..."+line+"...";
-				}
 				if (this.stringContainsAnotherString(line, argument.getMetalType())) {
 					amountEquals++;
 					flagForMetalType = true;
@@ -55,6 +51,10 @@ public abstract class MainParser {
 						}
 					}
 					if (amountEquals > 0 && flagForMetalType == true) {
+						if (line.length()>50) {
+							line = line.substring(0, 50);
+							line = "need find in page..."+line+"...";
+						}
 						result.add(new ResultLine(
 								argument.getLink().getHost(),
 								amountEquals,

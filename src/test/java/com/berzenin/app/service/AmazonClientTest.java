@@ -13,50 +13,49 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.berzenin.app.WebsitestillparserApplication;
 import com.berzenin.app.WebsitestillparserApplicationTest;
-import com.berzenin.app.service.utils.AmazonClientController;
 
 class AmazonClientTest {
 	
-	private static AmazonClientController client;
-	
-	@BeforeAll
-	public static void setUp() {
-		client = new AmazonClientController();
-		client.initializeAmazon();
-	}
-	
-
-	@Test
-	public void uploadObject() throws IOException {
-		String path = "1.txt";
-		String pathToStorage = path;		
-		client.upload(new File(path), pathToStorage);		
-	}
-	
-	@Test
-	public void getObject() {
-		String path = "1.txt";
-		String pathToStorage = "test/"+path;	
-		System.out.println(client.getObjectFromStorage(pathToStorage)+"-------------------------------");
-	}
-	
-	@Test
-	public void getAllObject() {
-		client.getAllObject().get().getObjectSummaries().forEach(System.out::println);
-	}
-	
-	@Disabled
-	@Test
-	public void createAndDeleteBucketTest() {
-		String bucketName = "baeldung";
-		client.createBucket(bucketName);
-		client.deleteBacket(bucketName);
-	}
-	
-	@Disabled
-	@Test
-	public void getAllBucketsTest() {
-		client.getAllBucket().get().forEach(System.out::println);
-	}
+//	private static AmazonClientController client;
+//	
+//	@BeforeAll
+//	public static void setUp() {
+//		client = new AmazonClientController();
+//		client.initializeAmazon();
+//	}
+//	
+//
+//	@Test
+//	public void uploadObject() throws IOException {
+//		String path = "1.txt";
+//		String pathToStorage = path;		
+//		client.upload(new File(path), pathToStorage);		
+//	}
+//	
+//	@Test
+//	public void getObject() {
+//		String path = "1.txt";
+//		String pathToStorage = "test/"+path;	
+//		System.out.println(client.getObjectFromStorage(pathToStorage)+"-------------------------------");
+//	}
+//	
+//	@Test
+//	public void getAllObject() {
+//		client.getAllObject().get().getObjectSummaries().forEach(System.out::println);
+//	}
+//	
+//	@Disabled
+//	@Test
+//	public void createAndDeleteBucketTest() {
+//		String bucketName = "baeldung";
+//		client.createBucket(bucketName);
+//		client.deleteBacket(bucketName);
+//	}
+//	
+//	@Disabled
+//	@Test
+//	public void getAllBucketsTest() {
+//		client.getAllBucket().get().forEach(System.out::println);
+//	}
 	
 }
