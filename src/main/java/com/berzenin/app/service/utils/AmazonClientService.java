@@ -4,11 +4,16 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
+import java.nio.file.StandardCopyOption;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -18,6 +23,8 @@ import java.util.stream.Collectors;
 import javax.annotation.PostConstruct;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.io.IOUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.encryption.InvalidPasswordException;
 import org.apache.pdfbox.text.PDFTextStripper;
@@ -96,8 +103,7 @@ public class AmazonClientService extends AbstractFilesController implements File
 		try {
 			log.info("File upload started " + file.getOriginalFilename());
 			String path = entity.getLocalPathForPdfFile().replace("\\", "/");
-			s3Client.putObject(bucketName, path,
-					convertMultiPartToFile(file));
+			s3Client.putObject(bucketName, path, convertMultiPartToFile(file));
 			log.info("File upload " + file.getOriginalFilename() + " successful");
 			return true;
 		} catch (NullPointerException | AmazonClientException e) {
@@ -108,7 +114,7 @@ public class AmazonClientService extends AbstractFilesController implements File
 	}
 
 	public boolean deleteFile(String fileUrl) {
-		String fileName = fileUrl.substring(fileUrl.lastIndexOf("\\") + 1);
+		String fileName = fileUrl.replace("\\", "/");
 		log.info("File " + fileName + " start deleting");
 		try {
 			s3Client.deleteObject(new DeleteObjectRequest(bucketName, fileName));
@@ -151,8 +157,47 @@ public class AmazonClientService extends AbstractFilesController implements File
 
 	@Override
 	public boolean downloadPdfFileFromUrl(LinkForMetalResources res) {
-		// TODO Auto-generated method stub
+		if (res.getUrlForResource() == null || res.getUrlForResource().length() == 0) {
+			return false;
+		}
+		URL url = null;
+//		Path filePdf = Paths.get(res.getLocalPathForPdfFile());
+		try {
+			url = new URL(res.getUrlForResource());
+		} catch (MalformedURLException e1) {
+			e1.printStackTrace();
+			return false;
+		}
+		try (InputStream in = url.openStream()) {
+//			url = new URL(res.getUrlForResource());
+//		} catch (MalformedURLException e) {
+//			log.error(e.getMessage());
+//			e.printStackTrace();
+//			return false;
+//		}
+//		try {
+//		try (InputStream in = url.openStream()) {
+//			if (!Files.exists(filePdf)) {
+//				Files.createFile(filePdf);
+//			}
+//			Files.copy(in, filePdf, StandardCopyOption.REPLACE_EXISTING);
+//			URI uri = url.toURI();
+			File f = stream2file(in, ".pdf");
+			if (upload(f, res.getLocalPathForPdfFile().replace("\\", "/"))) {
+				return true;
+			}
+		} catch (IOException e) {
+			log.error(e.getMessage());
+			e.printStackTrace();
+			return false;
+		}
 		return false;
+	}
+
+	public File stream2file(InputStream in, String suffix) throws IOException {
+		final Path path = Files.createTempFile("myTempFile", suffix);
+		Files.copy(in, path, StandardCopyOption.REPLACE_EXISTING);
+		return path.toFile();
 	}
 
 	public Path getLocalPathForPdf(MultipartFile file) {
@@ -161,27 +206,49 @@ public class AmazonClientService extends AbstractFilesController implements File
 		return path;
 	}
 
-	public void createLocalDirectory() {
-		if (!Files.notExists(Paths.get(pathToResource + "\\localfiles\\"))) {
-			try {
-				Files.createDirectory(Paths.get(pathToResource + "\\localfiles\\"));
-			} catch (IOException e) {
-				log.error(e.getMessage());
-				e.printStackTrace();
-			}
+//	public void createLocalDirectory() {
+//		if (!Files.notExists(Paths.get(pathToResource + "\\localfiles\\"))) {
+//			try {
+//				Files.createDirectory(Paths.get(pathToResource + "\\localfiles\\"));
+//			} catch (IOException e) {
+//				log.error(e.getMessage());
+//				e.printStackTrace();
+//			}
+//		}
+//	}
+
+	@Override
+	public String setPathForFile(String url) {
+		String path = "";
+		try {
+			URL partOfurl = new URL(url);
+//			if (!Files.exists(Paths.get(partOfurl.getHost()))) {
+//				Files.createDirectories(Paths.get(partOfurl.getHost()));
+//			}
+			path = partOfurl.getHost() + "\\";
+		} catch (IOException e) {
+			log.error(e.getMessage());
+			e.printStackTrace();
 		}
+		return path;
 	}
 
 	@Override
-	public String setPathForFile(String path) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public String setPdfFileName(String urlForResource) {
-		// TODO Auto-generated method stub
-		return null;
+	public String setPdfFileName(String url) {
+		String pdfFileName = "";
+		try {
+			URL partOfurl = new URL(url.trim());
+			pdfFileName = FilenameUtils.getName(partOfurl.getPath());
+			if (pdfFileName == null || pdfFileName.length() == 0) {
+				if (url.endsWith("/")) {
+					url = url.substring(0, url.length() - 2);
+				}
+				pdfFileName = url.substring(url.lastIndexOf("/") + 1);
+			}
+		} catch (IOException e) {
+			log.error(e.getMessage());
+		}
+		return pdfFileName;
 	}
 
 	@Override
@@ -204,25 +271,31 @@ public class AmazonClientService extends AbstractFilesController implements File
 				return Optional.of(p);
 			}
 		} catch (NoClassDefFoundError e) {
-			log.info("txt "+txtFile+ " pdf "+pdfFile);
-			log.error("NoClassDefFoundError "+e);
+			log.info("txt " + txtFile + " pdf " + pdfFile);
+			log.error("NoClassDefFoundError " + e);
 			e.printStackTrace();
 			return Optional.ofNullable(file);
 		} catch (InvalidPasswordException e) {
-			log.error("invalid password"+e);
+			log.error("invalid password" + e);
 			e.printStackTrace();
 			return Optional.ofNullable(file);
 		} catch (IOException e) {
 			e.printStackTrace();
 			return Optional.ofNullable(file);
-		} 
+		}
 		return Optional.ofNullable(file);
 	}
 
 	@Override
-	public Optional<List<String>> readAllLines(String localPathForTxtFile) {
-		// TODO Auto-generated method stub
-		return null;
+	public Optional<List<String>> readAllLines(String url) {
+		S3Object file = getObjectFromStorage(url.replace("\\", "/"));
+		try {
+			File f = stream2file(file.getObjectContent().getDelegateStream(), ".txt");
+			return Optional.of(Files.readAllLines(f.toPath()));
+		} catch (IOException e) {
+			e.printStackTrace();
+			return Optional.empty();
+		}
 	}
 
 	@Override

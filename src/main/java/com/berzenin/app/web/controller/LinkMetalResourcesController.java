@@ -1,5 +1,7 @@
 package com.berzenin.app.web.controller;
 
+import java.util.List;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,7 +52,7 @@ public class LinkMetalResourcesController
 				GenericViewControllerImpl.message = id + " Successfully deleted.";
 			} else {
 			service.deleteLink(service.findById(id));
-			filesController.deleteFile(filesController.setPathForFile(path));
+//			filesController.deleteFile(filesController.setPathForFile(path));
 			message = id + " Successfully deleted.";
 			return namePage;
 			}
@@ -97,7 +99,7 @@ public class LinkMetalResourcesController
 				.localPathForPdfFile(filesController.getLocalPathForPdf(file).toString())
 				.localPathForTxtFile(filesController.getLocalPathForPdf(file).toString().replaceAll("pdf", "txt")).build();
 		if (this.checkIfLinkInData(entity)) {
-			message = "This link is already in the database.";
+			message =" This link is already in the database.";
 			showPageWithNumber(1, model);
 			setModelAttribute(model);
 			return namePage;
@@ -118,27 +120,27 @@ public class LinkMetalResourcesController
 	public String add(@ModelAttribute("entity") @Valid LinkForMetalResources entity, BindingResult result,
 			Model model) {
 		if (result.hasErrors() || entity.getUrlForResource().isEmpty() ) {
-			message = "";
+//			message = "";
 			message = "Something wrong with parameters";
 			showPageWithNumber(1, model);
 			setModelAttribute(model);
 			return namePage;
 		}
 		service.add(entity);
-		message = "Entuty add to collection" + entity.toString();
+		message = "Entuty add to collection " + entity.getUrlForResource();
 		showPageWithNumber(1, model);
 		setModelAttribute(model);
 		return namePage;
 	}
 
 	public boolean checkIfLinkInData(LinkForMetalResources entity) {
-		LinkForMetalResources find = service.getHostWithPdfByLinkForPdfFile(entity.getLocalPathForPdfFile());
-		if (find == null) {
+		List<LinkForMetalResources> find = service.getHostWithPdfByLinkForPdfFile(entity.getLocalPathForPdfFile());
+		if (find == null || find.size()==0) {
 			return false;
 		}
-		if (find.equals(entity)) {
+		else if (find.get(0).equals(entity)) {
 			return true;
 		}
-		return true;
+		return false;
 	}
 }

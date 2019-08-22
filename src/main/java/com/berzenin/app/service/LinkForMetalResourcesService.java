@@ -83,7 +83,7 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	
 	@Override
 	public Set<LinkForMetalResources> findAll() {
-		GenericViewControllerImpl.message = "All entity";
+		GenericViewControllerImpl.message = GenericViewControllerImpl.message + "All entity";
 		Set <LinkForMetalResources> entites = repo.findAll().stream().collect(Collectors.toSet());
 		return entites.stream()
 			.collect(Collectors.toCollection(
@@ -95,11 +95,11 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 		return host;
 	}
 	
-	public LinkForMetalResources findByLink(String link) {
+	public List<LinkForMetalResources> findByLink(String link) {
 		return repository.findByLocalPathForTxtFile(link);
 	}
 
-	public LinkForMetalResources getHostWithPdfByLinkForPdfFile(String linkForPdfFile) {
+	public List<LinkForMetalResources> getHostWithPdfByLinkForPdfFile(String linkForPdfFile) {
 		return repo.findByLocalPathForPdfFile(linkForPdfFile);
 	}
 	
@@ -151,7 +151,9 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 			LinkMetalResourcesController.message = "This link is already in the database.";
 			return entity;
 		}
-		this.downloadResorcesFromUrl(entity);
+		if(!this.downloadResorcesFromUrl(entity)) {
+			return entity;
+		}
 		if (entity.getResourcesType().equals(ResourcesType.REMOTE_PDF)) {
 			filesController.generateTxtFromPDF(entity.getLocalPathForTxtFile(), entity.getLocalPathForPdfFile());	
 		}
@@ -165,14 +167,14 @@ public class LinkForMetalResourcesService extends GenericServiceImpl<LinkForMeta
 	}
 
 	public boolean checkIfLinkInData(LinkForMetalResources entity) {
-		LinkForMetalResources find = this.getHostWithPdfByLinkForPdfFile(entity.getLocalPathForPdfFile());
-		if (find == null) {
+		List<LinkForMetalResources> find = this.getHostWithPdfByLinkForPdfFile(entity.getLocalPathForPdfFile());
+		if (find == null || find.size()==0) {
 			return false;
 		}
 		if (find.equals(entity)) {
 			return true;
 		}
-		return true;
+		return false;
 	}
 
 	@Override

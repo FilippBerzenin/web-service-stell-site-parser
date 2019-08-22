@@ -44,7 +44,7 @@ public class HtmlService {
 
 	public Host getAllLinksFromHost(Host host) {
 		my_site  = host.getUrl();
-		get_links(host.getUrl());
+		this.get_links(host.getUrl());
 		host.setLinksInsideHost(uniqueURL);
 		return host;
 	}
@@ -59,7 +59,9 @@ public class HtmlService {
 			}
 			links.stream().map((link) -> link.attr("abs:href")).forEachOrdered((this_url) -> {
 				boolean add = false;
-				if (this_url.matches(regex) && this_url.contains(my_site)) {
+				if (
+//						this_url.matches(regex) && 
+						this_url.contains(my_site)) {
 					log.info("URL add: "+this_url);
 					add = uniqueURL.add(this_url);	
 				}

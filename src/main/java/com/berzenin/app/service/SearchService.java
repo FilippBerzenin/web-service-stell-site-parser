@@ -28,7 +28,7 @@ public class SearchService {
 	public List<ResultLine> distributorForLineSearch(Links links) throws IOException {
 		List<ResultLine> result = new LinkedList<>();
 		for (String link : links.getLinksFor()) {
-			LinkForMetalResources res = linkForMetalResourcesService.findByLink(link);
+			LinkForMetalResources res = linkForMetalResourcesService.findByLink(link).get(0);
 			if (res.getResourcesType().equals(ResourcesType.HOST_RESOURCE)) {
 				linkSearcher.getAllByHost(res.getHost()).stream().forEach(r -> {
 					try {

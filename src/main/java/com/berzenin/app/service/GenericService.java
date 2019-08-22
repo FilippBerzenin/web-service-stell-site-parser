@@ -1,5 +1,6 @@
 package com.berzenin.app.service;
 
+import java.util.List;
 import java.util.Set;
 
 import javax.validation.Valid;
@@ -18,7 +19,7 @@ public interface GenericService<E> {
 
 	public E update(@Valid E entity);
 	
-	public E findByLink(String link);
+	public List<E> findByLink(String link);
 
 	public boolean uploadById(Long id);
 }

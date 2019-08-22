@@ -12,9 +12,9 @@ public interface LinkForMetalResourcesRepo extends JpaRepository <LinkForMetalRe
 	
 	public LinkForMetalResources findByHost(String host);
 	
-	public LinkForMetalResources findByLocalPathForPdfFile (String linkForPdfFile);
+	public List<LinkForMetalResources> findByLocalPathForPdfFile (String linkForPdfFile);
 	
-	public LinkForMetalResources findByLocalPathForTxtFile (String localPathForTxtFile);
+	public List<LinkForMetalResources> findByLocalPathForTxtFile (String localPathForTxtFile);
 
 	public List<LinkForMetalResources> findAllByHost(String host);
 }
