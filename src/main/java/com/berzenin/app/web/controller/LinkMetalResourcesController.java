@@ -132,6 +132,20 @@ public class LinkMetalResourcesController
 		setModelAttribute(model);
 		return namePage;
 	}
+	
+	@Override
+	@RequestMapping(value = "/upload/{id}", method = RequestMethod.POST)
+	public String uploadById(@PathVariable("id") Long id, Model model) {
+		if (service.uploadById(id)) {
+			message = message + " Entity with id "+id+" succeseful upload ";
+		} else {
+			message = message +  "Entity with id "+id+" failed upload ";
+		}
+		showPageWithNumber(1, model);
+		setEntitesFromPage(pageResult, entites);
+		setModelAttribute(model);
+		return namePage;
+	}
 
 	public boolean checkIfLinkInData(LinkForMetalResources entity) {
 		List<LinkForMetalResources> find = service.getHostWithPdfByLinkForPdfFile(entity.getLocalPathForPdfFile());

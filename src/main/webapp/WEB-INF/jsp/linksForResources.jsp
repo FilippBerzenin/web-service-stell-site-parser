@@ -49,7 +49,7 @@
 					</div>
 				</form:form>
 			</div>
-			<div class="col">
+			<%-- <div class="col">
 				<h3>Add new host:</h3>
 				<form class="form-group" method="post"
 					action="${prefix}/${page}/addHost">
@@ -63,7 +63,7 @@
 						<input type="hidden" name="_csrf" value="${_csrf.token}" />
 					</div>
 				</form>
-			</div>
+			</div> --%>
 			</div>
 			<div class="form-group">
 				<h3>File download:</h3>

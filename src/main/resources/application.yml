@@ -1,6 +1,6 @@
 amazonProperties:
   endpointUrl: https://ec2-35-177-156-144.eu-west-2.compute.amazonaws.com
-  accessKey: AKIAJB4PZDWISCLJS3ZA
-  secretKey: 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
+  accessKey: AKIAVIWZLBLMIJO22J4T
+  secretKey: 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
   bucketName: web-stell-searcher
   clientRegion: Region.EU_London

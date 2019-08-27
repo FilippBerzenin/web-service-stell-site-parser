@@ -59,11 +59,7 @@ public class SearchController extends GenericViewControllerImpl<LinkForMetalReso
 		links.setKey(links.getKeywords().split(" "));
 		model.addAttribute("page", namePage);
 		Set<ResultLine> result = null;
-		try {
-			result = searchService.distributorForLineSearch(links).stream().collect(Collectors.toSet());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		result = searchService.distributorForLineSearch(links).stream().collect(Collectors.toSet());
 		model.addAttribute("result", result);
 		model.addAttribute("message", "Get result: "+result.size());
 		model.addAttribute("listOfEntites", linkSearcher.findAll());

@@ -2,6 +2,8 @@ package com.berzenin.app.service;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
+import java.util.concurrent.Callable;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,20 +19,25 @@ import lombok.Setter;
 @Getter
 @Setter
 @Service
-public class PdfParserService  {
+public class PdfParserService implements Callable<Optional<List<ResultLine>>> {
 
 	private String path;
-	@Getter
 	private int count;
-
+	private RequestFoPdfArguments argument;
+	
 	@Autowired
 	private PdfParser pdfParser;
 
-	public List<ResultLine> getResult(RequestFoPdfArguments argument) throws IOException {
-		this.count = argument.getArgs().length;
-		List<ResultLine> result = pdfParser.setListWithSearchWords(argument);
+	public List<ResultLine> getResult() {
+		this.count = this.argument.getArgs().length;
+		List<ResultLine> result = pdfParser.setListWithSearchWords(this.argument);
 		result = result.stream().filter(s -> s.getCountEquals() > count).collect(Collectors.toList());
-		result.stream().forEach(s -> s.setLink(argument.getLink().getUrlForResource()));
+		result.stream().forEach(s -> s.setLink(this.argument.getLink().getUrlForResource()));
 		return result;
+	}
+
+	@Override
+	public Optional<List<ResultLine>> call() throws Exception {
+		return Optional.of(getResult());
 	}
 }
